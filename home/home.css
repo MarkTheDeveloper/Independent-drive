@@ -1,43 +1,65 @@
+/* Reset and Base Styles */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: Arial, sans-serif;
   }
-  ul{
-    padding-right: 300px;
-    display: flex;
-    justify-content: center;
-    justify-content: space-between;
-  }
-  a {
-    text-decoration: none;
-  }
-  li{
-    list-style-type: none;
-  }
-  body{
+  body {
     text-align: center;
     background-color: #f2f2f2;
     padding: 30px;
-    color: #333;
-   
+    color: #003e66;
   }
-  main {
+  
+  /* Header, Main, and Footer Layout */
+  header,
+  main,
+  footer {
     max-width: 60%;
     margin: 0 auto;
-    background-color: wheat;
   }
-  header{
-    max-width: 60%;
-    margin: 0 auto;
+  
+  /* header {
     background-color: azure;
   }
-  footer{
-    max-width: 60%;
-    margin: 0 auto;
+  
+  main {
+    background-color: wheat;
+  }
+  
+  footer {
     background-color: aquamarine;
+  } */
+  
+  /* Navigation Styles */
+  ul {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 400px;
+    list-style-type: none;
+  }
+  
+  li a {
+    text-decoration: none;
+    color: inherit;
+  }
+  li{
+    margin-top: 5px;
+  }
+  
+  /* Heading Styles */
+  h2 {
+    display: flex;
+    justify-content: left;
+    margin: 0px;
   }
   h1{
     display: flex;
   }
+  section{
+    height: 1000px;
+    outline: 2px solid #003e66;
+    border-radius: 5px;
+  }
+  
