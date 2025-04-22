@@ -2,14 +2,30 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <link rel="stylesheet" href ="styles.css" >
+  <link rel="stylesheet" href="styles.css">
   <title>TD Reservation Form</title>
 </head>
 <body>
+
+  <header>
+    <div class="main-header">
+      <div class="container">
+        <h1>Disc Golf Reservation</h1>
+        <nav>
+          <ul class="nav-links">
+            <li><a href="../home/home.html">Home</a></li>
+            <li><a href="../about/about.html">About</a></li>
+            <li><a href="../contact/contact.html">Contact</a></li>
+            <li><a href="../form/td-form.html">Reserve</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
+
   <h2>Tournament Director Reservation Form</h2>
 
   <form action="/submit-form" method="POST">
-    <!-- TD Info -->
     <fieldset>
       <legend>Director Information</legend>
       <label>Full Name:</label><br>
@@ -25,7 +41,6 @@
       <input type="tel" name="phone_number" required><br><br>
     </fieldset>
 
-    <!-- Event Details -->
     <fieldset>
       <legend>Event Details</legend>
       <label>Event Name:</label><br>
@@ -52,8 +67,6 @@
       <textarea name="notes" rows="4" cols="40"></textarea><br><br>
     </fieldset>
 
-
-    <!-- Submit -->
     <input type="submit" value="Submit Reservation">
   </form>
 </body>
