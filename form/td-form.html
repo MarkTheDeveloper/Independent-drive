@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href ="styles.css" >
+  <title>TD Reservation Form</title>
+</head>
+<body>
+  <h2>Tournament Director Reservation Form</h2>
+
+  <form action="/submit-form" method="POST">
+    <!-- TD Info -->
+    <fieldset>
+      <legend>Director Information</legend>
+      <label>Full Name:</label><br>
+      <input type="text" name="td_name" required><br><br>
+
+      <label>Email:</label><br>
+      <input type="email" name="td_email" required><br><br>
+
+      <label>Organization Name:</label><br>
+      <input type="text" name="organization_name" required><br><br>
+
+      <label>Phone Number:</label><br>
+      <input type="tel" name="phone_number" required><br><br>
+    </fieldset>
+
+    <!-- Event Details -->
+    <fieldset>
+      <legend>Event Details</legend>
+      <label>Event Name:</label><br>
+      <input type="text" name="event_name" required><br><br>
+
+      <label>Select Park:</label><br>
+      <select name="park_selection" required>
+        <option value="">-- Select a Park --</option>
+        <option value="park1">Greenwood Park</option>
+        <option value="park2">Lakewood Disc Golf Course</option>
+        <option value="park3">Maple Grove Park</option>
+      </select><br><br>
+
+      <label>Event Date:</label><br>
+      <input type="date" name="event_date" required><br><br>
+
+      <label>Time Range:</label><br>
+      <input type="text" name="time_range" placeholder="e.g. 9:00 AM - 4:00 PM" required><br><br>
+
+      <label>Estimated Attendance (optional):</label><br>
+      <input type="number" name="attendance"><br><br>
+
+      <label>Additional Notes (optional):</label><br>
+      <textarea name="notes" rows="4" cols="40"></textarea><br><br>
+    </fieldset>
+
+
+    <!-- Submit -->
+    <input type="submit" value="Submit Reservation">
+  </form>
+</body>
+</html>
