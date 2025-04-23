@@ -97,6 +97,13 @@
     text-align: center;
     padding: 15px 0;
   }
+
+  ul:last-of-type li{
+    display: flex;
+  }
+  .about{
+    text-align: left;
+  }
   
   
 
