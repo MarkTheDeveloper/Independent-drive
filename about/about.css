@@ -1,4 +1,4 @@
-/*   basic reset n stuff  */
+
 *{
     margin:0 ;
     padding: 0;
@@ -12,14 +12,14 @@
     min-height :100vh ;
   }
   
-  /* used to center things  */
+
   .container {
     max-width :1200px ;
     margin: 0 auto;
     padding: 20px ;
   }
   
-  /* header area   */
+     
   .main-header {
     background: #264653 ;
     color: white ;
@@ -45,27 +45,37 @@
     font-weight: bold ;
     padding: 6px 12px ;
     border-radius: 4px ;
-    transition: background 0.2s ;
   }
   
   .nav-links a:hover {
     background-color: #2a9d8f ;
   }
   
-  /* about text section here  */
   .about {
     background: white ;
     margin-top: 40px ;
     padding: 60px 30px ;
     border-radius: 10px ;
     box-shadow: 0 4px 8px rgba(0,0,0,0.1) ;
-    text-align:center ;
+    text-align: center ;
+    
+  }
+  
+  .about ul {
+    padding-left: 20px;
+    margin-top: 10px;
+  }
+  
+  .about li {
+    margin-bottom: 10px;
+    line-height: 1.5;
+    align-items: center;
   }
   
   .about h2 {
     color: #264653 ;
     margin-bottom: 20px ;
-    text-transform: lowercase ;
+    
   }
   
   .about p {
@@ -73,4 +83,27 @@
     color: #555 ;
     line-height: 1.6 ;
   }
+
+
+  section:hover {
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
+  }
+  
+  footer {
+    color: white;
+    background: #264653 ;
+    color: white;
+    background-color: #264653 ;
+    text-align: center;
+    padding: 15px 0;
+  }
+  
+  
+
+
+
+
+
+
+
   
