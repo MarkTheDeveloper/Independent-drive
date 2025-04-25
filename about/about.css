@@ -21,7 +21,7 @@
   
      
   .main-header {
-    background: #264653 ;
+    background: #014134 ;
     color: white ;
     padding : 20px 0 ;
     box-shadow : 0 2px 4px rgba(0,0,0,0.2) ;
@@ -73,7 +73,7 @@
   }
   
   .about h2 {
-    color: #264653 ;
+    color: #014134 ;
     margin-bottom: 20px ;
     
   }
@@ -86,14 +86,14 @@
 
 
   section:hover {
-    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 8px 20px rgb(18, 51, 39);
   }
   
   footer {
     color: white;
     background: #264653 ;
     color: white;
-    background-color: #264653 ;
+    background-color: #014134 ;
     text-align: center;
     padding: 15px 0;
   }

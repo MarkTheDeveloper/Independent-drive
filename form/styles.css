@@ -17,7 +17,8 @@ body {
 }
 
 header {
-  background: #264653;
+  background: #014134;
+  padding: 20px;
 }
 
 .main-header .container {
@@ -58,7 +59,7 @@ header {
 h2 {
   text-align: center;
   margin-bottom: 30px;
-  color: #002b45;
+  color: #014134;
 }
 
 form {
@@ -73,7 +74,7 @@ form {
 
 fieldset {
   margin-bottom: 20px;
-  border: 1px solid #003e66;
+  border: 1px solid #014134;
   padding: 15px 20px;
   border-radius: 5px;
 }
@@ -81,7 +82,7 @@ fieldset {
 legend {
   padding: 0 10px;
   font-weight: bold;
-  color: #003e66;
+  color: #014134;
 }
 
 label {
@@ -105,7 +106,7 @@ textarea {
 }
 
 input[type="submit"] {
-  background-color: #003e66;
+  background-color: #014134;
   color: white;
   padding: 10px 20px;
   font-size: 16px;

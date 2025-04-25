@@ -21,7 +21,7 @@ body {
 
 /* header stuff  */
 .main-header {
-  background : #264653 ;
+  background : #014134 ;
   color: white ;
   padding : 20px 0 ;
   text-align: center ;
@@ -60,12 +60,14 @@ body {
   margin-bottom:40px ;
   border-radius:10px ;
   box-shadow: 0 4px 8px rgba(0,0,0,0.1) ;
+  text-align : left ;
 }
 
 .hero h2 {
   font-size: 2rem ;
-  color: #264653 ;
+  color: #014134 ;
   margin-bottom:15px ;
+  text-align : left ;
 }
 
 .hero p {
@@ -84,15 +86,16 @@ body {
 }
 
 .how-it-works h3 {
-  color:#002b45 ;
+  color:#014134 ;
   margin-bottom:15px ;
-  text-align:center ;
+  text-align:left;
 }
 
 .how-it-works ul {
   padding-left: 20px ;
   color:#333 ;
   line-height:1.7 ;
+  list-style-type: none;
 }
 
 /* benefits  */
@@ -105,9 +108,9 @@ body {
 }
 
 .benefits h3 {
-  color:#003e66 ;
+  color:#014134 ;
   margin-bottom:10px ;
-  text-align:center ;
+  text-align:left ;
 }
 
 .benefits p {
@@ -115,11 +118,13 @@ body {
   font-size:1.1em ;
   color:#555 ;
   margin-bottom:15px ;
+  text-align : left ;
 }
 
 .benefits ul {
   padding-left:25px ;
   line-height:1.8 ;
+  list-style-type: none;
 }
 
 /* call to action */
@@ -131,7 +136,7 @@ body {
 
 .call-to-action h3 {
   font-size: 1.6rem ;
-  color:#264653 ;
+  color:#014134 ;
   margin-bottom:20px ;
 }
 
@@ -148,4 +153,7 @@ body {
 
 .cta-btn:hover {
   background:#21867a ;
+}
+.hero:hover,.how-it-works:hover, .benefits:hover {
+  box-shadow: 0 8px 20px rgb(18, 51, 39);
 }

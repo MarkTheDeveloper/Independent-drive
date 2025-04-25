@@ -21,7 +21,7 @@
   
   /* header same as others  */
   .main-header {
-    background : #264653 ;
+    background : #014134 ;
     color : white ;
     padding: 20px 0 ;
     box-shadow: 0 2px 4px rgba(0,0,0,0.2) ;
@@ -63,14 +63,19 @@
   }
   
   .contact h2 {
-    color : #264653 ;
+    color : #014134 ;
     margin-bottom: 20px ;
     text-transform: lowercase ;
+    text-align: left;
   }
   
   .contact p {
     font-size: 1.2em ;
     color : #555 ;
     line-height : 1.6 ;
+    text-align: left;
   }
   
+  section:hover{
+    box-shadow: 0 8px 20px rgb(18, 51, 39);
+  }
