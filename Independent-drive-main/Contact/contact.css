@@ -1,0 +1,81 @@
+/* reset things ya kno */
+*{
+    margin:0 ;
+    padding:0 ;
+    box-sizing:border-box ;
+  }
+  
+  body {
+    font-family: arial, sans-serif ;
+    background:#f4f4f4 ;
+    color:#222 ;
+    min-height:100vh ;
+  }
+  
+  /* centering container */
+  .container {
+    max-width:1200px ;
+    margin: 0 auto ;
+    padding : 20px ;
+  }
+  
+  /* header same as others  */
+  .main-header {
+    background : #014134 ;
+    color : white ;
+    padding: 20px 0 ;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2) ;
+  }
+  
+  .main-header h1 {
+    text-align:center ;
+    margin-bottom : 10px ;
+  }
+  
+  .nav-links {
+    display: flex ;
+    justify-content: center ;
+    gap : 30px ;
+    list-style:none ;
+  }
+  
+  .nav-links a {
+    color : white ;
+    text-decoration: none ;
+    font-weight: bold ;
+    padding : 6px 12px ;
+    border-radius : 4px ;
+    transition: background .2s ;
+  }
+  
+  .nav-links a:hover {
+    background : #2a9d8f ;
+  }
+  
+  /* contact box */
+  .contact {
+    text-align : center ;
+    margin-top: 40px ;
+    background : white ;
+    padding : 60px 30px ;
+    border-radius : 10px ;
+    box-shadow : 0 4px 8px rgba(0,0,0,0.1) ;
+  }
+  
+  .contact h2 {
+    color : #014134 ;
+    margin-bottom: 20px ;
+    text-transform: lowercase ;
+    text-align: left;
+  }
+  
+  .contact p {
+    font-size: 1.2em ;
+    color : #555 ;
+    line-height : 1.6 ;
+    text-align: left;
+  }
+  
+  section:hover{
+    box-shadow: 0 8px 20px rgb(18, 51, 39);
+  }
