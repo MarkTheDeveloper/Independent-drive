@@ -59,11 +59,12 @@ header {
 h2 {
   text-align: center;
   margin-bottom: 30px;
+  margin-top:30px;
   color: #014134;
 }
 
 form {
-  max-width: 700px;
+  max-width: 900px;
   margin: 0 auto;
   padding: 25px 30px;
   background-color: white;
@@ -118,4 +119,40 @@ input[type="submit"] {
 
 input[type="submit"]:hover {
   background-color: #005b99;
+}
+/*flex box*/
+.row{
+  display:flex;
+  gap:10px;
+  flex-wrap:nowrap;
+  flex-direction: row;
+}
+.eventDays-flex{
+  display:flex;
+  flex-direction: row;
+  flex-wrap:nowrap;
+  gap:5px;
+}
+.days-flex1,.days-flex3{
+  flex:25%;
+}
+.days-flex2{
+  flex:50%;
+}
+.input-right, .input-left{
+  flex:50%;
+}
+.days-flex2 input[type="time"]{
+  width: 46%;
+  padding: 8px 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+.days-flex3 input[type="time"]{
+  width: 100%;
+  padding: 8px 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
 }
