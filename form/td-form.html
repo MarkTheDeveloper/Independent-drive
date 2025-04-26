@@ -2,59 +2,144 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <link rel="stylesheet" href ="styles.css" >
+  <link rel="stylesheet" href="styles.css">
   <title>TD Reservation Form</title>
 </head>
 <body>
+
+  <header>
+    <div class="main-header">
+      <div class="container">
+        <h1>Disc Golf Reservation</h1>
+        <nav>
+          <ul class="nav-links">
+            <li><a href="../home/home.html">Home</a></li>
+            <li><a href="../about/about.html">About</a></li>
+            <li><a href="../contact/contact.html">Contact</a></li>
+            <li><a href="../form/td-form.html">Reserve</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
+
   <h2>Tournament Director Reservation Form</h2>
 
   <form action="/submit-form" method="POST">
-    <!-- TD Info -->
     <fieldset>
       <legend>Director Information</legend>
-      <label>Full Name:</label><br>
-      <input type="text" name="td_name" required><br><br>
+      <div class="row">
+        <div class="input-right">
+          <label>Full Name:</label>
+          <input type="text" name="td_name" required><br><br>
+        </div>
+  
+        <div class="input-left">
+          <label>Email:</label>
+          <input type="email" name="td_email" required><br><br>
+        </div>
+      </div>
 
-      <label>Email:</label><br>
-      <input type="email" name="td_email" required><br><br>
-
-      <label>Organization Name:</label><br>
-      <input type="text" name="organization_name" required><br><br>
-
-      <label>Phone Number:</label><br>
-      <input type="tel" name="phone_number" required><br><br>
+      <div class="row">
+        <div class="input-left">
+          <label>Organization Name:</label>
+          <input type="text" name="organization_name" required><br><br>
+        </div>
+  
+        <div class="input-right">
+          <label>Phone Number:</label>
+          <input type="tel" name="phone_number" required><br><br>
+        </div>
+      </div>
     </fieldset>
 
-    <!-- Event Details -->
     <fieldset>
       <legend>Event Details</legend>
-      <label>Event Name:</label><br>
-      <input type="text" name="event_name" required><br><br>
-
-      <label>Select Park:</label><br>
+      <label>Select Park:</label>
       <select name="park_selection" required>
         <option value="">-- Select a Park --</option>
         <option value="park1">Greenwood Park</option>
         <option value="park2">Lakewood Disc Golf Course</option>
         <option value="park3">Maple Grove Park</option>
       </select><br><br>
+      <div class="row">
+        <div class="input-left">
+          <label>Event Name:</label>
+          <input type="text" name="event_name" required><br><br>
+        </div>
+     
 
-      <label>Event Date:</label><br>
-      <input type="date" name="event_date" required><br><br>
+      <div class="input-right">
+        <label>Number of event days</label>
+        <select name="days selection" id="eventDays">
+          <option value="">-- Select days --</option>
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+        </select>
+      </div>
+    </div>
 
-      <label>Time Range:</label><br>
-      <input type="text" name="time_range" placeholder="e.g. 9:00 AM - 4:00 PM" required><br><br>
+      <div id="eventDetailsContainer"></div>
 
-      <label>Estimated Attendance (optional):</label><br>
-      <input type="number" name="attendance"><br><br>
+      <div class="row">
+        <div class="input-left">
+          <label>Number of holes/tees</label>
+          <input type="text" name="number of holes" required><br><br>
+        </div>
+        <div class ="input-right">
+          <label for="vendorBooths">Will there be vendor booths or sales activities?</label>
+          <select id="vendorBooths" name="vendorBooths" >
+            <option value="">-- Select an option --</option>
+            <option value="yes">Yes</option>
+            <option value="no">No</option>
+          </select>
+        </div>
+      </div>
+      <div>
+        <div>
+          <label for="utilities">Are there any special utility needs (electricity, water, portable restrooms)?</label><br>
+          <textarea id="utilities" name="utilities" rows="3" style="width: 100%; padding: 8px;"></textarea>
+        </div>
+      </div>
 
-      <label>Additional Notes (optional):</label><br>
+      <label>Additional Notes (optional):</label>
       <textarea name="notes" rows="4" cols="40"></textarea><br><br>
     </fieldset>
 
-
-    <!-- Submit -->
     <input type="submit" value="Submit Reservation">
   </form>
+  <script>
+    document.getElementById('eventDays').addEventListener('change', function () {
+      const days = parseInt(this.value);
+      const container = document.getElementById('eventDetailsContainer');
+      container.innerHTML = ``; // clear cũ
+      for (let i = 1; i <= days; i++) {
+        const group = document.createElement('div');
+        group.innerHTML = `
+          <div class="eventDays-flex">
+            <div class="days-flex1">
+              <label>Day ${i}</label>
+              <input type="date" name="eventDate${i} required">
+            </div>
+            <div class="days-flex2">
+              <label>Time Range: </label> 
+              <input type="time" name="startTime${i}" required> to
+              <input type="time" name="endTime${i}" required>
+            </div>
+            <div class="days-flex3">
+              <label>Estimated Attendance:</label>
+              <input type="time" name="attendance${i}" required>
+            </div>
+          </div>
+        `;
+        container.appendChild(group);
+      }
+      container.style.marginBottom = '35px';
+
+    });
+    </script>
+    
 </body>
 </html>

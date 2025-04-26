@@ -1,67 +1,159 @@
-/* Reset and Base Styles */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: Arial, sans-serif;
-  }
-  body {
-    padding-top: 0px;
-    text-align: center;
-    color: #003e66;
-  }
-  
-  /* Header, Main, and Footer Layout */
-  header,
-  main,
-  footer {
-    max-width: 60%;
-    margin: 0 auto;
-    outline: 1px solid #003e66;
-  }
-  h1{
-    background-color: #003e66;
-    color: white;
-    padding: 10px;
-  }
-  li a {
-    text-decoration: none;
-    color: white;
-  }
-  li{
-    margin-top: 5px;
-  }
-  footer{
-    color: white;
-    background-color: #003e66;
-  }
-  div{
-    background-color: #f2f2f2;
-  }
-  /* Navigation Styles */
-  ul {
-    display: flex;
-    justify-content: space-evenly;
-    list-style-type: none;
-    background-color: #003e66;
-    padding-left: 1px;
-    padding-right: 5px;
-  }
-  
+/* reset + base */
+*{
+  margin:0 ;
+  padding:0 ;
+  box-sizing:border-box ;
+}
 
-  /* Heading Styles */
-  h2 {
-    display: flex;
-    justify-content: left;
-    margin: 0px;
-  }
-  h1{
-    display: flex;
-  }
-  section{
-    height: 1000px;
-    outline: 1px solid #003e66;
-    background-color: white;
-  }
-  
- 
+body {
+  font-family: arial , sans-serif ;
+  background:#f4f4f4 ;
+  color:#222 ;
+  min-height:100vh ;
+}
+
+/* wrapper  */
+.container {
+  max-width : 1100px ;
+  margin : 0 auto ;
+  padding : 20px ;
+}
+
+/* header stuff  */
+.main-header {
+  background : #014134 ;
+  color: white ;
+  padding : 20px 0 ;
+  text-align: center ;
+  margin-bottom : 30px ;
+}
+
+.main-header h1 {
+  margin-bottom: 10px ;
+}
+
+.nav-links {
+  display:flex ;
+  justify-content:center ;
+  list-style:none ;
+  gap: 30px ;
+}
+
+.nav-links a {
+  color:white ;
+  text-decoration:none ;
+  font-weight:bold ;
+  padding:6px 12px ;
+  border-radius:4px ;
+  transition: background 0.2s ;
+}
+
+.nav-links a:hover {
+  background:#2a9d8f ;
+}
+
+/* hero headline */
+.hero {
+  text-align:center ;
+  background:white ;
+  padding : 60px 30px ;
+  margin-bottom:40px ;
+  border-radius:10px ;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1) ;
+  text-align : left ;
+}
+
+.hero h2 {
+  font-size: 2rem ;
+  color: #014134 ;
+  margin-bottom:15px ;
+  text-align : left ;
+}
+
+.hero p {
+  font-size:1.2em ;
+  color:#555 ;
+  line-height:1.6 ;
+}
+
+/* how-it-works section */
+.how-it-works {
+  background:#ffffff ;
+  padding : 30px ;
+  margin-bottom:30px ;
+  border-radius:8px ;
+  box-shadow : 0 2px 6px rgba(0,0,0,0.08) ;
+}
+
+.how-it-works h3 {
+  color:#014134 ;
+  margin-bottom:15px ;
+  text-align:left;
+}
+
+.how-it-works ul {
+  padding-left: 20px ;
+  color:#333 ;
+  line-height:1.7 ;
+  list-style-type: none;
+}
+
+/* benefits  */
+.benefits {
+  background:white ;
+  padding:30px ;
+  margin-bottom:30px ;
+  border-radius:8px ;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.08) ;
+}
+
+.benefits h3 {
+  color:#014134 ;
+  margin-bottom:10px ;
+  text-align:left ;
+}
+
+.benefits p {
+  text-align:center ;
+  font-size:1.1em ;
+  color:#555 ;
+  margin-bottom:15px ;
+  text-align : left ;
+}
+
+.benefits ul {
+  padding-left:25px ;
+  line-height:1.8 ;
+  list-style-type: none;
+}
+
+/* call to action */
+.call-to-action {
+  text-align:center ;
+  margin-top:40px ;
+  margin-bottom:60px ;
+}
+
+.call-to-action h3 {
+  font-size: 1.6rem ;
+  color:#014134 ;
+  margin-bottom:20px ;
+}
+
+.cta-btn {
+  display:inline-block ;
+  padding:12px 24px ;
+  background:#2a9d8f ;
+  color:white ;
+  text-decoration:none ;
+  font-weight:bold ;
+  border-radius:6px ;
+  transition: background 0.2s ease-in-out ;
+}
+
+.cta-btn:hover {
+  background:#21867a ;
+}
+.hero:hover,.how-it-works:hover, .benefits:hover {
+  box-shadow: 0 8px 20px rgb(18, 51, 39);
+}
