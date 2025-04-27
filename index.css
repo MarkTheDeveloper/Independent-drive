@@ -154,6 +154,45 @@ body {
 .cta-btn:hover {
   background:#21867a ;
 }
-.hero:hover,.how-it-works:hover, .benefits:hover {
+.hero:hover,.how-it-works:hover, .benefits:hover, .course-item:hover {
   box-shadow: 0 8px 20px rgb(18, 51, 39);
+}
+/*course-information*/
+#course-list {
+  width: 400px;
+  padding: 20px;
+  background-color: #f5f5f5;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+.course-item {
+  background: white;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  display: flex;
+  gap: 10px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.08) ;
+}
+
+.course-img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.course-info {
+  flex: 1;
+}
+
+.course-name {
+  margin: 0;
+}
+
+.view-map-btn {
+  display: inline-block;
+  margin-top: 8px;
+  color: #4caf50;
+  text-decoration: underline;
 }

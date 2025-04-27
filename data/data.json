@@ -1,0 +1,276 @@
+[
+  {
+    "course_name": "Lake Fenwick Disc Golf Course",
+    "ownership": "Public",
+    "contact_info": {
+      "address": "26001 Lake Fenwick Rd, S Kent, WA 98198 ",
+      "phone": "(253) 333-9774",
+      "email": null,
+      "website": "https://www.kentwa.gov/departments/kent-parks/parks-places/parks-trails/lake-fenwick-park"
+    },
+    "reservation_requirements": "No reservation required.",
+    "policies_rules_dates_open": "Open year-round from dawn to dusk. No restrooms available.",
+    "holes": "18 holes",
+    "course_type": "hilly and wooded terrain with dual tees",
+    "imageUrl": "https://d22ksth68ujgu2.cloudfront.net/8249bc814230139430c22ed1cc91a43d_m_PCux8YfqcKABQjc7mJrQWgaKbw44.jpg",
+    "parkMapUrl": "https://d22ksth68ujgu2.cloudfront.net/7c52b795f4434f839ec7b74f68942cd1_m_u7c8VQr1gjZiLooxVLU0B1lEpOaI.jpg",
+    "mapEmbedUrl": null
+  },
+  {
+    "course_name": "Gaffney's Grove Disc Golf Course",
+    "ownership": "Public",
+    "contact_info": {
+      "address": "22520 SE 248th St, Maple Valley, WA 98038 ",
+      "phone": "(425) 413-8800",
+      "email": "gaffneys.grove.dga@gmail.com",
+      "website": "https://www.maplevalleywa.gov/government/departments/parks_and_recreation/parks_and_trails.php"
+    },
+    "reservation_requirements": "No reservation required.",
+    "policies_rules_dates_open": "Open year-round.",
+    "holes": "18 holes",
+    "course_type": "short, tight, and technical with a few longer holes",
+    "imageUrl": "https://d22ksth68ujgu2.cloudfront.net/06c712ac3496995a1347af206472d0fa_m_IMG_2594.jpg",
+    "parkMapUrl": "https://d22ksth68ujgu2.cloudfront.net/a653b75cc1be793f870c5f369f3d4652_m_IMG_4815.jpg",
+    "mapEmbedUrl": null
+  },
+  {
+    "course_name": "White River Disc Golf Course",
+    "ownership": "Public",
+    "contact_info": {
+      "address": "2401 Stuck River Dr, Auburn, WA 98092",
+      "phone": "(253) 931-3043",
+      "email": null,
+      "website": "https://www.auburnwa.gov/city_hall/parks_arts_recreation/parks_trails/game_farm_wilderness"
+    },
+    "reservation_requirements": "No reservation required.",
+    "policies_rules_dates_open": "Open year-round from dawn to dusk.",
+    "holes": "18 holes",
+    "course_type": "park setting",
+    "imageUrl": "https://d22ksth68ujgu2.cloudfront.net/866a9d8e8e1b6d49564ea98b49fb0183_m_IMG_0931.jpg",
+    "parkMapUrl": "https://d22ksth68ujgu2.cloudfront.net/3f2150cfb13da9b2e79d9e2854906bf4_m_IMG_5165.jpg",
+    "mapEmbedUrl": null
+  },
+  {
+    "course_name": "SeaTac Disc Golf Course",
+    "ownership": "Public",
+    "contact_info": {
+      "address": "13001 20th Ave S, SeaTac, WA 98168 ",
+      "phone": "(206) 673-6291",
+      "email": "allterrarich@gmail.com",
+      "website": "https://www.seattlesouthside.com/directory/north-seatac-park-disc-golf/"
+    },
+    "reservation_requirements": "No reservation required.",
+    "policies_rules_dates_open": "Open year-round.",
+    "holes": "27 holes",
+    "course_type": "long and challenging with wooded narrow corridors",
+    "imageUrl": "https://d22ksth68ujgu2.cloudfront.net/01a524ff1e8516a56dba178242775bbf_m_IMG_0935.jpg",
+    "parkMapUrl": "https://d22ksth68ujgu2.cloudfront.net/97294ffb7cf56ce346a7515f1e3cbf0c_m_IMG_4009.jpg",
+    "mapEmbedUrl": null
+  },
+  {
+    "course_name": "South Fork Landing Disc Golf Course",
+    "ownership": "Public",
+    "contact_info": {
+      "address": "14319 436th Ave SE North Bend, WA 98045",
+      "phone": "425-831-0669",
+      "email": null,
+      "website": "https://www.siviewpark.org/"
+    },
+    "reservation_requirements": "No reservation required.",
+    "policies_rules_dates_open": "Open year-round.",
+    "holes": "18 holes",
+    "course_type": "former golf course with open fairways",
+    "imageUrl": "https://d22ksth68ujgu2.cloudfront.net/cc3e07c07beb34da2a5b61ecf141f1bc_m_nVbohzIxHiXudYr26AyoJytaRhbs.jpg",
+    "parkMapUrl": "https://d22ksth68ujgu2.cloudfront.net/35d21d3d283cdcce07885dbceac6458a_m_IMG_0435.jpg",
+    "mapEmbedUrl": null
+  },
+  {
+    "course_name": "Riverside Disc Golf Park",
+    "ownership": "Public",
+    "contact_info": {
+      "address": "Riverside Rd & 78th Street Ct, Sumner, WA 98390",
+      "phone": "(253) 798-4177",
+      "email": null,
+      "website": "Piercecountydiscgolf.org"
+    },
+    "reservation_requirements": "No reservation required.",
+    "policies_rules_dates_open": "Open year-round.",
+    "holes": "18 holes",
+    "course_type": "wooded course with concrete tees",
+    "imageUrl": "https://d22ksth68ujgu2.cloudfront.net/31edfb8ae18392dafb2d3128db4c55d6_m_uJdLZNzNzH5RuUEUGeRkd9VowcPl.jpg",
+    "parkMapUrl": null,
+    "mapEmbedUrl": null
+  },
+  {
+    "course_name": "Fort Steilacoom Disc Golf Course",
+    "ownership": "Public",
+    "contact_info": {
+      "address": "7701 76th Ave SW, Lakewood, WA 98498 ",
+      "phone": "(888) 989-7961",
+      "email": "PCDGA2021@GMAIL.COM",
+      "website": "https://piercecountydiscgolf.org"
+    },
+    "reservation_requirements": "No reservation required.",
+    "policies_rules_dates_open": "Open year-round.",
+    "holes": "27 holes",
+    "course_type": "mix of open and wooded areas",
+    "imageUrl": "https://d22ksth68ujgu2.cloudfront.net/efe900a44775c7e94f1cdfa4c1564319_m_IMG_1978.jpg",
+    "parkMapUrl": null,
+    "mapEmbedUrl": null
+  },
+  {
+    "course_name": "Delphi Disc Golf Course",
+    "ownership": "Private",
+    "contact_info": {
+      "address": "6340 Neylon Dr SW, Olympia, WA 98512-2118 ",
+      "phone": "(360) 357-6437",
+      "email": "delphigolfcourse@gmail.com",
+      "website": "https://www.delphigolfcourse.com/"
+    },
+    "reservation_requirements": "Reservation required.",
+    "policies_rules_dates_open": "Open year-round.",
+    "holes": "18 holes",
+    "course_type": "wooded terrain",
+    "imageUrl": "https://d22ksth68ujgu2.cloudfront.net/608457adbe4a878a838eb1641daaed75_m_vv5c8D63oBsD53AIkkGybSycd7jg.jpg",
+    "parkMapUrl": "https://d22ksth68ujgu2.cloudfront.net/ccea793fba6a45d6418cef8f11278f5f_m_IMG_2442.jpg",
+    "mapEmbedUrl": null
+  },
+  {
+    "course_name": "NAD Park Disc Golf Course",
+    "ownership": "Public",
+    "contact_info": {
+      "address": "6002 Kitsap Way, Bremerton, WA 98312",
+      "phone": "(360) 473-5305",
+      "email": "discgolf@wsdga.org",
+      "website": "https://www.wsdga.org/"
+    },
+    "reservation_requirements": "No reservation required.",
+    "policies_rules_dates_open": "Open year-round.",
+    "holes": "18 holes",
+    "course_type": "wooded terrain",
+    "imageUrl": "https://d22ksth68ujgu2.cloudfront.net/6ce14e2d65816703945a385f67daef60_m_IMG_0557.jpg",
+    "parkMapUrl":"https://d22ksth68ujgu2.cloudfront.net/121ec3a500d7c7e748ab60e5444549d0_m_IMG_5001.jpg",
+    "mapEmbedUrl": null
+  },
+  {
+    "course_name": "Kayak Point Disc Golf Resort",
+    "ownership": "Private",
+    "contact_info": {
+      "address": "7703 150th Place NW Stanwood, WA 98292",
+      "phone": "(206) 465-4931",
+      "email": "info@discgolfresort.com",
+      "website": "https://discgolfresort.com/"
+    },
+    "reservation_requirements": "Tee time reservation required for all courses except Pitch & Putt.",
+    "policies_rules_dates_open": "Open year-round. Pay-to-play. Multiple courses with varying difficulty levels.",
+    "holes": "4 courses",
+    "course_type": "Gold, Red, Blue, and Pitch & Putt; each with 18 holes",
+    "imageUrl": "https://d22ksth68ujgu2.cloudfront.net/dccedd83924c7c969801eeaec0b8d705_m_VTIdEI54v6QTkPBHayBBEpTf0oSI.jpg",
+    "parkMapUrl": "https://d22ksth68ujgu2.cloudfront.net/7f0df9cf4d241c8b96e2b96d171b666b_m_0eFryuqHYUB7qA9cmvLJDdcJWyr3.jpg",
+    "mapEmbedUrl": null
+  },
+  {
+    "course_name": "Blyth Park (Howling Coyote)",
+    "ownership": "Public",
+    "contact_info": {
+      "address": "16900 W Riverside Dr, Bothell, WA 98011",
+      "phone": "(425) 806-6760",
+      "email": "troysdiscgolfemail@gmail.com",
+      "website": "https://www.facebook.com/groups/366315586869937"
+    },
+    "reservation_requirements": "No reservation required.",
+    "policies_rules_dates_open": "Open year-round. Family-friendly with restrooms and picnic areas.",
+    "holes": "10 holes",
+    "course_type": "suitable for beginners",
+    "imageUrl": "https://d22ksth68ujgu2.cloudfront.net/20cf884eef06f6bd3a511eae58d7c5af_m_YhojmuoySPm8qugl3Ew5yjdBCtIo.jpg",
+    "parkMapUrl": "https://d22ksth68ujgu2.cloudfront.net/d0eb086a7016b53699aaeaf42f03dc30_m_IMG_2961.jpg",
+    "mapEmbedUrl": null
+  },
+    {
+      "course_name": "Terrace Creek Park",
+      "ownership": "Public",
+      "contact_info": {
+        "address": "23200 48th Ave W, Mountlake Terrace, WA 98043",
+        "phone": "(425) 670-2548",
+        "email": null,
+        "website": "https://www.cityofmlt.com/Facilities/Facility/Details/Terrace-Creek-Park-10"
+      },
+      "reservation_requirements": "No reservation required.",
+      "policies_rules_dates_open": "Open year-round. Hilly terrain; may be muddy during wet seasons.",
+      "holes": "18 holes",
+      "course_type": "wooded and technical layout",
+      "imageUrl": "https://d22ksth68ujgu2.cloudfront.net/9d5120a8a77369111e4675a7ea28e395_m_NWI16UHprCEVQRATZljIJerA9mmh.jpg",
+      "parkMapUrl": "https://d22ksth68ujgu2.cloudfront.net/f17c4cff5c52076c02593425d55174ae_m_IMG_4484.jpg",
+      "mapEmbedUrl": null
+    },
+    {
+      "course_name": "Nick Loutsis Park",
+      "ownership": "Public",
+      "contact_info": {
+        "address": "32401 E Entwistle St, Carnation, WA 98014",
+        "phone": "(425) 333-4192",
+        "email": null,
+        "website": "https://www.carnationwa.gov/parksrec/page/nick-loutsis-park"
+      },
+      "reservation_requirements": "No reservation required.",
+      "policies_rules_dates_open": "Open year-round. Family-friendly environment.",
+      "holes": "9 holes",
+      "course_type": "beginner-friendly",
+      "imageUrl": "https://d22ksth68ujgu2.cloudfront.net/899a40d01d6165eb10b243bf4b295761_m_nobw3IXhn45bfR70llijYWleImep.jpg",
+      "parkMapUrl": null,
+      "mapEmbedUrl": null
+    },
+    {
+      "course_name": "Juel Community Park",
+      "ownership": "Public",
+      "contact_info": {
+        "address": "11050 10th Ave SW, Seattle, WA 98146 ",
+        "phone": "(206) 205-7532",
+        "email": null,
+        "website": "https://www.redmond.gov/Facilities/Facility/Details/Juel-Community-Park-22"
+      },
+      "reservation_requirements": "No reservation required.",
+      "policies_rules_dates_open": "Open year-round. Open fields with minimal obstacles.",
+      "holes": "18 holes",
+      "course_type": "suitable for all skill levels",
+      "imageUrl": "https://d22ksth68ujgu2.cloudfront.net/7c3239c29973cf39913c8670b4a46b6c_m_IMG_0970.jpg",
+      "parkMapUrl": "https://d22ksth68ujgu2.cloudfront.net/15655d413a9d3a67b0375592f359a9bf_m_IMG_3880.jpg",
+      "mapEmbedUrl": null
+    },
+    {
+      "course_name": "Battle Point Park Disc Golf",
+      "ownership": "Public",
+      "contact_info": {
+        "address": "11299 Arrow Point Dr NE, Bainbridge Island, WA 98110",
+        "phone": "(206) 842-2306",
+        "email": null,
+        "website": "https://www.wsdga.org/battle-point-park"
+      },
+      "reservation_requirements": "No reservation required.",
+      "policies_rules_dates_open": "Open year-round. Multi-use park with various amenities.",
+      "holes": "9 holes",
+      "course_type": "mix of open and wooded areas",
+      "imageUrl": "https://d22ksth68ujgu2.cloudfront.net/912f3ea3cde7d578651e02984adb0381_m_IMG_3271.jpg",
+      "parkMapUrl": "https://d22ksth68ujgu2.cloudfront.net/baf3d99819c48a96c2a8ab955d2f6704_m_IMG_5497.jpg",
+      "mapEmbedUrl": null
+    },
+    {
+      "course_name": "Van Zee Park",
+      "ownership": "Public",
+      "contact_info": {
+        "address": "300 Tremont St, Port Orchard, WA 98366-3734 ",
+        "phone": "(360) 876-4407",
+        "email": "discgolf@wsdga.org",
+        "website": "https://www.wsdga.org/"
+      },
+      "reservation_requirements": "No reservation required.",
+      "policies_rules_dates_open": "Open year-round. Small neighborhood park.",
+      "holes": "9 holes",
+      "course_type": "compact layout",
+      "imageUrl": "https://d22ksth68ujgu2.cloudfront.net/bdb0d1438badcc8c2bd3e28c6d2289e5_m_IMG_5355.jpg",
+      "parkMapUrl": "https://www.dgcoursereview.com/attachments/van-zee-course-map-2023-png.321643/",
+      "mapEmbedUrl": null
+    }
+  
+  
+]
