@@ -7,8 +7,8 @@
   
   body {
     font-family: arial , sans-serif ;
-    background-color : #f4f4f4 ;
-    color : #222;
+    background-color : #001f1a ;
+    color : #e0f7f1;;
     min-height :100vh ;
   }
   
@@ -18,8 +18,8 @@
     margin: 0 auto;
     padding: 20px ;
   }
+
   
-     
   .main-header {
     background: #014134 ;
     color: white ;
@@ -48,11 +48,11 @@
   }
   
   .nav-links a:hover {
-    background-color: #2a9d8f ;
+    background-color: #0db58f;
   }
   
   .about {
-    background: white ;
+    background: #012c26;
     margin-top: 40px ;
     padding: 60px 30px ;
     border-radius: 10px ;
@@ -73,20 +73,20 @@
   }
   
   .about h2 {
-    color: #014134 ;
+    color: #0db58f; /* match logo highlight green */
     margin-bottom: 20px ;
     
   }
   
   .about p {
     font-size: 1.2em ;
-    color: #555 ;
+    color: white ;
     line-height: 1.6 ;
   }
 
 
   section:hover {
-    box-shadow: 0 8px 20px rgb(18, 51, 39);
+    box-shadow: 0 8px 20px rgba(13, 181, 143, 0.5);
   }
   
   footer {
