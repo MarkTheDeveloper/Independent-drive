@@ -5,63 +5,122 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Home | Disc Golf Reservation</title>
   <link rel="stylesheet" href="index.css" />
+
+  <!-- Map CSS Links (for Leaflet Map + Marker Cluster) just asset stuff no need of citing should be plagerism free -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster/dist/MarkerCluster.css" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster/dist/MarkerCluster.Default.css" />
 </head>
 <body>
 
-  <header class="main-header">
-    <div class="container">
-      <h1>Disc Golf Reservation</h1>
-      <nav>
-        <ul class="nav-links">
-          <li><a href="index.html">Home</a></li>
-          <li><a href="about/about.html">About</a></li>
-          <li><a href="Contact/contact.html">Contact</a></li>
-          <li><a href="form/td-form.html">Reserve</a></li>
-        </ul>
-      </nav>
+<header class="main-header">
+  <div class="container">
+    <h1>Disc Golf Reservation</h1>
+    <nav>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about/about.html">About</a></li>
+        <li><a href="Contact/contact.html">Contact</a></li>
+        <li><a href="form/td-form.html">Reserve</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main class="container">
+
+  <section class="hero">
+    <h2>Make reserving a park simple, quick & stress-free</h2>
+    <p>
+      tournament directors can now easily find, request, and confirm public park reservations 
+      online — no phone calls, no waiting, just smooth clicks.
+    </p>
+  </section>
+
+  <section class="how-it-works">
+    <h3>How it works</h3>
+    <ul>
+      <li><strong>1.</strong> create a free account</li>
+      <li><strong>2.</strong> fill out your event form</li>
+      <li><strong>3.</strong> submit your park request</li>
+      <li><strong>4.</strong> get confirmation from the city/park</li>
+    </ul>
+  </section>
+
+  <section class="benefits">
+    <h3>Why use this tool?</h3>
+    <p>it's built just for TDs who need a reliable way to host disc golf tournaments.</p>
+    <ul>
+      <li>✅ save time (no more calling park departments)</li>
+      <li>✅ everything in one place</li>
+      <li>✅ easy form with all required fields</li>
+      <li>✅ mobile-friendly & always accessible</li>
+    </ul>
+  </section>
+
+  <section class="call-to-action">
+    <h3>ready to reserve?</h3>
+    <a href="../form/td-form.html" class="cta-btn">submit a request</a>
+  </section>
+
+  <section>
+    <h2>Park Information And Map</h2>
+  
+    <div class="content-container">
+      <!-- LEFT side (Course List) -->
+      <div id="course-list">
+        <!-- Your course list will be here -->
+      </div>
+  
+      <!-- RIGHT side (Map + controls) -->
+      <div id="map-wrapper">
+        <!-- Search and buttons floating over map -->
+        <div id="controls">
+          <div id="search-wrapper">
+            <input type="text" id="search" placeholder="search park...">
+            <button id="findButton">Find</button>
+          </div>
+        
+          <div id="buttons">
+            <button onclick="setDefaultTile()">Default</button>
+            <button onclick="setDarkTile()">Dark</button>
+            <button onclick="setSatTile()">Satellite</button>
+            <button onclick="findNearestAgain()">Find Nearest Park</button>
+            <button onclick="toggleFullScreen()">Full Screen</button>
+          </div>
+        </div>
+        
+  
+        <!-- MAP itself -->
+        <div id="mapArea"></div>
+  
+        <!-- Loader while map loads just cool feature why not -->
+        <div id="loader">
+          <img src="https://i.gifer.com/ZZ5H.gif" alt="Loading">
+        </div>
+      </div>
+  
     </div>
-  </header>
+  </section>
+  
+  
+  
 
-  <main class="container">
+</main>
 
-    <section class="hero">
-      <h2>Make reserving a park simple, quick & stress-free</h2>
-      <p>
-        tournament directors can now easily find, request, and confirm public park reservations 
-        online — no phone calls, no waiting, just smooth clicks.
-      </p>
-    </section>
+<footer class="main-footer">
+  <div class="container">
+    <p>© 2025 Disc Golf Reservation. All rights reserved.</p>
+  </div>
+</footer>
 
-    <section class="how-it-works">
-      <h3>How it works</h3>
-      <ul>
-        <li><strong>1.</strong> create a free account</li>
-        <li><strong>2.</strong> fill out your event form</li>
-        <li><strong>3.</strong> submit your park request</li>
-        <li><strong>4.</strong> get confirmation from the city/park</li>
-      </ul>
-    </section>
 
-    <section class="benefits">
-      <h3>Why use this tool?</h3>
-      <p>it's built just for TDs who need a reliable way to host disc golf tournaments.</p>
-      <ul>
-        <li>✅ save time (no more calling park departments)</li>
-        <li>✅ everything in one place</li>
-        <li>✅ easy form with all required fields</li>
-        <li>✅ mobile-friendly & always accessible</li>
-      </ul>
-    </section>
+<!-- Map JS Links -->
+<script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+<script src="https://unpkg.com/leaflet.markercluster/dist/leaflet.markercluster.js"></script>
 
-    <section class="call-to-action">
-      <h3>ready to reserve?</h3>
-      <a href="../form/td-form.html" class="cta-btn">submit a request</a>
-    </section>
-    <section>
-      <h2>Park Information</h2>
-      <div id="course-list"></div>
-    </section>
-  </main>
-  <script src="index.js"></script>
+<!-- linking the javascript -->
+<script src="index.js"></script>
+
 </body>
 </html>

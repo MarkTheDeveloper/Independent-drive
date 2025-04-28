@@ -196,3 +196,130 @@ body {
   color: #4caf50;
   text-decoration: underline;
 }
+
+
+/* ------------------------api map css-------------------- */
+
+/* Layout for left (Course List) and right (Map) */
+.content-container {
+  display: flex;
+  margin-top: 20px;
+  max-width: 1400px; /* Wider overall section to make it not conflcit*/
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Left Side: Course List */
+#course-list {
+  width: 35%;
+  padding: 20px;
+  background: white;
+  border-radius: 8px ;
+  min-height: 600px;  /* to match the map height */
+}
+
+/* Right Side: Map and controls */
+#map-wrapper {
+  width: 65%;
+  position: relative; /* needed for controls floating we need to fix this for mobile */
+}
+
+/* Map itself */
+#mapArea {
+  width: 100%;
+  height: 600px;
+}
+
+/* Controls floating inside map */
+#controls {
+  position: absolute;
+  top: 10px; 
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1000;
+  background: #333;
+  padding: 10px;
+  border-radius: 8px;
+  color: white;
+  width: 400px; 
+}
+
+/* Search and find button side-by-side */
+#search-wrapper {
+  display: flex;
+  gap: 5px;
+  margin-bottom: 5px;
+}
+
+#search {
+  flex-grow: 1;
+  padding: 8px;
+  border: none;
+  border-radius: 5px;
+}
+
+#findButton {
+  background: #555;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#findButton:hover {
+  background: #90ee90;
+  color: black;
+}
+
+
+/* Buttons inside controls */
+#buttons {
+  display: flex;
+  gap: 5px;
+  margin-top: 5px;
+}
+
+#buttons button {
+  background: #555;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#buttons button:hover {
+  background: #90ee90;
+  color: black;
+}
+
+/* Loader in center */
+#loader {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 500;
+}
+
+#mapArea {
+  width: 100%;
+  height: 600px;
+  transition: all 0.3s ease; /* smooth resizing when full screen */
+}
+/* ------------------------api map css END! -------------------- */
+
+/* Footer styles will need to be changed jsut temp*/
+.main-footer {
+  background-color: #333;
+  color: white;
+  padding: 15px 0;
+  text-align: center;
+  margin-top: 40px;
+}
+
+.main-footer .container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
