@@ -6,6 +6,7 @@
 }
 
 body {
+  margin-top: 160px; 
   font-family: arial , sans-serif ;
   background:#001f1a ;
   color:#222 ;
@@ -26,6 +27,12 @@ body {
   padding : 20px 0 ;
   text-align: center ;
   margin-bottom : 30px ;
+  position: fixed;
+  top: 0;
+  left: 0; 
+  right: 0;
+  width: 100%; 
+  z-index: 9999;
 }
 
 .main-header h1 {
@@ -171,6 +178,7 @@ div#course-list {
   background-color:  #012c26;
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  
 }
 
 .course-item {

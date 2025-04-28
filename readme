@@ -1,0 +1,32 @@
+Independent Drive - Park Reservation Tool
+
+All Rights Reserved © 2025 Independent Drive Team
+
+---
+
+Map Data Usage:
+This project uses disc golf course location data extracted from OpenStreetMap (OSM) via the Overpass API.
+
+© OpenStreetMap contributors  
+Data available under the Open Database License (ODbL).
+
+API Tool Used:
+Overpass API - https://overpass-api.de/
+
+We gratefully acknowledge the work of the OpenStreetMap community in making this data publicly available.
+
+---
+
+Other Notices:
+Some portions of the frontend code (HTML, CSS, JavaScript) were generated or assisted by artificial intelligence (AI) tools to help accelerate development.
+
+All custom design, features, and content were created by the Independent Drive project team.
+
+---
+
+Website:
+(Local development - website currently hosted locally for testing)
+
+---
+
+Thank you to all open-source communities whose tools and data made this project possible.
