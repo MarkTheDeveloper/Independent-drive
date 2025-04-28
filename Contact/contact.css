@@ -6,8 +6,9 @@
   }
   
   body {
+    margin-top: 130px; 
     font-family: arial, sans-serif ;
-    background:#f4f4f4 ;
+    background:#001f1a ;
     color:#222 ;
     min-height:100vh ;
   }
@@ -25,6 +26,11 @@
     color : white ;
     padding: 20px 0 ;
     box-shadow: 0 2px 4px rgba(0,0,0,0.2) ;
+    position: fixed;
+    top: 0;
+    left: 0; 
+    width: 100%; 
+    z-index: 1000; 
   }
   
   .main-header h1 {
@@ -56,14 +62,14 @@
   .contact {
     text-align : center ;
     margin-top: 40px ;
-    background : white ;
+    background : #012c26 ;
     padding : 60px 30px ;
     border-radius : 10px ;
     box-shadow : 0 4px 8px rgba(0,0,0,0.1) ;
   }
   
   .contact h2 {
-    color : #014134 ;
+    color : #0db58f;
     margin-bottom: 20px ;
     text-transform: lowercase ;
     text-align: left;
@@ -71,11 +77,11 @@
   
   .contact p {
     font-size: 1.2em ;
-    color : #555 ;
+    color: white ;
     line-height : 1.6 ;
     text-align: left;
   }
   
   section:hover{
-    box-shadow: 0 8px 20px rgb(18, 51, 39);
+    box-shadow: 0 8px 20px rgba(13, 181, 143, 0.5);
   }

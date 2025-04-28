@@ -6,6 +6,7 @@
 }
 
 body {
+  margin-top: 160px;
   background-color: #f2f2f2;
   color: #333;
 }
@@ -19,6 +20,11 @@ body {
 header {
   background: #014134;
   padding: 20px;
+  position: fixed;
+  top: 0;
+  left: 0; 
+  width: 100%; 
+  z-index: 1000; 
 }
 
 .main-header .container {

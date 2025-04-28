@@ -7,7 +7,7 @@
 
 body {
   font-family: arial , sans-serif ;
-  background:#f4f4f4 ;
+  background:#001f1a ;
   color:#222 ;
   min-height:100vh ;
 }
@@ -55,7 +55,7 @@ body {
 /* hero headline */
 .hero {
   text-align:center ;
-  background:white ;
+  background: #012c26 ;
   padding : 60px 30px ;
   margin-bottom:40px ;
   border-radius:10px ;
@@ -65,20 +65,24 @@ body {
 
 .hero h2 {
   font-size: 2rem ;
-  color: #014134 ;
+  color: #0db58f; ;
   margin-bottom:15px ;
   text-align : left ;
 }
 
 .hero p {
   font-size:1.2em ;
-  color:#555 ;
+  color:white;
   line-height:1.6 ;
 }
+.hero h2:first-of-type {
+  color: #0db58f;  ;
+}
+
 
 /* how-it-works section */
 .how-it-works {
-  background:#ffffff ;
+  background:#012c26 ;
   padding : 30px ;
   margin-bottom:30px ;
   border-radius:8px ;
@@ -86,21 +90,21 @@ body {
 }
 
 .how-it-works h3 {
-  color:#014134 ;
+  color:#0db58f ;
   margin-bottom:15px ;
   text-align:left;
 }
 
 .how-it-works ul {
   padding-left: 20px ;
-  color:#333 ;
+  color: white ;
   line-height:1.7 ;
   list-style-type: none;
 }
 
 /* benefits  */
 .benefits {
-  background:white ;
+  background:#012c26 ;
   padding:30px ;
   margin-bottom:30px ;
   border-radius:8px ;
@@ -108,7 +112,7 @@ body {
 }
 
 .benefits h3 {
-  color:#014134 ;
+  color:#0db58f;
   margin-bottom:10px ;
   text-align:left ;
 }
@@ -116,7 +120,7 @@ body {
 .benefits p {
   text-align:center ;
   font-size:1.1em ;
-  color:#555 ;
+  color:white ;
   margin-bottom:15px ;
   text-align : left ;
 }
@@ -125,6 +129,7 @@ body {
   padding-left:25px ;
   line-height:1.8 ;
   list-style-type: none;
+  color:white ;
 }
 
 /* call to action */
@@ -136,7 +141,7 @@ body {
 
 .call-to-action h3 {
   font-size: 1.6rem ;
-  color:#014134 ;
+  color:white ;
   margin-bottom:20px ;
 }
 
@@ -150,23 +155,26 @@ body {
   border-radius:6px ;
   transition: background 0.2s ease-in-out ;
 }
-
+h2:last-of-type{
+  color: white;
+}
 .cta-btn:hover {
   background:#21867a ;
 }
 .hero:hover,.how-it-works:hover, .benefits:hover, .course-item:hover {
-  box-shadow: 0 8px 20px rgb(18, 51, 39);
+  box-shadow: 0 8px 20px rgba(13, 181, 143, 0.5);
 }
 /*course-information*/
-#course-list {
+div#course-list {
   width: 400px;
   padding: 20px;
-  background-color: #f5f5f5;
+  background-color:  #012c26;
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
+
 .course-item {
-  background: white;
+  background:  #014134;
   padding: 10px;
   margin-bottom: 10px;
   border-radius: 8px;
@@ -183,6 +191,7 @@ body {
 }
 
 .course-info {
+  color: white;
   flex: 1;
 }
 
@@ -322,4 +331,9 @@ body {
 .main-footer .container {
   max-width: 1200px;
   margin: 0 auto;
+  
+}
+
+footer.main-footer{
+  background-color: #014134;
 }
