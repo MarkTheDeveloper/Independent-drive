@@ -228,6 +228,8 @@ div#course-list {
 
 /* Left Side: Course List */
 #course-list {
+  height: 400px;
+  overflow-y: auto;
   width: 35%;
   padding: 20px;
   background: white;
