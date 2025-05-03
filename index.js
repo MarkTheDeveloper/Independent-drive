@@ -1,14 +1,17 @@
 // huys course list left index park menu or park infomation 
 window.onload = function () {
     const courseList = document.getElementById("course-list");
-  
+
     fetch('data/data.json')
       .then(response => response.json())
       .then(information => {
         information.forEach((course) => {
           const courseDiv = document.createElement("div");
           courseDiv.classList.add("course-item");
-  
+
+          courseDiv.addEventListener('click', () => {
+            courseDiv.classList.toggle('expanded');
+          });
           courseDiv.innerHTML = `
             <img src="${course.imageUrl}" alt="${course.course_name}" class="course-img" />
   
@@ -17,11 +20,27 @@ window.onload = function () {
               <p class="course-email"><strong>Email:</strong> ${course.contact_info.email}</p>
               <p class="course-phone"><strong>Phone:</strong> ${course.contact_info.phone}</p>
               <p class="course-address"><strong>Address:</strong> ${course.contact_info.address}</p>
-              <a href="${course.parkMapUrl}" target="_blank" class="view-map-btn">View Map</a>
+              <div class="extra-details">
+                <p><strong>Holes</strong> ${course.holes}</p>
+                <p><strong>reservation requirements:</strong> ${course.reservation_requirements}</p>
+                <p><strong>Description:</strong> ${course.course_type}</p>
+                <a href="${course.parkMapUrl}" target="_blank" class="view-map-btn">View Map</a>
+                <button class="suggest-edit-btn">
+                  Suggest an edit
+                </button>
+              </div>
             </div>
           `;
   
           courseList.appendChild(courseDiv);
+          /* suggesting edit form*/
+          const editBtn=courseDiv.querySelector(".suggest-edit-btn");
+          editBtn.addEventListener("click", () => {
+            //localStorage
+            localStorage.setItem("editData", JSON.stringify(course));
+          
+            window.open("form/edit.html","Submit form Window", "width=500,height=500");
+          });  
         });
       })
       .catch(error => console.error('error! file JSON:', error));

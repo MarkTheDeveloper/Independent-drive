@@ -189,8 +189,25 @@ div#course-list {
   display: flex;
   gap: 10px;
   box-shadow: 0 2px 6px rgba(0,0,0,0.08) ;
+  transition: all 0.3s ease;
+  max-height: 180px; 
+  overflow: hidden;
 }
-
+.course-item.expanded {
+  max-height: 1000px; 
+  background-color: #026d56;
+  box-shadow: 0 4px 12px rgba(0,255,0,0.3);
+  transform: scale(1.02);
+}
+.course-item .extra-details{
+  display:none;
+}
+.course-item.expanded .extra-details{
+  display:block;
+}
+.course-info h3,p, a{
+  padding-bottom:5px;
+}
 .course-img {
   width: 100px;
   height: 100px;
@@ -212,6 +229,25 @@ div#course-list {
   margin-top: 8px;
   color: #4caf50;
   text-decoration: underline;
+}
+/*suggest edit button*/
+.suggest-edit-btn {
+  display: inline-flex;
+  align-items: center;
+  background-color: #026d56;
+  color: white;
+  border: none;
+  padding: 8px 14px;
+  border-radius: 6px;
+  font-size: 15px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+}
+
+.suggest-edit-btn:hover {
+  background-color: #014134;
 }
 
 
