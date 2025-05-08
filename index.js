@@ -9,8 +9,11 @@ window.onload = function () {
           const courseDiv = document.createElement("div");
           courseDiv.classList.add("course-item");
 
-          courseDiv.addEventListener('click', () => {
+          courseDiv.addEventListener('mouseover', () => {
             courseDiv.classList.toggle('expanded');
+          });
+          courseDiv.addEventListener('mouseout', () => {
+            courseDiv.classList.remove('expanded');
           });
           courseDiv.innerHTML = `
             <img src="${course.imageUrl}" alt="${course.course_name}" class="course-img" />
@@ -39,7 +42,7 @@ window.onload = function () {
             //localStorage
             localStorage.setItem("editData", JSON.stringify(course));
           
-            window.open("form/edit.html","Submit form Window", "width=500,height=500");
+            window.open("form/edit.html");
           });  
         });
       })

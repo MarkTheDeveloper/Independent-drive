@@ -1,7 +1,11 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" type="image/x-icon" href="/images/logo.png">
   <title>Edit Info</title>
+  
   <style>
     body {
       font-family: Arial, sans-serif;
@@ -64,68 +68,86 @@
   </style>
 </head>
 <body>
-  <h2>Update Course Info</h2>
-  <form id="editForm">
-    <h3 id="name"></h3><br/>
-    <label>Email: <input type="text" id="email" /></label><br/>
-    <label>Phone: <input type="text" id="phone" /></label><br/>
-    <label>Address: <input type="text" id="address" /></label><br/>
-    <label>Holes: <input type="text" id="holes" /></label><br/>
-    <label>Reservation requirements: <input type="text" id="reservation-req" /></label><br/>
-    <label>Description:<br/> <textarea id="description"></textarea></label><br/>
-    <button type="submit">Submit</button>
-  </form>
-
-  <script>
-    //localStorage
-    const data = JSON.parse(localStorage.getItem("editData"));
-    document.getElementById("name").innerHTML = data.course_name;
-    document.getElementById("email").value = data.contact_info.email;
-    document.getElementById("phone").value = data.contact_info.phone;
-    document.getElementById("address").value = data.contact_info.address;
-    document.getElementById("holes").value = data.holes;
-    document.getElementById("reservation-req").value=data.reservation_requirements;
-    document.getElementById("description").value = data.course_type;
-
-    document.getElementById("editForm").addEventListener("submit", (e) => {
-      e.preventDefault();
-  //checking if users make any change 
-        const newEmail = document.getElementById("email").value;
-        const newPhone = document.getElementById("phone").value;
-        const newAddress = document.getElementById("address").value;
-        const newHoles = document.getElementById("holes").value;
-        const newReq = document.getElementById("reservation-req").value;
-        const newDesc = document.getElementById("description").value;
-
-        const noChange =
-            newEmail === (data.contact_info.email ?? "") &&
-            newPhone === (data.contact_info.phone ?? "") &&
-            newAddress === (data.contact_info.address ?? "") &&
-            newHoles == (data.holes ?? "") &&
-            newReq === (data.reservation_requirements ?? "") &&
-            newDesc === (data.course_type ?? "");
-
-
-        if (noChange) {
-            window.close();
-            return;
-        } 
-      const updated = {
-        courseName: data.course_name,
-        email: newEmail,
-        phone: newPhone,
-        address: newAddress,
-        holes: newHoles,
-        reservation_requirements: newReq,
-        course_type: newDesc
-      };
-
-      console.log("updated:", updated);
-      alert("The form has been sent, Thank you!.");
-      window.close(); 
-    });
-
-  </script>
+  <header>
+    <div class="main-header">
+      <div class="container">
+        <h1>Disc Golf Reservation</h1>
+        <nav>
+          <ul class="nav-links">
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="../about/about.html">About</a></li>
+            <li><a href="../Contact/contact.html">Contact</a></li>
+            <li><a href="../form/td-form.html">Reserve</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
+  <main>
+    <h2>Update Course Info</h2>
+    <form id="editForm">
+      <h3 id="name"></h3><br/>
+      <label>Email: <input type="text" id="email" /></label><br/>
+      <label>Phone: <input type="text" id="phone" /></label><br/>
+      <label>Address: <input type="text" id="address" /></label><br/>
+      <label>Holes: <input type="text" id="holes" /></label><br/>
+      <label>Reservation requirements: <input type="text" id="reservation-req" /></label><br/>
+      <label>Description:<br/> <textarea id="description"></textarea></label><br/>
+      <button type="submit">Submit</button>
+    </form>
+  
+    <script>
+      //localStorage
+      const data = JSON.parse(localStorage.getItem("editData"));
+      document.getElementById("name").innerHTML = data.course_name;
+      document.getElementById("email").value = data.contact_info.email;
+      document.getElementById("phone").value = data.contact_info.phone;
+      document.getElementById("address").value = data.contact_info.address;
+      document.getElementById("holes").value = data.holes;
+      document.getElementById("reservation-req").value=data.reservation_requirements;
+      document.getElementById("description").value = data.course_type;
+  
+      document.getElementById("editForm").addEventListener("submit", (e) => {
+        e.preventDefault();
+    //checking if users make any change 
+          const newEmail = document.getElementById("email").value;
+          const newPhone = document.getElementById("phone").value;
+          const newAddress = document.getElementById("address").value;
+          const newHoles = document.getElementById("holes").value;
+          const newReq = document.getElementById("reservation-req").value;
+          const newDesc = document.getElementById("description").value;
+  
+          const noChange =
+              newEmail === (data.contact_info.email ?? "") &&
+              newPhone === (data.contact_info.phone ?? "") &&
+              newAddress === (data.contact_info.address ?? "") &&
+              newHoles == (data.holes ?? "") &&
+              newReq === (data.reservation_requirements ?? "") &&
+              newDesc === (data.course_type ?? "");
+  
+  
+          if (noChange) {
+              window.close();
+              return;
+          } 
+        const updated = {
+          courseName: data.course_name,
+          email: newEmail,
+          phone: newPhone,
+          address: newAddress,
+          holes: newHoles,
+          reservation_requirements: newReq,
+          course_type: newDesc
+        };
+  
+        console.log("updated:", updated);
+        alert("The form has been sent, Thank you!.");
+        window.close(); 
+      });
+  
+    </script>
+  </main>
+ 
   
 </body>
 </html>
