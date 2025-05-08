@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
 /* reset things ya kno */
 *{
     margin:0 ;
@@ -8,8 +9,10 @@
   body {
     margin-top: 130px; 
     font-family: arial, sans-serif ;
-    background:#001f1a ;
-    color:#222 ;
+    /*background:#001f1a ;*/
+    background: url(/images/parktwo.png);
+    background-size: cover;
+    /*color:#222 ;*/
     min-height:100vh ;
   }
   
@@ -56,6 +59,8 @@
   
   .nav-links a:hover {
     background : #2a9d8f ;
+
+  
   }
   
   /* contact box */
@@ -83,6 +88,10 @@
   }
   
   section:hover{
+    /*box-shadow: 0 8px 20px rgba(13, 181, 143, 0.5);*/
+
+    transform: translateY(-10px);
     box-shadow: 0 8px 20px rgba(13, 181, 143, 0.5);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
   }
   

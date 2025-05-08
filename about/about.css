@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
 
 *{
     margin:0 ;
@@ -7,10 +8,15 @@
   
   body {
     margin-top: 120px;
-    font-family: arial , sans-serif ;
+    /*font-family: arial , sans-serif ;*/
+    font-family: 'Inter', sans-serif;
     background-color : #001f1a ;
     color : #e0f7f1;;
     min-height :100vh ;
+  }
+
+  body {
+    background: linear-gradient(to right, #001f1a, #014134);
   }
   
 
@@ -62,7 +68,9 @@
     margin-top: 40px ;
     padding: 60px 30px ;
     border-radius: 10px ;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1) ;
+    /*box-shadow: 0 4px 8px rgba(0,0,0,0.1) ;*/
+    box-shadow: 0 8px 20px rgba(13, 181, 143, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
     text-align: left;
     
   }
@@ -92,7 +100,10 @@
 
 
   section:hover {
-    box-shadow: 0 8px 20px rgba(13, 181, 143, 0.5);
+    /*box-shadow: 0 8px 20px rgba(13, 181, 143, 0.5);*/
+
+    transform: translateY(-15px);
+    box-shadow: 0 12px 30px rgba(13, 181, 143, 0.3);
   }
   
   footer {
