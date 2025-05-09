@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
 /* reset + base */
 *{
   margin:0 ;
@@ -6,7 +7,7 @@
 }
 
 body {
-  margin-top: 160px; 
+  margin-top: 80px; 
   font-family: arial , sans-serif ;
   background:#001f1a ;
   color:#222 ;
@@ -21,12 +22,21 @@ body {
 }
 
 /* header stuff  */
-.main-header {
-  background : #014134 ;
-  color: white ;
-  padding : 20px 0 ;
-  text-align: center ;
-  margin-bottom : 30px ;
+.main-header{ 
+  display: flex;
+  justify-content: center;
+  align-items: center;  
+
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: white;
+
+  display: flex;
+  align-items: center;
+  padding: 16px 10px;
+  background-color: #014134;
+
   position: fixed;
   top: 0;
   left: 0; 
@@ -34,30 +44,40 @@ body {
   width: 100%; 
   z-index: 9999;
 }
-
-.main-header h1 {
-  margin-bottom: 10px ;
+.main-header div{ 
+  width: 1000px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
 }
-
 .nav-links {
-  display:flex ;
-  justify-content:center ;
-  list-style:none ;
-  gap: 30px ;
+  list-style-type: none;
+}
+.nav-links li{
+  display: inline-block;
+  padding: 0px 20px;
+}
+.nav-links li a{
+  text-decoration: none;
+  transition: all 0.3s ease 0s;
+  color: white;
+}
+.nav-links li a:hover{
+  color: #0db58f;
+}
+button{
+  font-family: 'Montserrat', sans-serif;
+  padding: 9px 25px;
+  background-color: #0db58f;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+  color: white;
 }
 
-.nav-links a {
-  color:white ;
-  text-decoration:none ;
-  font-weight:bold ;
-  padding:6px 12px ;
-  border-radius:4px ;
-  transition: background 0.2s ;
-}
-
-.nav-links a:hover {
-  background:#2a9d8f ;
-}
 
 /* hero headline */
 .hero {
