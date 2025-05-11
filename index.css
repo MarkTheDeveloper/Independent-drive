@@ -9,7 +9,8 @@
 body {
   margin-top: 80px; 
   font-family: arial , sans-serif ;
-  background:#001f1a ;
+  /*background:#001f1a ;*/
+  background: linear-gradient(to right, #001f1a, #014134);
   color:#222 ;
   min-height:100vh ;
 }
@@ -188,9 +189,28 @@ h2:last-of-type{
 .cta-btn:hover {
   background:#21867a ;
 }
+
+/*
 .hero:hover,.how-it-works:hover, .benefits:hover, .course-item:hover {
   box-shadow: 0 8px 20px rgba(13, 181, 143, 0.5);
+
+  transform: translateY(-15px);
+  box-shadow: 0 12px 30px rgba(13, 181, 143, 0.3);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 8px 20px rgba(13, 181, 143, 0.1);
 }
+  */
+
+
+.hero, .how-it-works, .benefits, .course-item {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.hero:hover, .how-it-works:hover, .benefits:hover, .course-item:hover {
+  transform: translateY(-15px);
+  box-shadow: 0 12px 30px rgba(13, 181, 143, 0.3);
+}
+
 /*course-information*/
 div#course-list {
   width: 400px;
@@ -269,6 +289,12 @@ div#course-list {
 .suggest-edit-btn:hover {
   background-color: #014134;
 }
+
+
+
+
+
+
 
 
 /* ------------------------api map css-------------------- */
