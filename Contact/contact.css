@@ -86,12 +86,15 @@
     line-height : 1.6 ;
     text-align: left;
   }
+
+  section {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
   
   section:hover{
     /*box-shadow: 0 8px 20px rgba(13, 181, 143, 0.5);*/
-
     transform: translateY(-10px);
     box-shadow: 0 8px 20px rgba(13, 181, 143, 0.5);
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    
   }
   
