@@ -7,15 +7,76 @@
   <title>Edit Info</title>
   
   <style>
+    #logo{
+      height: 70px;
+    }
+    .main-header{ 
+      display: flex;
+      justify-content: center;
+      align-items: center;  
+
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 500;
+      font-size: 16px;
+      color: white;
+
+      display: flex;
+      align-items: center;
+      padding: 16px 10px;
+      background-color: #055745;
+
+      position: fixed;
+      top: 0;
+      left: 0; 
+      right: 0;
+      width: 100%; 
+      z-index: 9999;
+    }
+    .main-header div{ 
+      width: 1000px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+    .nav-links {
+      list-style-type: none;
+    }
+    .nav-links li{
+      display: inline-block;
+      padding: 0px 20px;
+    }
+    .nav-links li a{
+      text-decoration: none;
+      transition: all 0.3s ease 0s;
+      color: white;
+    }
+    .nav-links li a:hover{
+      color: #0db58f;
+    }
+    button{
+      font-family: 'Montserrat', sans-serif;
+      padding: 9px 25px;
+      background-color: #0db58f;
+      border: none;
+      border-radius: 50px;
+      cursor: pointer;
+      transition: all 0.3s ease 0s;
+      color: white;
+    }
+
     body {
       font-family: Arial, sans-serif;
       background-color: #f2f2f2;
-      padding: 30px;
       color: #333;
     }
   
     h2,h3 {
       text-align: center;
+      color: white;
+    }
+    h3{
       color: #014134;
     }
   
@@ -26,6 +87,7 @@
       padding: 20px 30px;
       border-radius: 10px;
       box-shadow: 0 0 10px rgba(0,0,0,0.15);
+      margin-bottom: 30px
     }
   
     label {
@@ -52,12 +114,11 @@
     }
   
     button {
-      margin-top: 20px;
       padding: 10px 18px;
-      background-color: #026d56;
+      background-color: #0db58f;
       color: white;
       border: none;
-      border-radius: 6px;
+      border-radius: 50px;
       font-size: 15px;
       cursor: pointer;
     }
@@ -71,15 +132,16 @@
   <header>
     <div class="main-header">
       <div class="container">
+        <a href="..\index.html"><img id="logo"src="..\images\Logo-NO-BG.png" alt=""></a>
         <h1>Disc Golf Reservation</h1>
         <nav>
           <ul class="nav-links">
             <li><a href="../index.html">Home</a></li>
             <li><a href="../about/about.html">About</a></li>
             <li><a href="../Contact/contact.html">Contact</a></li>
-            <li><a href="../form/td-form.html">Reserve</a></li>
           </ul>
         </nav>
+        <a href="../form/td-form.html"><button>Reserve</button></a>
       </div>
     </div>
   </header>

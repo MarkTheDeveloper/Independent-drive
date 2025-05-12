@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 *{
     margin:0 ;
@@ -7,7 +8,7 @@
   }
   
   body {
-    margin-top: 120px;
+    margin-top: 70px;
     /*font-family: arial , sans-serif ;*/
     font-family: 'Inter', sans-serif;
     background-color : #001f1a ;
@@ -26,43 +27,67 @@
     padding: 20px ;
   }
 
-  
-  .main-header {
-    background: #014134 ;
-    color: white ;
-    padding : 20px 0 ;
-    box-shadow : 0 2px 4px rgba(0,0,0,0.2) ;
-    position: fixed;
-    top: 0;
-    left: 0; 
-    width: 100%; 
-    z-index: 1000; 
+  #logo{
+  height: 70px;
+  pointer-events: auto;
+  cursor: pointer;
   }
-  
-  .main-header h1 {
-    text-align: center ;
-    margin-bottom: 10px ;
+  .main-header{ 
+  display: flex;
+  justify-content: center;
+  align-items: center;  
+
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: white;
+
+  display: flex;
+  align-items: center;
+  padding: 16px 10px;
+  background-color: #055745;
+
+  position: fixed;
+  top: 0;
+  left: 0; 
+  right: 0;
+  width: 100%; 
+  z-index: 9999;
   }
-  
+  .main-header div{ 
+    width: 1000px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
   .nav-links {
-    display: flex ;
-    justify-content : center ;
-    gap: 30px ;
-    list-style: none ;
+    list-style-type: none;
   }
-  
-  .nav-links a {
-    color : white ;
-    text-decoration : none ;
-    font-weight: bold ;
-    padding: 6px 12px ;
-    border-radius: 4px ;
+  .nav-links li{
+    display: inline-block;
+    padding: 0px 20px;
   }
-  
-  .nav-links a:hover {
+  .nav-links li a{
+    text-decoration: none;
+    transition: all 0.3s ease 0s;
+    color: white;
+  }
+  .nav-links li a:hover{
+    color: #0db58f;
+  }
+  button{
+    font-family: 'Montserrat', sans-serif;
+    padding: 9px 25px;
     background-color: #0db58f;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    color: white;
   }
-  
+ 
   .about {
     background: #012c26;
     margin-top: 40px ;

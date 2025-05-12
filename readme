@@ -20,7 +20,14 @@ We gratefully acknowledge the work of the OpenStreetMap community in making this
 Other Notices:
 Some portions of the frontend code (HTML, CSS, JavaScript) were generated or assisted by artificial intelligence (AI) tools to help accelerate development.
 
+Some portions of the frontend code were influenced by external sources, which are all credited in the References section.
+
 All custom design, features, and content were created by the Independent Drive project team.
+
+---
+References:
+
+Credit ["Navbar CSS Tutorial: 3 Ways to Create a Navigation Bar with Flexbox" by The Net Ninja](https://www.youtube.com/watch?v=PwWHL3RyQgk&t=142s)
 
 ---
 
