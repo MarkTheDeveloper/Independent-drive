@@ -12,14 +12,14 @@
       margin-top: 80px; 
       font-family: arial, sans-serif ;
       /*background:#001f1a ;*/
-      background: url("Independent-drive/images/parktwo.png");
+      background: url("../images/parktwo.png");
       background-size: cover;
       /*color:#222 ;*/
       min-height:100vh ;
     }
-     body {
+     /* body {
     background: linear-gradient(to right, #001f1a, #014134);
-    }
+    } */
     
     /* centering container */
     .container {
