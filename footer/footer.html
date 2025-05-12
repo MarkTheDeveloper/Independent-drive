@@ -1,0 +1,195 @@
+<footer class="footer">
+  <style>
+    .footer {
+      background: #014134;
+      color: #ffffff;
+      padding: 40px 20px;
+      font-family: Arial, sans-serif;
+    }
+
+    .footer-header {
+      border-top: 2px solid #0db58f;
+      padding-top: 15px;
+      margin-bottom: 10px;
+      text-align: center;
+    }
+
+    .footer-nav a {
+      color: #ffffff;
+      text-decoration: none;
+      margin: 0 8px;
+    }
+
+    .footer-nav a:hover {
+      color: #0db58f;
+    }
+
+    .footer-logo-container {
+      position: relative;
+      text-align: center;
+      margin: 20px 0;
+    }
+
+    .footer-logo-container::before,
+    .footer-logo-container::after {
+      content: "";
+      position: absolute;
+      top: 50%;
+      width: 40%;
+      height: 2px;
+      background: #0db58f;
+    }
+
+    .footer-logo-container::before {
+      left: 0;
+    }
+
+    .footer-logo-container::after {
+      right: 0;
+    }
+
+    .footer-logo img {
+      max-width: 160px;
+      height: auto;
+      display: inline-block;
+      background: #014134;
+      padding: 0 12px;
+      border-radius: 8px;
+    }
+
+
+    .footer-container {
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      flex-wrap: wrap;
+      gap: 40px;
+      max-width: 1200px;
+      margin: 0 auto;
+      text-align: center;
+    }
+
+    .footer-info {
+      font-size: 0.9rem;
+      line-height: 1.6;
+    }
+
+    .footer-info a {
+      color: #0db58f;
+      text-decoration: underline;
+    }
+
+    .footer-trust {
+      text-align: center;
+      margin-top: 1rem;
+    }
+
+    .footer-trust span {
+      display: inline-block;
+      margin: 0 5px;
+      color: #ffffff;
+    }
+
+    .footer-bottom {
+      margin-top: 30px;
+      border-top: 1px solid #0db58f;
+      padding-top: 10px;
+      text-align: center;
+      color: #cccccc;
+      font-size: 0.85rem;
+    }
+
+    .trust-badge img {
+      height: 30px;
+      margin-top: 10px;
+    }
+
+    .weather-box {
+      font-size: 0.85rem;
+      margin-top: 10px;
+      text-align: center;
+      color: #ffffff;
+    }
+
+    .footer-stats {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+  margin-top: 1rem;
+}
+
+.footer-stat {
+  text-align: center;
+  color: #0db58f;
+}
+
+.footer-stat h3 {
+  font-size: 1.5rem;
+  margin-bottom: 0.3rem;
+}
+
+.footer-stat p {
+  font-size: 0.9rem;
+  color: #bbb;
+}
+
+  </style>
+
+  <!-- Navigation Links -->
+  <div class="footer-header">
+    <div class="footer-nav">
+      <a href="../index.html">Home</a> |
+      <a href="../about/about.html">About</a> |
+      <a href="../contact/contact.html">Contact</a>
+    </div>
+  </div>
+
+  <!-- Centered Logo -->
+  <div class="footer-logo-container">
+    <div class="footer-logo">
+      <img src="../images/Logo.png" alt="Logo">
+    </div>
+  </div>
+
+  <!-- Main Footer Content -->
+  <div class="footer-container">
+    <!-- Left: Map Title Only -->
+    <div class="footer-map">
+      <h4>Map</h4>
+    </div>
+
+    <!-- Center: Info + Trust -->
+    <div class="footer-info">
+      <p><strong>📞 Phone:</strong> <a href="tel:1234567890">(123) 456-7890</a></p>
+      <p><strong>📧 Email:</strong> <a href="mailto:email@example.com">email@example.com</a></p>
+      <div class="footer-stats">
+  <div class="footer-stat">
+    <h3>🏞️ 145+</h3>
+    <p>Parks Listed</p>
+  </div>
+  <div class="footer-stat">
+    <h3>🌎 38+</h3>
+    <p>Regions Covered</p>
+  </div>
+  <div class="footer-stat">
+    <h3>🗓️ 1,200+</h3>
+    <p>Reservations Processed</p>
+  </div>
+</div>
+
+      <a href="https://www.pdga.com/" class="trust-badge" target="_blank">
+        <img src="https://www.pdga.com/sites/default/files/pdga_logo.png" alt="PDGA Certified">
+      </a>
+    </div>
+
+    <!-- Right: Weather Title Only -->
+    <div class="weather-box" id="footer-weather">Weather</div>
+  </div>
+
+  <!-- Footer Bottom -->
+  <div class="footer-bottom">
+    <p>&copy; 2025 Disc Golf Reservation Tool | All Rights Reserved</p>
+    <p>Designed & Developed by: Independent Drive Team</p>
+  </div>
+</footer>

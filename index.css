@@ -9,8 +9,7 @@
 body {
   margin-top: 80px; 
   font-family: arial , sans-serif ;
-  /*background:#001f1a ;*/
-  background: linear-gradient(to right, #001f1a, #014134);
+  background:#001f1a ;
   color:#222 ;
   min-height:100vh ;
 }
@@ -80,98 +79,36 @@ button{
 }
 
 
-/* hero headline */
-.hero {
-  text-align:center ;
-  background: #012c26 ;
-  padding : 60px 30px ;
-  margin-bottom:40px ;
-  border-radius:10px ;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.1) ;
-  text-align : left ;
+
+
+/* the title or top: Selected Park Info (Side-by-Side Style) */
+.top-callout {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 2rem 1rem 1.5rem 1rem;
+  text-align: center;
 }
 
-.hero h2 {
-  font-size: 2rem ;
-  color: #0db58f; ;
-  margin-bottom:15px ;
-  text-align : left ;
+.top-callout h2 {
+  font-size: 2.3rem;
+  color: #0db58f;
+  margin-bottom: 1rem;
+  text-shadow: 1px 1px 2px #001d1a;
 }
 
-.hero p {
-  font-size:1.2em ;
-  color:white;
-  line-height:1.6 ;
-}
-.hero h2:first-of-type {
-  color: #0db58f;  ;
+.top-callout p {
+  color: #b6f5e4;
+  font-size: 1.1rem;
+  max-width: 700px;
+  margin: 0 auto;
+  line-height: 1.5;
 }
 
 
-/* how-it-works section */
-.how-it-works {
-  background:#012c26 ;
-  padding : 30px ;
-  margin-bottom:30px ;
-  border-radius:8px ;
-  box-shadow : 0 2px 6px rgba(0,0,0,0.08) ;
-}
 
-.how-it-works h3 {
-  color:#0db58f ;
-  margin-bottom:15px ;
-  text-align:left;
-}
 
-.how-it-works ul {
-  padding-left: 20px ;
-  color: white ;
-  line-height:1.7 ;
-  list-style-type: none;
-}
 
-/* benefits  */
-.benefits {
-  background:#012c26 ;
-  padding:30px ;
-  margin-bottom:30px ;
-  border-radius:8px ;
-  box-shadow: 0 2px 6px rgba(0,0,0,0.08) ;
-}
 
-.benefits h3 {
-  color:#0db58f;
-  margin-bottom:10px ;
-  text-align:left ;
-}
-
-.benefits p {
-  text-align:center ;
-  font-size:1.1em ;
-  color:white ;
-  margin-bottom:15px ;
-  text-align : left ;
-}
-
-.benefits ul {
-  padding-left:25px ;
-  line-height:1.8 ;
-  list-style-type: none;
-  color:white ;
-}
-
-/* call to action */
-.call-to-action {
-  text-align:center ;
-  margin-top:40px ;
-  margin-bottom:60px ;
-}
-
-.call-to-action h3 {
-  font-size: 1.6rem ;
-  color:white ;
-  margin-bottom:20px ;
-}
 
 .cta-btn {
   display:inline-block ;
@@ -189,28 +126,9 @@ h2:last-of-type{
 .cta-btn:hover {
   background:#21867a ;
 }
-
-/*
 .hero:hover,.how-it-works:hover, .benefits:hover, .course-item:hover {
   box-shadow: 0 8px 20px rgba(13, 181, 143, 0.5);
-
-  transform: translateY(-15px);
-  box-shadow: 0 12px 30px rgba(13, 181, 143, 0.3);
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-  box-shadow: 0 8px 20px rgba(13, 181, 143, 0.1);
 }
-  */
-
-
-.hero, .how-it-works, .benefits, .course-item {
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-
-.hero:hover, .how-it-works:hover, .benefits:hover, .course-item:hover {
-  transform: translateY(-15px);
-  box-shadow: 0 12px 30px rgba(13, 181, 143, 0.3);
-}
-
 /*course-information*/
 div#course-list {
   width: 400px;
@@ -291,12 +209,6 @@ div#course-list {
 }
 
 
-
-
-
-
-
-
 /* ------------------------api map css-------------------- */
 
 /* Layout for left (Course List) and right (Map) */
@@ -358,6 +270,8 @@ div#course-list {
   border: none;
   border-radius: 5px;
 }
+
+
 
 #findButton {
   background: #555;
@@ -428,4 +342,275 @@ div#course-list {
 
 footer.main-footer{
   background-color: #014134;
+}
+
+
+
+
+
+
+/* ------------------------The general search -------------------- */
+/* FEATURE: styled park search Section Matching Site Design */
+.park-search-section {
+  background-color: #014134;
+  color: #ffffff;
+  padding: 2rem;
+  border-radius: 12px;
+  max-width: 800px;
+  margin: 2rem auto;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  position: relative;
+}
+
+.park-search-section h2 {
+  font-size: 1.6rem;
+  margin-bottom: 1rem;
+  color: #0db58f;
+  text-align: center;
+}
+
+.search-with-mic {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  position: relative;
+  margin-top: 1rem;
+}
+
+.search-with-mic input {
+  flex-grow: 1;
+}
+
+#voiceSearchBtn {
+  background-color: #0db58f;
+  border: none;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.3s ease;
+}
+
+#voiceSearchBtn:hover {
+  background-color: #90ee90;
+}
+
+#voiceSearchBtn img {
+  width: 24px;
+  height: 24px;
+  filter: invert(1); /* White icon */
+  transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+#voiceSearchBtn.listening {
+  background-color: #f44336; /* Red while listening */
+}
+
+#voiceSearchBtn.listening img {
+  transform: scale(1.2);
+  filter: invert(0); /* Black icon for contrast */
+}
+
+
+
+
+#liveParkSearch {
+  width: 100%;
+  padding: 0.75rem;
+  font-size: 1rem;
+  border-radius: 8px;
+  border: 2px solid #0db58f;
+  background-color: #013926;
+  color: #ffffff;
+  outline: none;
+}
+
+#liveParkSearch::placeholder {
+  color: #0db58f;
+}
+
+/* Dropdown Results Styling */
+.dropdown-results {
+  list-style: none;
+  padding: 0;
+  margin-top: 0.5rem;
+  max-height: 180px;
+  overflow-y: auto;
+  background-color: #014134;
+  color: #0db58f;
+  border: 2px solid #0db58f;
+  border-radius: 8px;
+  display: none;
+  position: absolute;
+  width: 100%;
+  z-index: 10;
+}
+
+.dropdown-results li {
+  padding: 0.75rem 1rem;
+  border-bottom: 1px solid #0db58f;
+  cursor: pointer;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.dropdown-results li:hover {
+  background-color: #0db58f;
+  color: #014134;
+}
+
+/* overlaps with maps needed*/
+.dropdown-results {
+  z-index: 9999;
+  position: absolute;
+}
+
+
+/* FEATURE: Selected Park Info (Side-by-Side Style Improved) */
+.selected-park-info {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 2rem;
+  background-color: #012c26;
+  color: #ffffff;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.4);
+  margin-top: 2rem;
+  align-items: flex-start;
+}
+
+.selected-park-info img {
+  width: 100%;
+  max-width: 350px;
+  height: auto;
+  border-radius: 10px;
+  border: 3px solid #0db58f;
+  transition: transform 0.3s ease;
+}
+
+.selected-park-info img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 10px #0db58f;
+}
+
+.selected-park-info p {
+  margin-bottom: 0.8rem;
+  line-height: 1.6;
+}
+
+.selected-park-info h3 {
+  margin-bottom: 1rem;
+  color: #0db58f;
+  font-size: 1.5rem;
+}
+
+.selected-park-info img {
+  margin-bottom: 1rem;
+}
+
+.selected-park-info a {
+  color: #0db58f;
+  text-decoration: underline;
+}
+
+.selected-park-info a:hover {
+  color: #90ee90;
+}
+
+
+
+.park-info-text {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 0.7rem;
+  background-color: #014134;
+  padding: 1.5rem;
+  border-radius: 10px;
+  border-left: 5px solid #0db58f;
+}
+
+.park-info-text h3 {
+  color: #0db58f;
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.park-info-text p {
+  line-height: 1.6;
+  margin: 0;
+  font-size: 1rem;
+}
+
+.park-info-text a {
+  color: #0db58f;
+  text-decoration: underline;
+}
+
+.park-info-text a:hover {
+  color: #90ee90;
+}
+
+/* this is for crowd sourcing General search*/
+.suggest-edit-btn {
+  display: inline-flex;
+  align-items: center;
+  background-color: #026d56;
+  color: white;
+  border: none;
+  padding: 8px 14px;
+  border-radius: 6px;
+  font-size: 15px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+  margin-top: 1rem;
+}
+
+.suggest-edit-btn:hover {
+  background-color: #014134;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Spacer section (How to Use) */
+.how-to-use {
+  background-color: #014134;
+  color: white;
+  padding: 1.5rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  border-radius: 10px;
+  text-align: center;
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+.how-to-use h2 {
+  font-size: 1.6rem;
+  margin-bottom: 1rem;
+  color: #0db58f;
+}
+
+.how-to-use p {
+  font-size: 1rem;
+  line-height: 1.6;
 }

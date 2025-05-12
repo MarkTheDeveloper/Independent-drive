@@ -90,9 +90,15 @@
 
 </main>
 
-<footer>
-<p>&copy; 2025 Park Reservation System. All rights reserved.</p>
-</footer>
+<div id="footer-placeholder"></div>
+<script>
+  fetch("../footer/footer.html")
+    .then(res => res.text())
+    .then(data => {
+      document.getElementById("footer-placeholder").innerHTML = data;
+    });
+</script>
+
 </div>
 
 

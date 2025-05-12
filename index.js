@@ -188,3 +188,192 @@ function toggleFullScreen() {
   }
 }
  // <----------------------The API MAP Section !END!------------------>
+
+
+
+
+ //<------------------------------------------------------------------------------->
+
+
+
+
+// <---------------------- FEATURE: Park Search and Info Display (Fuzzy Search + Voice + Keyboard Nav) ------------------>
+
+let allParks = [];
+let fuse;
+let currentSelectionIndex = -1;
+
+fetch("./data/data.json")
+  .then(res => res.json())
+  .then(data => {
+    allParks = data;
+
+    // Initialize Fuse.js fuzzy search
+    fuse = new Fuse(allParks, {
+      keys: ['course_name'],
+      threshold: 0.4, // Balance between fuzzy and accurate
+    });
+  });
+
+const input = document.getElementById('liveParkSearch');
+const resultsList = document.getElementById('dropdownResults');
+const parkInfo = document.getElementById('selectedParkInfo');
+
+// Handle input
+input.addEventListener('input', updateDropdown);
+
+// Handle focus (show dropdown immediately)
+input.addEventListener('focus', updateDropdown);
+
+// Hide dropdown when clicking outside
+document.addEventListener('click', (e) => {
+  if (!input.contains(e.target) && !resultsList.contains(e.target)) {
+    resultsList.style.display = "none";
+  }
+});
+
+// Handle keyboard navigation
+input.addEventListener('keydown', function (e) {
+  const items = resultsList.querySelectorAll("li");
+  if (items.length === 0) return;
+
+  if (e.key === "ArrowDown") {
+    e.preventDefault();
+    currentSelectionIndex = (currentSelectionIndex + 1) % items.length;
+  } else if (e.key === "ArrowUp") {
+    e.preventDefault();
+    currentSelectionIndex = (currentSelectionIndex - 1 + items.length) % items.length;
+  } else if (e.key === "Enter") {
+    e.preventDefault();
+    if (currentSelectionIndex >= 0) {
+      items[currentSelectionIndex].click();
+    }
+    return;
+  }
+
+  // Highlight selected item
+  items.forEach((item, index) => {
+    item.style.backgroundColor = index === currentSelectionIndex ? "#0db58f" : "#014134";
+    item.style.color = index === currentSelectionIndex ? "#014134" : "#0db58f";
+  });
+});
+
+// Update and display fuzzy dropdown results
+function updateDropdown() {
+  const query = input.value.toLowerCase().trim();
+  resultsList.innerHTML = "";
+
+  if (!query || allParks.length === 0) {
+    resultsList.style.display = "none";
+    return;
+  }
+
+  const matches = fuse.search(query).slice(0, 5); // Top 5 results
+
+  if (matches.length === 0) {
+    resultsList.style.display = "none";
+    return;
+  }
+
+  matches.forEach((result, index) => {
+    const park = result.item;
+    const li = document.createElement('li');
+    li.textContent = park.course_name;
+    li.setAttribute("data-index", index);
+    li.onclick = () => displayParkInfo(park);
+    resultsList.appendChild(li);
+  });
+
+  currentSelectionIndex = -1;
+  resultsList.style.display = "block";
+}
+
+// Populate park info section
+function displayParkInfo(park) {
+  document.getElementById('selectedParkName').innerText = park.course_name;
+  document.getElementById('selectedHoles').innerText = park.holes || "N/A";
+  document.getElementById('selectedCourseType').innerText = park.course_type || "N/A";
+  document.getElementById('selectedRequirements').innerText = park.reservation_requirements || "N/A";
+  document.getElementById('selectedInfo').innerText = park.policies_rules_dates_open || "N/A";
+
+  const contact = park.contact_info || {};
+  document.getElementById('selectedContact').innerHTML = `
+    <strong>Address:</strong> ${contact.address || "N/A"}<br>
+    <strong>Phone:</strong> ${contact.phone || "N/A"}<br>
+    <strong>Email:</strong> ${contact.email || "N/A"}<br>
+    <strong>Website:</strong> <a href="${contact.website || '#'}" target="_blank">${contact.website || "N/A"}</a>
+  `;
+
+  document.getElementById('parkImage').src = park.imageUrl || "https://via.placeholder.com/400x200?text=No+Image";
+  document.getElementById('parkMapLink').href = park.parkMapUrl || "#";
+
+  parkInfo.style.display = "block";
+  resultsList.style.display = "none";
+
+  // enable seuggest edit button with localStorage redirect
+  const editBtn = document.getElementById("generalSuggestEditBtn");
+  if (editBtn) {
+    editBtn.style.display = "inline-block";
+    editBtn.onclick = () => {
+      localStorage.setItem("editData", JSON.stringify(park));
+      window.open("form/edit.html", "_blank");
+    };
+  }
+}
+
+
+// Voice Search
+const voiceBtn = document.getElementById("voiceSearchBtn");
+const micIcon = document.getElementById("micIcon");
+const SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
+
+if (SpeechRecognition) {
+  const recognition = new SpeechRecognition();
+  recognition.lang = 'en-US';
+  recognition.interimResults = false;
+
+  let isListening = false;
+
+  voiceBtn.addEventListener("click", () => {
+    if (!isListening) {
+      recognition.start();
+      isListening = true;
+      voiceBtn.classList.add('listening');
+    } else {
+      recognition.stop();
+      isListening = false;
+      voiceBtn.classList.remove('listening');
+    }
+  });
+
+  recognition.addEventListener("result", (e) => {
+    const transcript = e.results[0][0].transcript;
+    input.value = transcript;
+    updateDropdown();
+  });
+
+  recognition.addEventListener("end", () => {
+    isListening = false;
+    voiceBtn.classList.remove('listening');
+  });
+
+  recognition.addEventListener("error", (e) => {
+    console.error("Speech recognition error:", e.error);
+    isListening = false;
+    voiceBtn.classList.remove('listening');
+  });
+} else {
+  voiceBtn.disabled = true;
+  voiceBtn.title = "Voice search not supported in this browser";
+}
+
+
+
+
+
+
+
+
+
+
+// <---------------------- FEATURE: Park Search and Info Display END ------------------>

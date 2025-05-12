@@ -11,6 +11,9 @@
   <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
   <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster/dist/MarkerCluster.css" />
   <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster/dist/MarkerCluster.Default.css" />
+  <!-- the link below is for acseiblity for people with bad grammer(like me) GENERAL SEARCH feature-->
+  <script src="https://cdn.jsdelivr.net/npm/fuse.js/dist/fuse.min.js"></script>
+
 </head>
 <body>
 
@@ -31,42 +34,59 @@
 
 <main class="container">
 
-  <section class="hero">
-    <h2>Make reserving a park simple, quick & stress-free</h2>
-    <p>
-      tournament directors can now easily find, request, and confirm public park reservations 
-      online — no phone calls, no waiting, just smooth clicks.
-    </p>
+  <section class="top-callout">
+  <h2>Start your park reservation request with ease</h2>
+  <p>
+    Tournament directors can quickly find parks and begin the request process online — 
+    giving cities everything they need to respond by email or phone.
+  </p>
   </section>
 
-  <section class="how-it-works">
-    <h3>How it works</h3>
-    <ul>
-      <li><strong>1.</strong> create a free account</li>
-      <li><strong>2.</strong> fill out your event form</li>
-      <li><strong>3.</strong> submit your park request</li>
-      <li><strong>4.</strong> get confirmation from the city/park</li>
-    </ul>
-  </section>
 
-  <section class="benefits">
-    <h3>Why use this tool?</h3>
-    <p>it's built just for TDs who need a reliable way to host disc golf tournaments.</p>
-    <ul>
-      <li>✅ save time (no more calling park departments)</li>
-      <li>✅ everything in one place</li>
-      <li>✅ easy form with all required fields</li>
-      <li>✅ mobile-friendly & always accessible</li>
-    </ul>
-  </section>
 
-  <section class="call-to-action">
-    <h3>ready to reserve?</h3>
-    <a href="../form/td-form.html" class="cta-btn">submit a request</a>
-  </section>
+<!-- FEATURE: Live Park Search with Dropdown and Dynamic Info Display -->
+<div class="park-search-section">
+  <h2>Search for Parks</h2>
+
+  <div class="search-with-mic">
+    <input type="text" id="liveParkSearch" placeholder="Type or say a park name..." autocomplete="off">
+    <button id="voiceSearchBtn" title="Speak" aria-label="Voice Search">
+  <img src="https://www.svgrepo.com/show/15581/microphone.svg" alt="Microphone Icon" id="micIcon" />
+</button>
+
+  </div>
+
+  <ul id="dropdownResults" class="dropdown-results"></ul>
+
+  <div class="selected-park-info" id="selectedParkInfo" style="display: none;">
+  <h3 id="selectedParkName"></h3>
+  <img id="parkImage" src="" alt="Park Image" style="max-width: 100%; border-radius: 8px;">
+  <p><strong>Holes:</strong> <span id="selectedHoles"></span></p>
+  <p><strong>Course Type:</strong> <span id="selectedCourseType"></span></p>
+  <p><strong>Requirements:</strong> <span id="selectedRequirements"></span></p>
+  <p><strong>Info:</strong> <span id="selectedInfo"></span></p>
+  <p><strong>Contact:</strong> <span id="selectedContact"></span></p>
+  <p><a id="parkMapLink" href="#" target="_blank">View Park Map</a></p>
+
+  <!-- NEW: Suggest Edit Button -->
+  <button class="suggest-edit-btn" id="generalSuggestEditBtn" style="display: none;">Suggest an Edit</button>
+</div>
+
+</div>
+
+
+
+
+ 
+
+
+
+  
+
+  
 
   <section>
-    <h2>Park Information And Map</h2>
+    <h2>Parks Near Your Location & Map</h2>
   
     <div class="content-container">
       <!-- LEFT side (Course List) -->
@@ -103,17 +123,23 @@
   
     </div>
   </section>
+
+  
   
   
   
 
 </main>
 
-<footer class="main-footer">
-  <div class="container">
-    <p>© 2025 Disc Golf Reservation. All rights reserved.</p>
-  </div>
-</footer>
+<!-- Footer Placeholder + Loader -->
+<div id="footer-placeholder"></div>
+<script>
+  fetch("footer/footer.html")
+    .then(res => res.text())
+    .then(data => {
+      document.getElementById("footer-placeholder").innerHTML = data;
+    });
+</script>
 
 
 <!-- Map JS Links -->
