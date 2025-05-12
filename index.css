@@ -13,6 +13,10 @@ body {
   color:#222 ;
   min-height:100vh ;
 }
+body {
+  background: linear-gradient(to right, #001f1a, #014134);
+}
+  
 
 /* wrapper  */
 .container {

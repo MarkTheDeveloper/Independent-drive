@@ -5,7 +5,7 @@
     "contact_info": {
       "address": "26001 Lake Fenwick Rd, S Kent, WA 98198 ",
       "phone": "(253) 333-9774",
-      "email": null,
+      "email": "not available",
       "website": "https://www.kentwa.gov/departments/kent-parks/parks-places/parks-trails/lake-fenwick-park"
     },
     "reservation_requirements": "No reservation required.",
@@ -39,7 +39,7 @@
     "contact_info": {
       "address": "2401 Stuck River Dr, Auburn, WA 98092",
       "phone": "(253) 931-3043",
-      "email": null,
+      "email": "not available",
       "website": "https://www.auburnwa.gov/city_hall/parks_arts_recreation/parks_trails/game_farm_wilderness"
     },
     "reservation_requirements": "No reservation required.",
@@ -73,7 +73,7 @@
     "contact_info": {
       "address": "14319 436th Ave SE North Bend, WA 98045",
       "phone": "425-831-0669",
-      "email": null,
+      "email": "not available",
       "website": "https://www.siviewpark.org/"
     },
     "reservation_requirements": "No reservation required.",
@@ -90,7 +90,7 @@
     "contact_info": {
       "address": "Riverside Rd & 78th Street Ct, Sumner, WA 98390",
       "phone": "(253) 798-4177",
-      "email": null,
+      "email": "not available",
       "website": "Piercecountydiscgolf.org"
     },
     "reservation_requirements": "No reservation required.",
@@ -192,7 +192,7 @@
       "contact_info": {
         "address": "23200 48th Ave W, Mountlake Terrace, WA 98043",
         "phone": "(425) 670-2548",
-        "email": null,
+        "email": "not available",
         "website": "https://www.cityofmlt.com/Facilities/Facility/Details/Terrace-Creek-Park-10"
       },
       "reservation_requirements": "No reservation required.",
@@ -209,7 +209,7 @@
       "contact_info": {
         "address": "32401 E Entwistle St, Carnation, WA 98014",
         "phone": "(425) 333-4192",
-        "email": null,
+        "email": "not available",
         "website": "https://www.carnationwa.gov/parksrec/page/nick-loutsis-park"
       },
       "reservation_requirements": "No reservation required.",
@@ -226,7 +226,7 @@
       "contact_info": {
         "address": "11050 10th Ave SW, Seattle, WA 98146 ",
         "phone": "(206) 205-7532",
-        "email": null,
+        "email": "not available",
         "website": "https://www.redmond.gov/Facilities/Facility/Details/Juel-Community-Park-22"
       },
       "reservation_requirements": "No reservation required.",
@@ -243,7 +243,7 @@
       "contact_info": {
         "address": "11299 Arrow Point Dr NE, Bainbridge Island, WA 98110",
         "phone": "(206) 842-2306",
-        "email": null,
+        "email": "not available",
         "website": "https://www.wsdga.org/battle-point-park"
       },
       "reservation_requirements": "No reservation required.",
@@ -294,7 +294,7 @@
       "contact_info": {
         "address": "Thomson Park, Saturna, BC V0N 2Y0, Canada",
         "phone": null,
-        "email": null,
+        "email": "not available",
         "website": "https://www.facebook.com/thomsonparkdiscgolf"
       },
       "reservation_requirements": "No reservation required.",
@@ -311,7 +311,7 @@
       "contact_info": {
         "address": "500 Bowen Rd, Nanaimo, BC V9R 1Z7, Canada",
         "phone": "(250) 714-0855",
-        "email": null,
+        "email": "not available",
         "website": null
       },
       "reservation_requirements": "No reservation required. Public park access.",
@@ -328,7 +328,7 @@
       "contact_info": {
         "address": "Duthie Park Rd, Troy, ID 83871, United States",
         "phone": null,
-        "email": null,
+        "email": "not available",
         "website": null
       },
       "reservation_requirements": "No reservation required.",
@@ -363,7 +363,7 @@
       "contact_info": {
         "address": "13550 E Hwy 54, Athol, ID 83801, United States",
         "phone": "(208) 683-2425",
-        "email": null,
+        "email": "not available",
         "website": "https://parksandrecreation.idaho.gov/parks/farragut and https://farragutopen.org/maps/"
       },
       "reservation_requirements": "No reservation required. Day-use fee applies: $7/day for Idaho residents, $14/day for non-residents.",
@@ -380,7 +380,7 @@
       "contact_info": {
         "address": "94255 Caughell St, Gold Beach, OR 97444, United States",
         "phone": "(541) 247-7029",
-        "email": null,
+        "email": "not available",
         "website": "https://www.goldbeachoregon.gov/buffingtonparkdiscgolfcourse"
       },
       "reservation_requirements": "No reservation required. Open to the public.",
@@ -431,7 +431,7 @@
       "contact_info": {
         "address": "9333 Scenic Bow Rd. NW, Calgary, AB T2L 4C4, Canada",
         "phone": "(403) 268-2489",
-        "email": null,
+        "email": "not available",
         "website": "https://www.calgary.ca/parks/baker-park.html"
       },
       "reservation_requirements": "No reservation required. Open to the public.",
@@ -448,7 +448,7 @@
       "contact_info": {
         "address": "27 Royal Vista Dr NW, Calgary, AB T3R 1R8, Canada",
         "phone": "(403) 974-0751",
-        "email": null,
+        "email": "not available",
         "website": null
       },
       "reservation_requirements": "No reservation required. Open to the public.",
@@ -465,7 +465,7 @@
       "contact_info": {
         "address": "285 McMaster Boulevard West, Lethbridge, AB T1K 3W3, Canada",
         "phone": "(403) 320-3111",
-        "email": null,
+        "email": "not available",
         "website": "https://www.lethbridge.ca/parks-leisure-recreation/parks-and-playgrounds/west-parks-and-playgrounds/nicholas-sheran-park/"
       },
       "reservation_requirements": "No reservation required. Open to the public on a first-come, first-served basis.",
@@ -482,7 +482,7 @@
       "contact_info": {
         "address": "12000 Mt. Charleston St., Reno, NV 89506, United States",
         "phone": "(775) 334-2417",
-        "email": null,
+        "email": "not available",
         "website": "https://www.reno.gov/Home/Components/FacilityDirectory/FacilityDirectory/193/2864"
       },
       "reservation_requirements": "No reservation required. Open to the public.",
@@ -499,7 +499,7 @@
       "contact_info": {
         "address": "959 E. Minidoka Dam Rd., Rupert, ID 83350, United States",
         "phone": "1-888-922-6743",
-        "email": null,
+        "email": "not available",
         "website": "https://parksandrecreation.idaho.gov/parks/lake-walcott/"
       },
       "reservation_requirements": "Reservation is by Phone. Day-use fee applies: $7 per vehicle per day. ",
@@ -533,7 +533,7 @@
       "contact_info": {
         "address": "Baseball St & Baseball Rd, Idaho Falls, ID 83402, United States",
         "phone": "(208) 529-2186",
-        "email": null,
+        "email": "not available",
         "website": null
       },
       "reservation_requirements": "No reservation required. Open to the public.",
@@ -550,7 +550,7 @@
       "contact_info": {
         "address": "2989 Cambridge Rd, Cameron Park, CA 95682, United States",
         "phone": "(530) 677-2231",
-        "email": null,
+        "email": "not available",
         "website": "https://www.cameronpark.org/cameron-park-lake-2989-cambridge-road-cameron-park-ca-95682"
       },
       "reservation_requirements": "No reservation required. Entry fee applies when kiosk is staffed: $3 per person for residents, $5 for non-residents. Free for children under 2. Annual passes available.",
@@ -567,7 +567,7 @@
       "contact_info": {
         "address": "11 St and 2 Ave SE, Medicine Hat, AB T1A 2K8, Canada",
         "phone": "(403) 529-8333",
-        "email": null,
+        "email": "not available",
         "website": "https://facilities.medicinehat.ca/Home/Detail?Id=8634ef57-5a96-46c8-9725-fc3ad1766e0e"
       },
       "reservation_requirements": "No reservation required. Open to the public.",
@@ -601,7 +601,7 @@
       "contact_info": {
         "address": "Rundle Park Rd NW, Edmonton, AB T5W 0P3, Canada",
         "phone": "(780) 496-4999",
-        "email": null,
+        "email": "not available",
         "website": "https://edga.ca/rundle-park/"
       },
       "reservation_requirements": "No reservation required for casual play. For tournament or event bookings, contact the Edmonton Disc Golf Association (EDGA) via their website.",
@@ -618,7 +618,7 @@
       "contact_info": {
         "address": "6803 Alexandria Pl, Stockton, CA 95207, United States",
         "phone": "(209) 937-7360",
-        "email": null,
+        "email": "not available",
         "website": "https://www.swensonpark.com/discgolf/"
       },
       "reservation_requirements": "Tee time required. Reservations can be made up to 14 days in advance online or by calling the golf shop. For groups larger than 12, contact the golf shop directly. For tournament or event bookings, contact the golf shop to inquire about availability and requirements.",
@@ -703,7 +703,7 @@
       "contact_info": {
         "address": "324 E Brooks Ave, North Las Vegas, NV 89030, United States",
         "phone": "(702) 633-1833",
-        "email": null,
+        "email": "not available",
         "website": "https://www.cityofnorthlasvegas.com/things-to-do/golf-courses"
       },
       "reservation_requirements": "Tee times are recommended. Reservations can be made up to 7 days in advance by calling (702) 633-1833. For day rounds, you must call at least 1 hour before tee time to confirm availability. For tournaments or organized events, contact the golf shop for pricing and additional information.",
@@ -737,7 +737,7 @@
       "contact_info": {
         "address": "5759 Jurupa Ave, Riverside, CA 92504, United States",
         "phone": "(951) 826-2000",
-        "email": null,
+        "email": "not available",
         "website": "https://www.facebook.com/groups/MarthaMcLeanDGC/"
       },
       "reservation_requirements": "No reservation required for casual play. For tournaments or organized events, contact the City of Riverside Parks, Recreation, and Community Services Department at (951) 826-2000.",
@@ -788,7 +788,7 @@
       "contact_info": {
         "address": "1601 N Jeffers St, North Platte, NE 69101, United States",
         "phone": "(308) 535-6700",
-        "email": null,
+        "email": "not available",
         "website": null
       },
       "reservation_requirements": "No reservation required for casual play. For tournaments or organized events, contact the North Platte Parks and Recreation Department at (308) 535-6700.",
@@ -822,7 +822,7 @@
       "contact_info": {
         "address": "1015 Pine Grove Rd, Staples, MN 56479, United States",
         "phone": "(218) 894-2553",
-        "email": null,
+        "email": "not available",
         "website": "https://udisc.com/courses/pine-grove-park-dgc-sNTl"
       },
       "reservation_requirements": "No reservation required for casual play. For tournaments or organized events, contact the City of Staples Parks and Recreation Department at (218) 894-2553.",
@@ -839,7 +839,7 @@
       "contact_info": {
         "address": "1279 Wonderland Park Rd NE, Brainerd, MN 56401, United States",
         "phone": "(218) 828-2320",
-        "email": null,
+        "email": "not available",
         "website": null
       },
       "reservation_requirements": "No reservation required for casual play. For tournaments or organized events, contact the Brainerd Parks and Recreation Department at (218) 828-2320.",
@@ -873,7 +873,7 @@
       "contact_info": {
         "address": "11808 John Pershing Drive, Omaha, NE 68112, United States",
         "phone": "(402) 444-5900",
-        "email": null,
+        "email": "not available",
         "website": "https://parks.cityofomaha.org/park-details?pid=95"
       },
       "reservation_requirements": "No reservation required for casual play. For tournaments or organized events, contact the City of Omaha Parks and Recreation Department at (402) 444-5900.",
@@ -890,7 +890,7 @@
       "contact_info": {
         "address": "3201 Woolworth Ave, Omaha, NE 68105, United States",
         "phone": "(402) 444-5900",
-        "email": null,
+        "email": "not available",
         "website": "https://parks.cityofomaha.org/disc-golf/"
       },
       "reservation_requirements": "No reservation required for casual play. For tournaments or organized events, contact the City of Omaha Parks and Recreation Department at (402) 444-5900.",
@@ -907,7 +907,7 @@
       "contact_info": {
         "address": "211 Ridgeview Dr, Apple Valley, MN 55124, United States",
         "phone": "(952) 953-2300",
-        "email": null,
+        "email": "not available",
         "website": "https://www.applevalleymn.gov/Facilities/Facility/Details/Alimagnet-Park-12"
       },
       "reservation_requirements": "No reservation required for casual play. For tournaments or organized events, contact the City of Apple Valley Parks and Recreation Department at (952) 953-2300.",
@@ -924,7 +924,7 @@
       "contact_info": {
         "address": "Park Ave, Red Oak, IA 51566, United States",
         "phone": null,
-        "email": null,
+        "email": "not available",
         "website":  null
       },
       "reservation_requirements": "No reservation required for casual play. For tournaments or organized events, contact the City of Red Oak Parks and Recreation Department.",
@@ -941,7 +941,7 @@
       "contact_info": {
         "address": "Elliott St, Manhattan, KS 66502, United States",
         "phone": null,
-        "email": null,
+        "email": "not available",
         "website": null
       },
       "reservation_requirements": "No reservation required for casual play. For tournaments or organized events, contact the City of Manhattan Parks and Recreation Department.",
@@ -975,7 +975,7 @@
       "contact_info": {
         "address": "1500 S 6th St, Atchison, KS 66002, United States",
         "phone": "(913) 367-5500",
-        "email": null,
+        "email": "not available",
         "website": "https://www.facebook.com/AtchDiscGolf/"
       },
       "reservation_requirements": "No reservation required for casual play. For tournaments or organized events, contact the City of Atchison Parks and Recreation Department at (913) 367-5500.",
@@ -992,7 +992,7 @@
       "contact_info": {
         "address": "3101 Duncan St, St. Joseph, MO 64507, United States",
         "phone": "(816) 271-5500",
-        "email": null,
+        "email": "not available",
         "website": null
       },
       "reservation_requirements": "No reservation required for casual play. For tournaments or organized events, contact the City of St. Joseph Parks and Recreation Department at (816) 271-5500.",
@@ -1009,7 +1009,7 @@
       "contact_info": {
         "address": "Burton Ave & Park Rd, Waterloo, IA 50701, United States",
         "phone": "(319) 291-4370",
-        "email": null,
+        "email": "not available",
         "website": "https://www.waterlooleisureservices.org/disc-golf/"
       },
       "reservation_requirements": "No reservation required for casual play. For tournaments or organized events, contact Waterloo Leisure Services at (319) 291-4370.",
@@ -1026,7 +1026,7 @@
       "contact_info": {
         "address": "3400 N Oak Trafficway, Kansas City, MO 64116, United States",
         "phone": "(816) 513-7500",
-        "email": null,
+        "email": "not available",
         "website": "https://kcparks.org/places/water-works-park-disc-golf-course/"
       },
       "reservation_requirements": "No reservation required for casual play. For tournaments or organized events, contact Kansas City Parks and Recreation at (816) 513-7500.",
@@ -1036,7 +1036,456 @@
       "imageUrl": "https://kcdiscgolf.org/wp-content/uploads/2024/04/Waterworks-1-Jarvis.jpg",
       "parkMapUrl": "https://d22ksth68ujgu2.cloudfront.net/8894a1ff14e18ffedc9c1ecf6ff8dddd_m_2022_05_01.jpg",
       "mapEmbedUrl": null
-    }
+    },
+    {
+    "course_name": "Rosedale Park DGC - Down Under",
+    "ownership": "Public",
+    "contact_info": {
+      "address": "Rosedale Park Rd, Kansas City, KS 66103",
+      "phone": "(913) 677-4670",
+      "email": "not available",
+      "website": "http://www.kcdiscgolf.org/"
+    },
+    "reservation_requirements": "No reservation required. This course is open to the public and operates on a first-come, first-served basis.",
+    "policies_rules_dates_open": "Dogs allowed. Not cart or stroller friendly. Drinking water and restrooms available. Established 1997.",
+    "holes": "18 holes",
+    "course_type": "Short, wooded, and technical with gravel tees and Disc King (Mach II) targets. Hilly terrain with 38 pin placements. Mostly under 300ft holes.",
+    "imageUrl": "https://d22ksth68ujgu2.cloudfront.net/d688d602b8ec6ef368acbe775b82949d_m_C65EB99A_87FB_4623_B85E_70966A371F16.jpg",
+    "parkMapUrl": "https://d22ksth68ujgu2.cloudfront.net/60f72adad4cdc27e4d5603036db7672f_m_IMG_2331.jpg",
+    "mapEmbedUrl": null
+  },
+  {
+    "course_name": "Kessler Park (Cliff Drive)",
+    "ownership": "Public",
+    "contact_info": {
+      "address": "2460 E. Reservoir Dr, Kansas City, MO 64124, United States",
+      "phone": "(913) 485-5123",
+      "email": "https://www.pdga.com/course-contact?course=25958",
+      "website": "http://kcfdc.org/"
+    },
+    "reservation_requirements": "No reservation required.",
+    "policies_rules_dates_open": "No facilities or tee signs available. Established 2004.",
+    "holes": "21 holes",
+    "course_type": "Plays longer than it looks with many uphill and wooded holes. Concrete and asphalt tees. Mach III, Mach V, and DB-5 targets. Elevation changes and OB roads add challenge.",
+    "imageUrl": "https://d22ksth68ujgu2.cloudfront.net/c82528097b67669aa20e956826477beb_m_FB2729FC_891C_4F37_8A11_FD8378E1116D.jpg",
+    "parkMapUrl": null,
+    "mapEmbedUrl": null
+  },
+  {
+    "course_name": "Harmon Park Disc Golf Course",
+    "ownership": "Public",
+    "contact_info": {
+      "address": "W. 77th Pl. and Delmar St., Prairie Village, KS 66208, United States",
+      "phone": "not available",
+      "email": "not available",
+      "website": "not available"
+    },
+    "reservation_requirements": "No reservation required.",
+    "policies_rules_dates_open": "Handicap accessible. Tee signs available. No facilities. Established 2014.",
+    "holes": "9 holes",
+    "course_type": "Short course through a multi-use park with small hills and light to moderate woods. Concrete tees and DISCatcher targets.",
+    "imageUrl": "https://d22ksth68ujgu2.cloudfront.net/a191cbe07830f400305ee63d3e0a2daa_m_IMG_0141.jpg",
+    "parkMapUrl": null,
+    "mapEmbedUrl": null
+  },
+  {
+    "course_name": "Blue Valley Park",
+    "ownership": "Public",
+    "contact_info": {
+      "address": "Blue Valley Park Rd E, Kansas City, MO 64126, United States",
+      "phone": "+1-913-638-6399",
+      "email": "https://www.pdga.com/course-contact?course=26238a"
+    },
+    "reservation_requirements": "No reservation required.",
+    "policies_rules_dates_open": "Permanent course. Established 2005. Facilities available. Tee signs provided.",
+    "holes": "18 holes",
+    "course_type": "World Class course with long open shots, extreme elevation, and panoramic views. Mostly hilly terrain with scattered foliage. Target type: Mach III. Tee type: Concrete.",
+    "imageUrl": "https://d22ksth68ujgu2.cloudfront.net/6d02685c8fb355c01ba6c9afd5261cf3_m_VqLlDXJwDROk7KPfxRdlM48JBGOA.jpg",
+    "parkMapUrl": null,
+    "mapEmbedUrl": "https://www.google.com/maps?q=39.081614000000,-94.509940000000"
+  },
+  {
+    "course_name": "Dolese Youth Park - West",
+    "ownership": "Public",
+    "contact_info": {
+      "address": "5105 NW 50th, Oklahoma City, OK 73101, United States",
+      "phone": "405-947-2915",
+      "email": "https://www.pdga.com/course-contact?course=223926",
+      "website": "http://okcdga.org"
+    },
+    "reservation_requirements": "No reservation required.",
+    "policies_rules_dates_open": "Handicap accessible. Tee signs available. Facilities available. Established 2016.",
+    "holes": "18 holes",
+    "course_type": "Mostly wooded layout west of the baseball fields. Slight elevation. Mixed tees and targets. Reuses 5 original holes with 13 new ones.",
+    "imageUrl": "https://d22ksth68ujgu2.cloudfront.net/552e739c76e8f56ce108eee463169672_m_Hole_17.jpg",
+    "parkMapUrl": null,
+    "mapEmbedUrl": null
+  },
+  {
+    "course_name": "Dolese Youth Park - Original",
+    "ownership": "Public",
+    "contact_info": {
+      "address": "5105 NW 50th, Oklahoma City, OK 73101, United States",
+      "phone": "not available",
+      "email": "not available",
+      "website": "not available"
+
+    },
+    "reservation_requirements": "No reservation required.",
+    "policies_rules_dates_open": "Handicap accessible. Tee signs available. Facilities available. Established 1994, baskets added in 1997.",
+    "holes": "18 holes",
+    "course_type": "A mix of open and wooded holes, with engraved tee pads. Originally an experimental object course, now a permanent layout with Mach III targets.",
+    "imageUrl": "https://d22ksth68ujgu2.cloudfront.net/552e739c76e8f56ce108eee463169672_m_Hole_17.jpg",
+    "parkMapUrl": null,
+    "mapEmbedUrl": null
+  },
+  {
+    "course_name": "Williams Park - Timber Valley Disc Golf",
+    "ownership": "Public",
+    "contact_info": {
+      "address": "Oak Dr, Pawhuska, OK 74056, United States",
+      "phone": "918-287-7881",
+      "email": "https://www.pdga.com/course-contact?course=264336",
+      "website": "not available"
+    },
+    "reservation_requirements": "No reservation required.",
+    "policies_rules_dates_open": "Handicap accessible. Tee signs available. Drinking water and restrooms available. Established 2018.",
+    "holes": "18 holes",
+    "course_type": "Woodsy, hilly course with good use of elevation and a small creek. Features Dynamic Discs Patriot targets and concrete tees. Multiple tees and dual basket placements.",
+    "imageUrl": "https://d22ksth68ujgu2.cloudfront.net/50ba1d1e25d8b993d9e807e1c069ef7d_m_IMG_4096.jpg",
+    "parkMapUrl": null,
+    "mapEmbedUrl": null
+  },
+  {
+    "course_name": "Luther Route 66 DiscGolfPark",
+    "ownership": "Public",
+    "contact_info": {
+      "address": "655 NE Fourth St., Luther, OK 73054, United States",
+      "phone": "541-337-8668",
+      "email": "https://www.pdga.com/course-contact?course=302283",
+      "website": "https://www.lutherfriendsofthepark.com/"
+    },
+    "reservation_requirements": "No reservation required.",
+    "policies_rules_dates_open": "Tee signs available. No drinking water or restroom available. Established 2023.",
+    "holes": "9 holes",
+    "course_type": "Moderate hilly terrain with dual tees and dual basket locations per hole. Short-to-Short layout and Long-to-Long layout offering a varied experience for different skill levels.",
+    "imageUrl": "https://d22ksth68ujgu2.cloudfront.net/4524d57a866357adcc55fc74d840688d_m_IMG_3170.jpg",
+    "parkMapUrl": null,
+    "mapEmbedUrl": null
+  },
+  {
+    "course_name": "Safari Smiles DiscGolfPark",
+    "ownership": "Public",
+    "contact_info": {
+      "address": "2400 SE Adams Blvd, Bartlesville, OK 74006, United States",
+      "phone": "not available",
+      "email": "https://www.pdga.com/course-contact?course=302282",
+      "website": "not available"
+    },
+    "reservation_requirements": "No reservation required.",
+    "policies_rules_dates_open": "Tee signs available. Drinking water and restroom available. Established 2022.",
+    "holes": "18 holes with 4 different layouts",
+    "course_type": "Mostly flat terrain with mixed open and wooded fairways. Dual basket locations and teepads for 4 layouts.",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/No_image_available.svg/300px-No_image_available.svg.png?20250126200333",
+    "parkMapUrl": null,
+    "mapEmbedUrl": null
+  },
+  {
+    "course_name": "Lucy Park DiscGolfPark",
+    "ownership": "Public",
+    "contact_info": {
+      "address": "Sunset Dr. & Riverside Dr., Wichita Falls, TX 76301, United States",
+      "phone": "940-761-2747",
+      "email": "https://www.pdga.com/course-contact?course=25388",
+      "website": "not available"
+    },
+    "reservation_requirements": "No reservation required.",
+    "policies_rules_dates_open": "Tee signs not available. No drinking water or restroom available. Established 1992.",
+    "holes": "18 holes with a mix of concrete and dirt tees.",
+    "course_type": "Older style course with mature Pecan trees and some elevation. Few long holes and walking paths to contend with.",
+    "imageUrl": "https://d22ksth68ujgu2.cloudfront.net/92face669109e0fd426c0dd113dfad57_t_IMG_0382.jpg",
+    "parkMapUrl": null,
+    "mapEmbedUrl": null
+  },
+  {
+    "course_name": "John Zink Park",
+    "ownership": "Public",
+    "contact_info": {
+      "address": "Skiatook, Oklahoma 74070, United States",
+      "phone": "not available",
+      "email": "https://www.pdga.com/course-contact?course=303870",
+      "website": "not available"
+    },
+    "reservation_requirements": "No reservation required.",
+    "policies_rules_dates_open": "Tee signs available. Established 2023.",
+    "holes": "18 holes.",
+    "course_type": "Flat terrain with a mix of open and wooded fairways.",
+    "imageUrl": "https://d22ksth68ujgu2.cloudfront.net/ec24646e0295653b81976a8bbbde45a5_m_IMG_1432.jpg",
+    "parkMapUrl": null,
+    "mapEmbedUrl": null
+  },
+  {
+    "course_name": "Altmaier Family Park Disc Golf Course",
+    "ownership": "Public",
+    "contact_info": {
+      "address": "Coralville, Iowa 52241, United States",
+      "phone": "319-383-8767",
+      "email": "https://www.pdga.com/course-contact?course=247146",
+      "website": "https://coralville.org/Facilities/Facility/Details/Altmaier-Family-Park-38"
+    },
+    "reservation_requirements": "No reservation required.",
+    "policies_rules_dates_open": "Tee signs available. Established 2018.",
+    "holes": "18 holes.",
+    "course_type": "Varied terrain with a mix of wooded and open fairways.",
+    "imageUrl": "https://d22ksth68ujgu2.cloudfront.net/514ee4705adff3912b6e4bf1f1797369_m_FullSizeRender.jpg",
+    "parkMapUrl": null,
+    "mapEmbedUrl": null
+  },
+  {
+    "course_name": "Johnson Park",
+    "ownership": "Public",
+    "contact_info": {
+      "address": "Cheyenne Cove, Abilene, TX 79601, United States",
+      "phone": "325-721-6376",
+      "email": "not available",
+      "website": "https://www.pdga.com/course-contact?course=25388"
+    },
+    "reservation_requirements": "No reservation required.",
+    "policies_rules_dates_open": "Tee signs available. Drinking water not available. Established 2011.",
+    "holes": "18 holes",
+    "course_type": "Wooded course with mostly short tunnel holes. Slight slope with a woodsy foliage.",
+    "imageUrl": "https://www.pdga.com/files/course_photos/Johnson_Park.png",
+    "parkMapUrl": null,
+    "mapEmbedUrl": null
+  },
+  {
+    "course_name": "Fayette City Park",
+    "ownership": "Public",
+    "contact_info": {
+      "address": "Park Road, Fayette, MO 65248, United States",
+      "phone": "660-248-1248",
+      "email": "https://www.pdga.com/course-contact?course=200464",
+      "website": "not available"
+    },
+    "reservation_requirements": "No reservation required.",
+    "policies_rules_dates_open": "Tee signs available. Drinking water not mentioned. Established 2013.",
+    "holes": "9 holes (dual tees make 18)",
+    "course_type": "Beginner-friendly with rolling elevation and a mix of trees and open fairways. Somewhat cart friendly.",
+    "imageUrl": "https://d22ksth68ujgu2.cloudfront.net/e7da298759d9de477d0331ffc6431c08_m_IMG_5654.jpg",
+    "parkMapUrl": null,
+    "mapEmbedUrl": null
+  },
+  {
+    "course_name": "Harmony Bends Disc Golf at Strawn Park",
+    "ownership": "Public",
+    "contact_info": {
+      "address": "801 N. Strawn Rd. (Route ZZ), Columbia, MO 65203, United States",
+      "phone": "573-874-7460",
+      "email": "https://www.pdga.com/course-contact?course=221286",
+      "website": "not available"
+    },
+    "reservation_requirements": "Contact Columbia Parks and Rec to host a tournament.",
+    "policies_rules_dates_open": "Established in 2016. Facilities and tee signs available. Championship-level design with challenging terrain.",
+    "holes": "18",
+    "course_type": "Championship course with three tees per hole, four par 5s, rolling elevation, creeks, mature trees, and innovative hillside landings.",
+    "imageUrl": "https://www.pdga.com/files/course_photos/harmony-bends.jpg",
+    "parkMapUrl": null,
+    "mapEmbedUrl": null
+  },
+  {
+    "course_name": "Monett South Park Disc Golf Course",
+    "ownership": "Public",
+    "contact_info": {
+      "address": "115 S Lincoln Ave, Monett, MO 65708, United States",
+      "phone": "not available",
+      "email": "not available",
+      "website": "not available"
+    },
+    "reservation_requirements": "Not specified. Course is in a heavily used public park.",
+    "policies_rules_dates_open": "Established in 2014. Facilities available. Tee signs not present. All holes are under 300ft with grass tees and DISCatcher targets.",
+    "holes": "9",
+    "course_type": "Short course with some elevation in a mixed-use park. Watch for nearby park amenities.",
+    "imageUrl": "https://d22ksth68ujgu2.cloudfront.net/b9db04115c67d25bfb78d2125fbe7b95_t_IMG_8415.jpg",
+    "parkMapUrl": null,
+    "mapEmbedUrl": null
+  },
+  {
+    "course_name": "Camden Park 2",
+    "ownership": "Public",
+    "contact_info": {
+      "address": "Camden Park, Milan, IL 61264, United States",
+      "phone": "309-292-6026",
+      "email": "Innovadsm@msn.com",
+      "website": "https://www.camdenTwo.com"
+    },
+    "reservation_requirements": "Not specified. Contact Paul Roesner or Chris Sprague for tournament info.",
+    "policies_rules_dates_open": "Established before 2010 (exact year not specified). Features 3 pin positions per hole. Layouts range from par 55 to 64. Bridges and steps support access through ravines. Check website for current layout and rules.",
+    "holes": "18",
+    "course_type": "Challenging, wooded course with generous fairways, heavy elevation changes, and deep ravines split into 3 sections. Features concrete tees, Mach III baskets, and multiple layouts.",
+    "imageUrl": "https://www.pdga.com/files/course_photos/3c_Tee_1.jpg",
+    "parkMapUrl": null,
+    "mapEmbedUrl": null
+  },
+  {
+    "course_name": "Airpark Field",
+    "ownership": "Public",
+    "contact_info": {
+      "address": "500 N Franklin Ave, Eldon, MO 65026, United States",
+      "phone": "573-286-2785",
+      "email": "https://www.pdga.com/course-contact?course=26742 Airpark Field",
+      "website": "not available"
+    },
+    "reservation_requirements": "Not specified. Contact Tim Ochs for event or usage inquiries.",
+    "policies_rules_dates_open": "Established in 2008. Course features technical layout with OB walking paths and creeks in play on most holes. Alternate tees available to create 18-hole layout.",
+    "holes": "9 (with alternate tees to make 18)",
+    "course_type": "Technical course with flat terrain, concrete tees, DISCatcher baskets, and a mix of open and wooded foliage. OB adds challenge to most holes.",
+    "imageUrl": "https://d22ksth68ujgu2.cloudfront.net/db423a8c36d210b821e6462b6d4f2949_t_IMG_5464.jpg",
+    "parkMapUrl": null,
+    "mapEmbedUrl": null
+  },
+  {
+    "course_name": "Zobel Park",
+    "ownership": "Public",
+    "contact_info": {
+      "address": "Hwy 49 and County Rd J, Green Lake, WI 54941, United States",
+      "phone": "414-708-0959",
+      "email": "Patrick Blake #2134587",
+      "website": "not available"
+    },
+    "reservation_requirements": "Not specified. Free play, no reservations.",
+    "policies_rules_dates_open": "Tee signs and baskets available.",
+    "holes": "9",
+    "course_type": "Flat and wooded course with some elevation changes.",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/No_image_available.svg/300px-No_image_available.svg.png?20250126200333",
+    "parkMapUrl": null,
+    "mapEmbedUrl": null
+  },
+  {
+    "course_name": "Munson Park Disc Golf Course",
+    "ownership": "Public",
+    "contact_info": {
+      "address": "1801 N. Eisenhower Parkway, Hwy 69, Denison, TX 75020, United States",
+      "phone": "270-792-0672",
+      "alt_phone": "270-843-3313",
+      "email": "https://www.pdga.com/course-contact?course=27949",
+      "website": "not available"
+    },
+    "reservation_requirements": "Not specified. Contact course designer HB Clark for event or layout details.",
+    "policies_rules_dates_open": "Established in 2011. Open year-round. Terrain is hilly and technical. Features long downhill and uphill shots with tight lines through mature trees.",
+    "holes": "18",
+    "course_type": "Woodsy championship-style course with significant elevation, concrete tees, and DISCatcher baskets. Notable holes include a 553' downhill (#3) and a 470' elevated green (#8).",
+    "imageUrl": "https://www.pdga.com/files/course_photos/Denison_hole_8_from_fairway.JPG",
+    "parkMapUrl": null,
+    "mapEmbedUrl": null
+  },
+  {
+    "course_name": "Creekside Park Disc Golf Course",
+    "ownership": "Public",
+    "contact_info": {
+      "address": "N Broyles St, Farmington, AR 72730, United States",
+      "phone": "not available",
+      "alt_phone": null,
+      "email": "not available",
+      "website": "not available"
+    },
+    "reservation_requirements": "Not specified. Appears to be open to the public with no reservation details listed.",
+    "policies_rules_dates_open": "Established in 2019. Open year-round. Course includes a mix of wide open holes and technical wooded holes with shaped fairways.",
+    "holes": "18",
+    "course_type": "Public course featuring concrete tees, Dynamic Discs Veteran baskets, and a mix of flat open and wooded terrain. Course is somewhat cart-friendly.",
+    "imageUrl": "https://d22ksth68ujgu2.cloudfront.net/55fa4c49ef1842408cf35f16c3b237a2_m_IMG_3699.jpg",
+    "parkMapUrl": null,
+    "mapEmbedUrl": null
+  },
+  {
+    "course_name": "Bird's Ruins Disc Golf Course at Langer Park",
+    "ownership": "Public",
+    "contact_info": {
+      "address": "860 Canal Rd., Marshall, WI 53559, United States",
+      "phone": "not available",
+      "alt_phone": null,
+      "email": "https://www.pdga.com/course-contact?course=28140",
+      "website": "not available"
+    },
+    "reservation_requirements": "Free public access. For camping or group use, contacting the Rec Director is requested as a notice of use.",
+    "policies_rules_dates_open": "Established in 2011. Open year-round. Dual tees and multiple pin placements. 3 standard campsites and 1 large group site available for public use.",
+    "holes": "19",
+    "course_type": "Public course in woods and prairie with Chainstar baskets, concrete tees, and a mix of elevation and foliage. Designed by Erik Lemke and Rebel Disc Golf.",
+    "imageUrl": "https://d22ksth68ujgu2.cloudfront.net/2774c37aaa34f0f60f6cd2e87de2955f_m_IMG_2513.jpg",
+    "parkMapUrl": null,
+    "mapEmbedUrl": null
+  },
+  {
+    "course_name": "Eagle Ranch Disc Golf Park",
+    "ownership": "Public",
+    "contact_info": {
+      "address": "3300 Eagle Ranch Blvd., 7200 Bunk House Dr, Fort Worth, TX 76179, United States",
+      "phone": "512-306-7253",
+      "alt_phone": null,
+      "email": "not available",
+      "website": "https://www.facebook.com/EagleRanchDiscGolf"
+    },
+    "reservation_requirements": "No formal reservation system. Check Facebook for updates.",
+    "policies_rules_dates_open": "Established in 2005, redesigned in 2019 by John Houck. Open year-round. Features mixed elevation with a pond, creek, and 65 newly planted trees.",
+    "holes": "9",
+    "course_type": "Public course with DISCatcher baskets, concrete tees, and a mix of low hills and open/wooded areas.",
+    "imageUrl": "https://www.pdga.com/files/course_photos/20191002_180913_1.jpg",
+    "parkMapUrl": null,
+    "mapEmbedUrl": null
+  },
+  {
+    "course_name": "Heritage Park Disc Golf Course",
+    "ownership": "Public",
+    "contact_info": {
+      "address": "600 Spinks Rd, Flower Mound, TX 75028, United States",
+      "phone": "not available",
+      "alt_phone": null,
+      "email": "not available",
+      "website": "https://www.flower-mound.com/1787/Disc-Golf-Course"
+    },
+    "reservation_requirements": "No formal reservation system.",
+    "policies_rules_dates_open": "Established in 2019, located within the Cross Timbers eco-region. Open year-round. Features a variety of trees, creek beds, water hazards, and elevation changes.",
+    "holes": "18",
+    "course_type": "Public course with Dynamic Discs Veteran baskets, concrete tees, and a mix of flat and hilly terrain.",
+    "imageUrl": "https://d22ksth68ujgu2.cloudfront.net/1c2d8b8a433a090ca747853ec8cd9938_m_IMG_0925.jpg",
+    "parkMapUrl": null,
+    "mapEmbedUrl": null
+  },
+  {
+    "course_name": "City Disc Park",
+    "ownership": "Church",
+    "contact_info": {
+      "address": "1140 Morrison Dr, Fort Worth, TX 76120-3426, United States",
+      "phone": "817-705-6481",
+      "alt_phone": null,
+      "email": "derrick.bledsoe@example.com",
+      "website": "https://www.pdga.com/course-contact?course=241711"
+    },
+    "reservation_requirements": "Not available for play on Sundays.",
+    "policies_rules_dates_open": "Established in 2018, features a variety of shots, including alley shots, window shots, and a signature elevated island hole (hole #7).",
+    "holes": "9",
+    "course_type": "Public course with DISCatcher Pro baskets, concrete tees, and a mix of trees and open areas.",
+    "imageUrl": "https://www.pdga.com/files/course_photos/city_disc_park_main_logo.jpg",
+    "parkMapUrl": null,
+    "mapEmbedUrl": null
+  },
+  {
+    "course_name": "Windy Ridge Disc Golf at Mitchusson Park",
+    "ownership": "Public park",
+    "contact_info": {
+      "address": "860 Airport Rd, Huntsville, AR 72740, United States",
+      "phone": "not available",
+      "alt_phone": null,
+      "email": "https://www.pdga.com/course-contact?course=225001",
+      "website": "not available"
+    },
+    "reservation_requirements": "No reservation required for casual play. However, certain facilities within Mitchusson Park, such as the pavilion or amphitheater, may require reservations. For more information or to make a reservation, please contact the City Clerk’s office at (479) 738-6607.",
+    "policies_rules_dates_open": "Established in 2016, with a redesign in 2021 adding 9 holes. A mix of woods and open holes with Ozark elevation.",
+    "holes": "18",
+    "course_type": "Public course with DGA targets and concrete tees, featuring rolling elevation.",
+    "imageUrl": "https://d22ksth68ujgu2.cloudfront.net/52b457d200be4f77a74347d96ddd3eb0_m_CACYgv1HizXMy1aBgQfc0ls3e8oA.jpg",
+    "parkMapUrl": null,
+    "mapEmbedUrl": null
+  }
     
     
     
