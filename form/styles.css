@@ -185,3 +185,65 @@ input[type="submit"]:hover {
   border: 1px solid #ccc;
   border-radius: 4px;
 }
+
+
+/* -------- Fuse.js Dropdown Styling -------- */
+.dropdown-list {
+  list-style-type: none;
+  margin-top: -10px;
+  padding: 0;
+  border: 1px solid #ccc;
+  max-height: 180px;
+  overflow-y: auto;
+  background-color: white;
+  border-radius: 4px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  z-index: 999;
+  position: absolute;
+  width: 100%;
+}
+
+.dropdown-item {
+  padding: 10px 15px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.dropdown-item:hover {
+  background-color: #0db58f;
+  color: white;
+}
+
+/* -------- Park Info Box Styling -------- */
+.park-info-box {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  padding: 20px;
+  border: 2px solid #014134;
+  border-radius: 8px;
+  font-family: 'Montserrat', sans-serif;
+  color: #014134;
+}
+
+
+.park-info-box h3 {
+  font-size: 20px;
+  margin-bottom: 15px;
+  font-weight: 600;
+  color: #014134;
+}
+
+.park-info-box p {
+  margin-bottom: 10px;
+  line-height: 1.5;
+  font-size: 14px;
+}
+
+/* for rating score */
+.stars {
+  color: #f5a623;
+  font-size: 18px;
+  letter-spacing: 2px;
+}

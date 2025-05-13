@@ -330,24 +330,6 @@ div#course-list {
 }
 /* ------------------------api map css END! -------------------- */
 
-/* Footer styles will need to be changed jsut temp*/
-.main-footer {
-  background-color: #333;
-  color: white;
-  padding: 15px 0;
-  text-align: center;
-  margin-top: 40px;
-}
-
-.main-footer .container {
-  max-width: 1200px;
-  margin: 0 auto;
-  
-}
-
-footer.main-footer{
-  background-color: #014134;
-}
 
 
 
@@ -405,17 +387,17 @@ footer.main-footer{
 #voiceSearchBtn img {
   width: 24px;
   height: 24px;
-  filter: invert(1); /* White icon */
+  filter: invert(1); 
   transition: transform 0.3s ease, filter 0.3s ease;
 }
 
 #voiceSearchBtn.listening {
-  background-color: #f44336; /* Red while listening */
+  background-color: #f44336; 
 }
 
 #voiceSearchBtn.listening img {
   transform: scale(1.2);
-  filter: invert(0); /* Black icon for contrast */
+  filter: invert(0); 
 }
 
 
@@ -577,6 +559,12 @@ footer.main-footer{
   margin-top: 1rem;
 }
 
+.suggest-edit-btn {
+  margin-right: 10px; 
+  margin-top: 10px;  
+}
+
+
 .suggest-edit-btn:hover {
   background-color: #014134;
 }
@@ -587,7 +575,7 @@ footer.main-footer{
 
 
 
-
+/* ------------------------The general search END?? -------------------- */
 
 
 

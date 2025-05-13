@@ -99,10 +99,12 @@
       font-size: 0.85rem;
     }
 
-    .trust-badge img {
-      height: 30px;
-      margin-top: 10px;
+      .trust-badge img {
+      display: block;
+      margin: 0 auto;
+      max-height: 60px;
     }
+
 
     .weather-box {
       font-size: 0.85rem;
@@ -134,6 +136,8 @@
   color: #bbb;
 }
 
+
+
   </style>
 
   <!-- Navigation Links -->
@@ -162,7 +166,7 @@
     <!-- Center: Info + Trust -->
     <div class="footer-info">
       <p><strong>📞 Phone:</strong> <a href="tel:1234567890">(123) 456-7890</a></p>
-      <p><strong>📧 Email:</strong> <a href="mailto:email@example.com">email@example.com</a></p>
+      <p><strong>📧 Email: <a href="mailto:parkreservationfourm@gmail.com">parkreservationfourm@gmail.com</a></p>
       <div class="footer-stats">
   <div class="footer-stat">
     <h3>🏞️ 145+</h3>
@@ -178,18 +182,61 @@
   </div>
 </div>
 
-      <a href="https://www.pdga.com/" class="trust-badge" target="_blank">
-        <img src="https://www.pdga.com/sites/default/files/pdga_logo.png" alt="PDGA Certified">
-      </a>
+   <a href="https://www.pdga.com/" class="trust-badge" target="_blank">
+  <img src="../images/PDGA.png" alt="PDGA Certified">
+
+  </a>
+
+
     </div>
 
     <!-- Right: Weather Title Only -->
-    <div class="weather-box" id="footer-weather">Weather</div>
-  </div>
+    <div class="weather-box" id="footer-weather">
+      <h4>Local Weather</h4>
+      <p id="weather-status">Loading...</p>
+</div>
 
-  <!-- Footer Bottom -->
-  <div class="footer-bottom">
-    <p>&copy; 2025 Disc Golf Reservation Tool | All Rights Reserved</p>
-    <p>Designed & Developed by: Independent Drive Team</p>
-  </div>
+      </div> <!-- closes #footer-weather -->
+
+    <!-- Footer Bottom -->
+    <div class="footer-bottom">
+      <p>&copy; 2025 Disc Golf Reservation Tool | All Rights Reserved</p>
+      <p>Designed & Developed by: Independent Drive Team</p>
+    </div>
+
+    <!-- Weather API Script -->
+    <script>
+      async function loadWeather() {
+        if (!navigator.geolocation) {
+          document.getElementById('weather-status').innerText = "Geolocation not supported.";
+          return;
+        }
+
+        navigator.geolocation.getCurrentPosition(async (position) => {
+          const lat = position.coords.latitude;
+          const lon = position.coords.longitude;
+          const url = "../data/weather.php?lat=" + lat + "&lon=" + lon;
+
+          try {
+            const response = await fetch(url);
+            const data = await response.json();
+            const weatherText = `
+              ${data.name} | ${data.weather[0].description}<br>
+              🌡️ ${data.main.temp}°F | 💨 ${data.wind.speed} mph
+            `;
+            document.getElementById('weather-status').innerHTML = weatherText;
+          } catch (err) {
+            document.getElementById('weather-status').innerText = "Unable to load weather.";
+          }
+        }, () => {
+          document.getElementById('weather-status').innerText = "Location permission denied.";
+        });
+      }
+
+      loadWeather();
+    </script>
+</footer>
+
+
+  
 </footer>

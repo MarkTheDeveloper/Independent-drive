@@ -267,7 +267,7 @@ function updateDropdown() {
     return;
   }
 
-  const matches = fuse.search(query).slice(0, 5); // Top 5 results
+  const matches = fuse.search(query).slice(0, 5); // Top 5 results for now
 
   if (matches.length === 0) {
     resultsList.style.display = "none";
@@ -301,6 +301,9 @@ function getReservationScore(course) {
 }
 // Populate park info section
 function displayParkInfo(park) {
+  //  Auto fill the search bar with selected park name
+  document.getElementById('liveParkSearch').value = park.course_name;
+
   document.getElementById('selectedParkName').innerText = park.course_name;
   document.getElementById('selectedHoles').innerText = park.holes || "N/A";
   document.getElementById('selectedCourseType').innerText = park.course_type || "N/A";
@@ -325,16 +328,49 @@ function displayParkInfo(park) {
   parkInfo.style.display = "block";
   resultsList.style.display = "none";
 
-  // enable seuggest edit button with localStorage redirect
+  // enable suggest edit button with localStorage redirect cool stuff 
   const editBtn = document.getElementById("generalSuggestEditBtn");
-  if (editBtn) {
-    editBtn.style.display = "inline-block";
-    editBtn.onclick = () => {
-      localStorage.setItem("editData", JSON.stringify(park));
-      window.open("form/edit.html", "_blank");
-    };
+if (editBtn) {
+  editBtn.style.display = "inline-block";
+  editBtn.onclick = () => {
+    localStorage.setItem("editData", JSON.stringify(park));
+    window.open("form/edit.html", "_blank");
+  };
+
+  // Add Reserve This Park Button dynamically
+  let reserveBtn = document.getElementById("reserveSelectedParkBtn");
+  if (!reserveBtn) {
+    reserveBtn = document.createElement("button");
+    reserveBtn.id = "reserveSelectedParkBtn";
+    reserveBtn.className = "suggest-edit-btn";
+    reserveBtn.textContent = "Reserve This Park";
+    editBtn.insertAdjacentElement("afterend", reserveBtn);
   }
+
+    // ok this fixes the folder redirect issue where it would open the website to the parks
+ if (
+  park &&
+  park.course_name &&
+  park.course_name.toLowerCase() !== "not available" &&
+  park.course_name.toLowerCase() !== "n/a"
+) {
+  reserveBtn.style.display = "inline-block";
+  reserveBtn.onclick = () => {
+    localStorage.setItem("selectedPark", JSON.stringify(park));
+    window.location.href = "form/td-form.html";
+  };
+} else {
+  reserveBtn.style.display = "none"; // Hide the button if park is invalid next time lets use null guys
 }
+
+
+
+}
+
+
+  
+}
+
 
 
 // Voice Search

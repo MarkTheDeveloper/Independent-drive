@@ -11,8 +11,8 @@
 
   <header class="main-header">
     <div>
-       <a href="../index.html"><img id="logo" src="../images/Logo-NO-BG.png" alt="Our Logo"></a> 
-      <h1>Disc Golf Reservation</h1>
+      <a href="../index.html"><img id="logo" src="../images/Logo-NO-BG.png" alt="Our Logo"></a> 
+      <h1><a href="../index.html" style="color: white; text-decoration: none;">Disc Golf Reservation</a></h1>
       <nav>
         <ul class="nav-links">
           <li><a href="../index.html">Home</a></li>
@@ -20,26 +20,44 @@
           <li><a href="../Contact/contact.html">Contact</a></li>
         </ul>
       </nav>
-     <a href="../form/td-form.html"><button>Reserve</button></a>
+      <a href="../form/td-form.html"><button>Reserve</button></a>
     </div>
   </header>
 
   <main class="container">
     <section class="contact">
-      <h2>Get in touch</h2>
-      <p>if you have questions or ideas about park reservations, feel free to message us anytime. we’ll try to respond asap.</p>
+      <h2>Get in Touch</h2>
+      <p>If you have questions, ideas, or feedback about park reservations, message us anytime.</p>
+
+      <div class="contact-info">
+        <p><strong>Email:</strong> <a href="mailto:parkreservationfourm@gmail.com">parkreservationfourm@gmail.com</a></p>
+        <p><strong>Phone:</strong> (123) 456-7890</p>
+      </div>
+
+      <div class="contact-form disabled">
+        <label>Your Name:</label>
+        <input type="text" placeholder="Name (form disabled)" disabled>
+
+        <label>Your Email:</label>
+        <input type="email" placeholder="Email (form disabled)" disabled>
+
+        <label>Message:</label>
+        <textarea rows="5" placeholder="Message (form disabled)" disabled></textarea>
+
+        <button disabled>Send Message</button>
+        <p style="font-size: 12px; color: #888;">(Contact form is currently inactive)</p>
+      </div>
     </section>
   </main>
 
   <div id="footer-placeholder"></div>
-<script>
-  fetch("../footer/footer.html")
-    .then(res => res.text())
-    .then(data => {
-      document.getElementById("footer-placeholder").innerHTML = data;
-    });
-</script>
-
+  <script>
+    fetch("../footer/footer.html")
+      .then(res => res.text())
+      .then(data => {
+        document.getElementById("footer-placeholder").innerHTML = data;
+      });
+  </script>
 
 </body>
 </html>

@@ -1,39 +1,94 @@
-Independent Drive - Park Reservation Tool
+# Independent Drive – Park Reservation Tool
 
 All Rights Reserved © 2025 Independent Drive Team
 
 ---
 
-Map Data Usage:
-This project uses disc golf course location data extracted from OpenStreetMap (OSM) via the Overpass API.
+## 🌍 Map Data Usage
 
-© OpenStreetMap contributors  
-Data available under the Open Database License (ODbL).
+This project uses disc golf course location data extracted from **OpenStreetMap (OSM)** via the **Overpass API**.
 
-API Tool Used:
-Overpass API - https://overpass-api.de/
+- © OpenStreetMap contributors  
+- Data available under the **Open Database License (ODbL)**  
+- API Used: [Overpass API](https://overpass-api.de/)
 
 We gratefully acknowledge the work of the OpenStreetMap community in making this data publicly available.
 
 ---
 
-Other Notices:
-Some portions of the frontend code (HTML, CSS, JavaScript) were generated or assisted by artificial intelligence (AI) tools to help accelerate development.
+## 💻 Frontend Notes
 
-Some portions of the frontend code were influenced by external sources, which are all credited in the References section.
+ portions of the frontend code (HTML, CSS, JavaScript) were generated or assisted by artificial intelligence (AI) tools to help accelerate development.
 
-All custom design, features, and content were created by the Independent Drive project team.
+Other parts of the interface and layout were influenced by external educational tutorials (see References below).
 
----
-References:
-
-Credit ["Navbar CSS Tutorial: 3 Ways to Create a Navigation Bar with Flexbox" by The Net Ninja](https://www.youtube.com/watch?v=PwWHL3RyQgk&t=142s)
+All custom design, features, styling, and written content were created by the Independent Drive development team.
 
 ---
 
-Website:
-(Local development - website currently hosted locally for testing)
+## 🧩 APIs, Tools & Libraries Used
+
+- **Fuse.js** – Fuzzy search functionality  
+  [https://fusejs.io](https://fusejs.io)
+
+- **OpenWeatherMap API** – Real-time weather data for park locations  
+  [https://openweathermap.org/api](https://openweathermap.org/api)
+
+- **Google Fonts: Montserrat** –  
+  Licensed under the Open Font License  
+  [https://fonts.google.com/specimen/Montserrat](https://fonts.google.com/specimen/Montserrat)
+
+- **Google Maps Embed**  
+  Subject to [Google Maps Terms of Service](https://developers.google.com/maps/terms)
+
+- **Icons from Google Material Icons** – Used under the [Apache 2.0 License](https://www.apache.org/licenses/LICENSE-2.0)
+
+- **Voice Search Web Speech API** – Built-in browser feature for accessibility support
 
 ---
 
-Thank you to all open-source communities whose tools and data made this project possible.
+## 🏆 Logo & Client Attribution
+
+- **PDGA (Professional Disc Golf Association)** logo is used under permission in this project for branding purposes related to affiliated clients.
+
+  - Logo Source: [https://www.pdga.com](https://www.pdga.com)
+
+  - Logo is used unaltered and for legitimate affiliate/client use by Tournament Directors working with Independent Drive.
+
+---
+
+## 📫 Contact
+
+- Email: [parkreservationfourm@gmail.com](mailto:parkreservationfourm@gmail.com)
+
+---
+
+## 📚 References
+
+- **Navbar Flexbox Tutorial**  
+  "Navbar CSS Tutorial: 3 Ways to Create a Navigation Bar with Flexbox"  
+  by The Net Ninja  
+  [https://www.youtube.com/watch?v=PwWHL3RyQgk&t=142s](https://www.youtube.com/watch?v=PwWHL3RyQgk&t=142s)
+
+---
+
+## ⚠️ Disclaimer
+
+This website is for **educational and demonstration purposes only**. All third-party resources, APIs, and icons are either publicly licensed or used with permission. No commercial usage is intended.
+
+If you are the owner of any content or asset used and wish to request removal or correction, please contact us at  
+[parkreservationfourm@gmail.com](mailto:parkreservationfourm@gmail.com).
+
+---
+
+## 🌐 Hosting & Development Notes
+
+- This website is currently being hosted locally and through student cPanel hosting provided by Green River College.
+
+- Version control and team collaboration is managed through [GitHub](https://github.com).
+
+---
+
+## 🙏 Acknowledgments
+
+Thank you to all open-source communities, API providers, and design educators whose tools, libraries, and resources made this project possible.
