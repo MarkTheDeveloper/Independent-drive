@@ -178,13 +178,16 @@
           const newReq = document.getElementById("reservation-req").value;
           const newDesc = document.getElementById("description").value;
   
+          const normalize = (value) => (value ?? "").trim();
+
           const noChange =
-              newEmail === (data.contact_info.email ?? "") &&
-              newPhone === (data.contact_info.phone ?? "") &&
-              newAddress === (data.contact_info.address ?? "") &&
-              newHoles == (data.holes ?? "") &&
-              newReq === (data.reservation_requirements ?? "") &&
-              newDesc === (data.course_type ?? "");
+            normalize(newEmail) === normalize(data.contact_info.email) &&
+            normalize(newPhone) === normalize(data.contact_info.phone) &&
+            normalize(newAddress) === normalize(data.contact_info.address) &&
+            normalize(newHoles) == normalize(data.holes) &&
+            normalize(newReq) === normalize(data.reservation_requirements) &&
+            normalize(newDesc) === normalize(data.course_type);
+
   
   
           if (noChange) {
@@ -202,10 +205,27 @@
         };
   
         console.log("updated:", updated);
-        alert("The form has been sent, Thank you!.");
-        window.close(); 
+
+        // Send to PHP
+        fetch('../data/update.php', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify(updated)
+        })
+        .then(res => res.json())
+        .then(response => {
+        if (response.status === 'success' || response.status === 'pending') {
+          alert("✅ " + response.message);
+        } else {
+          alert("❌ Error: " + response.message);
+        }
+          window.close();
+        })
+        .catch(err => {
+          alert("⚠️ Could not send data.");
+          console.error(err);
+          window.close();        });
       });
-  
     </script>
 
         

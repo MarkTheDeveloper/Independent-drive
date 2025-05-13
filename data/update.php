@@ -8,11 +8,6 @@ if (!$input || !isset($input['courseName'])) {
     exit;
 }
 
-if (!is_numeric($input['holes'])) {
-    echo json_encode(['status' => 'error', 'message' => 'Holes must be a number']);
-    exit;
-}
-
 $pendingFile = 'pending_edits.json';
 $pending = [];
 
