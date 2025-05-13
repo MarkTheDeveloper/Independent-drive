@@ -287,7 +287,19 @@ function updateDropdown() {
   currentSelectionIndex = -1;
   resultsList.style.display = "block";
 }
+//Create ratings
+function getReservationScore(course) {
+  let score = 0;
+  const contact = course.contact_info || {};
 
+  if (contact.phone && contact.phone.trim().toLowerCase() != "not available") score += 1;
+  if (contact.email && contact.email.trim().toLowerCase() != "not available") score += 1;
+  if (contact.website && contact.website.trim().toLowerCase() != "not available") score += 1;
+  if (course.reservation_requirements && !course.reservation_requirements.toLowerCase().includes("not specified")) score += 1;
+  if (course.policies_rules_dates_open) score += 1;
+
+  return score;
+}
 // Populate park info section
 function displayParkInfo(park) {
   document.getElementById('selectedParkName').innerText = park.course_name;
@@ -297,11 +309,15 @@ function displayParkInfo(park) {
   document.getElementById('selectedInfo').innerText = park.policies_rules_dates_open || "N/A";
 
   const contact = park.contact_info || {};
+  const score = getReservationScore(park);
+  const ratingText = score > 0 ? `Reservation Readiness Score: ${"★ ".repeat(score)}${"☆ ".repeat(5 - score).trim()}` : "Rating: N/A";
+
   document.getElementById('selectedContact').innerHTML = `
     <strong>Address:</strong> ${contact.address || "N/A"}<br>
     <strong>Phone:</strong> ${contact.phone || "N/A"}<br>
     <strong>Email:</strong> ${contact.email || "N/A"}<br>
-    <strong>Website:</strong> <a href="${contact.website || '#'}" target="_blank">${contact.website || "N/A"}</a>
+    <strong>Website:</strong> <a href="${contact.website || '#'}" target="_blank">${contact.website || "N/A"}</a><br>
+    <strong>${ratingText}</strong>
   `;
 
   document.getElementById('parkImage').src = park.imageUrl || "https://via.placeholder.com/400x200?text=No+Image";

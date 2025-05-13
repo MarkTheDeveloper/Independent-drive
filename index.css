@@ -9,13 +9,12 @@
 body {
   margin-top: 80px; 
   font-family: arial , sans-serif ;
-  background:#001f1a ;
+  /* background:#001f1a ; */
+   background: url("images/parktwo.png");
   color:#222 ;
   min-height:100vh ;
 }
-body {
-  background: linear-gradient(to right, #001f1a, #014134);
-}
+
   
 
 /* wrapper  */
