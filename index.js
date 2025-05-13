@@ -9,12 +9,6 @@ window.onload = function () {
           const courseDiv = document.createElement("div");
           courseDiv.classList.add("course-item");
 
-          courseDiv.addEventListener('mouseover', () => {
-            courseDiv.classList.toggle('expanded');
-          });
-          courseDiv.addEventListener('mouseout', () => {
-            courseDiv.classList.remove('expanded');
-          });
           courseDiv.innerHTML = `
             <img src="${course.imageUrl}" alt="${course.course_name}" class="course-img" />
   
@@ -34,7 +28,12 @@ window.onload = function () {
               </div>
             </div>
           `;
-  
+          courseDiv.addEventListener('mouseover', () => {
+            courseDiv.classList.toggle('expanded');
+          });
+          courseDiv.addEventListener('mouseout', () => {
+              courseDiv.classList.remove('expanded');
+          });
           courseList.appendChild(courseDiv);
           /* suggesting edit form*/
           const editBtn=courseDiv.querySelector(".suggest-edit-btn");
