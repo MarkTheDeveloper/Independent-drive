@@ -35,32 +35,39 @@
         });
 
         
- let allParks = [];
+ 
 
 // load park data
-fetch("../data/data.json")
-  .then(res => res.json())
-  .then(data => {
-    allParks = data;
-    initializeFuseSearch();
+let allParks = [];
+let parkReqData = {};
 
-    // If user came from homepage with a selected park
-    const selected = JSON.parse(localStorage.getItem("selectedPark"));
-    const input = document.getElementById("parkSearchInput");
-    const infoBox = document.getElementById("park-info-box");
-    const form = document.querySelector("form");
+Promise.all([
+  fetch("../data/data.json").then(res => res.json()),
+  fetch("../data/park-req.json").then(res => res.json())
+])
+.then(([parks, parkReqs]) => {
+  allParks = parks;
+  parkReqData = parkReqs;
 
-    if (selected) {
-      input.value = selected.course_name;
-      displayParkInfo(selected);
-      localStorage.removeItem("selectedPark"); // clear for next visit
-    } else {
-      //  Reset everything if not coming from homepage
-      input.value = "";
-      if (infoBox) infoBox.style.display = "none";
-      if (form) form.reset();
-    }
-  });
+  initializeFuseSearch();
+
+  const selected = JSON.parse(localStorage.getItem("selectedPark"));
+  const input = document.getElementById("parkSearchInput");
+  const infoBox = document.getElementById("park-info-box");
+  const form = document.querySelector("form");
+
+  if (selected) {
+    input.value = selected.course_name;
+    displayParkInfo(selected);
+    showSpecificRequirements(selected.course_name);
+    localStorage.removeItem("selectedPark");
+  } else {
+    input.value = "";
+    if (infoBox) infoBox.style.display = "none";
+    if (form) form.reset();
+  }
+});
+
 
   // brendons score system
   function getReservationScore(course) {
@@ -158,6 +165,7 @@ fetch("../data/data.json")
         li.onclick = () => {
           input.value = item.course_name;
           displayParkInfo(item);
+          showSpecificRequirements(item.course_name);
           results.innerHTML = "";
           results.style.display = "none";
         };
@@ -185,6 +193,73 @@ fetch("../data/data.json")
       results.style.display = "none";
     }
   });
+  }
+
+  /*specific req for spec park*/ 
+
+
+// Trigger when user picks a park
+document.getElementById("parkSearchInput").addEventListener("change", function () {
+  const selected = this.value;
+  showSpecificRequirements(selected);
+});
+
+function showSpecificRequirements(parkName) {
+  const fields = parkReqData[parkName] || [];
+  const fieldset = document.getElementById("specific-req");
+  const container = document.getElementById("specific-req-container");
+  container.innerHTML = "";
+
+  if (fields.length === 0) {
+    fieldset.style.display = "none";
+    return;
+  }
+
+  fields.forEach(field => {
+    const wrapper = document.createElement("div");
+
+    if (field.type === "confirm_with_notice") {
+      const notice = document.createElement("p");
+      notice.textContent = field.notice || "⚠️ Please confirm this requirement.";
+      notice.style.fontStyle = "italic";
+      notice.style.marginBottom = "6px";
+
+      const label = document.createElement("label");
+      const checkbox = document.createElement("input");
+      checkbox.type = "checkbox";
+      checkbox.name = "custom_" + field.label.toLowerCase().replace(/\s+/g, "_");
+      if (field.required) checkbox.required = true;
+
+      label.appendChild(checkbox);
+      label.append(" " + field.label);
+
+      wrapper.appendChild(notice);
+      wrapper.appendChild(label);
+    } else {
+      const label = document.createElement("label");
+      label.textContent = field.label;
+
+      let input;
+      if (field.type === "textarea") {
+        input = document.createElement("textarea");
+      } else {
+        input = document.createElement("input");
+        input.type = field.type || "text";
+      }
+
+      input.name = "custom_" + field.label.toLowerCase().replace(/\s+/g, "_");
+      if (field.required) input.required = true;
+
+      wrapper.appendChild(label);
+      wrapper.appendChild(document.createElement("br"));
+      wrapper.appendChild(input);
+    }
+
+    wrapper.appendChild(document.createElement("br"));
+    container.appendChild(wrapper);
+  });
+
+  fieldset.style.display = "block";
 }
 
 

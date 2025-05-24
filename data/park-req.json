@@ -1,0 +1,15 @@
+{
+    "Lake Fenwick Disc Golf Course": [
+        {
+            "type": "number",
+            "label": "enter your age",
+            "required": true
+        },
+        {
+            "type": "confirm_with_notice",
+            "label": "I understand",
+            "notice": "dogs not allowed",
+            "required": true
+        }
+    ]
+}

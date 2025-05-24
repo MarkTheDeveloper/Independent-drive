@@ -25,6 +25,9 @@ window.onload = function () {
                 <button class="suggest-edit-btn">
                   Suggest an edit
                 </button>
+                <button class="reserve-btn">
+                  Reserve
+                </button>
               </div>
             </div>
           `;
@@ -42,7 +45,13 @@ window.onload = function () {
             localStorage.setItem("editData", JSON.stringify(course));
           
             window.open("form/edit.html");
-          });  
+          }); 
+          let reserveBtn=courseDiv.querySelector(".reserve-btn");
+          reserveBtn.onclick = () => {
+            localStorage.setItem("selectedPark", JSON.stringify(course));
+            window.location.href = "form/td-form.html";
+          };
+          /*td-form*/
         });
       })
       .catch(error => console.error('error! file JSON:', error));

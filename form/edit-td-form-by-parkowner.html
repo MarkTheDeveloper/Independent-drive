@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" type="image/x-icon" href="../images/Logo-NO-BG.png">
+  <title>TD Reservation Form</title>
+</head>
+<body>
+
+  <header>
+    <div class="main-header">
+      <div class="container">
+        <a href="../index.html"><img id="logo" src="../images/Logo-NO-BG.png" alt="Our Logo"></a> 
+        <h1>Disc Golf Reservation</h1>
+        <nav>
+          <ul class="nav-links">
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="../about/about.html">About</a></li>
+            <li><a href="../Contact/contact.html">Contact</a></li>
+            
+          </ul>
+        </nav>
+        <a href="../form/td-form.html"><button>Reserve</button></a>
+      </div>
+    </div>
+  </header>
+
+<form>
+    <!-- Park's specific requirements-->
+    <fieldset>
+      <legend style="font-weight: bold; color: #014134;">Adding more things on your park's form here</legend>
+<div class="field-group">
+    <label for="courseSelect">Choose your park:</label>
+    <select id="courseSelect">
+      <option disabled selected>Loading...</option>
+    </select>
+
+  <label for="typeInput">Field Type:</label>
+  <select id="typeInput">
+    <option value="text">Text</option>
+    <option value="textarea">Text Area</option>
+    <option value="checkbox">Checkbox</option>
+    <option value="number">Number</option>
+    <option value="confirm_with_notice">Notice + Confirmation</option>
+  </select>
+
+  <!-- Normal field config -->
+  <div id="basicFields" style="display: block;">
+    <label for="labelInput">Field Label:</label>
+    <input type="text" id="labelInput" placeholder="e.g., Full Name">
+    <label><input type="checkbox" id="requiredInput"> Required</label>
+  </div>
+
+  <!-- Special notice + confirmation -->
+  <div id="noticeFields" style="display: none;">
+    <label for="noticeInput">Notice Text:</label>
+    <textarea id="noticeInput" placeholder="e.g., Dogs are not allowed."></textarea>
+
+    <label for="confirmLabelInput">Confirmation Checkbox Text:</label>
+    <input type="text" id="confirmLabelInput" placeholder="e.g., I understand and will not bring a dog">
+    <label><input type="checkbox" id="confirmRequiredInput"> Required</label>
+  </div>
+  <div id="changes"></div> 
+
+  <button type="button" onclick="addField()">Add Field</button>
+  <button type="button" onclick="saveFields()">Save</button>
+
+</div>
+</fieldset>
+</form>
+<script src="edit-td-form.js"></script>
+</body>
+</html>
