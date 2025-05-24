@@ -4,8 +4,35 @@
   <meta charset="UTF-8">
   <link rel="stylesheet" href="styles.css">
   <link rel="icon" type="image/x-icon" href="../images/Logo-NO-BG.png">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css" />
   <title>TD Reservation Form</title>
 </head>
+<style>
+    body { font-family: Arial, sans-serif; padding: 2rem; }
+    #calendar { max-width: 300px; margin-bottom: 1rem; }
+    #message { color: green; margin-top: 1rem; }
+        /* Change background color of selected days */
+    .flatpickr-day.selected, 
+    .flatpickr-day.startRange, 
+    .flatpickr-day.endRange, 
+    .flatpickr-day.inRange {
+    background: #055745 !important;  /* Green color */
+    border-color: #28a745 !important;
+    color: white !important;
+    }
+
+    /* Change hover color for better UX */
+    .flatpickr-day:hover {
+    background: #218838 !important;  /* Darker green */
+    border-color: #218838 !important;
+    color: white !important;
+    }
+    .flatpickr-day.startRange,
+    .flatpickr-day.endRange {
+    border-radius: 0 !important;
+    }
+
+  </style>
 <body>
 
   <header>
@@ -61,14 +88,43 @@
     <input type="text" id="confirmLabelInput" placeholder="e.g., I understand and will not bring a dog">
     <label><input type="checkbox" id="confirmRequiredInput"> Required</label>
   </div>
+  <div>
+    <label>Select your reservation date range: </label>
+    <div id="calendar"></div>
+    <div id="message" style="margin-top: 0.5em; font-weight: bold; color: #014134;"></div>
+  </div>
   <div id="changes"></div> 
-
   <button type="button" onclick="addField()">Add Field</button>
   <button type="button" onclick="saveFields()">Save</button>
+
+  <!-- Add calendar here -->
+  
 
 </div>
 </fieldset>
 </form>
 <script src="edit-td-form.js"></script>
+<!-- Flatpickr JS -->
+<script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+<script>
+  const messageEl = document.getElementById('message');
+  flatpickr("#calendar", {
+    mode: "range",
+    dateFormat: "Y-m-d",
+    inline: true,
+    minDate: "today",
+    onChange: function(selectedDates, dateStr) {
+      if (selectedDates.length === 2) {
+        const start = selectedDates[0].toISOString().slice(0, 10);
+        const end = selectedDates[1].toISOString().slice(0, 10);
+        messageEl.textContent = `Selected from ${start} to ${end}`;
+        // You can send this range to your server here
+      } else {
+        messageEl.textContent = '';
+      }
+    }
+  });
+</script>
+
 </body>
 </html>
