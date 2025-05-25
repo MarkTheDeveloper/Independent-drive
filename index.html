@@ -68,13 +68,35 @@
   <p><strong>Info:</strong> <span id="selectedInfo"></span></p>
   <p><strong>Contact:</strong> <span id="selectedContact"></span></p>
   <p><a id="parkMapLink" href="#" target="_blank">View Park Map</a></p>
+  
+
+  <div id="parkReservations" style="margin-top: 20px;">
+  <h4>Reserved Dates:</h4>
+  <ul id="reservationList"></ul>
+  </div>
+
+  
+  <div id="calendarWrapper" style="margin-top: 20px;">
+  <label for="flatpickrInput"><strong>Reserved Dates for This Park:</strong></label>
+  <input type="text" id="flatpickrInput" style="visibility: hidden; height: 0;" />
+  <div id="flatpickrCalendar"></div>
+  </div>
+
+</div>
+
+<!-- Flatpickr CSS and JS -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
+<script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+
+<!-- Your script -->
+<script src="display.js" defer></script>
 
   <!-- NEW: Suggest Edit Button -->
   <button class="suggest-edit-btn" id="generalSuggestEditBtn" style="display: none;">Suggest an Edit</button>
   </div>
 
 </div>
-
+ 
 
 
 

@@ -94,10 +94,14 @@
 
 </div>
 </fieldset>
+<label for="clientName">Your Name:</label>
+<input type="text" id="clientName" name="clientName" placeholder="Enter your name" />
+
 <field>
   <div>
     <legend>Select your reservation date range: </legend>
     <div id="calendar"></div>
+    <button type="button" id="confirmReservation">Confirm Reservation</button>
     <div id="message" style="margin-top: 0.5em; font-weight: bold; color: #014134;"></div>
   </div>
   <!-- Add calendar here -->
@@ -107,24 +111,71 @@
 <!-- Flatpickr JS -->
 <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
 <script>
-  const messageEl = document.getElementById('message');
-  flatpickr("#calendar", {
-    mode: "range",
-    dateFormat: "Y-m-d",
-    inline: true,
-    minDate: "today",
-    onChange: function(selectedDates, dateStr) {
-      if (selectedDates.length === 2) {
-        const start = selectedDates[0].toISOString().slice(0, 10);
-        const end = selectedDates[1].toISOString().slice(0, 10);
-        messageEl.textContent = `Selected from ${start} to ${end}`;
-        // You can send this range to your server here
-      } else {
-        messageEl.textContent = '';
-      }
+let reservationRange = {};
+
+flatpickr("#calendar", {
+  mode: "range",
+  dateFormat: "Y-m-d",
+  inline: true,
+  minDate: "today",
+  onChange: function(selectedDates, dateStr) {
+    if (selectedDates.length === 2) {
+      const start = selectedDates[0].toISOString().slice(0, 10);
+      const end = selectedDates[1].toISOString().slice(0, 10);
+      reservationRange = { start_date: start, end_date: end };
+      messageEl.textContent = `Selected from ${start} to ${end}`;
+    } else {
+      reservationRange = {};
+      messageEl.textContent = '';
     }
+  }
+});
+
+document.getElementById('confirmReservation').addEventListener('click', () => {
+  const courseSelect = document.getElementById('courseSelect');
+  const selectedCourse = courseSelect.value;
+
+  const clientNameInput = document.getElementById('clientName');
+  const clientName = clientNameInput.value.trim();
+
+  if (!selectedCourse) {
+    alert("Please select a park.");
+    return;
+  }
+
+  if (!clientName) {
+    alert("Please enter your name.");
+    return;
+  }
+
+  if (!reservationRange.start_date || !reservationRange.end_date) {
+    alert("Please select a valid date range.");
+    return;
+  }
+
+  const reservationData = {
+    course: selectedCourse,
+    start_date: reservationRange.start_date,
+    end_date: reservationRange.end_date,
+    client_name: clientName
+  };
+
+  fetch('../data/save_reservation.php', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify(reservationData)
+  })
+  .then(res => res.text())
+  .then(data => {
+    alert("Reservation saved: " + data);
+    reservationRange = {};
+    messageEl.textContent = '';
+    clientNameInput.value = '';  // Clear the name input after save
   });
+});
+
 </script>
+
 
 </body>
 </html>
