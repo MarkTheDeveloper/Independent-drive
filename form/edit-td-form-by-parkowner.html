@@ -88,20 +88,20 @@
     <input type="text" id="confirmLabelInput" placeholder="e.g., I understand and will not bring a dog">
     <label><input type="checkbox" id="confirmRequiredInput"> Required</label>
   </div>
-  <div>
-    <label>Select your reservation date range: </label>
-    <div id="calendar"></div>
-    <div id="message" style="margin-top: 0.5em; font-weight: bold; color: #014134;"></div>
-  </div>
-  <div id="changes"></div> 
   <button type="button" onclick="addField()">Add Field</button>
   <button type="button" onclick="saveFields()">Save</button>
-
-  <!-- Add calendar here -->
-  
+  <div id="changes"></div> 
 
 </div>
 </fieldset>
+<field>
+  <div>
+    <legend>Select your reservation date range: </legend>
+    <div id="calendar"></div>
+    <div id="message" style="margin-top: 0.5em; font-weight: bold; color: #014134;"></div>
+  </div>
+  <!-- Add calendar here -->
+</field>
 </form>
 <script src="edit-td-form.js"></script>
 <!-- Flatpickr JS -->

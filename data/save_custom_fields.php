@@ -1,5 +1,5 @@
 <?php
-header('Content-Type: application/json'); // để trình duyệt hiểu là JSON
+header('Content-Type: application/json'); 
 
 $data = json_decode(file_get_contents("php://input"), true);
 
