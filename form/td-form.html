@@ -29,7 +29,7 @@
 
   <h2>Tournament Director Reservation Form</h2>
 
-  <form action="/submit-form" method="POST">
+  <form method="POST" action="../data/send-email.php">
     <fieldset>
       <legend>Director Information</legend>
       <div class="row">
@@ -75,7 +75,7 @@
 
       <div class="input-right">
         <label>Number of event days</label>
-        <select name="days selection" id="eventDays">
+        <select name="days selection" id="eventDays">  <!-- might need to be changed to for php cant read spaces not sure yet <select name="days_selection" id="eventDays"> -->
           <option value="">-- Select days --</option>
           <option value="1">1</option>
           <option value="2">2</option>
@@ -90,7 +90,7 @@
       <div class="row">
         <div class="input-left">
           <label>Number of holes/tees</label>
-          <input type="text" name="number of holes" required><br><br>
+          <input type="text" name="number of holes" required><br><br> 
         </div>
         <div class ="input-right">
           <label for="vendorBooths">Will there be vendor booths or sales activities?</label>
