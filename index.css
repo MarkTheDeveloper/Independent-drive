@@ -611,3 +611,66 @@ div#course-list {
 #parkImage {
   width: 50%;
 }
+
+
+
+/* ----MEDIA SIZING FOR MOBILE */
+
+@media (max-width: 768px) {
+  .content-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #course-list, #map-wrapper {
+    width: 95%;
+    margin-bottom: 20px;
+  }
+
+  #controls {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  #search-bar {
+    width: 100%;
+    font-size: 16px;
+  }
+
+  #voice-search {
+    padding: 8px;
+  }
+
+  #map {
+    height: 400px; 
+  }
+}
+
+
+/* TEST FOR HEADER SIZING NOT to make the header too big */
+@media (max-width: 992px) {
+  .main-header div {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    padding: 10px;
+  }
+
+  .nav-links {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px; 
+  }
+
+  .nav-links li {
+    padding: 5px 0; 
+  }
+
+  button {
+    width: 100%;
+    text-align: center;
+  }
+}
+
+
+
