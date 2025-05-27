@@ -2,7 +2,7 @@
 window.onload = function () {
     const courseList = document.getElementById("course-list");
 
-    fetch('data/data.json')
+    fetch('../data/data.json')
       .then(response => response.json())
       .then(information => {
         information.forEach((course) => {
@@ -44,12 +44,12 @@ window.onload = function () {
             //localStorage
             localStorage.setItem("editData", JSON.stringify(course));
           
-            window.open("form/edit.html");
+            window.open("../form/edit.html");
           }); 
           let reserveBtn=courseDiv.querySelector(".reserve-btn");
           reserveBtn.onclick = () => {
             localStorage.setItem("selectedPark", JSON.stringify(course));
-            window.location.href = "form/td-form.html";
+            window.location.href = "../form/td-form.html";
           };
           /*td-form*/
         });
@@ -84,7 +84,7 @@ var blueIcon = new L.Icon({
 });
 
 // Load course data
-fetch('data/export.geojson')
+fetch('../data/export.geojson')
 .then(res => res.json())
 .then(data => {
     var features = L.geoJSON(data, {
@@ -211,7 +211,7 @@ let allParks = [];
 let fuse;
 let currentSelectionIndex = -1;
 
-fetch("./data/data.json")
+fetch("../data/data.json")
   .then(res => res.json())
   .then(data => {
     allParks = data;
@@ -343,7 +343,7 @@ if (editBtn) {
   editBtn.style.display = "inline-block";
   editBtn.onclick = () => {
     localStorage.setItem("editData", JSON.stringify(park));
-    window.open("form/edit.html", "_blank");
+    window.open("../form/edit.html", "_blank");
   };
 
   // Add Reserve This Park Button dynamically
@@ -366,7 +366,7 @@ if (editBtn) {
   reserveBtn.style.display = "inline-block";
   reserveBtn.onclick = () => {
     localStorage.setItem("selectedPark", JSON.stringify(park));
-    window.location.href = "form/td-form.html";
+    window.location.href = "../form/td-form.html";
   };
 } else {
   reserveBtn.style.display = "none"; // Hide the button if park is invalid next time lets use null guys

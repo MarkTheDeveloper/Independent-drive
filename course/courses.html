@@ -4,7 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Home | Disc Golf Reservation</title>
-  <link rel="stylesheet" href="index.css" />
+  <link rel="stylesheet" href="courses.css" />
   <link rel="icon" type="image/x-icon" href="images/Logo-NO-BG.png">
 
   <!-- Map CSS Links (for Leaflet Map + Marker Cluster) just asset stuff no need of citing should be plagerism free -->
@@ -19,67 +19,21 @@
 
 <header class="main-header">
   <div>
-    <a href="index.html"><img id="logo" src="images/Logo-NO-BG.png" alt="Our Logo"></a> 
+    <a href="../index.html"><img id="logo" src="../images/Logo-NO-BG.png" alt="Our Logo"></a> 
   <h1>Disc Golf Reservation</h1>
   <nav>
     <ul class="nav-links">
-      <li><a href="index.html">Home</a></li>
-      <li><a href="about/about.html">About</a></li>
-      <li><a href="Contact/contact.html">Contact</a></li>
+      <li><a href="../index.html">Home</a></li>
+      <li><a href="../about/about.html">About</a></li>
+      <li><a href="../Contact/contact.html">Contact</a></li>
     </ul>
   </nav>
-  <a href="form/td-form.html"><button>Reserve</button></a>
+  <a href="../form/td-form.html"><button>Reserve</button></a>
   </div>
   
 </header>
 
 <main class="container">
-
-  <section class="top-callout">
-  <h2>Start your park reservation request with ease</h2>
-  <p>
-    Tournament directors can quickly find parks and begin the request process online — 
-    giving cities everything they need to respond by email or phone.
-  </p>
-  </section>
-
-
-
-<!-- FEATURE: Live Park Search with Dropdown and Dynamic Info Display -->
-<div class="park-search-section">
-  <h2>Search for Parks</h2>
-
-    <div class="search-with-mic">
-      <input type="text" id="liveParkSearch" placeholder="Type or say a park name..." autocomplete="off">
-      <button id="voiceSearchBtn" title="Speak" aria-label="Voice Search">
-    <img src="https://www.svgrepo.com/show/15581/microphone.svg" alt="Microphone Icon" id="micIcon" />
-    </button>
-
-    </div>
-
-  <ul id="dropdownResults" class="dropdown-results"></ul>
-
-  <div class="selected-park-info" id="selectedParkInfo" style="display: none;">
-  <div>
-    <h3 id="selectedParkName"></h3>
-    <img id="parkImage" src="Logo-NO-BG.png" alt="Park Image" style="max-width: 100%; border-radius: 8px;">
-  </div>
-  
-  <p><strong>Holes:</strong> <span id="selectedHoles"></span></p>
-  <p><strong>Course Type:</strong> <span id="selectedCourseType"></span></p>
-  <p><strong>Requirements:</strong> <span id="selectedRequirements"></span></p>
-  <p><strong>Info:</strong> <span id="selectedInfo"></span></p>
-  <p><strong>Contact:</strong> <span id="selectedContact"></span></p>
-  <p><a id="parkMapLink" href="#" target="_blank">View Park Map</a></p>
-  
-
-  <div id="parkReservations" style="margin-top: 20px;">
-  <h4>Reserved dates for this park:</h4>
-  <ul id="reservationList"></ul>
-  </div>
-
-</div>
-
 <!-- Flatpickr CSS and JS -->
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
 <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
@@ -90,23 +44,7 @@
   <!-- NEW: Suggest Edit Button -->
   <button class="suggest-edit-btn" id="generalSuggestEditBtn" style="display: none;">Suggest an Edit</button>
   </div>
-  <div id="illustration">
-    <div>
-      <div><img src="images/illustration1.png"></div>
-    </div>
-    <div>
-      <div><img src="images/illustration2.png"></div>
-
-    </div>
-    <div>
-      <div><img src="images/illustration3.png"></div>
-
-    </div>
-    <div>
-      <div><img src="images/illustration5.png"></div>
-
-    </div>
-  </div>
+  
 
 </div>
   <section>
@@ -158,7 +96,7 @@
 <!-- Footer Placeholder + Loader -->
 <div id="footer-placeholder"></div>
 <script>
-  fetch("footer/footer.html")
+  fetch("../footer/footer.html")
     .then(res => res.text())
     .then(data => {
       document.getElementById("footer-placeholder").innerHTML = data;
@@ -171,7 +109,7 @@
 <script src="https://unpkg.com/leaflet.markercluster/dist/leaflet.markercluster.js"></script>
 
 <!-- linking the javascript -->
-<script src="index.js"></script>
+<script src="courses.js"></script>
 
 </body>
 </html>

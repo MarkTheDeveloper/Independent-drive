@@ -10,18 +10,13 @@ body {
   margin-top: 80px; 
   font-family: arial , sans-serif ;
   /* background:#001f1a ; */
-   background: url("images/parktwo.png");
+   background: url("../images/parktwo.png");
   color:#222 ;
   min-height:100vh ;
 }
 
   
 
-/* wrapper  */
-.container {
-  margin : 0 auto ;
-  max-width:1600px
-}
 
 /* header stuff  */
 #logo{
@@ -86,33 +81,6 @@ button{
 
 
 
-/* the title or top: Selected Park Info (Side-by-Side Style) */
-.top-callout {
-  text-shadow: 0 3px 6px rgba(0, 0, 0, 0.75);
-  max-width: 100%;
-  margin: 0 auto;
-  margin-top:5%;
-  padding: 2rem 1rem 1.5rem 1rem;
-  text-align: center;
-  background-color: #06594D;
-  background-image: linear-gradient(to bottom, #06594D, rgba(6, 89, 77, 0.85));
-  background: linear-gradient(to bottom, #06594D, rgba(6, 89, 77, 0));
-}
-
-.top-callout h2 {
-  font-size: 2.3rem;
-  color: #0db58f;
-  margin-bottom: 1rem;
-  text-shadow: 1px 1px 2px #001d1a;
-}
-
-.top-callout p {
-  color: #b6f5e4;
-  font-size: 1.1rem;
-  max-width: 700px;
-  margin: 0 auto;
-  line-height: 1.5;
-}
 
 
 
@@ -141,16 +109,17 @@ h2:last-of-type{
 }
 /*course-information*/
 div#course-list {
+  z-index: 10;
+  position: absolute;
   width: 400px;
   padding: 20px;
-  background-color:  #012c26;
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0,0,0,0.1);
   
 }
 
 .course-item {
-  background:  #014134;
+  background:  #508076;
   padding: 10px;
   margin-bottom: 10px;
   border-radius: 8px;
@@ -220,29 +189,24 @@ div#course-list {
 
 /* ------------------------api map css-------------------- */
 
-/* Layout for left (Course List) and right (Map) */
-.content-container {
-  display: flex;
-  margin-top: 20px;
-  max-width: 1400px; /* Wider overall section to make it not conflcit*/
-  margin-left: auto;
-  margin-right: auto;
-}
+
 
 /* Left Side: Course List */
 #course-list {
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; 
   height: 400px;
   overflow-y: auto;
   width: 35%;
   padding: 20px;
-  background: white;
   border-radius: 8px ;
   min-height: 600px;  /* to match the map height */
 }
 
 /* Right Side: Map and controls */
 #map-wrapper {
-  width: 65%;
+  z-index: 1;
+  width: 100%;
   position: relative; /* needed for controls floating we need to fix this for mobile */
 }
 
@@ -615,20 +579,6 @@ div#course-list {
 #parkImage {
   width: 50%;
 }
-/*illustration*/
-#illustration{
-  display:flex;
-  max-width:100%;
-  background-color:#2e694d;
-  margin-top:10%;
-  
-}
-#illustration img{
-  width:73%;
-
-
-}
-
 
 
 /* ----MEDIA SIZING FOR MOBILE */
