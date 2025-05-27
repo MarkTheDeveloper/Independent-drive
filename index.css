@@ -461,17 +461,16 @@ div#course-list {
 
 /* FEATURE: Selected Park Info (Side-by-Side Style Improved) */
 .selected-park-info {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  gap: 2rem;
   background-color: #012c26;
   color: #ffffff;
   padding: 2rem;
   border-radius: 12px;
   box-shadow: 0 4px 14px rgba(0, 0, 0, 0.4);
-  margin-top: 2rem;
-  align-items: flex-start;
+}
+#searching-bar{
+  display:flex;
+    align-items: flex-start;
+
 }
 
 .selected-park-info img {
@@ -613,7 +612,7 @@ div#course-list {
 }
 
 #parkImage {
-  width: 50%;
+  width: 90%;
 }
 /*illustration*/
 #illustration{
