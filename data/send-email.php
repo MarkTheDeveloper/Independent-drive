@@ -42,8 +42,10 @@ $sent = mail($to, $subject, $message, $headers);
 
 // Show confirmation or error
 if ($sent) {
-    echo "success";
+    echo "ok";
 } else {
-    echo "error";
+    http_response_code(500);
+    echo "fail";
 }
+
 ?>
