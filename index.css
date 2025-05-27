@@ -616,7 +616,7 @@ div#course-list {
 
 /* ----MEDIA SIZING FOR MOBILE */
 
-@media (max-width: 768px) {
+@media (max-width: 1200px) {
   .content-container {
     flex-direction: column;
     align-items: center;
@@ -629,11 +629,11 @@ div#course-list {
 
   #controls {
     flex-direction: column;
-    gap: 10px;
+    gap: 5px;
   }
 
   #search-bar {
-    width: 100%;
+    width: 50%;
     font-size: 16px;
   }
 
@@ -642,7 +642,7 @@ div#course-list {
   }
 
   #map {
-    height: 400px; 
+    height: 100px; 
   }
 }
 
