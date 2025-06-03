@@ -542,6 +542,37 @@ div#course-list {
   color: #90ee90;
 }
 
+/* for the reserve button top on makeing it easir more easir for user */
+.park-title-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  margin-top: 8px;
+  margin-bottom: 10px;
+}
+
+.inline-reserve-btn {
+  background-color: #00b389 !important;
+  color: white !important;
+  padding: 6px 18px;
+  border: none;
+  border-radius: 20px;
+  text-decoration: none !important;
+  font-size: 0.9rem;
+  font-weight: bold;
+  transition: background-color 0.3s;
+  cursor: pointer;
+  display: inline-block;
+}
+
+.inline-reserve-btn:hover {
+  background-color: #00a179 !important;
+  color: white !important;
+}
+
+
+
 /* this is for crowd sourcing General search*/
 .suggest-edit-btn {
   display: inline-flex;
@@ -673,6 +704,141 @@ div#course-list {
     text-align: center;
   }
 }
+
+
+/* ===== CLEAN DISC GOLF CALENDAR THEME ===== */
+.calendar-container {
+  margin-top: 1.5rem;
+  padding: 10px;
+  border-radius: 12px;
+  background: transparent;
+  width: 100%;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+#reservationCalendar {
+  width: 100%;
+}
+
+/* Remove dark background box */
+.flatpickr-calendar {
+  background: #f4fdf7; /* Light green background */
+  color: #222;
+  border: none;
+  box-shadow: 0 0 10px rgba(0,0,0,0.15);
+  border-radius: 12px;
+  padding: 10px;
+}
+
+/* Month and year header */
+.flatpickr-months {
+  background: #d7f9e6;
+  border-radius: 8px 8px 0 0;
+  padding: 5px;
+  font-weight: bold;
+  color: #065c3d;
+}
+
+/* Weekday labels */
+.flatpickr-weekdays {
+  background: #e8fdf1;
+  color: #065c3d;
+  font-weight: 600;
+}
+
+/* Day cell base style */
+.flatpickr-day {
+  font-size: 1rem;
+  line-height: 2.2rem;
+  margin: 2px;
+  border-radius: 50%;
+  transition: transform 0.1s ease;
+}
+
+.flatpickr-day:hover {
+  background: #b3f5d5;
+  transform: scale(1.05);
+}
+
+/* Custom date colors */
+.flatpickr-day.calendar-red {
+  background-color: #e74c3c !important;
+  color: white !important;
+}
+
+.flatpickr-day.calendar-yellow {
+  background-color: #f1c40f !important;
+  color: black !important;
+}
+
+.flatpickr-day.calendar-green {
+  background-color: #2ecc71 !important;
+  color: white !important;
+}
+
+/* Dim previous/next month days */
+.flatpickr-day.prevMonthDay,
+.flatpickr-day.nextMonthDay {
+  opacity: 0.25;
+}
+
+/* ===== LEGEND under calendar ===== */
+.calendar-legend {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  margin-top: 12px;
+  font-size: 0.95rem;
+  flex-wrap: wrap;
+}
+
+.legend-item {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  color: #1e1e1e;
+  background-color: #e6fdf0;
+  padding: 4px 10px;
+  border-radius: 20px;
+  border: 1px solid #ccc;
+}
+
+.legend-color {
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.legend-color.red {
+  background-color: #e74c3c;
+}
+
+.legend-color.yellow {
+  background-color: #f1c40f;
+}
+
+.legend-color.green {
+  background-color: #2ecc71;
+}
+
+
+.suggest-edit-btn {
+  margin-top: 20px;
+  margin-right: 10px;
+}
+
+#reserveSelectedParkBtn {
+  margin-top: 20px;
+}
+
+
+
+
+
 
 
 

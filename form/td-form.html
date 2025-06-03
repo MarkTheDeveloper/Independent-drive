@@ -4,6 +4,8 @@
   <meta charset="UTF-8">
   <link rel="stylesheet" href="styles.css">
   <link rel="icon" type="image/x-icon" href="../images/Logo-NO-BG.png">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
   <script src="td-form.js" defer></script>
   <title>TD Reservation Form</title>
 </head>
@@ -63,6 +65,17 @@
       <div style="position: relative;">
       <input type="text" id="parkSearchInput" name="park_selection" required placeholder="Start typing a park name..." />
       <ul id="searchResults" class="dropdown-list"></ul>
+      <!-- reservation Calendar Section -->
+      <div id="formCalendarSection" style="display: none; margin-top: 20px;">
+        <h4>Reserved Dates for This Park</h4>
+        <div id="formReservationCalendar" class="calendar-container"></div>
+        <div class="calendar-legend">
+          <span class="legend-item"><span class="legend-color red"></span> Reserved</span>
+          <span class="legend-item"><span class="legend-color yellow"></span> Pending</span>
+          <span class="legend-item"><span class="legend-color green"></span> Available</span>
+        </div>
+      </div>
+
       </div>
 
 
@@ -112,7 +125,7 @@
       <textarea name="notes" rows="4" cols="40"></textarea><br><br>
     </fieldset>
 
-    <!-- Park's specific requirements-->
+    <!-- park's specific requirements-->
     <fieldset id="specific-req" style="display:none">
       <legend style="font-weight: bold; color: #014134;">Specific requirement for specific park</legend>
       <div id="specific-req-container"></div>
@@ -158,6 +171,76 @@
           alert("⚠️ Network error. Please check your connection.");
         });
     });
+
+    // show calendar when park is selected
+   function showFormCalendarForPark(park) {
+  const calendarDiv = document.getElementById("formReservationCalendar");
+  const section = document.getElementById("formCalendarSection");
+
+  if (!park || !calendarDiv || !section) return;
+
+  section.style.display = "block";
+  const parkName = park.course_name;
+
+  if (calendarDiv._flatpickr) {
+    calendarDiv._flatpickr.destroy();
+  }
+
+  Promise.all([
+    fetch("../data/reservations.json").then(res => res.json()),
+    fetch("../data/email-system/pending_requests.json").then(res => res.json())
+  ])
+  .then(([approvedData, pendingData]) => {
+    const reservedDates = new Set();
+    const pendingDates = new Set();
+
+    // approved reservations
+    if (approvedData[parkName]) {
+      approvedData[parkName].forEach(entry => {
+        const start = new Date(entry.start_date);
+        const end = new Date(entry.end_date || entry.start_date);
+        for (let d = new Date(start); d <= end; d.setDate(d.getDate() + 1)) {
+          reservedDates.add(d.toISOString().split("T")[0]);
+        }
+      });
+    }
+
+    //  pending requests
+    for (let id in pendingData) {
+      const req = pendingData[id];
+      if (req.park === parkName) {
+        const start = new Date(req.start_date);
+        const end = new Date(req.end_date || req.start_date);
+        for (let d = new Date(start); d <= end; d.setDate(d.getDate() + 1)) {
+          pendingDates.add(d.toISOString().split("T")[0]);
+        }
+      }
+    }
+
+    //  flatpickr rendering
+    flatpickr(calendarDiv, {
+      inline: true,
+      defaultDate: [],
+      disable: [],
+      onDayCreate: function (dObj, dStr, fp, dayElem) {
+        const dateStr = dayElem.dateObj.toISOString().split("T")[0];
+        if (reservedDates.has(dateStr)) {
+          dayElem.classList.add("calendar-red");
+          dayElem.title = "Reserved";
+        } else if (pendingDates.has(dateStr)) {
+          dayElem.classList.add("calendar-yellow");
+          dayElem.title = "Pending";
+        } else {
+          dayElem.classList.add("calendar-green");
+          dayElem.title = "Available";
+        }
+      }
+    });
+  });
+}
+
+
+
     </script>
 
 

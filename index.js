@@ -308,11 +308,13 @@ function getReservationScore(course) {
 
   return score;
 }
+
+
+
+
 // Populate park info section
 function displayParkInfo(park) {
-  //  Auto fill the search bar with selected park name
   document.getElementById('liveParkSearch').value = park.course_name;
-
   document.getElementById('selectedParkName').innerText = park.course_name;
   document.getElementById('selectedHoles').innerText = park.holes || "N/A";
   document.getElementById('selectedCourseType').innerText = park.course_type || "N/A";
@@ -334,55 +336,123 @@ function displayParkInfo(park) {
   document.getElementById('parkImage').src = park.imageUrl || "https://via.placeholder.com/400x200?text=No+Image";
   document.getElementById('parkMapLink').href = park.parkMapUrl || "#";
 
+    // Show inline reserve button to the right of park name
+  const inlineReserveBtn = document.getElementById("inlineReserveBtn");
+  if (inlineReserveBtn) {
+    inlineReserveBtn.style.display = "inline-block";
+    inlineReserveBtn.onclick = (e) => {
+      e.preventDefault();
+      localStorage.setItem("selectedPark", JSON.stringify(park));
+      window.location.href = "form/td-form.html";
+    };
+  }
+
+
   parkInfo.style.display = "block";
   resultsList.style.display = "none";
 
-  // enable suggest edit button with localStorage redirect cool stuff 
-  const editBtn = document.getElementById("generalSuggestEditBtn");
-if (editBtn) {
-  editBtn.style.display = "inline-block";
-  editBtn.onclick = () => {
-    localStorage.setItem("editData", JSON.stringify(park));
-    window.open("form/edit.html", "_blank");
-  };
+  //  Show and configure the BOTTOM buttons
+  const bottomButtons = document.getElementById("parkActionButtons");
+  const suggestBottom = document.getElementById("generalSuggestEditBtnBottom");
+  const reserveBottom = document.getElementById("reserveSelectedParkBtnBottom");
 
-  // Add Reserve This Park Button dynamically
-  let reserveBtn = document.getElementById("reserveSelectedParkBtn");
-  if (!reserveBtn) {
-    reserveBtn = document.createElement("button");
-    reserveBtn.id = "reserveSelectedParkBtn";
-    reserveBtn.className = "suggest-edit-btn";
-    reserveBtn.textContent = "Reserve This Park";
-    editBtn.insertAdjacentElement("afterend", reserveBtn);
+  if (bottomButtons && suggestBottom && reserveBottom) {
+    bottomButtons.style.display = "flex";
+
+    suggestBottom.onclick = () => {
+      localStorage.setItem("editData", JSON.stringify(park));
+      window.open("form/edit.html", "_blank");
+    };
+
+    reserveBottom.onclick = () => {
+      localStorage.setItem("selectedPark", JSON.stringify(park));
+      window.location.href = "form/td-form.html";
+    };
   }
 
-    // ok this fixes the folder redirect issue where it would open the website to the parks
- if (
-  park &&
-  park.course_name &&
-  park.course_name.toLowerCase() !== "not available" &&
-  park.course_name.toLowerCase() !== "n/a"
-) {
-  reserveBtn.style.display = "inline-block";
-  reserveBtn.onclick = () => {
-    localStorage.setItem("selectedPark", JSON.stringify(park));
-    window.location.href = "form/td-form.html";
-  };
-} else {
-  reserveBtn.style.display = "none"; // Hide the button if park is invalid next time lets use null guys
+  // ========== Calendar Renderer for Selected Park ========== //
+  const calendarEl = document.getElementById("reservationCalendar");
+  calendarEl.innerHTML = ""; // Clear old one
+
+  const parkName = park.course_name;
+  const reservedDates = new Set();
+  const pendingDates = new Set();
+
+  Promise.all([
+    fetch("data/reservations.json").then(r => r.json()),
+    fetch("data/email-system/pending_requests.json").then(r => r.json())
+  ]).then(([approvedData, pendingData]) => {
+    // Reserved dates
+    if (approvedData[parkName]) {
+      approvedData[parkName].forEach(entry => {
+        const start = new Date(entry.start_date);
+        const end = new Date(entry.end_date || entry.start_date);
+        for (let d = new Date(start); d <= end; d.setDate(d.getDate() + 1)) {
+          reservedDates.add(d.toISOString().split("T")[0]);
+        }
+      });
+    }
+
+    // pending dates
+    for (let id in pendingData) {
+      const req = pendingData[id];
+      if (req.park === parkName) {
+        const start = new Date(req.start_date || req.days || "2025-06-01");
+        const end = new Date(req.end_date || req.start_date || req.days || "2025-06-01");
+        for (let d = new Date(start); d <= end; d.setDate(d.getDate() + 1)) {
+          pendingDates.add(d.toISOString().split("T")[0]);
+        }
+      }
+    }
+
+    flatpickr(calendarEl, {
+      inline: true,
+      defaultDate: [],
+      disable: [],
+      onDayCreate: function(dObj, dStr, fp, dayElem) {
+        const dateStr = dayElem.dateObj.toISOString().split("T")[0];
+        if (reservedDates.has(dateStr)) {
+          dayElem.classList.add("calendar-red");
+          dayElem.title = "Reserved";
+        } else if (pendingDates.has(dateStr)) {
+          dayElem.classList.add("calendar-yellow");
+          dayElem.title = "Pending";
+        } else {
+          dayElem.classList.add("calendar-green");
+          dayElem.title = "Available";
+        }
+      }
+    });
+  });
+}
+
+// make top Reserve button behave like bottom one
+document.addEventListener("DOMContentLoaded", () => {
+  const topReserveBtn = document.getElementById("topReserveBtn");
+  const reserveBtn = document.getElementById("reserveSelectedParkBtn");
+
+  if (topReserveBtn && reserveBtn) {
+    topReserveBtn.onclick = () => reserveBtn.click();
+  }
+});
+
+function setupReserveButtons(parkName) {
+  document.querySelectorAll("#reserveSelectedParkBtn, #reserveSelectedParkBtnTop").forEach(btn => {
+    btn.onclick = () => {
+      const form = document.querySelector("form");
+      const parkInput = document.querySelector("#parkInput");
+
+      if (form && parkInput) {
+        parkInput.value = parkName;
+        form.scrollIntoView({ behavior: "smooth" });
+      }
+    };
+  });
 }
 
 
 
-}
-
-
-  
-}
-
-
-
-// Voice Search
+// voice Search
 const voiceBtn = document.getElementById("voiceSearchBtn");
 const micIcon = document.getElementById("micIcon");
 const SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;

@@ -249,5 +249,64 @@ input[type="submit"]:hover {
 }
 
 
+/* === Calendar Day Colors === */
+.flatpickr-day.calendar-red {
+  background-color: #e74c3c !important;
+  color: white !important;
+  border-radius: 50%;
+}
+
+.flatpickr-day.calendar-yellow {
+  background-color: #f1c40f !important;
+  color: black !important;
+  border-radius: 50%;
+}
+
+.flatpickr-day.calendar-green {
+  background-color: #2ecc71 !important;
+  color: white !important;
+  border-radius: 50%;
+}
+
+/* === Legend Below Calendar === */
+.calendar-legend {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-top: 12px;
+  font-size: 0.95rem;
+}
+
+.legend-item {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  white-space: nowrap;
+}
+
+.legend-color {
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.legend-color.red {
+  background-color: #e74c3c;
+}
+.legend-color.yellow {
+  background-color: #f1c40f;
+}
+.legend-color.green {
+  background-color: #2ecc71;
+}
+
+/* === Dim days from previous/next months === */
+.flatpickr-day.prevMonthDay,
+.flatpickr-day.nextMonthDay {
+  opacity: 0.25;
+  pointer-events: none;
+}
 
 /* MEDIA sizing for mobile integration and usability for the header */

@@ -160,20 +160,25 @@ button:hover {
   opacity: 0.8;
 }
 
-.contact-form input:disabled,
-.contact-form textarea:disabled {
-  cursor: not-allowed;
+.contact-form input,
+.contact-form textarea {
+  background-color: #fff;
+  color: #000;
+  opacity: 1;
+  cursor: text;
 }
 
 .contact-form button {
-  padding: 10px 20px;
-  border: none;
-  border-radius: 6px;
-  background-color: #999;
+  background-color: #0db58f;
   color: white;
-  cursor: not-allowed;
-  opacity: 0.6;
+  cursor: pointer;
+  opacity: 1;
 }
+
+.contact-form button:hover {
+  background-color: #0aa97e;
+}
+
 
 .contact-form p {
   font-size: 12px;
