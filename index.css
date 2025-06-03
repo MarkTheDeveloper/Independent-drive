@@ -194,7 +194,7 @@ div#course-list {
   text-decoration: underline;
 }
 /*suggest edit button*/
-.suggest-edit-btn {
+.suggest-edit-btn, .reserve-btn {
   display: inline-flex;
   align-items: center;
   background-color: #026d56;
@@ -209,7 +209,7 @@ div#course-list {
   box-shadow: 0 2px 6px rgba(0,0,0,0.15);
 }
 
-.suggest-edit-btn:hover {
+.suggest-edit-btn:hover, .reserve-btn:hover {
   background-color: #014134;
 }
 
