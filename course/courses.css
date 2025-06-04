@@ -10,18 +10,13 @@ body {
   margin-top: 80px; 
   font-family: arial , sans-serif ;
   /* background:#001f1a ; */
-   background: url("images/parktwo.png");
+   background: url("../images/parktwo.png");
   color:#222 ;
   min-height:100vh ;
 }
 
   
 
-/* wrapper  */
-.container {
-  margin : 0 auto ;
-  max-width:100%;
-}
 
 /* header stuff  */
 #logo{
@@ -86,33 +81,6 @@ button{
 
 
 
-/* the title or top: Selected Park Info (Side-by-Side Style) */
-.top-callout {
-  text-shadow: 0 3px 6px rgba(0, 0, 0, 0.75);
-  max-width: 100%;
-  margin: 0 auto;
-  margin-top:5%;
-  padding: 2rem 1rem 1.5rem 1rem;
-  text-align: center;
-  background-color: #06594D;
-  background-image: linear-gradient(to bottom, #06594D, rgba(6, 89, 77, 0.85));
-  background: linear-gradient(to bottom, #06594D, rgba(6, 89, 77, 0));
-}
-
-.top-callout h2 {
-  font-size: 2.3rem;
-  color: #0db58f;
-  margin-bottom: 1rem;
-  text-shadow: 1px 1px 2px #001d1a;
-}
-
-.top-callout p {
-  color: #b6f5e4;
-  font-size: 1.1rem;
-  max-width: 700px;
-  margin: 0 auto;
-  line-height: 1.5;
-}
 
 
 
@@ -141,16 +109,17 @@ h2:last-of-type{
 }
 /*course-information*/
 div#course-list {
+  z-index: 10;
+  position: absolute;
   width: 400px;
   padding: 20px;
-  background-color:  #012c26;
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0,0,0,0.1);
   
 }
 
 .course-item {
-  background:  #014134;
+  background:  #508076;
   padding: 10px;
   margin-bottom: 10px;
   border-radius: 8px;
@@ -198,7 +167,7 @@ div#course-list {
   text-decoration: underline;
 }
 /*suggest edit button*/
-.suggest-edit-btn, .reserve-btn {
+.suggest-edit-btn {
   display: inline-flex;
   align-items: center;
   background-color: #026d56;
@@ -213,36 +182,31 @@ div#course-list {
   box-shadow: 0 2px 6px rgba(0,0,0,0.15);
 }
 
-.suggest-edit-btn:hover, .reserve-btn:hover {
+.suggest-edit-btn:hover {
   background-color: #014134;
 }
 
 
 /* ------------------------api map css-------------------- */
 
-/* Layout for left (Course List) and right (Map) */
-.content-container {
-  display: flex;
-  margin-top: 20px;
-  max-width: 1400px; /* Wider overall section to make it not conflcit*/
-  margin-left: auto;
-  margin-right: auto;
-}
+
 
 /* Left Side: Course List */
 #course-list {
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; 
   height: 400px;
   overflow-y: auto;
   width: 35%;
   padding: 20px;
-  background: white;
   border-radius: 8px ;
   min-height: 600px;  /* to match the map height */
 }
 
 /* Right Side: Map and controls */
 #map-wrapper {
-  width: 65%;
+  z-index: 1;
+  width: 100%;
   position: relative; /* needed for controls floating we need to fix this for mobile */
 }
 
@@ -461,16 +425,17 @@ div#course-list {
 
 /* FEATURE: Selected Park Info (Side-by-Side Style Improved) */
 .selected-park-info {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 2rem;
   background-color: #012c26;
   color: #ffffff;
   padding: 2rem;
   border-radius: 12px;
   box-shadow: 0 4px 14px rgba(0, 0, 0, 0.4);
-}
-#searching-bar{
-  display:flex;
-    align-items: flex-start;
-
+  margin-top: 2rem;
+  align-items: flex-start;
 }
 
 .selected-park-info img {
@@ -545,37 +510,6 @@ div#course-list {
   color: #90ee90;
 }
 
-/* for the reserve button top on makeing it easir more easir for user */
-.park-title-row {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 12px;
-  margin-top: 8px;
-  margin-bottom: 10px;
-}
-
-.inline-reserve-btn {
-  background-color: #00b389 !important;
-  color: white !important;
-  padding: 6px 18px;
-  border: none;
-  border-radius: 20px;
-  text-decoration: none !important;
-  font-size: 0.9rem;
-  font-weight: bold;
-  transition: background-color 0.3s;
-  cursor: pointer;
-  display: inline-block;
-}
-
-.inline-reserve-btn:hover {
-  background-color: #00a179 !important;
-  color: white !important;
-}
-
-
-
 /* this is for crowd sourcing General search*/
 .suggest-edit-btn {
   display: inline-flex;
@@ -643,22 +577,8 @@ div#course-list {
 }
 
 #parkImage {
-  width: 90%;
+  width: 50%;
 }
-/*illustration*/
-#illustration{
-  display:flex;
-  max-width:100%;
-  background-color:#2e694d;
-  margin-top:10%;
-  
-}
-#illustration img{
-  width:73%;
-
-
-}
-
 
 
 /* ----MEDIA SIZING FOR MOBILE */
@@ -720,141 +640,6 @@ div#course-list {
     text-align: center;
   }
 }
-
-
-/* ===== CLEAN DISC GOLF CALENDAR THEME ===== */
-.calendar-container {
-  margin-top: 1.5rem;
-  padding: 10px;
-  border-radius: 12px;
-  background: transparent;
-  width: 100%;
-  max-width: 700px;
-  margin-left: auto;
-  margin-right: auto;
-  text-align: center;
-}
-
-#reservationCalendar {
-  width: 100%;
-}
-
-/* Remove dark background box */
-.flatpickr-calendar {
-  background: #f4fdf7; /* Light green background */
-  color: #222;
-  border: none;
-  box-shadow: 0 0 10px rgba(0,0,0,0.15);
-  border-radius: 12px;
-  padding: 10px;
-}
-
-/* Month and year header */
-.flatpickr-months {
-  background: #d7f9e6;
-  border-radius: 8px 8px 0 0;
-  padding: 5px;
-  font-weight: bold;
-  color: #065c3d;
-}
-
-/* Weekday labels */
-.flatpickr-weekdays {
-  background: #e8fdf1;
-  color: #065c3d;
-  font-weight: 600;
-}
-
-/* Day cell base style */
-.flatpickr-day {
-  font-size: 1rem;
-  line-height: 2.2rem;
-  margin: 2px;
-  border-radius: 50%;
-  transition: transform 0.1s ease;
-}
-
-.flatpickr-day:hover {
-  background: #b3f5d5;
-  transform: scale(1.05);
-}
-
-/* Custom date colors */
-.flatpickr-day.calendar-red {
-  background-color: #e74c3c !important;
-  color: white !important;
-}
-
-.flatpickr-day.calendar-yellow {
-  background-color: #f1c40f !important;
-  color: black !important;
-}
-
-.flatpickr-day.calendar-green {
-  background-color: #2ecc71 !important;
-  color: white !important;
-}
-
-/* Dim previous/next month days */
-.flatpickr-day.prevMonthDay,
-.flatpickr-day.nextMonthDay {
-  opacity: 0.25;
-}
-
-/* ===== LEGEND under calendar ===== */
-.calendar-legend {
-  display: flex;
-  gap: 20px;
-  justify-content: center;
-  margin-top: 12px;
-  font-size: 0.95rem;
-  flex-wrap: wrap;
-}
-
-.legend-item {
-  display: flex;
-  align-items: center;
-  gap: 6px;
-  color: #1e1e1e;
-  background-color: #e6fdf0;
-  padding: 4px 10px;
-  border-radius: 20px;
-  border: 1px solid #ccc;
-}
-
-.legend-color {
-  width: 14px;
-  height: 14px;
-  border-radius: 50%;
-  display: inline-block;
-}
-
-.legend-color.red {
-  background-color: #e74c3c;
-}
-
-.legend-color.yellow {
-  background-color: #f1c40f;
-}
-
-.legend-color.green {
-  background-color: #2ecc71;
-}
-
-
-.suggest-edit-btn {
-  margin-top: 20px;
-  margin-right: 10px;
-}
-
-#reserveSelectedParkBtn {
-  margin-top: 20px;
-}
-
-
-
-
-
 
 
 

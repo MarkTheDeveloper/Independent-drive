@@ -2,7 +2,7 @@
 window.onload = function () {
     const courseList = document.getElementById("course-list");
 
-    fetch('data/data.json')
+    fetch('../data/data.json')
       .then(response => response.json())
       .then(information => {
         information.forEach((course) => {
@@ -44,12 +44,12 @@ window.onload = function () {
             //localStorage
             localStorage.setItem("editData", JSON.stringify(course));
           
-            window.open("form/edit.html");
+            window.open("../form/edit.html");
           }); 
           let reserveBtn=courseDiv.querySelector(".reserve-btn");
           reserveBtn.onclick = () => {
             localStorage.setItem("selectedPark", JSON.stringify(course));
-            window.location.href = "form/td-form.html";
+            window.location.href = "../form/td-form.html";
           };
           /*td-form*/
         });
@@ -60,7 +60,141 @@ window.onload = function () {
 
 
   // <----------------------The API MAP Section Painnnnnnnn------------------>
+  //   <!-- Had a lot of help from AI when making the map and API code. -->
+// Setup the map
+var map = L.map('mapArea').setView([45.0, -95.0], 4);
 
+// Tile layers
+var defaultTile = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', { attribution: '&copy; OpenStreetMap contributors' }).addTo(map);
+var darkTile = L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', { attribution: '&copy; OpenStreetMap contributors' });
+var satTile = L.tileLayer('https://{s}.tile.opentopomap.org/{z}/{x}/{y}.png', { attribution: '&copy; OpenStreetMap contributors' });
+
+// Marker cluster group
+var markerCluster = L.markerClusterGroup();
+var allMarkers = [];
+
+// Custom icons
+var greenIcon = new L.Icon({
+    iconUrl: 'https://cdn-icons-png.flaticon.com/512/684/684908.png',
+    iconSize: [30,30], iconAnchor: [15,30], popupAnchor: [0,-30]
+});
+var blueIcon = new L.Icon({
+    iconUrl: 'https://cdn-icons-png.flaticon.com/512/252/252025.png',
+    iconSize: [30,30], iconAnchor: [15,30], popupAnchor: [0,-30]
+});
+
+// Load course data
+fetch('../data/export.geojson')
+.then(res => res.json())
+.then(data => {
+    var features = L.geoJSON(data, {
+        pointToLayer: function(feature, latlng) {
+            var holes = feature.properties.holes || 'Unknown';
+            var markerIcon = (holes.toString().includes('9')) ? greenIcon : blueIcon;
+            var marker = L.marker(latlng, { icon: markerIcon });
+
+            var name = feature.properties.name || 'Name Not Available';
+            var province = feature.properties.province || 'Province Unknown';
+            var year = feature.properties.year_established || 'Year Unknown';
+
+            marker.bindPopup('<b>' + name + '</b><br>Holes: ' + holes + '<br>' + province + '<br>Established: ' + year + '<br><a target="_blank" href="https://www.google.com/maps/dir/?api=1&destination=' + latlng.lat + ',' + latlng.lng + '">Get Directions</a>');
+            marker.feature = feature;
+            allMarkers.push(marker);
+            return marker;
+        }
+    });
+    markerCluster.addLayer(features);
+    map.addLayer(markerCluster);
+    document.getElementById('loader').style.display = 'none';
+    updateSideList();
+});
+
+// Location tracking
+map.locate({ setView: true, maxZoom: 12 });
+
+map.on('locationfound', function(e) {
+    L.marker(e.latlng).addTo(map).bindPopup('You are here!').openPopup();
+    findNearestPark(e.latlng);
+});
+
+map.on('locationerror', function(e) { console.log('Location blocked'); });
+
+function findNearestPark(userLatLng) {
+    var nearestMarker = null;
+    var nearestDistance = Infinity;
+    allMarkers.forEach(m => {
+        var d = map.distance(userLatLng, m.getLatLng());
+        if (d < nearestDistance) { nearestDistance = d; nearestMarker = m; }
+    });
+    if (nearestMarker) {
+        L.polyline([userLatLng, nearestMarker.getLatLng()], { color: 'blue' }).addTo(map);
+        nearestMarker.openPopup();
+    }
+}
+
+function findNearestAgain() { map.locate(); }
+
+// Tile switching
+function setDefaultTile() { resetTiles(); defaultTile.addTo(map); markerCluster.addTo(map); }
+function setDarkTile() { resetTiles(); darkTile.addTo(map); markerCluster.addTo(map); }
+function setSatTile() { resetTiles(); satTile.addTo(map); markerCluster.addTo(map); }
+function resetTiles() {
+    map.eachLayer(function(layer) { map.removeLayer(layer); });
+}
+
+// Searches parks auto filters while the user types out the park name
+document.getElementById('search').addEventListener('input', function() {
+    var text = this.value.toLowerCase();
+    markerCluster.clearLayers();
+    var filt = allMarkers.filter(m => {
+        var n = m.feature.properties.name || '';
+        return n.toLowerCase().includes(text);
+    });
+    markerCluster.addLayers(filt);
+    updateSideList(filt);
+});
+
+// Handle Find Button click seraches for the park user wants
+document.getElementById('findButton').addEventListener('click', function() {
+  var searchText = document.getElementById('search').value.toLowerCase();
+  var found = false;
+
+  allMarkers.forEach(marker => {
+    var name = marker.feature.properties.name || '';
+    if (name.toLowerCase().includes(searchText)) {
+      map.flyTo(marker.getLatLng(), 14);
+      marker.openPopup();
+      found = true;
+    }
+  });
+
+  if (!found) {
+    alert('No park found with that name.');
+  }
+});
+
+
+// Toggle full screen mode for map this was paiinnnnn 
+function toggleFullScreen() {
+  var mapWrapper = document.getElementById('map-wrapper');
+  var mapArea = document.getElementById('mapArea');
+
+  if (!document.fullscreenElement) {
+    mapWrapper.requestFullscreen().then(() => {
+      // when full screen, expand the map size
+      mapArea.style.height = '100vh';
+      mapArea.style.width = '100vw';
+    }).catch(err => {
+      alert(`Error trying to enable full-screen mode: ${err.message}`);
+    });
+  } else {
+    document.exitFullscreen().then(() => {
+      // when exit full screen, reset the map size
+      mapArea.style.height = '600px';
+      mapArea.style.width = '100%';
+    });
+  }
+}
  // <----------------------The API MAP Section !END!------------------>
 
 
@@ -77,7 +211,7 @@ let allParks = [];
 let fuse;
 let currentSelectionIndex = -1;
 
-fetch("./data/data.json")
+fetch("../data/data.json")
   .then(res => res.json())
   .then(data => {
     allParks = data;
@@ -174,13 +308,11 @@ function getReservationScore(course) {
 
   return score;
 }
-
-
-
-
 // Populate park info section
 function displayParkInfo(park) {
+  //  Auto fill the search bar with selected park name
   document.getElementById('liveParkSearch').value = park.course_name;
+
   document.getElementById('selectedParkName').innerText = park.course_name;
   document.getElementById('selectedHoles').innerText = park.holes || "N/A";
   document.getElementById('selectedCourseType').innerText = park.course_type || "N/A";
@@ -202,123 +334,55 @@ function displayParkInfo(park) {
   document.getElementById('parkImage').src = park.imageUrl || "https://via.placeholder.com/400x200?text=No+Image";
   document.getElementById('parkMapLink').href = park.parkMapUrl || "#";
 
-    // Show inline reserve button to the right of park name
-  const inlineReserveBtn = document.getElementById("inlineReserveBtn");
-  if (inlineReserveBtn) {
-    inlineReserveBtn.style.display = "inline-block";
-    inlineReserveBtn.onclick = (e) => {
-      e.preventDefault();
-      localStorage.setItem("selectedPark", JSON.stringify(park));
-      window.location.href = "form/td-form.html";
-    };
-  }
-
-
   parkInfo.style.display = "block";
   resultsList.style.display = "none";
 
-  //  Show and configure the BOTTOM buttons
-  const bottomButtons = document.getElementById("parkActionButtons");
-  const suggestBottom = document.getElementById("generalSuggestEditBtnBottom");
-  const reserveBottom = document.getElementById("reserveSelectedParkBtnBottom");
+  // enable suggest edit button with localStorage redirect cool stuff 
+  const editBtn = document.getElementById("generalSuggestEditBtn");
+if (editBtn) {
+  editBtn.style.display = "inline-block";
+  editBtn.onclick = () => {
+    localStorage.setItem("editData", JSON.stringify(park));
+    window.open("../form/edit.html", "_blank");
+  };
 
-  if (bottomButtons && suggestBottom && reserveBottom) {
-    bottomButtons.style.display = "flex";
-
-    suggestBottom.onclick = () => {
-      localStorage.setItem("editData", JSON.stringify(park));
-      window.open("form/edit.html", "_blank");
-    };
-
-    reserveBottom.onclick = () => {
-      localStorage.setItem("selectedPark", JSON.stringify(park));
-      window.location.href = "form/td-form.html";
-    };
+  // Add Reserve This Park Button dynamically
+  let reserveBtn = document.getElementById("reserveSelectedParkBtn");
+  if (!reserveBtn) {
+    reserveBtn = document.createElement("button");
+    reserveBtn.id = "reserveSelectedParkBtn";
+    reserveBtn.className = "suggest-edit-btn";
+    reserveBtn.textContent = "Reserve This Park";
+    editBtn.insertAdjacentElement("afterend", reserveBtn);
   }
 
-  // ========== Calendar Renderer for Selected Park ========== //
-  const calendarEl = document.getElementById("reservationCalendar");
-  calendarEl.innerHTML = ""; // Clear old one
-
-  const parkName = park.course_name;
-  const reservedDates = new Set();
-  const pendingDates = new Set();
-
-  Promise.all([
-    fetch("data/reservations.json").then(r => r.json()),
-    fetch("data/email-system/pending_requests.json").then(r => r.json())
-  ]).then(([approvedData, pendingData]) => {
-    // Reserved dates
-    if (approvedData[parkName]) {
-      approvedData[parkName].forEach(entry => {
-        const start = new Date(entry.start_date);
-        const end = new Date(entry.end_date || entry.start_date);
-        for (let d = new Date(start); d <= end; d.setDate(d.getDate() + 1)) {
-          reservedDates.add(d.toISOString().split("T")[0]);
-        }
-      });
-    }
-
-    // pending dates
-    for (let id in pendingData) {
-      const req = pendingData[id];
-      if (req.park === parkName) {
-        const start = new Date(req.start_date || req.days || "2025-06-01");
-        const end = new Date(req.end_date || req.start_date || req.days || "2025-06-01");
-        for (let d = new Date(start); d <= end; d.setDate(d.getDate() + 1)) {
-          pendingDates.add(d.toISOString().split("T")[0]);
-        }
-      }
-    }
-
-    flatpickr(calendarEl, {
-      inline: true,
-      defaultDate: [],
-      disable: [],
-      onDayCreate: function(dObj, dStr, fp, dayElem) {
-        const dateStr = dayElem.dateObj.toISOString().split("T")[0];
-        if (reservedDates.has(dateStr)) {
-          dayElem.classList.add("calendar-red");
-          dayElem.title = "Reserved";
-        } else if (pendingDates.has(dateStr)) {
-          dayElem.classList.add("calendar-yellow");
-          dayElem.title = "Pending";
-        } else {
-          dayElem.classList.add("calendar-green");
-          dayElem.title = "Available";
-        }
-      }
-    });
-  });
-}
-
-// make top Reserve button behave like bottom one
-document.addEventListener("DOMContentLoaded", () => {
-  const topReserveBtn = document.getElementById("topReserveBtn");
-  const reserveBtn = document.getElementById("reserveSelectedParkBtn");
-
-  if (topReserveBtn && reserveBtn) {
-    topReserveBtn.onclick = () => reserveBtn.click();
-  }
-});
-
-function setupReserveButtons(parkName) {
-  document.querySelectorAll("#reserveSelectedParkBtn, #reserveSelectedParkBtnTop").forEach(btn => {
-    btn.onclick = () => {
-      const form = document.querySelector("form");
-      const parkInput = document.querySelector("#parkInput");
-
-      if (form && parkInput) {
-        parkInput.value = parkName;
-        form.scrollIntoView({ behavior: "smooth" });
-      }
-    };
-  });
+    // ok this fixes the folder redirect issue where it would open the website to the parks
+ if (
+  park &&
+  park.course_name &&
+  park.course_name.toLowerCase() !== "not available" &&
+  park.course_name.toLowerCase() !== "n/a"
+) {
+  reserveBtn.style.display = "inline-block";
+  reserveBtn.onclick = () => {
+    localStorage.setItem("selectedPark", JSON.stringify(park));
+    window.location.href = "../form/td-form.html";
+  };
+} else {
+  reserveBtn.style.display = "none"; // Hide the button if park is invalid next time lets use null guys
 }
 
 
 
-// voice Search
+}
+
+
+  
+}
+
+
+
+// Voice Search
 const voiceBtn = document.getElementById("voiceSearchBtn");
 const micIcon = document.getElementById("micIcon");
 const SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;

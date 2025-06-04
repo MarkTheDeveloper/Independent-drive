@@ -24,7 +24,7 @@
   <nav>
     <ul class="nav-links">
       <li><a href="index.html">Home</a></li>
-      <li><a href="about/about.html">About</a></li>
+      <li><a href="course/courses.html">Courses</a></li>
       <li><a href="Contact/contact.html">Contact</a></li>
     </ul>
   </nav>
@@ -60,20 +60,26 @@
 
   <!-- Selected Park Info Box -->
   <div class="selected-park-info" id="selectedParkInfo" style="display: none;">
-    <div class="park-title-row">
-      <h3 id="selectedParkName" style="margin: 0;"></h3>
-      <a id="inlineReserveBtn" class="inline-reserve-btn" style="display: none;" href="form/td-form.html">Reserve</a>
-    </div>
-
+      <h3 id="selectedParkName"></h3>
+    <div id="searching-bar">
+    <div>
     <img id="parkImage" src="Logo-NO-BG.png" alt="Park Image" style="max-width: 100%; border-radius: 8px;">
+  </div>
+  <div>
+  <p><strong>Holes:</strong> <span id="selectedHoles"></span></p>
+  <p><strong>Course Type:</strong> <span id="selectedCourseType"></span></p>
+  <p><strong>Requirements:</strong> <span id="selectedRequirements"></span></p>
+  <p><strong>Info:</strong> <span id="selectedInfo"></span></p>
+  <p><strong>Contact:</strong> <span id="selectedContact"></span></p>
+  <p><a id="parkMapLink" href="#" target="_blank">View Park Map</a></p>
+  
 
-    <p><strong>Holes:</strong> <span id="selectedHoles"></span></p>
-    <p><strong>Course Type:</strong> <span id="selectedCourseType"></span></p>
-    <p><strong>Requirements:</strong> <span id="selectedRequirements"></span></p>
-    <p><strong>Info:</strong> <span id="selectedInfo"></span></p>
-    <p><strong>Contact:</strong> <span id="selectedContact"></span></p>
-    <p><a id="parkMapLink" href="#" target="_blank">View Park Map</a></p>
-
+  <div id="parkReservations" style="margin-top: 20px;">
+  <h4>Reserved dates for this park:</h4>
+  <ul id="reservationList"></ul>
+  </div>
+  </div>
+  </div>
     <!-- Reserved Dates and Calendar BELOW info -->
     <div id="parkReservations" style="margin-top: 30px;">
       <h4 style="margin-bottom: 10px;">Reserved dates for this park:</h4>
@@ -91,22 +97,13 @@
       </div>
     </div>
     <div class="button-action-row" style="display: none;"></div>
-  </div> <!-- END of selectedParkInfo -->
-
 <!-- buttons outsidee the dark box, in light area -->
-<div id="parkActionButtons" style="display: none; margin-top: 25px; flex-wrap: wrap; gap: 15px;">
-  <button class="suggest-edit-btn" id="generalSuggestEditBtnBottom">Suggest an Edit</button>
-  <button class="suggest-edit-btn" id="reserveSelectedParkBtnBottom">Reserve This Park</button>
+  <div id="parkActionButtons" style="display: none; margin-top: 25px; flex-wrap: wrap; gap: 15px;">
+    <button class="suggest-edit-btn" id="generalSuggestEditBtnBottom">Suggest an Edit</button>
+    <button class="suggest-edit-btn" id="reserveSelectedParkBtnBottom">Reserve This Park</button>
+  </div>
 </div>
-
-
-
-
-
-
-
-
-
+</div> <!-- END of selectedParkInfo -->
 <!-- Flatpickr CSS and JS -->
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
 <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
@@ -116,57 +113,25 @@
 
  
 
+
 </div>
- 
-
-
-
- 
-
-
-
-  
-
-  
-
-  <section>
-    <h2>Parks Near Your Location & Map</h2>
-  
-    <div class="content-container">
-      <!-- LEFT side (Course List) -->
-      <div id="course-list">
-        <!-- Your course list will be here -->
-      </div>
-      <!-- RIGHT side (Map + controls) -->
-      <div id="map-wrapper">
-        <!-- Search and buttons floating over map -->
-        <div id="controls">
-          <div id="search-wrapper">
-            <input type="text" id="search" placeholder="search park...">
-            <button id="findButton">Find</button>
-          </div>
-        
-          <div id="buttons">
-            <button onclick="setDefaultTile()">Default</button>
-            <button onclick="setDarkTile()">Dark</button>
-            <button onclick="setSatTile()">Satellite</button>
-            <button onclick="findNearestAgain()">Find Nearest Park</button>
-            <button onclick="toggleFullScreen()">Full Screen</button>
-          </div>
-        </div>
-        
-  
-        <!-- MAP itself -->
-        <div id="mapArea"></div>
-  
-        <!-- Loader while map loads just cool feature why not -->
-        <div id="loader">
-          <img src="https://i.gifer.com/ZZ5H.gif" alt="Loading">
-        </div>
-      </div>
-  
+  <div id="illustration">
+    <div>
+      <div><img src="images/illustration1.png"></div>
     </div>
-  </section>
+    <div>
+      <div><img src="images/illustration2.png"></div>
+
+    </div>
+    <div>
+      <div><img src="images/illustration3.png"></div>
+
+    </div>
+    <div>
+      <div><img src="images/illustration5.png"></div>
+
+    </div>
+  </div>
 
   
   

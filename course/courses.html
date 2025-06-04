@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Home | Disc Golf Reservation</title>
+  <link rel="stylesheet" href="courses.css" />
+  <link rel="icon" type="image/x-icon" href="images/Logo-NO-BG.png">
+
+  <!-- Map CSS Links (for Leaflet Map + Marker Cluster) just asset stuff no need of citing should be plagerism free -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster/dist/MarkerCluster.css" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster/dist/MarkerCluster.Default.css" />
+  <!-- the link below is for acseiblity for people with bad grammer(like me) GENERAL SEARCH feature-->
+  <script src="https://cdn.jsdelivr.net/npm/fuse.js/dist/fuse.min.js"></script>
+
+</head>
+<body>
+
+<header class="main-header">
+  <div>
+    <a href="../index.html"><img id="logo" src="../images/Logo-NO-BG.png" alt="Our Logo"></a> 
+  <h1>Disc Golf Reservation</h1>
+  <nav>
+    <ul class="nav-links">
+      <li><a href="../index.html">Home</a></li>
+      <li><a href="courses.html">Courses</a></li>
+      <li><a href="../Contact/contact.html">Contact</a></li>
+    </ul>
+  </nav>
+  <a href="../form/td-form.html"><button>Reserve</button></a>
+  </div>
+  
+</header>
+
+<main class="container">
+<!-- Flatpickr CSS and JS -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
+<script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+
+<!-- Your script -->
+<script src="display.js" defer></script>
+
+  <!-- NEW: Suggest Edit Button -->
+  <button class="suggest-edit-btn" id="generalSuggestEditBtn" style="display: none;">Suggest an Edit</button>
+  </div>
+  
+
+</div>
+  <section>
+    <h2>Parks Near Your Location & Map</h2>
+  
+    <div class="content-container">
+      <!-- LEFT side (Course List) -->
+      <div id="course-list">
+        <!-- Your course list will be here -->
+      </div>
+      <!-- RIGHT side (Map + controls) -->
+      <div id="map-wrapper">
+        <!-- Search and buttons floating over map -->
+        <div id="controls">
+          <div id="search-wrapper">
+            <input type="text" id="search" placeholder="search park...">
+            <button id="findButton">Find</button>
+          </div>
+        
+          <div id="buttons">
+            <button onclick="setDefaultTile()">Default</button>
+            <button onclick="setDarkTile()">Dark</button>
+            <button onclick="setSatTile()">Satellite</button>
+            <button onclick="findNearestAgain()">Find Nearest Park</button>
+            <button onclick="toggleFullScreen()">Full Screen</button>
+          </div>
+        </div>
+        
+  
+        <!-- MAP itself -->
+        <div id="mapArea"></div>
+  
+        <!-- Loader while map loads just cool feature why not -->
+        <div id="loader">
+          <img src="https://i.gifer.com/ZZ5H.gif" alt="Loading">
+        </div>
+      </div>
+  
+    </div>
+  </section>
+
+  
+  
+  
+  
+
+</main>
+
+<!-- Footer Placeholder + Loader -->
+<div id="footer-placeholder"></div>
+<script>
+  fetch("../footer/footer.html")
+    .then(res => res.text())
+    .then(data => {
+      document.getElementById("footer-placeholder").innerHTML = data;
+    });
+</script>
+
+
+<!-- Map JS Links -->
+<script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+<script src="https://unpkg.com/leaflet.markercluster/dist/leaflet.markercluster.js"></script>
+
+<!-- linking the javascript -->
+<script src="courses.js"></script>
+
+</body>
+</html>
