@@ -1,14 +1,18 @@
 {
-    "Lake Fenwick Disc Golf Course": [
-        {
-            "start_date": "2025-05-25",
-            "end_date": "2025-05-31",
-            "client_name": "Walter White"
-        },
-        {
-            "start_date": "2025-05-25",
-            "end_date": "2025-05-31",
-            "client_name": "Jesse Pinkmen"
-        }
-    ]
+  "North Las Vegas Municipal DiscGolfPark": [
+    {
+      "start_date": "2025-06-15",
+      "end_date": "2025-06-17",
+      "client_name": "Vegas Director",
+      "event_name": "Desert Open",
+      "status": "approved"
+    },
+    {
+      "start_date": "2025-07-01",
+      "end_date": "2025-07-03",
+      "client_name": "Vegas Pro Team",
+      "event_name": "Pro Practice Weekend",
+      "status": "approved"
+    }
+  ]
 }

@@ -60,6 +60,7 @@ Promise.all([
     input.value = selected.course_name;
     displayParkInfo(selected);
     showSpecificRequirements(selected.course_name);
+    showFormCalendarForPark(selected);
     localStorage.removeItem("selectedPark");
   } else {
     input.value = "";
@@ -163,12 +164,14 @@ Promise.all([
         li.textContent = item.course_name;
         li.className = "dropdown-item";
         li.onclick = () => {
-          input.value = item.course_name;
-          displayParkInfo(item);
-          showSpecificRequirements(item.course_name);
-          results.innerHTML = "";
-          results.style.display = "none";
-        };
+        input.value = item.course_name;
+        displayParkInfo(item);
+        showSpecificRequirements(item.course_name);
+        showFormCalendarForPark(item); // <--  THIS LINE ADDED
+        results.innerHTML = "";
+        results.style.display = "none";
+      };
+
         results.appendChild(li);
       });
     }

@@ -17,9 +17,31 @@ $vendor       = $_POST['vendorBooths'] ?? 'N/A';
 $utilities    = $_POST['utilities'] ?? 'N/A';
 $notes        = $_POST['notes'] ?? 'None';
 
-// Send to dev email for now — not real park yet
-$to = $defaultEmail;
+// Generate a unique request ID
+$requestId = uniqid("req_");
 
+// Save to pending_requests.json
+$pendingPath = __DIR__ . "/pending_requests.json";
+$pending = file_exists($pendingPath) ? json_decode(file_get_contents($pendingPath), true) : [];
+
+$pending[$requestId] = [
+    "park" => $park,
+    "client_name" => $name,
+    "email" => $email,
+    "organization" => $organization,
+    "phone" => $phone,
+    "event_name" => $eventName,
+    "days" => $days,
+    "holes" => $holes,
+    "vendor" => $vendor,
+    "utilities" => $utilities,
+    "notes" => $notes,
+    "status" => "pending"
+];
+
+file_put_contents($pendingPath, json_encode($pending, JSON_PRETTY_PRINT));
+
+// Email content
 $subject = "New Reservation Request – $park from $name";
 $headers = "From: $email\r\n";
 $headers .= "Reply-To: $email\r\n";
@@ -35,10 +57,15 @@ $message .= "Number of Days: $days\n";
 $message .= "Number of Holes/Tees: $holes\n";
 $message .= "Vendor Booths: $vendor\n";
 $message .= "Utility Needs: $utilities\n";
-$message .= "Additional Notes: $notes\n";
+$message .= "Additional Notes: $notes\n\n";
+
+$message .= "Actions:\n";
+$message .= "✅ Approve: https://yourdomain.com/email-system/approve-email.php?id=$requestId&action=approve\n";
+$message .= "❌ Decline: https://yourdomain.com/email-system/approve-email.php?id=$requestId&action=decline\n";
+$message .= "✏️ Edit: https://yourdomain.com/email-system/edit-request.php?id=$requestId\n";
 
 // Actually send it now
-$sent = mail($to, $subject, $message, $headers);
+$sent = mail($defaultEmail, $subject, $message, $headers);
 
 // Show confirmation or error
 if ($sent) {
@@ -47,5 +74,4 @@ if ($sent) {
     http_response_code(500);
     echo "fail";
 }
-
 ?>

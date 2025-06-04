@@ -152,7 +152,7 @@
   <!-- Centered Logo -->
   <div class="footer-logo-container">
     <div class="footer-logo">
-      <img src="../images/Logo.png" alt="Logo">
+      <img src="/images/Logo.png" alt="Logo">
     </div>
   </div>
 
@@ -183,7 +183,8 @@
 </div>
 
    <a href="https://www.pdga.com/" class="trust-badge" target="_blank">
-  <img src="../images/PDGA.png" alt="PDGA Certified">
+  <img src="/images/PDGA.png" alt="PDGA Certified">
+
 
   </a>
 
@@ -215,7 +216,8 @@
         navigator.geolocation.getCurrentPosition(async (position) => {
           const lat = position.coords.latitude;
           const lon = position.coords.longitude;
-          const url = "../data/weather.php?lat=" + lat + "&lon=" + lon;
+          const url = "/data/weather.php?lat=" + lat + "&lon=" + lon;
+
 
           try {
             const response = await fetch(url);
