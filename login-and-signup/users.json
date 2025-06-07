@@ -1,1 +1,14 @@
-[]
+[
+    {
+        "id": 1,
+        "email": "Huynh.Huy@student.greenriver.edu",
+        "password": "$2y$10$Vqhdh3K8NHyFtfeP8Yth7OJPirk8hvDRdSKBiu\/uudJFPWJuyui9G",
+        "role": "park_owner"
+    },
+    {
+        "id": 2,
+        "email": "hhunh11@gmail.com",
+        "password": "$2y$10$caqQtz8iU4wH.TBoWUhIGumaNi19dGLv9OjKQgwC.en0Ckil.WCdC",
+        "role": "park_owner"
+    }
+]

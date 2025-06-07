@@ -71,7 +71,9 @@ file_put_contents($parkFile, json_encode($parks, JSON_PRETTY_PRINT));
 // === Auto login ===
 $_SESSION['user_id'] = $new_id;
 $_SESSION['role'] = "park_owner";
-
-header("Location: dashboard.php");
+echo "<script>
+  alert('✅ Registered successfully!');
+  window.location.href = 'login.html';
+</script>";
 exit;
 ?>
