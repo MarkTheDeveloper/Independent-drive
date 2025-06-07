@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Login Page</title>
+  <link rel="stylesheet" href="login.css" />
+  <link rel="icon" type="image/x-icon" href="images/Logo-NO-BG.png">
+</head>
+<body>
+  <header class="main-header">
+    <div>
+      <a href="../index.html"><img id="logo" src="../images/Logo-NO-BG.png" alt="Our Logo"></a> 
+    <h1>Disc Golf Reservation</h1>
+    <nav>
+      <ul class="nav-links">
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="courses.html">Courses</a></li>
+        <li><a href="../Contact/contact.html">Contact</a></li>
+      </ul>
+    </nav>
+    <a href="../form/td-form.html"><button>Reserve</button></a>
+    </div>
+  </header>
+  <main class="main-content">
+  <form method="POST" action="register.php">
+    <section class="field-group">
+      <h3>Register as Park Owner</h3>
+
+      <label>Email:</label><br>
+      <input type="email" name="email" required><br><br>
+
+      <label>Password:</label><br>
+      <input type="password" name="password" required><br><br>
+
+      <label for="parkSearchInput">Select Your Park:</label><br>
+      <input type="text" id="parkSearchInput" name="park_name" autocomplete="off" required placeholder="Start typing a park name..." />
+      <ul id="searchResults" class="dropdown-list"></ul>
+      <input type="hidden" name="park_id" id="hiddenParkId" />
+      <button type="submit">Register</button>
+    </section>
+  </form>
+  </main>
+  <div id="footer-placeholder"></div>
+  <script>
+    fetch("../footer/footer.html")
+        .then(res => res.text())
+        .then(data => {
+        document.getElementById("footer-placeholder").innerHTML = data;
+        });
+
+    let allParks = [];
+    fetch("../data/data.json")
+      .then(res => res.json())
+      .then(parks => {
+        allParks = parks;
+        const input = document.getElementById("parkSearchInput");
+        const results = document.getElementById("searchResults");
+        const hiddenId = document.getElementById("hiddenParkId");
+
+        input.addEventListener("input", () => {
+          const value = input.value.toLowerCase().trim();
+          results.innerHTML = "";
+
+          if (value === "") {
+            hiddenId.value = "";
+            return;
+          }
+
+        const matches = allParks
+          .filter(p => p.course_name.toLowerCase().includes(value))
+          .slice(0, 5); // 👈 chỉ lấy 5 công viên đầu tiên
+
+        matches.forEach(park => {
+          const li = document.createElement("li");
+          li.textContent = park.course_name;
+          li.addEventListener("click", () => {
+            input.value = park.course_name;
+            hiddenId.value = park.id;
+            results.innerHTML = "";
+          });
+          results.appendChild(li);
+        });
+
+        });
+
+        // Close dropdown if click outside
+        document.addEventListener("click", (e) => {
+          if (!results.contains(e.target) && e.target !== input) {
+            results.innerHTML = "";
+          }
+        });
+      });
+ </script>
+
+</body>
+</html>

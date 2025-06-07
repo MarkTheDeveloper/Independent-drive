@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Login Page</title>
+  <link rel="stylesheet" href="login.css" />
+  <link rel="icon" type="image/x-icon" href="images/Logo-NO-BG.png">
+</head>
+<body>
+  <header class="main-header">
+    <div>
+      <a href="../index.html"><img id="logo" src="../images/Logo-NO-BG.png" alt="Our Logo"></a> 
+    <h1>Disc Golf Reservation</h1>
+    <nav>
+      <ul class="nav-links">
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="courses.html">Courses</a></li>
+        <li><a href="../Contact/contact.html">Contact</a></li>
+      </ul>
+    </nav>
+    <a href="../form/td-form.html"><button>Reserve</button></a>
+    </div>
+  </header>
+  <main class="main-content">
+    <h2>Park Owner Login</h2>
+    <form method="POST" action="login.php">
+      <label>Email:</label><br>
+      <input type="email" name="email" required><br><br>
+
+      <label>Password:</label><br>
+      <input type="password" name="password" required><br><br>
+
+      <button type="submit">Login</button>
+    </form>
+  </main>
+  <div id="footer-placeholder"></div>
+    <script>
+    fetch("../footer/footer.html")
+        .then(res => res.text())
+        .then(data => {
+        document.getElementById("footer-placeholder").innerHTML = data;
+        });
+    </script>
+</body>
+</html>

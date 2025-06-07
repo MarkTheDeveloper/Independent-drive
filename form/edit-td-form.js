@@ -1,24 +1,6 @@
 
   /*park names drop-down menu*/
-fetch('../data/data.json')
-  .then(response => response.json())
-  .then(data => {
-    const select = document.getElementById('courseSelect');
-    select.innerHTML = ''; // Clear loading option
-
-    data.forEach(course => {
-      const option = document.createElement('option');
-      option.value = course.course_name;
-      option.textContent = course.course_name;
-      select.appendChild(option);
-    });
-  })
-  .catch(error => {
-    console.error("Error loading course list:", error);
-    const select = document.getElementById('courseSelect');
-    select.innerHTML = '<option disabled>Error loading data</option>';
-  });
-
+  const fixedCourseName = document.body.getAttribute("data-course-name");  
   document.getElementById("typeInput").addEventListener("change", function () {
     const type = this.value;
     const basic = document.getElementById("basicFields");
@@ -39,8 +21,7 @@ let fields = [];
 
 function addField() {
     console.log("fields array in add:", fields);
-
-  const course = document.getElementById("courseSelect").value;
+  const course = fixedCourseName;
   const type = document.getElementById("typeInput").value;
 
   let field = { type };
@@ -80,7 +61,7 @@ function addField() {
 
 /*send to php*/
 function saveFields() {
-  const course = document.getElementById("courseSelect").value;
+    const course = fixedCourseName;
     console.log("fields array in save:", fields);
   if (!course || fields.length === 0) {
     alert("Please choose a course and add at least one field.");

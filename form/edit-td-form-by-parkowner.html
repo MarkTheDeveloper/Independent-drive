@@ -2,8 +2,6 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <link rel="stylesheet" href="styles.css">
-  <link rel="icon" type="image/x-icon" href="../images/Logo-NO-BG.png">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css" />
   <title>TD Reservation Form</title>
 </head>
@@ -31,38 +29,75 @@
     .flatpickr-day.endRange {
     border-radius: 0 !important;
     }
+    form{
+      display: flex;
+      justify-content: flex-start; 
+      gap: 3rem;  
+
+    }
+.field-group {
+  background-color: #fff;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+  flex: 1;
+}
+
+.field-group h3 {
+  margin-top: 0;
+
+}
+h3{
+    color: #014134;
+
+}
+
+.field-group label {
+  display: inline-block;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+}
+
+.field-group input[type="text"],
+.field-group select,
+.field-group textarea {
+  width: 100%;
+  max-width: 350px;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+button {
+  padding: 0.5rem 1rem;
+  margin-right: 0.5rem;
+  background-color: #014134;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #027a5d;
+}
+
+#calendar {
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 1rem;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
 
   </style>
 <body>
-
-  <header>
-    <div class="main-header">
-      <div class="container">
-        <a href="../index.html"><img id="logo" src="../images/Logo-NO-BG.png" alt="Our Logo"></a> 
-        <h1>Disc Golf Reservation</h1>
-        <nav>
-          <ul class="nav-links">
-            <li><a href="../index.html">Home</a></li>
-            <li><a href="../about/about.html">About</a></li>
-            <li><a href="../Contact/contact.html">Contact</a></li>
-            
-          </ul>
-        </nav>
-        <a href="../form/td-form.html"><button>Reserve</button></a>
-      </div>
-    </div>
-  </header>
-
+      <!-- Park's specific requirements-->
 <form>
-    <!-- Park's specific requirements-->
-    <fieldset>
-      <legend style="font-weight: bold; color: #014134;">Adding more things on your park's form here</legend>
-<div class="field-group">
-    <label for="courseSelect">Choose your park:</label>
-    <select id="courseSelect">
-      <option disabled selected>Loading...</option>
-    </select>
 
+<div class="field-group">
+  <h3>Adding more things on your park's form here</h3>
   <label for="typeInput">Field Type:</label>
   <select id="typeInput">
     <option value="text">Text</option>
@@ -90,22 +125,19 @@
   </div>
   <button type="button" onclick="addField()">Add Field</button>
   <button type="button" onclick="saveFields()">Save</button>
+  <a href="td-form.html" target="_blank">View your form</a>
+
   <div id="changes"></div> 
-
+ </div>
 <!--Calender select date range area-->
-</div>
-</fieldset>
-<label for="clientName">Your Name:</label>
-<input type="text" id="clientName" name="clientName" placeholder="Enter your name" />
 
-<field>
   <div>
-    <legend>Select your reservation date range: </legend>
+    <h3>Select your reservation date range: </h3>
     <div id="calendar"></div>
     <button type="button" id="confirmReservation">Confirm Reservation</button>
     <div id="message" style="margin-top: 0.5em; font-weight: bold; color: #014134;"></div>
   </div>
-</field>
+
 
 
 </form>
@@ -113,6 +145,7 @@
 <!-- Flatpickr JS -->
 <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
 <script>
+const messageEl = document.getElementById("message");
 let reservationRange = {};
 
 flatpickr("#calendar", {
@@ -134,16 +167,20 @@ flatpickr("#calendar", {
 });
 
 document.getElementById('confirmReservation').addEventListener('click', () => {
-  const courseSelect = document.getElementById('courseSelect');
-  const selectedCourse = courseSelect.value;
+  const urlParams = new URLSearchParams(window.location.search);
+  const selectedCourse = urlParams.get("course_name");
+  document.getElementById("parkNameDisplay").textContent = selectedCourse || "Unknown Park";
+
+
 
   const clientNameInput = document.getElementById('clientName');
   const clientName = clientNameInput.value.trim();
 
   if (!selectedCourse) {
-    alert("Please select a park.");
+    alert("Missing park name in URL.");
     return;
   }
+
 
   if (!clientName) {
     alert("Please enter your name.");
