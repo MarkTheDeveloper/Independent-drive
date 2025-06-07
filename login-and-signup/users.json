@@ -1,14 +1,1 @@
-[
-    {
-        "id": 1,
-        "email": "hhunh11@gmail.com",
-        "password": "$2y$10$1w33BUyHfApk2hluvAnusu4la65GH7VHuRX7x9pO1QDq.EUjEWly2",
-        "role": "park_owner"
-    },
-    {
-        "id": 2,
-        "email": null,
-        "password": "$2y$10$wsFyJv8DOBvtnitth1o6Ae8p9Mi.xx8ma0qg1OIE88PpGEa2zGS.a",
-        "role": "park_owner"
-    }
-]
+[]

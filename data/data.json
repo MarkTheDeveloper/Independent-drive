@@ -1,1574 +1,1575 @@
 [
-  {
-    "course_name": "Lake Fenwick Disc Golf Course",
-    "ownership": "Public",
-    "contact_info": {
-      "address": "26001 Lake Fenwick Rd, S Kent, WA 98198 ",
-      "phone": "(253) 333-9774",
-      "email": "verified email",
-      "website": "https://www.kentwa.gov/departments/kent-parks/parks-places/parks-trails/lake-fenwick-park"
-    },
-    "reservation_requirements": "No reservation required.",
-    "policies_rules_dates_open": "Open year-round from dawn to dusk. No restrooms available.",
-    "holes": "18",
-    "course_type": "hilly and wooded terrain with dual tees",
-    "imageUrl": "https://d22ksth68ujgu2.cloudfront.net/8249bc814230139430c22ed1cc91a43d_m_PCux8YfqcKABQjc7mJrQWgaKbw44.jpg",
-    "parkMapUrl": "https://d22ksth68ujgu2.cloudfront.net/7c52b795f4434f839ec7b74f68942cd1_m_u7c8VQr1gjZiLooxVLU0B1lEpOaI.jpg",
-    "mapEmbedUrl": null,
-    "id": 1
-  },
-  {
-    "course_name": "Gaffney's Grove Disc Golf Course",
-    "ownership": "Public",
-    "contact_info": {
-      "address": "22520 SE 248th St, Maple Valley, WA 98038 ",
-      "phone": "(425) 413-8800",
-      "email": "gaffneys.grove.dga@gmail.com",
-      "website": "https://www.maplevalleywa.gov/government/departments/parks_and_recreation/parks_and_trails.php"
-    },
-    "reservation_requirements": "No reservation required.",
-    "policies_rules_dates_open": "Open year-round.",
-    "holes": "18",
-    "course_type": "short, tight, and technical with a few longer holes",
-    "imageUrl": "https://d22ksth68ujgu2.cloudfront.net/06c712ac3496995a1347af206472d0fa_m_IMG_2594.jpg",
-    "parkMapUrl": "https://d22ksth68ujgu2.cloudfront.net/a653b75cc1be793f870c5f369f3d4652_m_IMG_4815.jpg",
-    "mapEmbedUrl": null,
-    "id": 2
-  },
-  {
-    "course_name": "White River Disc Golf Course",
-    "ownership": "Public",
-    "contact_info": {
-      "address": "2401 Stuck River Dr, Auburn, WA 98092",
-      "phone": "(253) 931-3043",
-      "email": "Email here",
-      "website": "https://www.auburnwa.gov/city_hall/parks_arts_recreation/parks_trails/game_farm_wilderness"
-    },
-    "reservation_requirements": "No reservation required.",
-    "policies_rules_dates_open": "Open year-round from dawn to dusk.",
-    "holes": "18 holes",
-    "course_type": "park setting",
-    "imageUrl": "https://d22ksth68ujgu2.cloudfront.net/866a9d8e8e1b6d49564ea98b49fb0183_m_IMG_0931.jpg",
-    "parkMapUrl": "https://d22ksth68ujgu2.cloudfront.net/3f2150cfb13da9b2e79d9e2854906bf4_m_IMG_5165.jpg",
-    "mapEmbedUrl": null,
-    "id": 3
-  },
-  {
-    "course_name": "SeaTac Disc Golf Course",
-    "ownership": "Public",
-    "contact_info": {
-      "address": "13001 20th Ave S, SeaTac, WA 98168 ",
-      "phone": "(206) 673-6291",
-      "email": "allterrarich@gmail.com",
-      "website": "https://www.seattlesouthside.com/directory/north-seatac-park-disc-golf/"
-    },
-    "reservation_requirements": "No reservation required.",
-    "policies_rules_dates_open": "Open year-round.",
-    "holes": "27 holes",
-    "course_type": "long and challenging with wooded narrow corridors",
-    "imageUrl": "https://d22ksth68ujgu2.cloudfront.net/01a524ff1e8516a56dba178242775bbf_m_IMG_0935.jpg",
-    "parkMapUrl": "https://d22ksth68ujgu2.cloudfront.net/97294ffb7cf56ce346a7515f1e3cbf0c_m_IMG_4009.jpg",
-    "mapEmbedUrl": null,
-    "id": 4
-  },
-  {
-    "course_name": "South Fork Landing Disc Golf Course",
-    "ownership": "Public",
-    "contact_info": {
-      "address": "14319 436th Ave SE North Bend, WA 98045",
-      "phone": "425-831-0669",
-      "email": "not available",
-      "website": "https://www.siviewpark.org/"
-    },
-    "reservation_requirements": "No reservation required.",
-    "policies_rules_dates_open": "Open year-round.",
-    "holes": "18 holes",
-    "course_type": "former golf course with open fairways",
-    "imageUrl": "https://d22ksth68ujgu2.cloudfront.net/cc3e07c07beb34da2a5b61ecf141f1bc_m_nVbohzIxHiXudYr26AyoJytaRhbs.jpg",
-    "parkMapUrl": "https://d22ksth68ujgu2.cloudfront.net/35d21d3d283cdcce07885dbceac6458a_m_IMG_0435.jpg",
-    "mapEmbedUrl": null,
-    "id": 5
-  },
-  {
-    "course_name": "Riverside Disc Golf Park",
-    "ownership": "Public",
-    "contact_info": {
-      "address": "Riverside Rd & 78th Street Ct, Sumner, WA 98390",
-      "phone": "(253) 798-4177",
-      "email": "not available",
-      "website": "Piercecountydiscgolf.org"
-    },
-    "reservation_requirements": "No reservation required.",
-    "policies_rules_dates_open": "Open year-round.",
-    "holes": "18 holes",
-    "course_type": "wooded course with concrete tees",
-    "imageUrl": "https://d22ksth68ujgu2.cloudfront.net/31edfb8ae18392dafb2d3128db4c55d6_m_uJdLZNzNzH5RuUEUGeRkd9VowcPl.jpg",
-    "parkMapUrl": null,
-    "mapEmbedUrl": null,
-    "id": 6
-  },
-  {
-    "course_name": "Fort Steilacoom Disc Golf Course",
-    "ownership": "Public",
-    "contact_info": {
-      "address": "7701 76th Ave SW, Lakewood, WA 98498 ",
-      "phone": "(888) 989-7961",
-      "email": "PCDGA2021@GMAIL.COM",
-      "website": "https://piercecountydiscgolf.org"
-    },
-    "reservation_requirements": "No reservation required.",
-    "policies_rules_dates_open": "Open year-round.",
-    "holes": "27 holes",
-    "course_type": "mix of open and wooded areas",
-    "imageUrl": "https://d22ksth68ujgu2.cloudfront.net/efe900a44775c7e94f1cdfa4c1564319_m_IMG_1978.jpg",
-    "parkMapUrl": null,
-    "mapEmbedUrl": null,
-    "id": 7
-  },
-  {
-    "course_name": "Delphi Disc Golf Course",
-    "ownership": "Private",
-    "contact_info": {
-      "address": "6340 Neylon Dr SW, Olympia, WA 98512-2118 ",
-      "phone": "(360) 357-6437",
-      "email": "delphigolfcourse@gmail.com",
-      "website": "https://www.delphigolfcourse.com/"
-    },
-    "reservation_requirements": "Reservation required.",
-    "policies_rules_dates_open": "Open year-round.",
-    "holes": "18 holes",
-    "course_type": "wooded terrain",
-    "imageUrl": "https://d22ksth68ujgu2.cloudfront.net/608457adbe4a878a838eb1641daaed75_m_vv5c8D63oBsD53AIkkGybSycd7jg.jpg",
-    "parkMapUrl": "https://d22ksth68ujgu2.cloudfront.net/ccea793fba6a45d6418cef8f11278f5f_m_IMG_2442.jpg",
-    "mapEmbedUrl": null,
-    "id": 8
-  },
-  {
-    "course_name": "NAD Park Disc Golf Course",
-    "ownership": "Public",
-    "contact_info": {
-      "address": "6002 Kitsap Way, Bremerton, WA 98312",
-      "phone": "(360) 473-5305",
-      "email": "discgolf@wsdga.org",
-      "website": "https://www.wsdga.org/"
-    },
-    "reservation_requirements": "No reservation required.",
-    "policies_rules_dates_open": "Open year-round.",
-    "holes": "18 holes",
-    "course_type": "wooded terrain",
-    "imageUrl": "https://d22ksth68ujgu2.cloudfront.net/6ce14e2d65816703945a385f67daef60_m_IMG_0557.jpg",
-    "parkMapUrl": "https://d22ksth68ujgu2.cloudfront.net/121ec3a500d7c7e748ab60e5444549d0_m_IMG_5001.jpg",
-    "mapEmbedUrl": null,
-    "id": 9
-  },
-  {
-    "course_name": "Kayak Point Disc Golf Resort",
-    "ownership": "Private",
-    "contact_info": {
-      "address": "7703 150th Place NW Stanwood, WA 98292",
-      "phone": "(206) 465-4931",
-      "email": "info@discgolfresort.com",
-      "website": "https://discgolfresort.com/"
-    },
-    "reservation_requirements": "Tee time reservation required for all courses except Pitch & Putt.",
-    "policies_rules_dates_open": "Open year-round. Pay-to-play. Multiple courses with varying difficulty levels.",
-    "holes": "4 courses",
-    "course_type": "Gold, Red, Blue, and Pitch & Putt; each with 18 holes",
-    "imageUrl": "https://d22ksth68ujgu2.cloudfront.net/dccedd83924c7c969801eeaec0b8d705_m_VTIdEI54v6QTkPBHayBBEpTf0oSI.jpg",
-    "parkMapUrl": "https://d22ksth68ujgu2.cloudfront.net/7f0df9cf4d241c8b96e2b96d171b666b_m_0eFryuqHYUB7qA9cmvLJDdcJWyr3.jpg",
-    "mapEmbedUrl": null,
-    "id": 10
-  },
-  {
-    "course_name": "Blyth Park (Howling Coyote)",
-    "ownership": "Public",
-    "contact_info": {
-      "address": "16900 W Riverside Dr, Bothell, WA 98011",
-      "phone": "(425) 806-6760",
-      "email": "troysdiscgolfemail@gmail.com",
-      "website": "https://www.facebook.com/groups/366315586869937"
-    },
-    "reservation_requirements": "No reservation required.",
-    "policies_rules_dates_open": "Open year-round. Family-friendly with restrooms and picnic areas.",
-    "holes": "10 holes",
-    "course_type": "suitable for beginners",
-    "imageUrl": "https://d22ksth68ujgu2.cloudfront.net/20cf884eef06f6bd3a511eae58d7c5af_m_YhojmuoySPm8qugl3Ew5yjdBCtIo.jpg",
-    "parkMapUrl": "https://d22ksth68ujgu2.cloudfront.net/d0eb086a7016b53699aaeaf42f03dc30_m_IMG_2961.jpg",
-    "mapEmbedUrl": null,
-    "id": 11
-  },
-  {
-    "course_name": "Terrace Creek Park",
-    "ownership": "Public",
-    "contact_info": {
-      "address": "23200 48th Ave W, Mountlake Terrace, WA 98043",
-      "phone": "(425) 670-2548",
-      "email": "not available",
-      "website": "https://www.cityofmlt.com/Facilities/Facility/Details/Terrace-Creek-Park-10"
-    },
-    "reservation_requirements": "No reservation required.",
-    "policies_rules_dates_open": "Open year-round. Hilly terrain; may be muddy during wet seasons.",
-    "holes": "18 holes",
-    "course_type": "wooded and technical layout",
-    "imageUrl": "https://d22ksth68ujgu2.cloudfront.net/9d5120a8a77369111e4675a7ea28e395_m_NWI16UHprCEVQRATZljIJerA9mmh.jpg",
-    "parkMapUrl": "https://d22ksth68ujgu2.cloudfront.net/f17c4cff5c52076c02593425d55174ae_m_IMG_4484.jpg",
-    "mapEmbedUrl": null,
-    "id": 12
-  },
-  {
-    "course_name": "Nick Loutsis Park",
-    "ownership": "Public",
-    "contact_info": {
-      "address": "32401 E Entwistle St, Carnation, WA 98014",
-      "phone": "(425) 333-4192",
-      "email": "not available",
-      "website": "https://www.carnationwa.gov/parksrec/page/nick-loutsis-park"
-    },
-    "reservation_requirements": "No reservation required.",
-    "policies_rules_dates_open": "Open year-round. Family-friendly environment.",
-    "holes": "9 holes",
-    "course_type": "beginner-friendly",
-    "imageUrl": "https://d22ksth68ujgu2.cloudfront.net/899a40d01d6165eb10b243bf4b295761_m_nobw3IXhn45bfR70llijYWleImep.jpg",
-    "parkMapUrl": null,
-    "mapEmbedUrl": null,
-    "id": 13
-  },
-  {
-    "course_name": "Juel Community Park",
-    "ownership": "Public",
-    "contact_info": {
-      "address": "11050 10th Ave SW, Seattle, WA 98146 ",
-      "phone": "(206) 205-7532",
-      "email": "not available",
-      "website": "https://www.redmond.gov/Facilities/Facility/Details/Juel-Community-Park-22"
-    },
-    "reservation_requirements": "No reservation required.",
-    "policies_rules_dates_open": "Open year-round. Open fields with minimal obstacles.",
-    "holes": "18 holes",
-    "course_type": "suitable for all skill levels",
-    "imageUrl": "https://d22ksth68ujgu2.cloudfront.net/7c3239c29973cf39913c8670b4a46b6c_m_IMG_0970.jpg",
-    "parkMapUrl": "https://d22ksth68ujgu2.cloudfront.net/15655d413a9d3a67b0375592f359a9bf_m_IMG_3880.jpg",
-    "mapEmbedUrl": null,
-    "id": 14
-  },
-  {
-    "course_name": "Battle Point Park Disc Golf",
-    "ownership": "Public",
-    "contact_info": {
-      "address": "11299 Arrow Point Dr NE, Bainbridge Island, WA 98110",
-      "phone": "(206) 842-2306",
-      "email": "not available",
-      "website": "https://www.wsdga.org/battle-point-park"
-    },
-    "reservation_requirements": "No reservation required.",
-    "policies_rules_dates_open": "Open year-round. Multi-use park with various amenities.",
-    "holes": "9 holes",
-    "course_type": "mix of open and wooded areas",
-    "imageUrl": "https://d22ksth68ujgu2.cloudfront.net/912f3ea3cde7d578651e02984adb0381_m_IMG_3271.jpg",
-    "parkMapUrl": "https://d22ksth68ujgu2.cloudfront.net/baf3d99819c48a96c2a8ab955d2f6704_m_IMG_5497.jpg",
-    "mapEmbedUrl": null,
-    "id": 15
-  },
-  {
-    "course_name": "Van Zee Park",
-    "ownership": "Public",
-    "contact_info": {
-      "address": "300 Tremont St, Port Orchard, WA 98366-3734 ",
-      "phone": "(360) 876-4407",
-      "email": "discgolf@wsdga.org",
-      "website": "https://www.wsdga.org/"
-    },
-    "reservation_requirements": "No reservation required.",
-    "policies_rules_dates_open": "Open year-round. Small neighborhood park.",
-    "holes": "9 holes",
-    "course_type": "compact layout",
-    "imageUrl": "https://d22ksth68ujgu2.cloudfront.net/bdb0d1438badcc8c2bd3e28c6d2289e5_m_IMG_5355.jpg",
-    "parkMapUrl": "https://www.dgcoursereview.com/attachments/van-zee-course-map-2023-png.321643/",
-    "mapEmbedUrl": null,
-    "id": 16
-  },
-  {
-    "course_name": "Golf Island Disc Park at Pender",
-    "ownership": "Public",
-    "contact_info": {
-      "address": "37162 Galleon Way, Pender Island, BC V0N 2M2, Canada",
-      "phone": null,
-      "email": "info@discgolfisland.com",
-      "website": "http://www.discgolfisland.com/"
-    },
-    "reservation_requirements": "No formal reservation required, but contact via email is recommended for group visits.",
-    "policies_rules_dates_open": "Open year-round.",
-    "holes": "27 holes",
-    "course_type": "Wooded terrain with challenging elevation and scenic views",
-    "imageUrl": "https://d22ksth68ujgu2.cloudfront.net/ca3c8afc87ad66c107e81e224c1c6f71_t_FKXgWLIaIrqaK1uMV7WphdlnnmdP.jpg",
-    "parkMapUrl": "https://d22ksth68ujgu2.cloudfront.net/45602abcf51d3188c5ce7cfbbd149787_m_IMG_0014.jpg",
-    "mapEmbedUrl": null,
-    "id": 17
-  },
-  {
-    "course_name": "Thomson Park Disc Golf Course",
-    "ownership": "Public",
-    "contact_info": {
-      "address": "Thomson Park, Saturna, BC V0N 2Y0, Canada",
-      "phone": null,
-      "email": "not available",
-      "website": "https://www.facebook.com/thomsonparkdiscgolf"
-    },
-    "reservation_requirements": "No reservation required.",
-    "policies_rules_dates_open": "Open year-round. Dogs allowed. Restroom available.",
-    "holes": "9 holes (18 playable using 2 tee pads per hole)",
-    "course_type": "Public park course with new metal baskets, natural and concrete tees, slight elevation, and ocean views",
-    "imageUrl": "https://d22ksth68ujgu2.cloudfront.net/348583ab975cf467d66e94544fca8843_t_IMG_1041.jpg",
-    "parkMapUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSaunqyonlPAiWry91FNPFcmbE84ObIfthXvQ&s",
-    "mapEmbedUrl": null,
-    "id": 18
-  },
-  {
-    "course_name": "Bowen Park Disc Golf Course",
-    "ownership": "Public",
-    "contact_info": {
-      "address": "500 Bowen Rd, Nanaimo, BC V9R 1Z7, Canada",
-      "phone": "(250) 714-0855",
-      "email": "not available",
-      "website": null
-    },
-    "reservation_requirements": "No reservation required. Public park access.",
-    "policies_rules_dates_open": "Open year-round. Dogs allowed. Cart friendly. Restrooms available.",
-    "holes": "18 holes (27 playable using 9 alternate tees)",
-    "course_type": "Public park course with DISCatcher Pro targets, mixed terrain (flat/hills), concrete and grass tees, and tree-lined fairways",
-    "imageUrl": "https://d22ksth68ujgu2.cloudfront.net/92c4b4209fafe0eb8a1fa2abf33aa38a_m_IMG_0307.jpg",
-    "parkMapUrl": "https://nanaimoultimate.tripod.com/images/BowenDGMap.gif",
-    "mapEmbedUrl": null,
-    "id": 19
-  },
-  {
-    "course_name": "Duthie Park Disc Golf Course",
-    "ownership": "Public",
-    "contact_info": {
-      "address": "Duthie Park Rd, Troy, ID 83871, United States",
-      "phone": null,
-      "email": "not available",
-      "website": null
-    },
-    "reservation_requirements": "No reservation required.",
-    "policies_rules_dates_open": "Open year-round. Dogs allowed (watch for other park users and wildlife). No restrooms or drinking water. Not cart or stroller friendly.",
-    "holes": "9 holes",
-    "course_type": "Public park course with concrete tees, Prodigy T1 baskets, hilly wooded terrain, and multiple OB areas",
-    "imageUrl": "https://d22ksth68ujgu2.cloudfront.net/66cfe20bbb6715afcead9f7e0fcb4aea_m_XNR71iFjtFPnfEa8kS1kT33yJzSn.jpg",
-    "parkMapUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/No_image_available.svg/480px-No_image_available.svg.png",
-    "mapEmbedUrl": null,
-    "id": 20
-  },
-  {
-    "course_name": "Farragut State Park - Wreckreator",
-    "ownership": "State Park",
-    "contact_info": {
-      "address": "13550 E Hwy 54, Athol, ID 83801, United States",
-      "phone": "208-683-2425",
-      "email": "FAR@idpr.idaho.gov",
-      "website": "https://parksandrecreation.idaho.gov/parks/farragut"
-    },
-    "reservation_requirements": "No reservation required, but parking fee is $7 per day for Idaho residents, $14 for out-of-state visitors (or free with Idaho State Parks Passport).",
-    "policies_rules_dates_open": "Open year-round. Dogs allowed. Restroom and drinking water available. Cart friendly.",
-    "holes": "18 holes",
-    "course_type": "Dedicated disc golf course in a wooded setting with a mix of concrete and asphalt tees, some elevation, and varied terrain. Suitable for intermediate to advanced players.",
-    "imageUrl": "https://d22ksth68ujgu2.cloudfront.net/bbcc2ed0641c6127fab2fbfde03881ed_m_QxBoIY9RzC79G3NQQmCFrbHNV04H.jpg",
-    "parkMapUrl": "https://d22ksth68ujgu2.cloudfront.net/f6aee03088e23987943645a99530bcd8_m_0NeaGepRBuqoYEQTvIyM1tBlskVd.jpg",
-    "mapEmbedUrl": null,
-    "id": 21
-  },
-  {
-    "course_name": "Farragut State Park - Northstar",
-    "ownership": "Public",
-    "contact_info": {
-      "address": "13550 E Hwy 54, Athol, ID 83801, United States",
-      "phone": "(208) 683-2425",
-      "email": "not available",
-      "website": "https://parksandrecreation.idaho.gov/parks/farragut and https://farragutopen.org/maps/"
-    },
-    "reservation_requirements": "No reservation required. Day-use fee applies: $7/day for Idaho residents, $14/day for non-residents.",
-    "policies_rules_dates_open": "Open year-round from dawn to dusk. Restrooms and drinking water available near the parking area. Dogs allowed. Discs, bags, and maps available at the Visitor Center.",
-    "holes": "18 holes",
-    "course_type": "Moderately wooded with concrete tees and DISCatcher Pro baskets. Features light elevation changes, curved fairways, and blind shots requiring a variety of throws.",
-    "imageUrl": "https://tse3.mm.bing.net/th?id=OIP.Dwhk-m-9iXKxT-9cQ5cM5QHaEK&cb=iwc1&w=266&h=266&c=7",
-    "parkMapUrl": "https://farragutopen.org/wp-content/uploads/2021/08/farragut-state-park-map-1024x577.jpg",
-    "mapEmbedUrl": null,
-    "id": 22
-  },
-  {
-    "course_name": "Buffington Memorial Park Disc Golf Course",
-    "ownership": "Public",
-    "contact_info": {
-      "address": "94255 Caughell St, Gold Beach, OR 97444, United States",
-      "phone": "(541) 247-7029",
-      "email": "not available",
-      "website": "https://www.goldbeachoregon.gov/buffingtonparkdiscgolfcourse"
-    },
-    "reservation_requirements": "No reservation required. Open to the public.",
-    "policies_rules_dates_open": "Open year-round from dawn to dusk. Restrooms and other park amenities available. Dogs allowed on leash.",
-    "holes": "9 holes",
-    "course_type": "Beginner-friendly, lightly wooded course with natural terrain and minimal elevation changes. Features a mix of open and technical holes.",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/No_image_available.svg/300px-No_image_available.svg.png?20250126200333",
-    "parkMapUrl": "https://www.goldbeachoregon.gov/vertical/Sites/%7B95824C9A-6BB0-47B3-83E2-3D2AE3179E09%7D/uploads/DiscGolf-C_TN.jpg",
-    "mapEmbedUrl": null,
-    "id": 23
-  },
-  {
-    "course_name": "Azalea State Park Disc Golf Course",
-    "ownership": "Public",
-    "contact_info": {
-      "address": "640 Old County Rd, Brookings, OR 97415, United States",
-      "phone": "(541) 469-1103",
-      "email": "mrobidoux@brookings.or.us",
-      "website": "https://www.brookings.or.us/facilities/facility/details/azalea-park-5"
-    },
-    "reservation_requirements": "No reservation required. Open to the public.",
-    "policies_rules_dates_open": "Open year-round from dawn to dusk. Restrooms and drinking water available. Dogs allowed on leash. Be mindful of other park users during events.",
-    "holes": "18 holes",
-    "course_type": "Mixed terrain with concrete tees and Mach V baskets. Front 9 are open; back 9 are wooded with elevation changes. Cart-friendly with off-road wheels.",
-    "imageUrl": "https://d22ksth68ujgu2.cloudfront.net/8a1bd4b45241422474733927d323fdb9_m_IMG_4316.jpg",
-    "parkMapUrl": "https://tse3.mm.bing.net/th?id=OIP.-_AAMQtjN_tNyi03aejZKgHaGV&w=405&h=405&c=7",
-    "mapEmbedUrl": null,
-    "id": 24
-  },
-  {
-    "course_name": "Beau Pre DiscGolfPark",
-    "ownership": "Public",
-    "contact_info": {
-      "address": "1777 Norton Rd, McKinleyville, CA 95519, United States",
-      "phone": "(707) 839-2342",
-      "email": "info@beaupre.golf",
-      "website": "https://beaupre.golf/disc-golf-course/"
-    },
-    "reservation_requirements": "Tee time required. Disc golf tee times start at 12pm daily. No disc golf after 5:30pm on Wednesdays through August 3rd.",
-    "policies_rules_dates_open": "Open daily from 12pm until sunset. Green fees: $10.00; $5.00 after 3pm. Golf cart rental available for $12 per rider. No dogs allowed. Restrooms and drinking water available. Pro Shop with disc golf selection. Food and beer on tap.",
-    "holes": "18 holes",
-    "course_type": "Championship-level course with dual basket layouts: Short (Yellow) layout is 6,586 ft (par 56); Long (White) layout is 10,061 ft (par 64). Moderately hilly terrain with a mix of open and wooded areas. Turf tees and DiscGolfPark Pro Targets. Designed by Avery Jenkins.",
-    "imageUrl": "https://tse1.mm.bing.net/th?id=OIP.T039mfc0JWK2-34eSS9OsAHaFj&w=355&h=355&c=7",
-    "parkMapUrl": "https://d22ksth68ujgu2.cloudfront.net/33c3db00f5a02c56b326fa78335472f9_m_BeauPre_infoboard.jpg",
-    "mapEmbedUrl": null,
-    "id": 25
-  },
-  {
-    "course_name": "Baker Park Disc Golf Course",
-    "ownership": "Public",
-    "contact_info": {
-      "address": "9333 Scenic Bow Rd. NW, Calgary, AB T2L 4C4, Canada",
-      "phone": "(403) 268-2489",
-      "email": "not available",
-      "website": "https://www.calgary.ca/parks/baker-park.html"
-    },
-    "reservation_requirements": "No reservation required. Open to the public.",
-    "policies_rules_dates_open": "Open daily from 5 a.m. to 11 p.m. Restrooms and seasonal water fountains available. Dogs allowed on leash. Please be mindful of other park users.",
-    "holes": "18 holes",
-    "course_type": "Mixed terrain with concrete tees and Mach V baskets. Front 9 are more technical and beginner-friendly; back 9 require longer drives and more endurance. Cart-friendly with big wheels.",
-    "imageUrl": "https://tse1.mm.bing.net/th?id=OIP.8jU29Zg-gQkugKs2FEC0CQHaEK&w=266&h=266&c=7",
-    "parkMapUrl": "https://tse1.mm.bing.net/th?id=OIP.rpNLK0WY6_cztg6GEmBxrAHaET&w=275&h=275&c=7",
-    "mapEmbedUrl": null,
-    "id": 26
-  },
-  {
-    "course_name": "David Richardson Memorial Disc Golf Park",
-    "ownership": "Public",
-    "contact_info": {
-      "address": "27 Royal Vista Dr NW, Calgary, AB T3R 1R8, Canada",
-      "phone": "(403) 974-0751",
-      "email": "not available",
-      "website": null
-    },
-    "reservation_requirements": "No reservation required. Open to the public.",
-    "policies_rules_dates_open": "Open daily from 5 a.m. to 11 p.m. Restrooms available near the parking lot. Dogs allowed on leash. No drinking water available on site.",
-    "holes": "18 holes",
-    "course_type": "Advanced-level course with outdoor carpet tees and DISCatcher Pro (original) targets. Features a mix of technical and long holes with varied elevation and foliage. Cart-friendly with big wheels.",
-    "imageUrl": "https://globalnews.ca/wp-content/uploads/2018/06/disc1.jpg?quality=85&strip=all&w=1200",
-    "parkMapUrl": "https://i0.wp.com/calgarydiscgolf.com/wp-content/uploads/2016/06/Memorial-Park.jpg?fit=853%2C415&ssl=1",
-    "mapEmbedUrl": null,
-    "id": 27
-  },
-  {
-    "course_name": "Nicholas Sheran Park Disc Golf Course",
-    "ownership": "Public",
-    "contact_info": {
-      "address": "285 McMaster Boulevard West, Lethbridge, AB T1K 3W3, Canada",
-      "phone": "(403) 320-3111",
-      "email": "not available",
-      "website": "https://www.lethbridge.ca/parks-leisure-recreation/parks-and-playgrounds/west-parks-and-playgrounds/nicholas-sheran-park/"
-    },
-    "reservation_requirements": "No reservation required. Open to the public on a first-come, first-served basis.",
-    "policies_rules_dates_open": "Open year-round from 5 a.m. to 11 p.m. Restrooms and drinking water available. Dogs allowed on leash. Be mindful of other park users.",
-    "holes": "18 holes",
-    "course_type": "Longest disc golf course in Canada at 2,693 meters from blue tees. Features grass tees and Prodigy T1 targets. Slight elevation changes with scattered foliage. Cart-friendly with big wheels.",
-    "imageUrl": "https://tse2.mm.bing.net/th/id/OIP.E5ZieNwIES9PX_dPkT3WjAHaFj?w=355&h=355&c=7",
-    "parkMapUrl": "https://d22ksth68ujgu2.cloudfront.net/62fc96af03e757a6a8bd99f4478118d4_m_QJgyuzccHqUEt3TiVwibEbwP0Qbo.jpg",
-    "mapEmbedUrl": null,
-    "id": 28
-  },
-  {
-    "course_name": "Mayor's Park Disc Golf at McAlinden Park",
-    "ownership": "Public",
-    "contact_info": {
-      "address": "12000 Mt. Charleston St., Reno, NV 89506, United States",
-      "phone": "(775) 334-2417",
-      "email": "not available",
-      "website": "https://www.reno.gov/Home/Components/FacilityDirectory/FacilityDirectory/193/2864"
-    },
-    "reservation_requirements": "No reservation required. Open to the public.",
-    "policies_rules_dates_open": "Open year-round from dawn to dusk. Restrooms and drinking water available. Dogs allowed on leash. Be mindful of other park users.",
-    "holes": "18 holes",
-    "course_type": "Desert terrain with concrete tees and DISCatcher Pro baskets. Features rolling elevation, scattered foliage, and multiple mandatories. Cart-friendly with big wheels.",
-    "imageUrl": "https://d22ksth68ujgu2.cloudfront.net/e739a746c79abf6c5e475667567d84dc_m_IMG_1746.jpg",
-    "parkMapUrl": "https://d22ksth68ujgu2.cloudfront.net/96c640edb9320cb97a43ccb17bd2c9cb_m_IMG_5603.jpg",
-    "mapEmbedUrl": null,
-    "id": 29
-  },
-  {
-    "course_name": "Lake Walcott State Park Disc Golf Course",
-    "ownership": "Public",
-    "contact_info": {
-      "address": "959 E. Minidoka Dam Rd., Rupert, ID 83350, United States",
-      "phone": "1-888-922-6743",
-      "email": "not available",
-      "website": "https://parksandrecreation.idaho.gov/parks/lake-walcott/"
-    },
-    "reservation_requirements": "Reservation is by Phone. Day-use fee applies: $7 per vehicle per day. ",
-    "policies_rules_dates_open": "Open year-round from dawn to dusk. Restrooms and drinking water available. Dogs allowed on leash. Be mindful of other park users.",
-    "holes": "21 holes",
-    "course_type": "Grassy park setting with mature trees. Features concrete, asphalt, and rubber mat tees with DISCatcher Pro (original) targets. Slight elevation changes and varied hole lengths. Cart-friendly.",
-    "imageUrl": "https://d22ksth68ujgu2.cloudfront.net/6f92942fef2dcaecf66efb48fc02ad10_m_IMG_0266.jpg",
-    "parkMapUrl": "https://parksandrecreation.idaho.gov/wp-content/uploads/parks/lake-walcott/walcott_map_disc_golf_bw_8x12.pdf",
-    "mapEmbedUrl": null,
-    "id": 30
-  },
-  {
-    "course_name": "Auburn Regional Park Disc Golf Course",
-    "ownership": "Public",
-    "contact_info": {
-      "address": "3770 Richardson Dr., Auburn, CA 95603, United States",
-      "phone": "(530) 885-8461",
-      "email": "info@auburnrec.com",
-      "website": "https://auburnrec.com/facilities/disc-golf/"
-    },
-    "reservation_requirements": "No reservation required. Open to the public.",
-    "policies_rules_dates_open": "Open daily during daylight hours. Restrooms and drinking water available. Dogs allowed on leash. Be mindful of other park users.",
-    "holes": "18 holes",
-    "course_type": "Mixed terrain with concrete tees and Mach VII baskets. Features wooded areas, open grass, a pond, a stream, and rolling elevation. Cart-friendly with big wheels.",
-    "imageUrl": "https://d22ksth68ujgu2.cloudfront.net/360c10e9472b5d27b9a04f8be72e330c_t_htUu8J7Z5fW80fdcfIMTvmGVGpDx.jpg",
-    "parkMapUrl": "https://www.pdga.com/files/course_maps/auburn_disc_map_0.png",
-    "mapEmbedUrl": null,
-    "id": 31
-  },
-  {
-    "course_name": "Freeman Park Disc Golf Course",
-    "ownership": "Public",
-    "contact_info": {
-      "address": "Baseball St & Baseball Rd, Idaho Falls, ID 83402, United States",
-      "phone": "(208) 529-2186",
-      "email": "not available",
-      "website": null
-    },
-    "reservation_requirements": "No reservation required. Open to the public.",
-    "policies_rules_dates_open": "Open year-round from dawn to dusk. Restrooms and drinking water available. Dogs allowed on leash. Be mindful of other park users.",
-    "holes": "20 holes",
-    "course_type": "Park-style course with grass and concrete tees, featuring DISCatcher Pro (original) and DISCatcher Pro (28 chains) baskets. Offers medium elevation changes, minor water hazards, and a mix of open and tree obstacles. Cart-friendly with big wheels.",
-    "imageUrl": "https://tse4.mm.bing.net/th?id=OIP.ENOBR6LHojyGzox0on9E0QHaEK&cb=iwc1&w=266&h=266&c=7",
-    "parkMapUrl": "https://tse4.mm.bing.net/th?id=OIP.bmxH0btxKyENYW-HTYnxcQHaHL&cb=iwc1&w=459&h=459&c=7",
-    "mapEmbedUrl": null,
-    "id": 32
-  },
-  {
-    "course_name": "Cameron Park Lake Disc Golf Course",
-    "ownership": "Public",
-    "contact_info": {
-      "address": "2989 Cambridge Rd, Cameron Park, CA 95682, United States",
-      "phone": "(530) 677-2231",
-      "email": "not available",
-      "website": "https://www.cameronpark.org/cameron-park-lake-2989-cambridge-road-cameron-park-ca-95682"
-    },
-    "reservation_requirements": "No reservation required. Entry fee applies when kiosk is staffed: $3 per person for residents, $5 for non-residents. Free for children under 2. Annual passes available.",
-    "policies_rules_dates_open": "Open daily from 7 a.m. to dusk. Restrooms available. No dogs allowed (except service animals). No smoking or glass bottles. Park only in designated areas; violators may be towed.",
-    "holes": "18 holes",
-    "course_type": "Moderately wooded with artificial turf tees and Prodigy T2 baskets. Features varied terrain including open fairways, wooded areas, and a small creek. Multiple pin positions changed frequently. Cart-friendly.",
-    "imageUrl": "https://amazinggolfcourse.com/wp-content/uploads/directory/Cameron_Park_Lake_Disc_Golf_Course_2989_Cambridge_Rd_Cameron_Park_CA_2.jpg",
-    "parkMapUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/No_image_available.svg/300px-No_image_available.svg.png?20250126200333",
-    "mapEmbedUrl": null,
-    "id": 33
-  },
-  {
-    "course_name": "Kiwanis Central Park Disc Golf Course",
-    "ownership": "Public",
-    "contact_info": {
-      "address": "11 St and 2 Ave SE, Medicine Hat, AB T1A 2K8, Canada",
-      "phone": "(403) 529-8333",
-      "email": "not available",
-      "website": "https://facilities.medicinehat.ca/Home/Detail?Id=8634ef57-5a96-46c8-9725-fc3ad1766e0e"
-    },
-    "reservation_requirements": "No reservation required. Open to the public.",
-    "policies_rules_dates_open": "Open year-round from dawn to dusk. Restrooms available. Dogs allowed on leash. Be mindful of other park users.",
-    "holes": "9 holes",
-    "course_type": "Beginner-friendly course with grass tees and Turbo Funnel targets. Flat terrain with mature trees. Cart-friendly.",
-    "imageUrl": "https://www.medicinehatgolf.ca/wp-content/uploads/2021/07/main-hole1.jpg",
-    "parkMapUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/No_image_available.svg/300px-No_image_available.svg.png?20250126200333",
-    "mapEmbedUrl": null,
-    "id": 34
-  },
-  {
-    "course_name": "Leinweber Park Disc Golf Course",
-    "ownership": "Public",
-    "contact_info": {
-      "address": "Corbitt Way and Cobb Road SE, Medicine Hat, AB T1B 3V4, Canada",
-      "phone": "403-715-0195",
-      "email": "medicinehatdiscgolf@gmail.com",
-      "website": null
-    },
-    "reservation_requirements": "No reservation required. Open to the public.",
-    "policies_rules_dates_open": "Open year-round from dawn to dusk. No restrooms or drinking water available. Dogs allowed on leash. Be mindful of other park users.",
-    "holes": "9 holes",
-    "course_type": "Grass tees with Turbo Funnel and Reverse targets. Mixed terrain with manicured fairways, some elevation, and a water hazard. Cart-friendly.",
-    "imageUrl": "https://www.medicinehat.ca/en/parks-recreation-and-culture/Images/Parks/Leinweber-Park_photo.jpg",
-    "parkMapUrl": "https://d22ksth68ujgu2.cloudfront.net/65a127fb1b071671c1a789660305f98e_m_j8VtqfhJKw2Mv0h6DhN34HKJDinb.jpg",
-    "mapEmbedUrl": null,
-    "id": 35
-  },
-  {
-    "course_name": "Rundle Park Disc Golf Course",
-    "ownership": "Public",
-    "contact_info": {
-      "address": "Rundle Park Rd NW, Edmonton, AB T5W 0P3, Canada",
-      "phone": "(780) 496-4999",
-      "email": "not available",
-      "website": "https://edga.ca/rundle-park/"
-    },
-    "reservation_requirements": "No reservation required for casual play. For tournament or event bookings, contact the Edmonton Disc Golf Association (EDGA) via their website.",
-    "policies_rules_dates_open": "Open year-round from 5 a.m. to 11 p.m. Restrooms and drinking water available. Dogs allowed on leash. Be mindful of other park users.",
-    "holes": "18 holes",
-    "course_type": "Established in 1980, the course features concrete tee pads and Innova DISCatcher Pro targets. It offers a mix of flat and hilly terrain with woodsy foliage. Cart-friendly.",
-    "imageUrl": "https://tse3.mm.bing.net/th?id=OIP.tC31wDmLSrNXy-fEkkussQHaFj&cb=iwc1&w=355&h=355&c=7",
-    "parkMapUrl": "https://tse1.mm.bing.net/th?id=OIP.V-1jGVROZNOIYLBzd_jRwAHaFS&cb=iwc1&w=338&h=338&c=7",
-    "mapEmbedUrl": null,
-    "id": 36
-  },
-  {
-    "course_name": "Swenson Park Disc Golf Course",
-    "ownership": "Public",
-    "contact_info": {
-      "address": "6803 Alexandria Pl, Stockton, CA 95207, United States",
-      "phone": "(209) 937-7360",
-      "email": "not available",
-      "website": "https://www.swensonpark.com/discgolf/"
-    },
-    "reservation_requirements": "Tee time required. Reservations can be made up to 14 days in advance online or by calling the golf shop. For groups larger than 12, contact the golf shop directly. For tournament or event bookings, contact the golf shop to inquire about availability and requirements.",
-    "policies_rules_dates_open": "Open daily. Pay-to-play: $7 for walking, $20 with cart. Restrooms and drinking water available. Cart rentals available. Be mindful of other park users.",
-    "holes": "18 holes",
-    "course_type": "Championship-level course established in 2018. Features concrete tees and Mach X baskets. Situated on a traditional golf course layout with a mix of open fairways and tree-lined holes. Cart-friendly.",
-    "imageUrl": "https://d22ksth68ujgu2.cloudfront.net/01fd59c941e3b5f02f19d8e9c8465b89_m_M7qpoKLGNprq7zuRuHU9HHd6kKVN.jpg",
-    "parkMapUrl": null,
-    "mapEmbedUrl": null,
-    "id": 37
-  },
-  {
-    "course_name": "Shady Rest DiscGolfPark",
-    "ownership": "Public",
-    "contact_info": {
-      "address": "Sawmill Cutoff Rd, Mammoth Lakes, CA 93546, United States",
-      "phone": "(760) 965-3690",
-      "email": "parksandrec@townofmammothlakes.ca.gov",
-      "website": "https://www.townofmammothlakes.ca.gov/938/Shady-Rest-DiscGolfPark"
-    },
-    "reservation_requirements": "No reservation required for casual play. For tournaments or organized events, a Special Event Permit is required through the Town of Mammoth Lakes Parks & Recreation Department.",
-    "policies_rules_dates_open": "Open seasonally from May through November (weather permitting), dawn to dusk. Free to play and first-come, first-served. Restrooms and drinking water available. Dogs allowed on leash. Be mindful of other park users.",
-    "holes": "18 holes",
-    "course_type": "Pro-level, wooded course designed by 2009 Disc Golf World Champion Avery Jenkins. Features turf tees and DiscGolfPark Pro Targets. Offers four layouts ranging from 3,965 ft (par 54) to 7,315 ft (par 60). Mostly flat terrain with pine forest and mountain views. Cart-friendly.",
-    "imageUrl": "https://tse3.mm.bing.net/th?id=OIP.cG4JnYNxWSGyMFJGg8DrRQHaLP&w=474&h=474&c=7",
-    "parkMapUrl": "https://tse1.mm.bing.net/th?id=OIP.-nAw8GQCAq2-qjVAwF7dQAHaE_&w=319&h=319&c=7",
-    "mapEmbedUrl": null,
-    "id": 38
-  },
-  {
-    "course_name": "Scera Park Disc Golf Course",
-    "ownership": "Public",
-    "contact_info": {
-      "address": "600 S State St, Orem, UT 84058, United States",
-      "phone": "(801) 229-7154",
-      "email": "rec@orem.org",
-      "website": "https://orem.gov/scera-park/"
-    },
-    "reservation_requirements": "No reservation required for casual play. For tournaments or organized events, contact the Orem Recreation Department at rec@orem.org or (801) 229-7154.",
-    "policies_rules_dates_open": "Open year-round from dawn to dusk. Restrooms available. No drinking water on site. Dogs allowed on leash. Be mindful of other park users.",
-    "holes": "9 holes",
-    "course_type": "Park-style course established in 2014. Features concrete tees and DISCatcher Pro (original) baskets. Flat terrain with mature trees. Cart-friendly.",
-    "imageUrl": "https://d22ksth68ujgu2.cloudfront.net/eb54affc7c932d449090f4dd17f1fc27_m_IMG_7118.jpg",
-    "parkMapUrl": "https://orem.gov/wp-content/uploads/2024/12/Scera-Park-Overview.png",
-    "mapEmbedUrl": null,
-    "id": 39
-  },
-  {
-    "course_name": "Stillwater Park Disc Golf Course",
-    "ownership": "Public",
-    "contact_info": {
-      "address": "2805 Pinebutte Dr, Colstrip, MT 59323, United States",
-      "phone": "406-740-2881",
-      "email": "john@johnqit.com",
-      "website": "https://discgolf.johnqit.com/course-details"
-    },
-    "reservation_requirements": "No reservation required for casual play. For tournaments or organized events, contact Colstrip Parks and Recreation at (406) 748-3326.",
-    "policies_rules_dates_open": "Open year-round from dawn to dusk. Restrooms available. Dogs allowed on leash. Be mindful of other park users.",
-    "holes": "9 holes",
-    "course_type": "Challenging course with gravel tees and DISCatcher baskets. Features a mix of flat and hilly terrain with mixed foliage. Notable for blind tee shots on holes 4\u00e2\u20ac\u201c8 and a signature 540 ft hole with a 150 ft elevation drop. Cart-friendly.",
-    "imageUrl": "https://stillwater-disc-golf.imgix.net/images/basket.jpeg?auto=format&fit=max&w=640",
-    "parkMapUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/No_image_available.svg/300px-No_image_available.svg.png?20250126200333",
-    "mapEmbedUrl": null,
-    "id": 40
-  },
-  {
-    "course_name": "Hart Park \u00e2\u20ac\u201c Suicide Flats Disc Golf Course",
-    "ownership": "Public",
-    "contact_info": {
-      "address": "Hart Park, Bakersfield, CA 93308, United States",
-      "phone": "(661) 872-3179",
-      "email": "bhazzard@att.net",
-      "website": null
-    },
-    "reservation_requirements": "No reservation required for casual play. For tournaments or organized events, contact the course representative at bhazzard@att.net.",
-    "policies_rules_dates_open": "Open year-round from dawn to dusk. Restrooms and drinking water available. Dogs allowed on leash. Be mindful of other park users.",
-    "holes": "18 holes",
-    "course_type": "Established in 2008, the course features concrete tees and a mix of Mach III and DISCatcher Pro (original) baskets. The layout includes low-ceiling distance and control shots, with water hazards on 8 holes. Cart-friendly and stroller-friendly.",
-    "imageUrl": "https://bloximages.newyork1.vip.townnews.com/bakersfield.com/content/tncms/assets/v3/editorial/0/28/028dca12-4300-5358-b863-3e08039b78fa/5c4b6acf35fbc.image.jpg?resize=1200%2C1600",
-    "parkMapUrl": "https://d22ksth68ujgu2.cloudfront.net/93d63c796696a4260c478426fd150ba4_m_4mmb6JkFL47KeABvSbnxtNZ8JQpF.jpg",
-    "mapEmbedUrl": null,
-    "id": 41
-  },
-  {
-    "course_name": "North Las Vegas Municipal DiscGolfPark",
-    "ownership": "Public",
-    "contact_info": {
-      "address": "324 E Brooks Ave, North Las Vegas, NV 89030, United States",
-      "phone": "(702) 633-1833",
-      "email": "not available",
-      "website": "https://www.cityofnorthlasvegas.com/things-to-do/golf-courses"
-    },
-    "reservation_requirements": "Tee times are recommended. Reservations can be made up to 7 days in advance by calling (702) 633-1833. For day rounds, you must call at least 1 hour before tee time to confirm availability. For tournaments or organized events, contact the golf shop for pricing and additional information.",
-    "policies_rules_dates_open": "Open year-round. Summer hours (Memorial Day - Labor Day): Monday\u00e2\u20ac\u201cSunday, 6 a.m.\u00e2\u20ac\u201c9 p.m.; Fall/Spring hours (After Labor Day - Before Memorial Day): Monday\u00e2\u20ac\u201cSunday, 7 a.m.\u00e2\u20ac\u201c9 p.m. Last tee time is at 7:00 p.m. Disc golf is available Friday through Tuesday at night with a lighted course. Wednesday and Thursday nights require calling ahead for a tee time. Restrooms and drinking water available. No dogs allowed. Be mindful of other park users.",
-    "holes": "18 holes",
-    "course_type": "Built on a 9-hole par 3 ball golf course with some elevation. Features 9 tee pads with dual baskets (white and gold), making 18 holes. Concrete tees and DiscGolfPark Pro Targets. Cart-friendly with a full clubhouse, pro shop, and food and drinks available.",
-    "imageUrl": "https://tse3.mm.bing.net/th?id=OIP.7x6YNxaBnkwkFbt2m1AsgwHaE8&w=316&h=316&c=7",
-    "parkMapUrl": "https://tse4.mm.bing.net/th?id=OIP.UrHf_w-lok24Yc-9Jh6V9QHaE9&w=317&h=317&c=7",
-    "mapEmbedUrl": null,
-    "id": 42
-  },
-  {
-    "course_name": "Mohave Valley Community Park Disc Golf Course",
-    "ownership": "Public",
-    "contact_info": {
-      "address": "9200 Aquarius Drive, Mohave Valley, AZ 86440, United States",
-      "phone": null,
-      "email": "matt.hanrahan@example.com",
-      "website": null
-    },
-    "reservation_requirements": "No reservation required for casual play. For tournaments or organized events, contact the course representative via the provided email.",
-    "policies_rules_dates_open": "Open year-round from dawn to dusk. Restrooms available. No drinking water on site. Dogs allowed on leash. Be mindful of other park users.",
-    "holes": "9 holes",
-    "course_type": "Established in 2020, the course features dirt tees and Mach V baskets. Flat terrain with sparse foliage. Cart-friendly.",
-    "imageUrl": "https://parks.mohave.gov/media/nhog3npq/disc_golf_1.jpg",
-    "parkMapUrl": "https://montva.com/images/default-source/parks-recreation/disc-golf-course-trail-map-2020.jpg?sfvrsn=d904abd5_2",
-    "mapEmbedUrl": null,
-    "id": 43
-  },
-  {
-    "course_name": "Martha McLean \u00e2\u20ac\u201c Anza Narrows Disc Golf Course",
-    "ownership": "Public",
-    "contact_info": {
-      "address": "5759 Jurupa Ave, Riverside, CA 92504, United States",
-      "phone": "(951) 826-2000",
-      "email": "not available",
-      "website": "https://www.facebook.com/groups/MarthaMcLeanDGC/"
-    },
-    "reservation_requirements": "No reservation required for casual play. For tournaments or organized events, contact the City of Riverside Parks, Recreation, and Community Services Department at (951) 826-2000.",
-    "policies_rules_dates_open": "Open daily from 6:00 AM to 8:00 PM. Restrooms and drinking water available. Dogs allowed on leash. Be mindful of other park users.",
-    "holes": "18 holes",
-    "course_type": "Established in 2018, the course features a mix of grass, concrete, and dirt tees with Dynamic Discs Veteran baskets. Designed by Eric McCabe, it offers varied terrain with shaded areas and elevation changes. Cart-friendly.",
-    "imageUrl": "https://d22ksth68ujgu2.cloudfront.net/4555a7be77bc5d4b3e2a0b614e4d37f1_m_eoG52aV2t1IfFBLZzgyFqV2NubAH.jpg",
-    "parkMapUrl": "https://d22ksth68ujgu2.cloudfront.net/347a9aeabb6440047b6ccb4902888f69_m_2023_02_21.jpg",
-    "mapEmbedUrl": null,
-    "id": 44
-  },
-  {
-    "course_name": "Ultra DiscGolfPark \u00e2\u20ac\u201c Anheuser-Busch Biergarten",
-    "ownership": "Corporate",
-    "contact_info": {
-      "address": "2351 Busch Drive, Fort Collins, CO 80524, United States",
-      "phone": "(970) 490-4548",
-      "email": "greg.lindsey@anheuser-busch.com",
-      "website": "https://www.biergartenevents.com/en/fort-collins.html"
-    },
-    "reservation_requirements": "Free to play. Players must sign a waiver via QR code at the parking lot or Hole 1 before each round. For tournaments or organized events, contact Greg Lindsey at greg.lindsey@anheuser-busch.com.",
-    "policies_rules_dates_open": "Open year-round. Restrooms available (porta-potty between holes 6 and 7). No drinking water on site. Dogs allowed on leash. Be mindful of other park users.",
-    "holes": "18 holes",
-    "course_type": "Designed by 2009 World Champion Avery Jenkins and established in July 2020. Features turf tees and DiscGolfPark Pro Targets. Two layouts: White (6,520 ft, par 56) and Blue (7,440 ft, par 56). The front 9 is shorter and more technical; the back 9 is longer with open fairways. Cart-friendly.",
-    "imageUrl": "https://tse4.mm.bing.net/th?id=OIP.ZdQ-cGmWmfdApVYT18q4BAHaFj&cb=iwp1&w=355&h=355&c=7",
-    "parkMapUrl": "https://d22ksth68ujgu2.cloudfront.net/d085a6a13e138976858e2eaeb2fd07bd_m_IMG_4823.jpg",
-    "mapEmbedUrl": null,
-    "id": 45
-  },
-  {
-    "course_name": "Sundance Park Disc Golf Course",
-    "ownership": "Public",
-    "contact_info": {
-      "address": "21760 W. Ripple Rd., Buckeye, AZ 85326, United States",
-      "phone": "773-983-5236",
-      "email": "e77154@gmail.com",
-      "website": null
-    },
-    "reservation_requirements": "No reservation required for casual play. For tournaments or organized events, contact the league representative, Chris Mikols, at 773-983-5236.",
-    "policies_rules_dates_open": "Open daily from 6:00 AM to 7:00 PM. No restrooms or drinking water available. Dogs allowed on leash. Be mindful of other park users.",
-    "holes": "18 holes",
-    "course_type": "Desert-style course established in 2014. Features gravel, outdoor carpet, and brick/paver tees with DISCatcher Pro (original) baskets. Flat terrain with sparse foliage. Notable features include a triple mando on hole 3, a 730 ft hole 11, and a 230 ft island hole 17. Cart-friendly.",
-    "imageUrl": "https://tse2.mm.bing.net/th?id=OIP.vp1uJQWwaiOC_kJdJccGlwHaNK&w=474&h=474&c=7",
-    "parkMapUrl": "https://tse2.mm.bing.net/th?id=OIP.I0lzJakOjFPTxQ6Jkt0_ZQHaEK&w=266&h=266&c=7",
-    "mapEmbedUrl": null,
-    "id": 46
-  },
-  {
-    "course_name": "Cody Park Disc Golf Course",
-    "ownership": "Public",
-    "contact_info": {
-      "address": "1601 N Jeffers St, North Platte, NE 69101, United States",
-      "phone": "(308) 535-6700",
-      "email": "not available",
-      "website": null
-    },
-    "reservation_requirements": "No reservation required for casual play. For tournaments or organized events, contact the North Platte Parks and Recreation Department at (308) 535-6700.",
-    "policies_rules_dates_open": "Open year-round from dawn to dusk. Restrooms and drinking water available. Dogs allowed on leash. Be mindful of other park users.",
-    "holes": "20 holes",
-    "course_type": "Established in 2006 and redesigned in 2022, the course features concrete tees and a mix of Prodigy T2 and Mach III baskets. The layout includes both open and wooded technical lines, with a par of 69 and a total length of 8,468 ft. Cart-friendly and wheelchair accessible.",
-    "imageUrl": "https://d22ksth68ujgu2.cloudfront.net/1b42a449299c84952ccf1484bfdbcfd8_m_JhguWiN9XCQOBuQfb5zZJoBhaSvY.jpg",
-    "parkMapUrl": "https://d22ksth68ujgu2.cloudfront.net/52536fb1445f94819c910c563f84ac69_m_IMG_2529.jpg",
-    "mapEmbedUrl": null,
-    "id": 47
-  },
-  {
-    "course_name": "L.E. Ray Park Disc Golf Course",
-    "ownership": "Public",
-    "contact_info": {
-      "address": "3315 S Blaine St, Grand Island, NE 68801, United States",
-      "phone": "(308) 389-0290",
-      "email": "giparksrec@grand-island.com",
-      "website": "https://www.grand-island.com/o/gipr/page/le-ray-park"
-    },
-    "reservation_requirements": "No reservation required for casual play. For tournaments or organized events, contact Grand Island Parks and Recreation at (308) 389-0290.",
-    "policies_rules_dates_open": "Open year-round from dawn to dusk. ADA-accessible restroom available at the east end of the park. Drinking water available. Dogs allowed on leash. Be mindful of other park users.",
-    "holes": "9 holes",
-    "course_type": "Established in 2013, the course features concrete and grass tees with Mach New II baskets. The layout wraps around the south side of the lake, offering relatively flat terrain with mature trees. Cart-friendly and stroller-friendly.",
-    "imageUrl": "https://www.teresco.org/pics/summertrip-20220727-0816/0731/IMG_8903-1512.jpg",
-    "parkMapUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/No_image_available.svg/300px-No_image_available.svg.png?20250126200333",
-    "mapEmbedUrl": null,
-    "id": 48
-  },
-  {
-    "course_name": "Pine Grove Park Disc Golf Course",
-    "ownership": "Public",
-    "contact_info": {
-      "address": "1015 Pine Grove Rd, Staples, MN 56479, United States",
-      "phone": "(218) 894-2553",
-      "email": "not available",
-      "website": "https://udisc.com/courses/pine-grove-park-dgc-sNTl"
-    },
-    "reservation_requirements": "No reservation required for casual play. For tournaments or organized events, contact the City of Staples Parks and Recreation Department at (218) 894-2553.",
-    "policies_rules_dates_open": "Open year-round from dawn to dusk. Restrooms available. No drinking water on site. Dogs allowed on leash. Be mindful of other park users.",
-    "holes": "9 holes",
-    "course_type": "Established in 2015, the course features grass tees and Liberty Targets baskets. The layout offers a good mix of open and wooded holes, with water hazards on holes 1 and 4. Average hole length is approximately 300 ft. Cart-friendly.",
-    "imageUrl": "https://d22ksth68ujgu2.cloudfront.net/d3121b07c9c2f4ba9830bc87585ec0ed_m_IMG_5785.jpg",
-    "parkMapUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/No_image_available.svg/300px-No_image_available.svg.png?20250126200333",
-    "mapEmbedUrl": null,
-    "id": 49
-  },
-  {
-    "course_name": "Lum Park Disc Golf Course",
-    "ownership": "Public",
-    "contact_info": {
-      "address": "1279 Wonderland Park Rd NE, Brainerd, MN 56401, United States",
-      "phone": "(218) 828-2320",
-      "email": "not available",
-      "website": null
-    },
-    "reservation_requirements": "No reservation required for casual play. For tournaments or organized events, contact the Brainerd Parks and Recreation Department at (218) 828-2320.",
-    "policies_rules_dates_open": "Open year-round from dawn to dusk. Restrooms and drinking water available. Dogs allowed on leash. Be mindful of other park users.",
-    "holes": "18 holes",
-    "course_type": "Established in 1996, the course features a mix of concrete and grass/dirt/pavement tees with Mach III baskets. The front 9 is easier, while the back 9 offers more challenge. The course is flat with plenty of trees in a well-groomed park. Cart-friendly and stroller-friendly.",
-    "imageUrl": "https://udisc-parse.s3.amazonaws.com/12b592a65a99e740ddd3d913e0c4df0b_m_bTzlphqrDhvNj0DZNLQrufMO8Yop.jpg",
-    "parkMapUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/No_image_available.svg/300px-No_image_available.svg.png?20250126200333",
-    "mapEmbedUrl": null,
-    "id": 50
-  },
-  {
-    "course_name": "Max E. Roper Interstate Park \u00e2\u20ac\u201c East Disc Golf Course",
-    "ownership": "Public",
-    "contact_info": {
-      "address": "8th and Groveland St, Lincoln, NE 68521, United States",
-      "phone": "(402) 441-7847",
-      "email": "parks@lincoln.ne.gov",
-      "website": "https://www.lincoln.ne.gov/City/Departments/Parks-and-Recreation/Parks-Facilities/Parks-A-to-Z/Roper-Park-East"
-    },
-    "reservation_requirements": "No reservation required for casual play. For tournaments or organized events, contact Lincoln Parks and Recreation at (402) 441-7847.",
-    "policies_rules_dates_open": "Open daily from 5:00 AM to 11:00 PM. Restrooms available (porta-potty during spring and summer). No drinking water on site. Dogs allowed on leash. Be mindful of other park users.",
-    "holes": "18 holes",
-    "course_type": "Established in 2016, the course features concrete tees and Dynamic Discs Veteran baskets. The layout includes a mix of open and moderately wooded terrain with two tee pads per hole and multiple pin positions that are rotated regularly. Notable features include two elevated baskets, multiple creek crossings, and a balance of tight lines and open shots. Cart-friendly.",
-    "imageUrl": "https://udisc-parse.s3.amazonaws.com/243c41f890ad89fdd856c4472534960f_m_IMG_0285.jpg",
-    "parkMapUrl": "https://tse2.mm.bing.net/th?id=OIP._b_wfcj-IaEiyNRnl7uMJAHaFj&cb=iwp1&w=355&h=355&c=7",
-    "mapEmbedUrl": null,
-    "id": 51
-  },
-  {
-    "course_name": "Hummel Park Disc Golf Course",
-    "ownership": "Public",
-    "contact_info": {
-      "address": "11808 John Pershing Drive, Omaha, NE 68112, United States",
-      "phone": "(402) 444-5900",
-      "email": "not available",
-      "website": "https://parks.cityofomaha.org/park-details?pid=95"
-    },
-    "reservation_requirements": "No reservation required for casual play. For tournaments or organized events, contact the City of Omaha Parks and Recreation Department at (402) 444-5900.",
-    "policies_rules_dates_open": "Open daily from 5:00 AM to 11:00 PM. No restrooms or drinking water available. Dogs allowed on leash. Be mindful of other park users.",
-    "holes": "18 holes",
-    "course_type": "Established in 2011, the course features a mix of concrete and dirt tees with DISCatcher Pro (original) baskets. The layout includes dramatic elevation changes and wooded fairways, offering a technical challenge with tight lines on every hole. Not cart-friendly.",
-    "imageUrl": "https://s3-media4.fl.yelpcdn.com/bphoto/PYQ-2KXBJ5yZ2a5Bq5FP3w/o.jpg",
-    "parkMapUrl": "https://tse1.mm.bing.net/th?id=OIP.Y6fl_li35MDvlz9CSM97OwHaFu&cb=iwc1&w=366&h=366&c=7",
-    "mapEmbedUrl": null,
-    "id": 52
-  },
-  {
-    "course_name": "Hanscom Park Disc Golf Course",
-    "ownership": "Public",
-    "contact_info": {
-      "address": "3201 Woolworth Ave, Omaha, NE 68105, United States",
-      "phone": "(402) 444-5900",
-      "email": "not available",
-      "website": "https://parks.cityofomaha.org/disc-golf/"
-    },
-    "reservation_requirements": "No reservation required for casual play. For tournaments or organized events, contact the City of Omaha Parks and Recreation Department at (402) 444-5900.",
-    "policies_rules_dates_open": "Open daily from 5:00 AM to 11:00 PM. No restrooms or drinking water available. Dogs allowed on leash. Be mindful of other park users.",
-    "holes": "9 holes",
-    "course_type": "Established in 2020, the course features artificial turf tees and baskets. The layout is short and technical, situated on the east side of the park with mature trees and elevation changes. Cart-friendly.",
-    "imageUrl": "https://tse4.mm.bing.net/th?id=OIP.CMASeC5SjkWP9hun4iOMJAHaJ4&cb=iwc1&w=474&h=474&c=7",
-    "parkMapUrl": "https://tse2.mm.bing.net/th?id=OIP.kITlPyokh7ovnqAcAmRhIwHaPN&cb=iwc1&w=474&h=474&c=7",
-    "mapEmbedUrl": null,
-    "id": 53
-  },
-  {
-    "course_name": "Alimagnet Lake Park Disc Golf Course",
-    "ownership": "Public",
-    "contact_info": {
-      "address": "211 Ridgeview Dr, Apple Valley, MN 55124, United States",
-      "phone": "(952) 953-2300",
-      "email": "not available",
-      "website": "https://www.applevalleymn.gov/Facilities/Facility/Details/Alimagnet-Park-12"
-    },
-    "reservation_requirements": "No reservation required for casual play. For tournaments or organized events, contact the City of Apple Valley Parks and Recreation Department at (952) 953-2300.",
-    "policies_rules_dates_open": "Open daily from 5:00 AM to 10:00 PM. Restrooms and drinking water available. Dogs allowed on leash. Be mindful of other park users.",
-    "holes": "12 holes",
-    "course_type": "Established in 2005, the course features a mix of concrete and dirt tees with DISCatcher Pro (original) baskets. The first 7 holes have concrete tees and open fairways with mature trees, while the last 5 holes are more tightly wooded. Water hazards may come into play on hole 8, and the tee shots on holes 8 and 9 are blind. Cart-friendly.",
-    "imageUrl": "https://d22ksth68ujgu2.cloudfront.net/d19dec9012bc3d6938d18fe11cfd1068_m_IMG_2040.jpg",
-    "parkMapUrl": null,
-    "mapEmbedUrl": null,
-    "id": 54
-  },
-  {
-    "course_name": "Kelly Park Disc Golf Course",
-    "ownership": "Public",
-    "contact_info": {
-      "address": "Park Ave, Red Oak, IA 51566, United States",
-      "phone": null,
-      "email": "not available",
-      "website": null
-    },
-    "reservation_requirements": "No reservation required for casual play. For tournaments or organized events, contact the City of Red Oak Parks and Recreation Department.",
-    "policies_rules_dates_open": "Open daily from dawn to dusk. Restrooms available. Dogs allowed on leash. Be mindful of other park users.",
-    "holes": "9 holes",
-    "course_type": "Established in 2011, the course features natural tees and basket targets. The layout includes mild elevation changes and scattered foliage, offering a mix of open and wooded holes. Cart-friendly.",
-    "imageUrl": "https://www.traveliowa.com/userdocs/Big_Creek_DGC_FB_page.jpg",
-    "parkMapUrl": "https://udisc-parse.s3.amazonaws.com/46a04a56c2370785a0558c0c4594da08_m_Kelley_Park_Map_2023.jpg",
-    "mapEmbedUrl": null,
-    "id": 55
-  },
-  {
-    "course_name": "Fairmont Park Disc Golf Course",
-    "ownership": "Public",
-    "contact_info": {
-      "address": "Elliott St, Manhattan, KS 66502, United States",
-      "phone": null,
-      "email": "not available",
-      "website": null
-    },
-    "reservation_requirements": "No reservation required for casual play. For tournaments or organized events, contact the City of Manhattan Parks and Recreation Department.",
-    "policies_rules_dates_open": "Open daily from dawn to dusk. No restrooms or drinking water available. Dogs allowed on leash. Be mindful of other park users.",
-    "holes": "26 holes",
-    "course_type": "Established in 2009 and redesigned in 2013 by the Disc Fanatics of Kansas (DFOK), the course features concrete and grass tees with DISCatcher Pro (28 chains) baskets. The layout includes a mix of wooded and open fairways, with multiple tee-pad options and 34 pin placement options. Cart-friendly.",
-    "imageUrl": "https://d22ksth68ujgu2.cloudfront.net/e29c60da876312fcbb19526f9ea1dbac_t_IMG_8011.jpg",
-    "parkMapUrl": "https://d22ksth68ujgu2.cloudfront.net/4bef35c8e5f37960d3425a6c07b68f45_m_IMG_7946.jpg",
-    "mapEmbedUrl": null,
-    "id": 56
-  },
-  {
-    "course_name": "Bear Cave Park Disc Golf Course",
-    "ownership": "Public",
-    "contact_info": {
-      "address": "800 10th Street NW, Stewartville, MN 55976, United States",
-      "phone": "(507) 533-4745",
-      "email": "ljacobs@stewartvillemn.com",
-      "website": "https://stewartvillemn.com/community/city-parks/bear-cave-park/"
-    },
-    "reservation_requirements": "No reservation required for casual play. Tournaments must be scheduled through Stewartville City Hall at a cost of $3.00 per person.",
-    "policies_rules_dates_open": "Open daily from dawn to dusk. Restrooms available. No drinking water on site. Dogs allowed on leash. Be mindful of other park users.",
-    "holes": "18 holes",
-    "course_type": "Established in 1997, the course features concrete tees and Mach III baskets. The layout offers a scenic mix of open and wooded holes, with challenging distances and angles, including tricky tunnel shots. Cart-friendly.",
-    "imageUrl": "https://udisc-parse.s3.amazonaws.com/0614b1186b5af243b15261c86962e76d_m_IMG_0413.jpg",
-    "parkMapUrl": "https://stewartvillemn.com/media/BearCave-Disc-golf-map.pdf",
-    "mapEmbedUrl": null,
-    "id": 57
-  },
-  {
-    "course_name": "Jackson Park \u00e2\u20ac\u201c 18 Disc Golf Course",
-    "ownership": "Public",
-    "contact_info": {
-      "address": "1500 S 6th St, Atchison, KS 66002, United States",
-      "phone": "(913) 367-5500",
-      "email": "not available",
-      "website": "https://www.facebook.com/AtchDiscGolf/"
-    },
-    "reservation_requirements": "No reservation required for casual play. For tournaments or organized events, contact the City of Atchison Parks and Recreation Department at (913) 367-5500.",
-    "policies_rules_dates_open": "Open daily from 7:00 AM to 11:00 PM. Restrooms available. No drinking water on site. Dogs allowed on leash. Be mindful of other park users.",
-    "holes": "18 holes",
-    "course_type": "Established in 2007, the course features concrete tees and Mach V baskets. The layout includes large trees and steep hills, starting with shorter holes and gradually increasing in difficulty. The course offers a variety of shots for players of all throwing styles and boasts a lengthy uphill battle through the back 9 holes. Cart-friendly.",
-    "imageUrl": "https://cityofatchison.com/wp-content/uploads/2017/09/jackson-park.jpg",
-    "parkMapUrl": "https://www.pdga.com/files/course_photos/course_map.jpg",
-    "mapEmbedUrl": null,
-    "id": 58
-  },
-  {
-    "course_name": "Bartlett Park Disc Golf Course",
-    "ownership": "Public",
-    "contact_info": {
-      "address": "3101 Duncan St, St. Joseph, MO 64507, United States",
-      "phone": "(816) 271-5500",
-      "email": "not available",
-      "website": null
-    },
-    "reservation_requirements": "No reservation required for casual play. For tournaments or organized events, contact the City of St. Joseph Parks and Recreation Department at (816) 271-5500.",
-    "policies_rules_dates_open": "Open daily from dawn to dusk. No restrooms or drinking water available. Dogs allowed on leash. Be mindful of other park users.",
-    "holes": "18 holes",
-    "course_type": "Established in 2019, the course features concrete tees and Mach X baskets. The layout winds through a park with a walking trail, offering a balance of short technical holes and longer shots. Multiple pin placements are available. Cart-friendly.",
-    "imageUrl": "https://m.discgolfscene.com/courses/7647/11252255a3f2.jpg",
-    "parkMapUrl": "https://www.pdga.com/files/course_maps/bartlettpark_mo_map.jpg",
-    "mapEmbedUrl": null,
-    "id": 59
-  },
-  {
-    "course_name": "Waterloo Exchange Park Disc Golf Course",
-    "ownership": "Public",
-    "contact_info": {
-      "address": "Burton Ave & Park Rd, Waterloo, IA 50701, United States",
-      "phone": "(319) 291-4370",
-      "email": "not available",
-      "website": "https://www.waterlooleisureservices.org/disc-golf/"
-    },
-    "reservation_requirements": "No reservation required for casual play. For tournaments or organized events, contact Waterloo Leisure Services at (319) 291-4370.",
-    "policies_rules_dates_open": "Open daily from dawn to dusk. Restrooms and drinking water available. Dogs allowed on leash. Be mindful of other park users.",
-    "holes": "27 holes",
-    "course_type": "Established in 1987, the course features concrete tees and Mach III baskets. The layout offers a variety of holes, including water hazards, and is situated along the Cedar River. Cart-friendly.",
-    "imageUrl": "https://m.discgolfscene.com/courses/2377/33b68e797a36.jpg",
-    "parkMapUrl": "https://www.freearenas.com/images/cache/27523/pin.jpg",
-    "mapEmbedUrl": null,
-    "id": 60
-  },
-  {
-    "course_name": "Water Works Park Disc Golf Course",
-    "ownership": "Public",
-    "contact_info": {
-      "address": "3400 N Oak Trafficway, Kansas City, MO 64116, United States",
-      "phone": "(816) 513-7500",
-      "email": "not available",
-      "website": "https://kcparks.org/places/water-works-park-disc-golf-course/"
-    },
-    "reservation_requirements": "No reservation required for casual play. For tournaments or organized events, contact Kansas City Parks and Recreation at (816) 513-7500.",
-    "policies_rules_dates_open": "Open daily from 5:00 AM to midnight. Restrooms available (porta-potty during spring and summer). Drinking water available. Dogs allowed on leash. Be mindful of other park users.",
-    "holes": "18 holes",
-    "course_type": "Established in 1997, the course features concrete tees and Mach X baskets. The layout includes a mix of open fields and challenging wooded areas with significant elevation changes, offering a variety of long and short holes. The park provides stunning skyline views of downtown Kansas City and the Missouri River. Cart-friendly.",
-    "imageUrl": "https://kcdiscgolf.org/wp-content/uploads/2024/04/Waterworks-1-Jarvis.jpg",
-    "parkMapUrl": "https://d22ksth68ujgu2.cloudfront.net/8894a1ff14e18ffedc9c1ecf6ff8dddd_m_2022_05_01.jpg",
-    "mapEmbedUrl": null,
-    "id": 61
-  },
-  {
-    "course_name": "Rosedale Park DGC - Down Under",
-    "ownership": "Public",
-    "contact_info": {
-      "address": "Rosedale Park Rd, Kansas City, KS 66103",
-      "phone": "(913) 677-4670",
-      "email": "not available",
-      "website": "http://www.kcdiscgolf.org/"
-    },
-    "reservation_requirements": "No reservation required. This course is open to the public and operates on a first-come, first-served basis.",
-    "policies_rules_dates_open": "Dogs allowed. Not cart or stroller friendly. Drinking water and restrooms available. Established 1997.",
-    "holes": "18 holes",
-    "course_type": "Short, wooded, and technical with gravel tees and Disc King (Mach II) targets. Hilly terrain with 38 pin placements. Mostly under 300ft holes.",
-    "imageUrl": "https://d22ksth68ujgu2.cloudfront.net/d688d602b8ec6ef368acbe775b82949d_m_C65EB99A_87FB_4623_B85E_70966A371F16.jpg",
-    "parkMapUrl": "https://d22ksth68ujgu2.cloudfront.net/60f72adad4cdc27e4d5603036db7672f_m_IMG_2331.jpg",
-    "mapEmbedUrl": null,
-    "id": 62
-  },
-  {
-    "course_name": "Kessler Park (Cliff Drive)",
-    "ownership": "Public",
-    "contact_info": {
-      "address": "2460 E. Reservoir Dr, Kansas City, MO 64124, United States",
-      "phone": "(913) 485-5123",
-      "email": "https://www.pdga.com/course-contact?course=25958",
-      "website": "http://kcfdc.org/"
-    },
-    "reservation_requirements": "No reservation required.",
-    "policies_rules_dates_open": "No facilities or tee signs available. Established 2004.",
-    "holes": "21 holes",
-    "course_type": "Plays longer than it looks with many uphill and wooded holes. Concrete and asphalt tees. Mach III, Mach V, and DB-5 targets. Elevation changes and OB roads add challenge.",
-    "imageUrl": "https://d22ksth68ujgu2.cloudfront.net/c82528097b67669aa20e956826477beb_m_FB2729FC_891C_4F37_8A11_FD8378E1116D.jpg",
-    "parkMapUrl": null,
-    "mapEmbedUrl": null,
-    "id": 63
-  },
-  {
-    "course_name": "Harmon Park Disc Golf Course",
-    "ownership": "Public",
-    "contact_info": {
-      "address": "W. 77th Pl. and Delmar St., Prairie Village, KS 66208, United States",
-      "phone": "not available",
-      "email": "not available",
-      "website": "not available"
-    },
-    "reservation_requirements": "No reservation required.",
-    "policies_rules_dates_open": "Handicap accessible. Tee signs available. No facilities. Established 2014.",
-    "holes": "9 holes",
-    "course_type": "Short course through a multi-use park with small hills and light to moderate woods. Concrete tees and DISCatcher targets.",
-    "imageUrl": "https://d22ksth68ujgu2.cloudfront.net/a191cbe07830f400305ee63d3e0a2daa_m_IMG_0141.jpg",
-    "parkMapUrl": null,
-    "mapEmbedUrl": null,
-    "id": 64
-  },
-  {
-    "course_name": "Blue Valley Park",
-    "ownership": "Public",
-    "contact_info": {
-      "address": "Blue Valley Park Rd E, Kansas City, MO 64126, United States",
-      "phone": "+1-913-638-6399",
-      "email": "https://www.pdga.com/course-contact?course=26238a"
-    },
-    "reservation_requirements": "No reservation required.",
-    "policies_rules_dates_open": "Permanent course. Established 2005. Facilities available. Tee signs provided.",
-    "holes": "18 holes",
-    "course_type": "World Class course with long open shots, extreme elevation, and panoramic views. Mostly hilly terrain with scattered foliage. Target type: Mach III. Tee type: Concrete.",
-    "imageUrl": "https://d22ksth68ujgu2.cloudfront.net/6d02685c8fb355c01ba6c9afd5261cf3_m_VqLlDXJwDROk7KPfxRdlM48JBGOA.jpg",
-    "parkMapUrl": null,
-    "mapEmbedUrl": "https://www.google.com/maps?q=39.081614000000,-94.509940000000",
-    "id": 65
-  },
-  {
-    "course_name": "Dolese Youth Park - West",
-    "ownership": "Public",
-    "contact_info": {
-      "address": "5105 NW 50th, Oklahoma City, OK 73101, United States",
-      "phone": "405-947-2915",
-      "email": "https://www.pdga.com/course-contact?course=223926",
-      "website": "http://okcdga.org"
-    },
-    "reservation_requirements": "No reservation required.",
-    "policies_rules_dates_open": "Handicap accessible. Tee signs available. Facilities available. Established 2016.",
-    "holes": "18 holes",
-    "course_type": "Mostly wooded layout west of the baseball fields. Slight elevation. Mixed tees and targets. Reuses 5 original holes with 13 new ones.",
-    "imageUrl": "https://d22ksth68ujgu2.cloudfront.net/552e739c76e8f56ce108eee463169672_m_Hole_17.jpg",
-    "parkMapUrl": null,
-    "mapEmbedUrl": null,
-    "id": 66
-  },
-  {
-    "course_name": "Dolese Youth Park - Original",
-    "ownership": "Public",
-    "contact_info": {
-      "address": "5105 NW 50th, Oklahoma City, OK 73101, United States",
-      "phone": "not available",
-      "email": "not available",
-      "website": "not available"
-    },
-    "reservation_requirements": "No reservation required.",
-    "policies_rules_dates_open": "Handicap accessible. Tee signs available. Facilities available. Established 1994, baskets added in 1997.",
-    "holes": "18 holes",
-    "course_type": "A mix of open and wooded holes, with engraved tee pads. Originally an experimental object course, now a permanent layout with Mach III targets.",
-    "imageUrl": "https://d22ksth68ujgu2.cloudfront.net/552e739c76e8f56ce108eee463169672_m_Hole_17.jpg",
-    "parkMapUrl": null,
-    "mapEmbedUrl": null,
-    "id": 67
-  },
-  {
-    "course_name": "Williams Park - Timber Valley Disc Golf",
-    "ownership": "Public",
-    "contact_info": {
-      "address": "Oak Dr, Pawhuska, OK 74056, United States",
-      "phone": "918-287-7881",
-      "email": "https://www.pdga.com/course-contact?course=264336",
-      "website": "not available"
-    },
-    "reservation_requirements": "No reservation required.",
-    "policies_rules_dates_open": "Handicap accessible. Tee signs available. Drinking water and restrooms available. Established 2018.",
-    "holes": "18 holes",
-    "course_type": "Woodsy, hilly course with good use of elevation and a small creek. Features Dynamic Discs Patriot targets and concrete tees. Multiple tees and dual basket placements.",
-    "imageUrl": "https://d22ksth68ujgu2.cloudfront.net/50ba1d1e25d8b993d9e807e1c069ef7d_m_IMG_4096.jpg",
-    "parkMapUrl": null,
-    "mapEmbedUrl": null,
-    "id": 68
-  },
-  {
-    "course_name": "Luther Route 66 DiscGolfPark",
-    "ownership": "Public",
-    "contact_info": {
-      "address": "655 NE Fourth St., Luther, OK 73054, United States",
-      "phone": "541-337-8668",
-      "email": "https://www.pdga.com/course-contact?course=302283",
-      "website": "https://www.lutherfriendsofthepark.com/"
-    },
-    "reservation_requirements": "No reservation required.",
-    "policies_rules_dates_open": "Tee signs available. No drinking water or restroom available. Established 2023.",
-    "holes": "9 holes",
-    "course_type": "Moderate hilly terrain with dual tees and dual basket locations per hole. Short-to-Short layout and Long-to-Long layout offering a varied experience for different skill levels.",
-    "imageUrl": "https://d22ksth68ujgu2.cloudfront.net/4524d57a866357adcc55fc74d840688d_m_IMG_3170.jpg",
-    "parkMapUrl": null,
-    "mapEmbedUrl": null,
-    "id": 69
-  },
-  {
-    "course_name": "Safari Smiles DiscGolfPark",
-    "ownership": "Public",
-    "contact_info": {
-      "address": "2400 SE Adams Blvd, Bartlesville, OK 74006, United States",
-      "phone": "not available",
-      "email": "https://www.pdga.com/course-contact?course=302282",
-      "website": "not available"
-    },
-    "reservation_requirements": "No reservation required.",
-    "policies_rules_dates_open": "Tee signs available. Drinking water and restroom available. Established 2022.",
-    "holes": "18 holes with 4 different layouts",
-    "course_type": "Mostly flat terrain with mixed open and wooded fairways. Dual basket locations and teepads for 4 layouts.",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/No_image_available.svg/300px-No_image_available.svg.png?20250126200333",
-    "parkMapUrl": null,
-    "mapEmbedUrl": null,
-    "id": 70
-  },
-  {
-    "course_name": "Lucy Park DiscGolfPark",
-    "ownership": "Public",
-    "contact_info": {
-      "address": "Sunset Dr. & Riverside Dr., Wichita Falls, TX 76301, United States",
-      "phone": "940-761-2747",
-      "email": "https://www.pdga.com/course-contact?course=25388",
-      "website": "not available"
-    },
-    "reservation_requirements": "No reservation required.",
-    "policies_rules_dates_open": "Tee signs not available. No drinking water or restroom available. Established 1992.",
-    "holes": "18 holes with a mix of concrete and dirt tees.",
-    "course_type": "Older style course with mature Pecan trees and some elevation. Few long holes and walking paths to contend with.",
-    "imageUrl": "https://d22ksth68ujgu2.cloudfront.net/92face669109e0fd426c0dd113dfad57_t_IMG_0382.jpg",
-    "parkMapUrl": null,
-    "mapEmbedUrl": null,
-    "id": 71
-  },
-  {
-    "course_name": "John Zink Park",
-    "ownership": "Public",
-    "contact_info": {
-      "address": "Skiatook, Oklahoma 74070, United States",
-      "phone": "not available",
-      "email": "https://www.pdga.com/course-contact?course=303870",
-      "website": "not available"
-    },
-    "reservation_requirements": "No reservation required.",
-    "policies_rules_dates_open": "Tee signs available. Established 2023.",
-    "holes": "18 holes.",
-    "course_type": "Flat terrain with a mix of open and wooded fairways.",
-    "imageUrl": "https://d22ksth68ujgu2.cloudfront.net/ec24646e0295653b81976a8bbbde45a5_m_IMG_1432.jpg",
-    "parkMapUrl": null,
-    "mapEmbedUrl": null,
-    "id": 72
-  },
-  {
-    "course_name": "Altmaier Family Park Disc Golf Course",
-    "ownership": "Public",
-    "contact_info": {
-      "address": "Coralville, Iowa 52241, United States",
-      "phone": "319-383-8767",
-      "email": "https://www.pdga.com/course-contact?course=247146",
-      "website": "https://coralville.org/Facilities/Facility/Details/Altmaier-Family-Park-38"
-    },
-    "reservation_requirements": "No reservation required.",
-    "policies_rules_dates_open": "Tee signs available. Established 2018.",
-    "holes": "18 holes.",
-    "course_type": "Varied terrain with a mix of wooded and open fairways.",
-    "imageUrl": "https://d22ksth68ujgu2.cloudfront.net/514ee4705adff3912b6e4bf1f1797369_m_FullSizeRender.jpg",
-    "parkMapUrl": null,
-    "mapEmbedUrl": null,
-    "id": 73
-  },
-  {
-    "course_name": "Johnson Park",
-    "ownership": "Public",
-    "contact_info": {
-      "address": "Cheyenne Cove, Abilene, TX 79601, United States",
-      "phone": "325-721-6376",
-      "email": "not available",
-      "website": "https://www.pdga.com/course-contact?course=25388"
-    },
-    "reservation_requirements": "No reservation required.",
-    "policies_rules_dates_open": "Tee signs available. Drinking water not available. Established 2011.",
-    "holes": "18 holes",
-    "course_type": "Wooded course with mostly short tunnel holes. Slight slope with a woodsy foliage.",
-    "imageUrl": "https://www.pdga.com/files/course_photos/Johnson_Park.png",
-    "parkMapUrl": null,
-    "mapEmbedUrl": null,
-    "id": 74
-  },
-  {
-    "course_name": "Fayette City Park",
-    "ownership": "Public",
-    "contact_info": {
-      "address": "Park Road, Fayette, MO 65248, United States",
-      "phone": "660-248-1248",
-      "email": "https://www.pdga.com/course-contact?course=200464",
-      "website": "not available"
-    },
-    "reservation_requirements": "No reservation required.",
-    "policies_rules_dates_open": "Tee signs available. Drinking water not mentioned. Established 2013.",
-    "holes": "9 holes (dual tees make 18)",
-    "course_type": "Beginner-friendly with rolling elevation and a mix of trees and open fairways. Somewhat cart friendly.",
-    "imageUrl": "https://d22ksth68ujgu2.cloudfront.net/e7da298759d9de477d0331ffc6431c08_m_IMG_5654.jpg",
-    "parkMapUrl": null,
-    "mapEmbedUrl": null,
-    "id": 75
-  },
-  {
-    "course_name": "Harmony Bends Disc Golf at Strawn Park",
-    "ownership": "Public",
-    "contact_info": {
-      "address": "801 N. Strawn Rd. (Route ZZ), Columbia, MO 65203, United States",
-      "phone": "573-874-7460",
-      "email": "https://www.pdga.com/course-contact?course=221286",
-      "website": "not available"
-    },
-    "reservation_requirements": "Contact Columbia Parks and Rec to host a tournament.",
-    "policies_rules_dates_open": "Established in 2016. Facilities and tee signs available. Championship-level design with challenging terrain.",
-    "holes": "18",
-    "course_type": "Championship course with three tees per hole, four par 5s, rolling elevation, creeks, mature trees, and innovative hillside landings.",
-    "imageUrl": "https://www.pdga.com/files/course_photos/harmony-bends.jpg",
-    "parkMapUrl": null,
-    "mapEmbedUrl": null,
-    "id": 76
-  },
-  {
-    "course_name": "Monett South Park Disc Golf Course",
-    "ownership": "Public",
-    "contact_info": {
-      "address": "115 S Lincoln Ave, Monett, MO 65708, United States",
-      "phone": "not available",
-      "email": "not available",
-      "website": "not available"
-    },
-    "reservation_requirements": "Not specified. Course is in a heavily used public park.",
-    "policies_rules_dates_open": "Established in 2014. Facilities available. Tee signs not present. All holes are under 300ft with grass tees and DISCatcher targets.",
-    "holes": "9",
-    "course_type": "Short course with some elevation in a mixed-use park. Watch for nearby park amenities.",
-    "imageUrl": "https://d22ksth68ujgu2.cloudfront.net/b9db04115c67d25bfb78d2125fbe7b95_t_IMG_8415.jpg",
-    "parkMapUrl": null,
-    "mapEmbedUrl": null,
-    "id": 77
-  },
-  {
-    "course_name": "Camden Park 2",
-    "ownership": "Public",
-    "contact_info": {
-      "address": "Camden Park, Milan, IL 61264, United States",
-      "phone": "309-292-6026",
-      "email": "Innovadsm@msn.com",
-      "website": "https://www.camdenTwo.com"
-    },
-    "reservation_requirements": "Not specified. Contact Paul Roesner or Chris Sprague for tournament info.",
-    "policies_rules_dates_open": "Established before 2010 (exact year not specified). Features 3 pin positions per hole. Layouts range from par 55 to 64. Bridges and steps support access through ravines. Check website for current layout and rules.",
-    "holes": "18",
-    "course_type": "Challenging, wooded course with generous fairways, heavy elevation changes, and deep ravines split into 3 sections. Features concrete tees, Mach III baskets, and multiple layouts.",
-    "imageUrl": "https://www.pdga.com/files/course_photos/3c_Tee_1.jpg",
-    "parkMapUrl": null,
-    "mapEmbedUrl": null,
-    "id": 78
-  },
-  {
-    "course_name": "Airpark Field",
-    "ownership": "Public",
-    "contact_info": {
-      "address": "500 N Franklin Ave, Eldon, MO 65026, United States",
-      "phone": "573-286-2785",
-      "email": "https://www.pdga.com/course-contact?course=26742 Airpark Field",
-      "website": "not available"
-    },
-    "reservation_requirements": "Not specified. Contact Tim Ochs for event or usage inquiries.",
-    "policies_rules_dates_open": "Established in 2008. Course features technical layout with OB walking paths and creeks in play on most holes. Alternate tees available to create 18-hole layout.",
-    "holes": "9 (with alternate tees to make 18)",
-    "course_type": "Technical course with flat terrain, concrete tees, DISCatcher baskets, and a mix of open and wooded foliage. OB adds challenge to most holes.",
-    "imageUrl": "https://d22ksth68ujgu2.cloudfront.net/db423a8c36d210b821e6462b6d4f2949_t_IMG_5464.jpg",
-    "parkMapUrl": null,
-    "mapEmbedUrl": null,
-    "id": 79
-  },
-  {
-    "course_name": "Zobel Park",
-    "ownership": "Public",
-    "contact_info": {
-      "address": "Hwy 49 and County Rd J, Green Lake, WI 54941, United States",
-      "phone": "414-708-0959",
-      "email": "Patrick Blake #2134587",
-      "website": "not available"
-    },
-    "reservation_requirements": "Not specified. Free play, no reservations.",
-    "policies_rules_dates_open": "Tee signs and baskets available.",
-    "holes": "9",
-    "course_type": "Flat and wooded course with some elevation changes.",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/No_image_available.svg/300px-No_image_available.svg.png?20250126200333",
-    "parkMapUrl": null,
-    "mapEmbedUrl": null,
-    "id": 80
-  },
-  {
-    "course_name": "Munson Park Disc Golf Course",
-    "ownership": "Public",
-    "contact_info": {
-      "address": "1801 N. Eisenhower Parkway, Hwy 69, Denison, TX 75020, United States",
-      "phone": "270-792-0672",
-      "alt_phone": "270-843-3313",
-      "email": "https://www.pdga.com/course-contact?course=27949",
-      "website": "not available"
-    },
-    "reservation_requirements": "Not specified. Contact course designer HB Clark for event or layout details.",
-    "policies_rules_dates_open": "Established in 2011. Open year-round. Terrain is hilly and technical. Features long downhill and uphill shots with tight lines through mature trees.",
-    "holes": "18",
-    "course_type": "Woodsy championship-style course with significant elevation, concrete tees, and DISCatcher baskets. Notable holes include a 553' downhill (#3) and a 470' elevated green (#8).",
-    "imageUrl": "https://www.pdga.com/files/course_photos/Denison_hole_8_from_fairway.JPG",
-    "parkMapUrl": null,
-    "mapEmbedUrl": null,
-    "id": 81
-  },
-  {
-    "course_name": "Creekside Park Disc Golf Course",
-    "ownership": "Public",
-    "contact_info": {
-      "address": "N Broyles St, Farmington, AR 72730, United States",
-      "phone": "not available",
-      "alt_phone": null,
-      "email": "not available",
-      "website": "not available"
-    },
-    "reservation_requirements": "Not specified. Appears to be open to the public with no reservation details listed.",
-    "policies_rules_dates_open": "Established in 2019. Open year-round. Course includes a mix of wide open holes and technical wooded holes with shaped fairways.",
-    "holes": "18",
-    "course_type": "Public course featuring concrete tees, Dynamic Discs Veteran baskets, and a mix of flat open and wooded terrain. Course is somewhat cart-friendly.",
-    "imageUrl": "https://d22ksth68ujgu2.cloudfront.net/55fa4c49ef1842408cf35f16c3b237a2_m_IMG_3699.jpg",
-    "parkMapUrl": null,
-    "mapEmbedUrl": null,
-    "id": 82
-  },
-  {
-    "course_name": "Bird's Ruins Disc Golf Course at Langer Park",
-    "ownership": "Public",
-    "contact_info": {
-      "address": "860 Canal Rd., Marshall, WI 53559, United States",
-      "phone": "not available",
-      "alt_phone": null,
-      "email": "https://www.pdga.com/course-contact?course=28140",
-      "website": "not available"
-    },
-    "reservation_requirements": "Free public access. For camping or group use, contacting the Rec Director is requested as a notice of use.",
-    "policies_rules_dates_open": "Established in 2011. Open year-round. Dual tees and multiple pin placements. 3 standard campsites and 1 large group site available for public use.",
-    "holes": "19",
-    "course_type": "Public course in woods and prairie with Chainstar baskets, concrete tees, and a mix of elevation and foliage. Designed by Erik Lemke and Rebel Disc Golf.",
-    "imageUrl": "https://d22ksth68ujgu2.cloudfront.net/2774c37aaa34f0f60f6cd2e87de2955f_m_IMG_2513.jpg",
-    "parkMapUrl": null,
-    "mapEmbedUrl": null,
-    "id": 83
-  },
-  {
-    "course_name": "Eagle Ranch Disc Golf Park",
-    "ownership": "Public",
-    "contact_info": {
-      "address": "3300 Eagle Ranch Blvd., 7200 Bunk House Dr, Fort Worth, TX 76179, United States",
-      "phone": "512-306-7253",
-      "alt_phone": null,
-      "email": "not available",
-      "website": "https://www.facebook.com/EagleRanchDiscGolf"
-    },
-    "reservation_requirements": "No formal reservation system. Check Facebook for updates.",
-    "policies_rules_dates_open": "Established in 2005, redesigned in 2019 by John Houck. Open year-round. Features mixed elevation with a pond, creek, and 65 newly planted trees.",
-    "holes": "9",
-    "course_type": "Public course with DISCatcher baskets, concrete tees, and a mix of low hills and open/wooded areas.",
-    "imageUrl": "https://www.pdga.com/files/course_photos/20191002_180913_1.jpg",
-    "parkMapUrl": null,
-    "mapEmbedUrl": null,
-    "id": 84
-  },
-  {
-    "course_name": "Heritage Park Disc Golf Course",
-    "ownership": "Public",
-    "contact_info": {
-      "address": "600 Spinks Rd, Flower Mound, TX 75028, United States",
-      "phone": "not available",
-      "alt_phone": null,
-      "email": "not available",
-      "website": "https://www.flower-mound.com/1787/Disc-Golf-Course"
-    },
-    "reservation_requirements": "No formal reservation system.",
-    "policies_rules_dates_open": "Established in 2019, located within the Cross Timbers eco-region. Open year-round. Features a variety of trees, creek beds, water hazards, and elevation changes.",
-    "holes": "18",
-    "course_type": "Public course with Dynamic Discs Veteran baskets, concrete tees, and a mix of flat and hilly terrain.",
-    "imageUrl": "https://d22ksth68ujgu2.cloudfront.net/1c2d8b8a433a090ca747853ec8cd9938_m_IMG_0925.jpg",
-    "parkMapUrl": null,
-    "mapEmbedUrl": null,
-    "id": 85
-  },
-  {
-    "course_name": "City Disc Park",
-    "ownership": "Church",
-    "contact_info": {
-      "address": "1140 Morrison Dr, Fort Worth, TX 76120-3426, United States",
-      "phone": "817-705-6481",
-      "alt_phone": null,
-      "email": "derrick.bledsoe@example.com",
-      "website": "https://www.pdga.com/course-contact?course=241711"
-    },
-    "reservation_requirements": "Not available for play on Sundays.",
-    "policies_rules_dates_open": "Established in 2018, features a variety of shots, including alley shots, window shots, and a signature elevated island hole (hole #7).",
-    "holes": "9",
-    "course_type": "Public course with DISCatcher Pro baskets, concrete tees, and a mix of trees and open areas.",
-    "imageUrl": "https://www.pdga.com/files/course_photos/city_disc_park_main_logo.jpg",
-    "parkMapUrl": null,
-    "mapEmbedUrl": null,
-    "id": 86
-  },
-  {
-    "course_name": "Windy Ridge Disc Golf at Mitchusson Park",
-    "ownership": "Public park",
-    "contact_info": {
-      "address": "860 Airport Rd, Huntsville, AR 72740, United States",
-      "phone": "not available",
-      "alt_phone": null,
-      "email": "https://www.pdga.com/course-contact?course=225001",
-      "website": "not available"
-    },
-    "reservation_requirements": "No reservation required for casual play. However, certain facilities within Mitchusson Park, such as the pavilion or amphitheater, may require reservations. For more information or to make a reservation, please contact the City Clerk\u00e2\u20ac\u2122s office at (479) 738-6607.",
-    "policies_rules_dates_open": "Established in 2016, with a redesign in 2021 adding 9 holes. A mix of woods and open holes with Ozark elevation.",
-    "holes": "18",
-    "course_type": "Public course with DGA targets and concrete tees, featuring rolling elevation.",
-    "imageUrl": "https://d22ksth68ujgu2.cloudfront.net/52b457d200be4f77a74347d96ddd3eb0_m_CACYgv1HizXMy1aBgQfc0ls3e8oA.jpg",
-    "parkMapUrl": null,
-    "mapEmbedUrl": null,
-    "id": 87
-  }
+    {
+        "course_name": "Lake Fenwick Disc Golf Course",
+        "ownership": "Public",
+        "contact_info": {
+            "address": "26001 Lake Fenwick Rd, S Kent, WA 98198 ",
+            "phone": "(253) 333-9774",
+            "email": "verified email",
+            "website": "https:\/\/www.kentwa.gov\/departments\/kent-parks\/parks-places\/parks-trails\/lake-fenwick-park"
+        },
+        "reservation_requirements": "No reservation required.",
+        "policies_rules_dates_open": "Open year-round from dawn to dusk. No restrooms available.",
+        "holes": "18",
+        "course_type": "hilly and wooded terrain with dual tees",
+        "imageUrl": "https:\/\/d22ksth68ujgu2.cloudfront.net\/8249bc814230139430c22ed1cc91a43d_m_PCux8YfqcKABQjc7mJrQWgaKbw44.jpg",
+        "parkMapUrl": "https:\/\/d22ksth68ujgu2.cloudfront.net\/7c52b795f4434f839ec7b74f68942cd1_m_u7c8VQr1gjZiLooxVLU0B1lEpOaI.jpg",
+        "mapEmbedUrl": null,
+        "id": 1,
+        "owner_id": 1
+    },
+    {
+        "course_name": "Gaffney's Grove Disc Golf Course",
+        "ownership": "Public",
+        "contact_info": {
+            "address": "22520 SE 248th St, Maple Valley, WA 98038 ",
+            "phone": "(425) 413-8800",
+            "email": "gaffneys.grove.dga@gmail.com",
+            "website": "https:\/\/www.maplevalleywa.gov\/government\/departments\/parks_and_recreation\/parks_and_trails.php"
+        },
+        "reservation_requirements": "No reservation required.",
+        "policies_rules_dates_open": "Open year-round.",
+        "holes": "18",
+        "course_type": "short, tight, and technical with a few longer holes",
+        "imageUrl": "https:\/\/d22ksth68ujgu2.cloudfront.net\/06c712ac3496995a1347af206472d0fa_m_IMG_2594.jpg",
+        "parkMapUrl": "https:\/\/d22ksth68ujgu2.cloudfront.net\/a653b75cc1be793f870c5f369f3d4652_m_IMG_4815.jpg",
+        "mapEmbedUrl": null,
+        "id": 2
+    },
+    {
+        "course_name": "White River Disc Golf Course",
+        "ownership": "Public",
+        "contact_info": {
+            "address": "2401 Stuck River Dr, Auburn, WA 98092",
+            "phone": "(253) 931-3043",
+            "email": "Email here",
+            "website": "https:\/\/www.auburnwa.gov\/city_hall\/parks_arts_recreation\/parks_trails\/game_farm_wilderness"
+        },
+        "reservation_requirements": "No reservation required.",
+        "policies_rules_dates_open": "Open year-round from dawn to dusk.",
+        "holes": "18 holes",
+        "course_type": "park setting",
+        "imageUrl": "https:\/\/d22ksth68ujgu2.cloudfront.net\/866a9d8e8e1b6d49564ea98b49fb0183_m_IMG_0931.jpg",
+        "parkMapUrl": "https:\/\/d22ksth68ujgu2.cloudfront.net\/3f2150cfb13da9b2e79d9e2854906bf4_m_IMG_5165.jpg",
+        "mapEmbedUrl": null,
+        "id": 3
+    },
+    {
+        "course_name": "SeaTac Disc Golf Course",
+        "ownership": "Public",
+        "contact_info": {
+            "address": "13001 20th Ave S, SeaTac, WA 98168 ",
+            "phone": "(206) 673-6291",
+            "email": "allterrarich@gmail.com",
+            "website": "https:\/\/www.seattlesouthside.com\/directory\/north-seatac-park-disc-golf\/"
+        },
+        "reservation_requirements": "No reservation required.",
+        "policies_rules_dates_open": "Open year-round.",
+        "holes": "27 holes",
+        "course_type": "long and challenging with wooded narrow corridors",
+        "imageUrl": "https:\/\/d22ksth68ujgu2.cloudfront.net\/01a524ff1e8516a56dba178242775bbf_m_IMG_0935.jpg",
+        "parkMapUrl": "https:\/\/d22ksth68ujgu2.cloudfront.net\/97294ffb7cf56ce346a7515f1e3cbf0c_m_IMG_4009.jpg",
+        "mapEmbedUrl": null,
+        "id": 4
+    },
+    {
+        "course_name": "South Fork Landing Disc Golf Course",
+        "ownership": "Public",
+        "contact_info": {
+            "address": "14319 436th Ave SE North Bend, WA 98045",
+            "phone": "425-831-0669",
+            "email": "not available",
+            "website": "https:\/\/www.siviewpark.org\/"
+        },
+        "reservation_requirements": "No reservation required.",
+        "policies_rules_dates_open": "Open year-round.",
+        "holes": "18 holes",
+        "course_type": "former golf course with open fairways",
+        "imageUrl": "https:\/\/d22ksth68ujgu2.cloudfront.net\/cc3e07c07beb34da2a5b61ecf141f1bc_m_nVbohzIxHiXudYr26AyoJytaRhbs.jpg",
+        "parkMapUrl": "https:\/\/d22ksth68ujgu2.cloudfront.net\/35d21d3d283cdcce07885dbceac6458a_m_IMG_0435.jpg",
+        "mapEmbedUrl": null,
+        "id": 5
+    },
+    {
+        "course_name": "Riverside Disc Golf Park",
+        "ownership": "Public",
+        "contact_info": {
+            "address": "Riverside Rd & 78th Street Ct, Sumner, WA 98390",
+            "phone": "(253) 798-4177",
+            "email": "not available",
+            "website": "Piercecountydiscgolf.org"
+        },
+        "reservation_requirements": "No reservation required.",
+        "policies_rules_dates_open": "Open year-round.",
+        "holes": "18 holes",
+        "course_type": "wooded course with concrete tees",
+        "imageUrl": "https:\/\/d22ksth68ujgu2.cloudfront.net\/31edfb8ae18392dafb2d3128db4c55d6_m_uJdLZNzNzH5RuUEUGeRkd9VowcPl.jpg",
+        "parkMapUrl": null,
+        "mapEmbedUrl": null,
+        "id": 6
+    },
+    {
+        "course_name": "Fort Steilacoom Disc Golf Course",
+        "ownership": "Public",
+        "contact_info": {
+            "address": "7701 76th Ave SW, Lakewood, WA 98498 ",
+            "phone": "(888) 989-7961",
+            "email": "PCDGA2021@GMAIL.COM",
+            "website": "https:\/\/piercecountydiscgolf.org"
+        },
+        "reservation_requirements": "No reservation required.",
+        "policies_rules_dates_open": "Open year-round.",
+        "holes": "27 holes",
+        "course_type": "mix of open and wooded areas",
+        "imageUrl": "https:\/\/d22ksth68ujgu2.cloudfront.net\/efe900a44775c7e94f1cdfa4c1564319_m_IMG_1978.jpg",
+        "parkMapUrl": null,
+        "mapEmbedUrl": null,
+        "id": 7
+    },
+    {
+        "course_name": "Delphi Disc Golf Course",
+        "ownership": "Private",
+        "contact_info": {
+            "address": "6340 Neylon Dr SW, Olympia, WA 98512-2118 ",
+            "phone": "(360) 357-6437",
+            "email": "delphigolfcourse@gmail.com",
+            "website": "https:\/\/www.delphigolfcourse.com\/"
+        },
+        "reservation_requirements": "Reservation required.",
+        "policies_rules_dates_open": "Open year-round.",
+        "holes": "18 holes",
+        "course_type": "wooded terrain",
+        "imageUrl": "https:\/\/d22ksth68ujgu2.cloudfront.net\/608457adbe4a878a838eb1641daaed75_m_vv5c8D63oBsD53AIkkGybSycd7jg.jpg",
+        "parkMapUrl": "https:\/\/d22ksth68ujgu2.cloudfront.net\/ccea793fba6a45d6418cef8f11278f5f_m_IMG_2442.jpg",
+        "mapEmbedUrl": null,
+        "id": 8
+    },
+    {
+        "course_name": "NAD Park Disc Golf Course",
+        "ownership": "Public",
+        "contact_info": {
+            "address": "6002 Kitsap Way, Bremerton, WA 98312",
+            "phone": "(360) 473-5305",
+            "email": "discgolf@wsdga.org",
+            "website": "https:\/\/www.wsdga.org\/"
+        },
+        "reservation_requirements": "No reservation required.",
+        "policies_rules_dates_open": "Open year-round.",
+        "holes": "18 holes",
+        "course_type": "wooded terrain",
+        "imageUrl": "https:\/\/d22ksth68ujgu2.cloudfront.net\/6ce14e2d65816703945a385f67daef60_m_IMG_0557.jpg",
+        "parkMapUrl": "https:\/\/d22ksth68ujgu2.cloudfront.net\/121ec3a500d7c7e748ab60e5444549d0_m_IMG_5001.jpg",
+        "mapEmbedUrl": null,
+        "id": 9
+    },
+    {
+        "course_name": "Kayak Point Disc Golf Resort",
+        "ownership": "Private",
+        "contact_info": {
+            "address": "7703 150th Place NW Stanwood, WA 98292",
+            "phone": "(206) 465-4931",
+            "email": "info@discgolfresort.com",
+            "website": "https:\/\/discgolfresort.com\/"
+        },
+        "reservation_requirements": "Tee time reservation required for all courses except Pitch & Putt.",
+        "policies_rules_dates_open": "Open year-round. Pay-to-play. Multiple courses with varying difficulty levels.",
+        "holes": "4 courses",
+        "course_type": "Gold, Red, Blue, and Pitch & Putt; each with 18 holes",
+        "imageUrl": "https:\/\/d22ksth68ujgu2.cloudfront.net\/dccedd83924c7c969801eeaec0b8d705_m_VTIdEI54v6QTkPBHayBBEpTf0oSI.jpg",
+        "parkMapUrl": "https:\/\/d22ksth68ujgu2.cloudfront.net\/7f0df9cf4d241c8b96e2b96d171b666b_m_0eFryuqHYUB7qA9cmvLJDdcJWyr3.jpg",
+        "mapEmbedUrl": null,
+        "id": 10
+    },
+    {
+        "course_name": "Blyth Park (Howling Coyote)",
+        "ownership": "Public",
+        "contact_info": {
+            "address": "16900 W Riverside Dr, Bothell, WA 98011",
+            "phone": "(425) 806-6760",
+            "email": "troysdiscgolfemail@gmail.com",
+            "website": "https:\/\/www.facebook.com\/groups\/366315586869937"
+        },
+        "reservation_requirements": "No reservation required.",
+        "policies_rules_dates_open": "Open year-round. Family-friendly with restrooms and picnic areas.",
+        "holes": "10 holes",
+        "course_type": "suitable for beginners",
+        "imageUrl": "https:\/\/d22ksth68ujgu2.cloudfront.net\/20cf884eef06f6bd3a511eae58d7c5af_m_YhojmuoySPm8qugl3Ew5yjdBCtIo.jpg",
+        "parkMapUrl": "https:\/\/d22ksth68ujgu2.cloudfront.net\/d0eb086a7016b53699aaeaf42f03dc30_m_IMG_2961.jpg",
+        "mapEmbedUrl": null,
+        "id": 11
+    },
+    {
+        "course_name": "Terrace Creek Park",
+        "ownership": "Public",
+        "contact_info": {
+            "address": "23200 48th Ave W, Mountlake Terrace, WA 98043",
+            "phone": "(425) 670-2548",
+            "email": "not available",
+            "website": "https:\/\/www.cityofmlt.com\/Facilities\/Facility\/Details\/Terrace-Creek-Park-10"
+        },
+        "reservation_requirements": "No reservation required.",
+        "policies_rules_dates_open": "Open year-round. Hilly terrain; may be muddy during wet seasons.",
+        "holes": "18 holes",
+        "course_type": "wooded and technical layout",
+        "imageUrl": "https:\/\/d22ksth68ujgu2.cloudfront.net\/9d5120a8a77369111e4675a7ea28e395_m_NWI16UHprCEVQRATZljIJerA9mmh.jpg",
+        "parkMapUrl": "https:\/\/d22ksth68ujgu2.cloudfront.net\/f17c4cff5c52076c02593425d55174ae_m_IMG_4484.jpg",
+        "mapEmbedUrl": null,
+        "id": 12
+    },
+    {
+        "course_name": "Nick Loutsis Park",
+        "ownership": "Public",
+        "contact_info": {
+            "address": "32401 E Entwistle St, Carnation, WA 98014",
+            "phone": "(425) 333-4192",
+            "email": "not available",
+            "website": "https:\/\/www.carnationwa.gov\/parksrec\/page\/nick-loutsis-park"
+        },
+        "reservation_requirements": "No reservation required.",
+        "policies_rules_dates_open": "Open year-round. Family-friendly environment.",
+        "holes": "9 holes",
+        "course_type": "beginner-friendly",
+        "imageUrl": "https:\/\/d22ksth68ujgu2.cloudfront.net\/899a40d01d6165eb10b243bf4b295761_m_nobw3IXhn45bfR70llijYWleImep.jpg",
+        "parkMapUrl": null,
+        "mapEmbedUrl": null,
+        "id": 13
+    },
+    {
+        "course_name": "Juel Community Park",
+        "ownership": "Public",
+        "contact_info": {
+            "address": "11050 10th Ave SW, Seattle, WA 98146 ",
+            "phone": "(206) 205-7532",
+            "email": "not available",
+            "website": "https:\/\/www.redmond.gov\/Facilities\/Facility\/Details\/Juel-Community-Park-22"
+        },
+        "reservation_requirements": "No reservation required.",
+        "policies_rules_dates_open": "Open year-round. Open fields with minimal obstacles.",
+        "holes": "18 holes",
+        "course_type": "suitable for all skill levels",
+        "imageUrl": "https:\/\/d22ksth68ujgu2.cloudfront.net\/7c3239c29973cf39913c8670b4a46b6c_m_IMG_0970.jpg",
+        "parkMapUrl": "https:\/\/d22ksth68ujgu2.cloudfront.net\/15655d413a9d3a67b0375592f359a9bf_m_IMG_3880.jpg",
+        "mapEmbedUrl": null,
+        "id": 14
+    },
+    {
+        "course_name": "Battle Point Park Disc Golf",
+        "ownership": "Public",
+        "contact_info": {
+            "address": "11299 Arrow Point Dr NE, Bainbridge Island, WA 98110",
+            "phone": "(206) 842-2306",
+            "email": "not available",
+            "website": "https:\/\/www.wsdga.org\/battle-point-park"
+        },
+        "reservation_requirements": "No reservation required.",
+        "policies_rules_dates_open": "Open year-round. Multi-use park with various amenities.",
+        "holes": "9 holes",
+        "course_type": "mix of open and wooded areas",
+        "imageUrl": "https:\/\/d22ksth68ujgu2.cloudfront.net\/912f3ea3cde7d578651e02984adb0381_m_IMG_3271.jpg",
+        "parkMapUrl": "https:\/\/d22ksth68ujgu2.cloudfront.net\/baf3d99819c48a96c2a8ab955d2f6704_m_IMG_5497.jpg",
+        "mapEmbedUrl": null,
+        "id": 15
+    },
+    {
+        "course_name": "Van Zee Park",
+        "ownership": "Public",
+        "contact_info": {
+            "address": "300 Tremont St, Port Orchard, WA 98366-3734 ",
+            "phone": "(360) 876-4407",
+            "email": "discgolf@wsdga.org",
+            "website": "https:\/\/www.wsdga.org\/"
+        },
+        "reservation_requirements": "No reservation required.",
+        "policies_rules_dates_open": "Open year-round. Small neighborhood park.",
+        "holes": "9 holes",
+        "course_type": "compact layout",
+        "imageUrl": "https:\/\/d22ksth68ujgu2.cloudfront.net\/bdb0d1438badcc8c2bd3e28c6d2289e5_m_IMG_5355.jpg",
+        "parkMapUrl": "https:\/\/www.dgcoursereview.com\/attachments\/van-zee-course-map-2023-png.321643\/",
+        "mapEmbedUrl": null,
+        "id": 16
+    },
+    {
+        "course_name": "Golf Island Disc Park at Pender",
+        "ownership": "Public",
+        "contact_info": {
+            "address": "37162 Galleon Way, Pender Island, BC V0N 2M2, Canada",
+            "phone": null,
+            "email": "info@discgolfisland.com",
+            "website": "http:\/\/www.discgolfisland.com\/"
+        },
+        "reservation_requirements": "No formal reservation required, but contact via email is recommended for group visits.",
+        "policies_rules_dates_open": "Open year-round.",
+        "holes": "27 holes",
+        "course_type": "Wooded terrain with challenging elevation and scenic views",
+        "imageUrl": "https:\/\/d22ksth68ujgu2.cloudfront.net\/ca3c8afc87ad66c107e81e224c1c6f71_t_FKXgWLIaIrqaK1uMV7WphdlnnmdP.jpg",
+        "parkMapUrl": "https:\/\/d22ksth68ujgu2.cloudfront.net\/45602abcf51d3188c5ce7cfbbd149787_m_IMG_0014.jpg",
+        "mapEmbedUrl": null,
+        "id": 17
+    },
+    {
+        "course_name": "Thomson Park Disc Golf Course",
+        "ownership": "Public",
+        "contact_info": {
+            "address": "Thomson Park, Saturna, BC V0N 2Y0, Canada",
+            "phone": null,
+            "email": "not available",
+            "website": "https:\/\/www.facebook.com\/thomsonparkdiscgolf"
+        },
+        "reservation_requirements": "No reservation required.",
+        "policies_rules_dates_open": "Open year-round. Dogs allowed. Restroom available.",
+        "holes": "9 holes (18 playable using 2 tee pads per hole)",
+        "course_type": "Public park course with new metal baskets, natural and concrete tees, slight elevation, and ocean views",
+        "imageUrl": "https:\/\/d22ksth68ujgu2.cloudfront.net\/348583ab975cf467d66e94544fca8843_t_IMG_1041.jpg",
+        "parkMapUrl": "https:\/\/encrypted-tbn0.gstatic.com\/images?q=tbn:ANd9GcSaunqyonlPAiWry91FNPFcmbE84ObIfthXvQ&s",
+        "mapEmbedUrl": null,
+        "id": 18
+    },
+    {
+        "course_name": "Bowen Park Disc Golf Course",
+        "ownership": "Public",
+        "contact_info": {
+            "address": "500 Bowen Rd, Nanaimo, BC V9R 1Z7, Canada",
+            "phone": "(250) 714-0855",
+            "email": "not available",
+            "website": null
+        },
+        "reservation_requirements": "No reservation required. Public park access.",
+        "policies_rules_dates_open": "Open year-round. Dogs allowed. Cart friendly. Restrooms available.",
+        "holes": "18 holes (27 playable using 9 alternate tees)",
+        "course_type": "Public park course with DISCatcher Pro targets, mixed terrain (flat\/hills), concrete and grass tees, and tree-lined fairways",
+        "imageUrl": "https:\/\/d22ksth68ujgu2.cloudfront.net\/92c4b4209fafe0eb8a1fa2abf33aa38a_m_IMG_0307.jpg",
+        "parkMapUrl": "https:\/\/nanaimoultimate.tripod.com\/images\/BowenDGMap.gif",
+        "mapEmbedUrl": null,
+        "id": 19
+    },
+    {
+        "course_name": "Duthie Park Disc Golf Course",
+        "ownership": "Public",
+        "contact_info": {
+            "address": "Duthie Park Rd, Troy, ID 83871, United States",
+            "phone": null,
+            "email": "not available",
+            "website": null
+        },
+        "reservation_requirements": "No reservation required.",
+        "policies_rules_dates_open": "Open year-round. Dogs allowed (watch for other park users and wildlife). No restrooms or drinking water. Not cart or stroller friendly.",
+        "holes": "9 holes",
+        "course_type": "Public park course with concrete tees, Prodigy T1 baskets, hilly wooded terrain, and multiple OB areas",
+        "imageUrl": "https:\/\/d22ksth68ujgu2.cloudfront.net\/66cfe20bbb6715afcead9f7e0fcb4aea_m_XNR71iFjtFPnfEa8kS1kT33yJzSn.jpg",
+        "parkMapUrl": "https:\/\/upload.wikimedia.org\/wikipedia\/commons\/thumb\/a\/ac\/No_image_available.svg\/480px-No_image_available.svg.png",
+        "mapEmbedUrl": null,
+        "id": 20
+    },
+    {
+        "course_name": "Farragut State Park - Wreckreator",
+        "ownership": "State Park",
+        "contact_info": {
+            "address": "13550 E Hwy 54, Athol, ID 83801, United States",
+            "phone": "208-683-2425",
+            "email": "FAR@idpr.idaho.gov",
+            "website": "https:\/\/parksandrecreation.idaho.gov\/parks\/farragut"
+        },
+        "reservation_requirements": "No reservation required, but parking fee is $7 per day for Idaho residents, $14 for out-of-state visitors (or free with Idaho State Parks Passport).",
+        "policies_rules_dates_open": "Open year-round. Dogs allowed. Restroom and drinking water available. Cart friendly.",
+        "holes": "18 holes",
+        "course_type": "Dedicated disc golf course in a wooded setting with a mix of concrete and asphalt tees, some elevation, and varied terrain. Suitable for intermediate to advanced players.",
+        "imageUrl": "https:\/\/d22ksth68ujgu2.cloudfront.net\/bbcc2ed0641c6127fab2fbfde03881ed_m_QxBoIY9RzC79G3NQQmCFrbHNV04H.jpg",
+        "parkMapUrl": "https:\/\/d22ksth68ujgu2.cloudfront.net\/f6aee03088e23987943645a99530bcd8_m_0NeaGepRBuqoYEQTvIyM1tBlskVd.jpg",
+        "mapEmbedUrl": null,
+        "id": 21
+    },
+    {
+        "course_name": "Farragut State Park - Northstar",
+        "ownership": "Public",
+        "contact_info": {
+            "address": "13550 E Hwy 54, Athol, ID 83801, United States",
+            "phone": "(208) 683-2425",
+            "email": "not available",
+            "website": "https:\/\/parksandrecreation.idaho.gov\/parks\/farragut and https:\/\/farragutopen.org\/maps\/"
+        },
+        "reservation_requirements": "No reservation required. Day-use fee applies: $7\/day for Idaho residents, $14\/day for non-residents.",
+        "policies_rules_dates_open": "Open year-round from dawn to dusk. Restrooms and drinking water available near the parking area. Dogs allowed. Discs, bags, and maps available at the Visitor Center.",
+        "holes": "18 holes",
+        "course_type": "Moderately wooded with concrete tees and DISCatcher Pro baskets. Features light elevation changes, curved fairways, and blind shots requiring a variety of throws.",
+        "imageUrl": "https:\/\/tse3.mm.bing.net\/th?id=OIP.Dwhk-m-9iXKxT-9cQ5cM5QHaEK&cb=iwc1&w=266&h=266&c=7",
+        "parkMapUrl": "https:\/\/farragutopen.org\/wp-content\/uploads\/2021\/08\/farragut-state-park-map-1024x577.jpg",
+        "mapEmbedUrl": null,
+        "id": 22
+    },
+    {
+        "course_name": "Buffington Memorial Park Disc Golf Course",
+        "ownership": "Public",
+        "contact_info": {
+            "address": "94255 Caughell St, Gold Beach, OR 97444, United States",
+            "phone": "(541) 247-7029",
+            "email": "not available",
+            "website": "https:\/\/www.goldbeachoregon.gov\/buffingtonparkdiscgolfcourse"
+        },
+        "reservation_requirements": "No reservation required. Open to the public.",
+        "policies_rules_dates_open": "Open year-round from dawn to dusk. Restrooms and other park amenities available. Dogs allowed on leash.",
+        "holes": "9 holes",
+        "course_type": "Beginner-friendly, lightly wooded course with natural terrain and minimal elevation changes. Features a mix of open and technical holes.",
+        "imageUrl": "https:\/\/upload.wikimedia.org\/wikipedia\/commons\/thumb\/a\/ac\/No_image_available.svg\/300px-No_image_available.svg.png?20250126200333",
+        "parkMapUrl": "https:\/\/www.goldbeachoregon.gov\/vertical\/Sites\/%7B95824C9A-6BB0-47B3-83E2-3D2AE3179E09%7D\/uploads\/DiscGolf-C_TN.jpg",
+        "mapEmbedUrl": null,
+        "id": 23
+    },
+    {
+        "course_name": "Azalea State Park Disc Golf Course",
+        "ownership": "Public",
+        "contact_info": {
+            "address": "640 Old County Rd, Brookings, OR 97415, United States",
+            "phone": "(541) 469-1103",
+            "email": "mrobidoux@brookings.or.us",
+            "website": "https:\/\/www.brookings.or.us\/facilities\/facility\/details\/azalea-park-5"
+        },
+        "reservation_requirements": "No reservation required. Open to the public.",
+        "policies_rules_dates_open": "Open year-round from dawn to dusk. Restrooms and drinking water available. Dogs allowed on leash. Be mindful of other park users during events.",
+        "holes": "18 holes",
+        "course_type": "Mixed terrain with concrete tees and Mach V baskets. Front 9 are open; back 9 are wooded with elevation changes. Cart-friendly with off-road wheels.",
+        "imageUrl": "https:\/\/d22ksth68ujgu2.cloudfront.net\/8a1bd4b45241422474733927d323fdb9_m_IMG_4316.jpg",
+        "parkMapUrl": "https:\/\/tse3.mm.bing.net\/th?id=OIP.-_AAMQtjN_tNyi03aejZKgHaGV&w=405&h=405&c=7",
+        "mapEmbedUrl": null,
+        "id": 24
+    },
+    {
+        "course_name": "Beau Pre DiscGolfPark",
+        "ownership": "Public",
+        "contact_info": {
+            "address": "1777 Norton Rd, McKinleyville, CA 95519, United States",
+            "phone": "(707) 839-2342",
+            "email": "info@beaupre.golf",
+            "website": "https:\/\/beaupre.golf\/disc-golf-course\/"
+        },
+        "reservation_requirements": "Tee time required. Disc golf tee times start at 12pm daily. No disc golf after 5:30pm on Wednesdays through August 3rd.",
+        "policies_rules_dates_open": "Open daily from 12pm until sunset. Green fees: $10.00; $5.00 after 3pm. Golf cart rental available for $12 per rider. No dogs allowed. Restrooms and drinking water available. Pro Shop with disc golf selection. Food and beer on tap.",
+        "holes": "18 holes",
+        "course_type": "Championship-level course with dual basket layouts: Short (Yellow) layout is 6,586 ft (par 56); Long (White) layout is 10,061 ft (par 64). Moderately hilly terrain with a mix of open and wooded areas. Turf tees and DiscGolfPark Pro Targets. Designed by Avery Jenkins.",
+        "imageUrl": "https:\/\/tse1.mm.bing.net\/th?id=OIP.T039mfc0JWK2-34eSS9OsAHaFj&w=355&h=355&c=7",
+        "parkMapUrl": "https:\/\/d22ksth68ujgu2.cloudfront.net\/33c3db00f5a02c56b326fa78335472f9_m_BeauPre_infoboard.jpg",
+        "mapEmbedUrl": null,
+        "id": 25
+    },
+    {
+        "course_name": "Baker Park Disc Golf Course",
+        "ownership": "Public",
+        "contact_info": {
+            "address": "9333 Scenic Bow Rd. NW, Calgary, AB T2L 4C4, Canada",
+            "phone": "(403) 268-2489",
+            "email": "not available",
+            "website": "https:\/\/www.calgary.ca\/parks\/baker-park.html"
+        },
+        "reservation_requirements": "No reservation required. Open to the public.",
+        "policies_rules_dates_open": "Open daily from 5 a.m. to 11 p.m. Restrooms and seasonal water fountains available. Dogs allowed on leash. Please be mindful of other park users.",
+        "holes": "18 holes",
+        "course_type": "Mixed terrain with concrete tees and Mach V baskets. Front 9 are more technical and beginner-friendly; back 9 require longer drives and more endurance. Cart-friendly with big wheels.",
+        "imageUrl": "https:\/\/tse1.mm.bing.net\/th?id=OIP.8jU29Zg-gQkugKs2FEC0CQHaEK&w=266&h=266&c=7",
+        "parkMapUrl": "https:\/\/tse1.mm.bing.net\/th?id=OIP.rpNLK0WY6_cztg6GEmBxrAHaET&w=275&h=275&c=7",
+        "mapEmbedUrl": null,
+        "id": 26
+    },
+    {
+        "course_name": "David Richardson Memorial Disc Golf Park",
+        "ownership": "Public",
+        "contact_info": {
+            "address": "27 Royal Vista Dr NW, Calgary, AB T3R 1R8, Canada",
+            "phone": "(403) 974-0751",
+            "email": "not available",
+            "website": null
+        },
+        "reservation_requirements": "No reservation required. Open to the public.",
+        "policies_rules_dates_open": "Open daily from 5 a.m. to 11 p.m. Restrooms available near the parking lot. Dogs allowed on leash. No drinking water available on site.",
+        "holes": "18 holes",
+        "course_type": "Advanced-level course with outdoor carpet tees and DISCatcher Pro (original) targets. Features a mix of technical and long holes with varied elevation and foliage. Cart-friendly with big wheels.",
+        "imageUrl": "https:\/\/globalnews.ca\/wp-content\/uploads\/2018\/06\/disc1.jpg?quality=85&strip=all&w=1200",
+        "parkMapUrl": "https:\/\/i0.wp.com\/calgarydiscgolf.com\/wp-content\/uploads\/2016\/06\/Memorial-Park.jpg?fit=853%2C415&ssl=1",
+        "mapEmbedUrl": null,
+        "id": 27
+    },
+    {
+        "course_name": "Nicholas Sheran Park Disc Golf Course",
+        "ownership": "Public",
+        "contact_info": {
+            "address": "285 McMaster Boulevard West, Lethbridge, AB T1K 3W3, Canada",
+            "phone": "(403) 320-3111",
+            "email": "not available",
+            "website": "https:\/\/www.lethbridge.ca\/parks-leisure-recreation\/parks-and-playgrounds\/west-parks-and-playgrounds\/nicholas-sheran-park\/"
+        },
+        "reservation_requirements": "No reservation required. Open to the public on a first-come, first-served basis.",
+        "policies_rules_dates_open": "Open year-round from 5 a.m. to 11 p.m. Restrooms and drinking water available. Dogs allowed on leash. Be mindful of other park users.",
+        "holes": "18 holes",
+        "course_type": "Longest disc golf course in Canada at 2,693 meters from blue tees. Features grass tees and Prodigy T1 targets. Slight elevation changes with scattered foliage. Cart-friendly with big wheels.",
+        "imageUrl": "https:\/\/tse2.mm.bing.net\/th\/id\/OIP.E5ZieNwIES9PX_dPkT3WjAHaFj?w=355&h=355&c=7",
+        "parkMapUrl": "https:\/\/d22ksth68ujgu2.cloudfront.net\/62fc96af03e757a6a8bd99f4478118d4_m_QJgyuzccHqUEt3TiVwibEbwP0Qbo.jpg",
+        "mapEmbedUrl": null,
+        "id": 28
+    },
+    {
+        "course_name": "Mayor's Park Disc Golf at McAlinden Park",
+        "ownership": "Public",
+        "contact_info": {
+            "address": "12000 Mt. Charleston St., Reno, NV 89506, United States",
+            "phone": "(775) 334-2417",
+            "email": "not available",
+            "website": "https:\/\/www.reno.gov\/Home\/Components\/FacilityDirectory\/FacilityDirectory\/193\/2864"
+        },
+        "reservation_requirements": "No reservation required. Open to the public.",
+        "policies_rules_dates_open": "Open year-round from dawn to dusk. Restrooms and drinking water available. Dogs allowed on leash. Be mindful of other park users.",
+        "holes": "18 holes",
+        "course_type": "Desert terrain with concrete tees and DISCatcher Pro baskets. Features rolling elevation, scattered foliage, and multiple mandatories. Cart-friendly with big wheels.",
+        "imageUrl": "https:\/\/d22ksth68ujgu2.cloudfront.net\/e739a746c79abf6c5e475667567d84dc_m_IMG_1746.jpg",
+        "parkMapUrl": "https:\/\/d22ksth68ujgu2.cloudfront.net\/96c640edb9320cb97a43ccb17bd2c9cb_m_IMG_5603.jpg",
+        "mapEmbedUrl": null,
+        "id": 29
+    },
+    {
+        "course_name": "Lake Walcott State Park Disc Golf Course",
+        "ownership": "Public",
+        "contact_info": {
+            "address": "959 E. Minidoka Dam Rd., Rupert, ID 83350, United States",
+            "phone": "1-888-922-6743",
+            "email": "not available",
+            "website": "https:\/\/parksandrecreation.idaho.gov\/parks\/lake-walcott\/"
+        },
+        "reservation_requirements": "Reservation is by Phone. Day-use fee applies: $7 per vehicle per day. ",
+        "policies_rules_dates_open": "Open year-round from dawn to dusk. Restrooms and drinking water available. Dogs allowed on leash. Be mindful of other park users.",
+        "holes": "21 holes",
+        "course_type": "Grassy park setting with mature trees. Features concrete, asphalt, and rubber mat tees with DISCatcher Pro (original) targets. Slight elevation changes and varied hole lengths. Cart-friendly.",
+        "imageUrl": "https:\/\/d22ksth68ujgu2.cloudfront.net\/6f92942fef2dcaecf66efb48fc02ad10_m_IMG_0266.jpg",
+        "parkMapUrl": "https:\/\/parksandrecreation.idaho.gov\/wp-content\/uploads\/parks\/lake-walcott\/walcott_map_disc_golf_bw_8x12.pdf",
+        "mapEmbedUrl": null,
+        "id": 30
+    },
+    {
+        "course_name": "Auburn Regional Park Disc Golf Course",
+        "ownership": "Public",
+        "contact_info": {
+            "address": "3770 Richardson Dr., Auburn, CA 95603, United States",
+            "phone": "(530) 885-8461",
+            "email": "info@auburnrec.com",
+            "website": "https:\/\/auburnrec.com\/facilities\/disc-golf\/"
+        },
+        "reservation_requirements": "No reservation required. Open to the public.",
+        "policies_rules_dates_open": "Open daily during daylight hours. Restrooms and drinking water available. Dogs allowed on leash. Be mindful of other park users.",
+        "holes": "18 holes",
+        "course_type": "Mixed terrain with concrete tees and Mach VII baskets. Features wooded areas, open grass, a pond, a stream, and rolling elevation. Cart-friendly with big wheels.",
+        "imageUrl": "https:\/\/d22ksth68ujgu2.cloudfront.net\/360c10e9472b5d27b9a04f8be72e330c_t_htUu8J7Z5fW80fdcfIMTvmGVGpDx.jpg",
+        "parkMapUrl": "https:\/\/www.pdga.com\/files\/course_maps\/auburn_disc_map_0.png",
+        "mapEmbedUrl": null,
+        "id": 31
+    },
+    {
+        "course_name": "Freeman Park Disc Golf Course",
+        "ownership": "Public",
+        "contact_info": {
+            "address": "Baseball St & Baseball Rd, Idaho Falls, ID 83402, United States",
+            "phone": "(208) 529-2186",
+            "email": "not available",
+            "website": null
+        },
+        "reservation_requirements": "No reservation required. Open to the public.",
+        "policies_rules_dates_open": "Open year-round from dawn to dusk. Restrooms and drinking water available. Dogs allowed on leash. Be mindful of other park users.",
+        "holes": "20 holes",
+        "course_type": "Park-style course with grass and concrete tees, featuring DISCatcher Pro (original) and DISCatcher Pro (28 chains) baskets. Offers medium elevation changes, minor water hazards, and a mix of open and tree obstacles. Cart-friendly with big wheels.",
+        "imageUrl": "https:\/\/tse4.mm.bing.net\/th?id=OIP.ENOBR6LHojyGzox0on9E0QHaEK&cb=iwc1&w=266&h=266&c=7",
+        "parkMapUrl": "https:\/\/tse4.mm.bing.net\/th?id=OIP.bmxH0btxKyENYW-HTYnxcQHaHL&cb=iwc1&w=459&h=459&c=7",
+        "mapEmbedUrl": null,
+        "id": 32
+    },
+    {
+        "course_name": "Cameron Park Lake Disc Golf Course",
+        "ownership": "Public",
+        "contact_info": {
+            "address": "2989 Cambridge Rd, Cameron Park, CA 95682, United States",
+            "phone": "(530) 677-2231",
+            "email": "not available",
+            "website": "https:\/\/www.cameronpark.org\/cameron-park-lake-2989-cambridge-road-cameron-park-ca-95682"
+        },
+        "reservation_requirements": "No reservation required. Entry fee applies when kiosk is staffed: $3 per person for residents, $5 for non-residents. Free for children under 2. Annual passes available.",
+        "policies_rules_dates_open": "Open daily from 7 a.m. to dusk. Restrooms available. No dogs allowed (except service animals). No smoking or glass bottles. Park only in designated areas; violators may be towed.",
+        "holes": "18 holes",
+        "course_type": "Moderately wooded with artificial turf tees and Prodigy T2 baskets. Features varied terrain including open fairways, wooded areas, and a small creek. Multiple pin positions changed frequently. Cart-friendly.",
+        "imageUrl": "https:\/\/amazinggolfcourse.com\/wp-content\/uploads\/directory\/Cameron_Park_Lake_Disc_Golf_Course_2989_Cambridge_Rd_Cameron_Park_CA_2.jpg",
+        "parkMapUrl": "https:\/\/upload.wikimedia.org\/wikipedia\/commons\/thumb\/a\/ac\/No_image_available.svg\/300px-No_image_available.svg.png?20250126200333",
+        "mapEmbedUrl": null,
+        "id": 33
+    },
+    {
+        "course_name": "Kiwanis Central Park Disc Golf Course",
+        "ownership": "Public",
+        "contact_info": {
+            "address": "11 St and 2 Ave SE, Medicine Hat, AB T1A 2K8, Canada",
+            "phone": "(403) 529-8333",
+            "email": "not available",
+            "website": "https:\/\/facilities.medicinehat.ca\/Home\/Detail?Id=8634ef57-5a96-46c8-9725-fc3ad1766e0e"
+        },
+        "reservation_requirements": "No reservation required. Open to the public.",
+        "policies_rules_dates_open": "Open year-round from dawn to dusk. Restrooms available. Dogs allowed on leash. Be mindful of other park users.",
+        "holes": "9 holes",
+        "course_type": "Beginner-friendly course with grass tees and Turbo Funnel targets. Flat terrain with mature trees. Cart-friendly.",
+        "imageUrl": "https:\/\/www.medicinehatgolf.ca\/wp-content\/uploads\/2021\/07\/main-hole1.jpg",
+        "parkMapUrl": "https:\/\/upload.wikimedia.org\/wikipedia\/commons\/thumb\/a\/ac\/No_image_available.svg\/300px-No_image_available.svg.png?20250126200333",
+        "mapEmbedUrl": null,
+        "id": 34
+    },
+    {
+        "course_name": "Leinweber Park Disc Golf Course",
+        "ownership": "Public",
+        "contact_info": {
+            "address": "Corbitt Way and Cobb Road SE, Medicine Hat, AB T1B 3V4, Canada",
+            "phone": "403-715-0195",
+            "email": "medicinehatdiscgolf@gmail.com",
+            "website": null
+        },
+        "reservation_requirements": "No reservation required. Open to the public.",
+        "policies_rules_dates_open": "Open year-round from dawn to dusk. No restrooms or drinking water available. Dogs allowed on leash. Be mindful of other park users.",
+        "holes": "9 holes",
+        "course_type": "Grass tees with Turbo Funnel and Reverse targets. Mixed terrain with manicured fairways, some elevation, and a water hazard. Cart-friendly.",
+        "imageUrl": "https:\/\/www.medicinehat.ca\/en\/parks-recreation-and-culture\/Images\/Parks\/Leinweber-Park_photo.jpg",
+        "parkMapUrl": "https:\/\/d22ksth68ujgu2.cloudfront.net\/65a127fb1b071671c1a789660305f98e_m_j8VtqfhJKw2Mv0h6DhN34HKJDinb.jpg",
+        "mapEmbedUrl": null,
+        "id": 35
+    },
+    {
+        "course_name": "Rundle Park Disc Golf Course",
+        "ownership": "Public",
+        "contact_info": {
+            "address": "Rundle Park Rd NW, Edmonton, AB T5W 0P3, Canada",
+            "phone": "(780) 496-4999",
+            "email": "not available",
+            "website": "https:\/\/edga.ca\/rundle-park\/"
+        },
+        "reservation_requirements": "No reservation required for casual play. For tournament or event bookings, contact the Edmonton Disc Golf Association (EDGA) via their website.",
+        "policies_rules_dates_open": "Open year-round from 5 a.m. to 11 p.m. Restrooms and drinking water available. Dogs allowed on leash. Be mindful of other park users.",
+        "holes": "18 holes",
+        "course_type": "Established in 1980, the course features concrete tee pads and Innova DISCatcher Pro targets. It offers a mix of flat and hilly terrain with woodsy foliage. Cart-friendly.",
+        "imageUrl": "https:\/\/tse3.mm.bing.net\/th?id=OIP.tC31wDmLSrNXy-fEkkussQHaFj&cb=iwc1&w=355&h=355&c=7",
+        "parkMapUrl": "https:\/\/tse1.mm.bing.net\/th?id=OIP.V-1jGVROZNOIYLBzd_jRwAHaFS&cb=iwc1&w=338&h=338&c=7",
+        "mapEmbedUrl": null,
+        "id": 36
+    },
+    {
+        "course_name": "Swenson Park Disc Golf Course",
+        "ownership": "Public",
+        "contact_info": {
+            "address": "6803 Alexandria Pl, Stockton, CA 95207, United States",
+            "phone": "(209) 937-7360",
+            "email": "not available",
+            "website": "https:\/\/www.swensonpark.com\/discgolf\/"
+        },
+        "reservation_requirements": "Tee time required. Reservations can be made up to 14 days in advance online or by calling the golf shop. For groups larger than 12, contact the golf shop directly. For tournament or event bookings, contact the golf shop to inquire about availability and requirements.",
+        "policies_rules_dates_open": "Open daily. Pay-to-play: $7 for walking, $20 with cart. Restrooms and drinking water available. Cart rentals available. Be mindful of other park users.",
+        "holes": "18 holes",
+        "course_type": "Championship-level course established in 2018. Features concrete tees and Mach X baskets. Situated on a traditional golf course layout with a mix of open fairways and tree-lined holes. Cart-friendly.",
+        "imageUrl": "https:\/\/d22ksth68ujgu2.cloudfront.net\/01fd59c941e3b5f02f19d8e9c8465b89_m_M7qpoKLGNprq7zuRuHU9HHd6kKVN.jpg",
+        "parkMapUrl": null,
+        "mapEmbedUrl": null,
+        "id": 37
+    },
+    {
+        "course_name": "Shady Rest DiscGolfPark",
+        "ownership": "Public",
+        "contact_info": {
+            "address": "Sawmill Cutoff Rd, Mammoth Lakes, CA 93546, United States",
+            "phone": "(760) 965-3690",
+            "email": "parksandrec@townofmammothlakes.ca.gov",
+            "website": "https:\/\/www.townofmammothlakes.ca.gov\/938\/Shady-Rest-DiscGolfPark"
+        },
+        "reservation_requirements": "No reservation required for casual play. For tournaments or organized events, a Special Event Permit is required through the Town of Mammoth Lakes Parks & Recreation Department.",
+        "policies_rules_dates_open": "Open seasonally from May through November (weather permitting), dawn to dusk. Free to play and first-come, first-served. Restrooms and drinking water available. Dogs allowed on leash. Be mindful of other park users.",
+        "holes": "18 holes",
+        "course_type": "Pro-level, wooded course designed by 2009 Disc Golf World Champion Avery Jenkins. Features turf tees and DiscGolfPark Pro Targets. Offers four layouts ranging from 3,965 ft (par 54) to 7,315 ft (par 60). Mostly flat terrain with pine forest and mountain views. Cart-friendly.",
+        "imageUrl": "https:\/\/tse3.mm.bing.net\/th?id=OIP.cG4JnYNxWSGyMFJGg8DrRQHaLP&w=474&h=474&c=7",
+        "parkMapUrl": "https:\/\/tse1.mm.bing.net\/th?id=OIP.-nAw8GQCAq2-qjVAwF7dQAHaE_&w=319&h=319&c=7",
+        "mapEmbedUrl": null,
+        "id": 38
+    },
+    {
+        "course_name": "Scera Park Disc Golf Course",
+        "ownership": "Public",
+        "contact_info": {
+            "address": "600 S State St, Orem, UT 84058, United States",
+            "phone": "(801) 229-7154",
+            "email": "rec@orem.org",
+            "website": "https:\/\/orem.gov\/scera-park\/"
+        },
+        "reservation_requirements": "No reservation required for casual play. For tournaments or organized events, contact the Orem Recreation Department at rec@orem.org or (801) 229-7154.",
+        "policies_rules_dates_open": "Open year-round from dawn to dusk. Restrooms available. No drinking water on site. Dogs allowed on leash. Be mindful of other park users.",
+        "holes": "9 holes",
+        "course_type": "Park-style course established in 2014. Features concrete tees and DISCatcher Pro (original) baskets. Flat terrain with mature trees. Cart-friendly.",
+        "imageUrl": "https:\/\/d22ksth68ujgu2.cloudfront.net\/eb54affc7c932d449090f4dd17f1fc27_m_IMG_7118.jpg",
+        "parkMapUrl": "https:\/\/orem.gov\/wp-content\/uploads\/2024\/12\/Scera-Park-Overview.png",
+        "mapEmbedUrl": null,
+        "id": 39
+    },
+    {
+        "course_name": "Stillwater Park Disc Golf Course",
+        "ownership": "Public",
+        "contact_info": {
+            "address": "2805 Pinebutte Dr, Colstrip, MT 59323, United States",
+            "phone": "406-740-2881",
+            "email": "john@johnqit.com",
+            "website": "https:\/\/discgolf.johnqit.com\/course-details"
+        },
+        "reservation_requirements": "No reservation required for casual play. For tournaments or organized events, contact Colstrip Parks and Recreation at (406) 748-3326.",
+        "policies_rules_dates_open": "Open year-round from dawn to dusk. Restrooms available. Dogs allowed on leash. Be mindful of other park users.",
+        "holes": "9 holes",
+        "course_type": "Challenging course with gravel tees and DISCatcher baskets. Features a mix of flat and hilly terrain with mixed foliage. Notable for blind tee shots on holes 4\u00e2\u20ac\u201c8 and a signature 540 ft hole with a 150 ft elevation drop. Cart-friendly.",
+        "imageUrl": "https:\/\/stillwater-disc-golf.imgix.net\/images\/basket.jpeg?auto=format&fit=max&w=640",
+        "parkMapUrl": "https:\/\/upload.wikimedia.org\/wikipedia\/commons\/thumb\/a\/ac\/No_image_available.svg\/300px-No_image_available.svg.png?20250126200333",
+        "mapEmbedUrl": null,
+        "id": 40
+    },
+    {
+        "course_name": "Hart Park \u00e2\u20ac\u201c Suicide Flats Disc Golf Course",
+        "ownership": "Public",
+        "contact_info": {
+            "address": "Hart Park, Bakersfield, CA 93308, United States",
+            "phone": "(661) 872-3179",
+            "email": "bhazzard@att.net",
+            "website": null
+        },
+        "reservation_requirements": "No reservation required for casual play. For tournaments or organized events, contact the course representative at bhazzard@att.net.",
+        "policies_rules_dates_open": "Open year-round from dawn to dusk. Restrooms and drinking water available. Dogs allowed on leash. Be mindful of other park users.",
+        "holes": "18 holes",
+        "course_type": "Established in 2008, the course features concrete tees and a mix of Mach III and DISCatcher Pro (original) baskets. The layout includes low-ceiling distance and control shots, with water hazards on 8 holes. Cart-friendly and stroller-friendly.",
+        "imageUrl": "https:\/\/bloximages.newyork1.vip.townnews.com\/bakersfield.com\/content\/tncms\/assets\/v3\/editorial\/0\/28\/028dca12-4300-5358-b863-3e08039b78fa\/5c4b6acf35fbc.image.jpg?resize=1200%2C1600",
+        "parkMapUrl": "https:\/\/d22ksth68ujgu2.cloudfront.net\/93d63c796696a4260c478426fd150ba4_m_4mmb6JkFL47KeABvSbnxtNZ8JQpF.jpg",
+        "mapEmbedUrl": null,
+        "id": 41
+    },
+    {
+        "course_name": "North Las Vegas Municipal DiscGolfPark",
+        "ownership": "Public",
+        "contact_info": {
+            "address": "324 E Brooks Ave, North Las Vegas, NV 89030, United States",
+            "phone": "(702) 633-1833",
+            "email": "not available",
+            "website": "https:\/\/www.cityofnorthlasvegas.com\/things-to-do\/golf-courses"
+        },
+        "reservation_requirements": "Tee times are recommended. Reservations can be made up to 7 days in advance by calling (702) 633-1833. For day rounds, you must call at least 1 hour before tee time to confirm availability. For tournaments or organized events, contact the golf shop for pricing and additional information.",
+        "policies_rules_dates_open": "Open year-round. Summer hours (Memorial Day - Labor Day): Monday\u00e2\u20ac\u201cSunday, 6 a.m.\u00e2\u20ac\u201c9 p.m.; Fall\/Spring hours (After Labor Day - Before Memorial Day): Monday\u00e2\u20ac\u201cSunday, 7 a.m.\u00e2\u20ac\u201c9 p.m. Last tee time is at 7:00 p.m. Disc golf is available Friday through Tuesday at night with a lighted course. Wednesday and Thursday nights require calling ahead for a tee time. Restrooms and drinking water available. No dogs allowed. Be mindful of other park users.",
+        "holes": "18 holes",
+        "course_type": "Built on a 9-hole par 3 ball golf course with some elevation. Features 9 tee pads with dual baskets (white and gold), making 18 holes. Concrete tees and DiscGolfPark Pro Targets. Cart-friendly with a full clubhouse, pro shop, and food and drinks available.",
+        "imageUrl": "https:\/\/tse3.mm.bing.net\/th?id=OIP.7x6YNxaBnkwkFbt2m1AsgwHaE8&w=316&h=316&c=7",
+        "parkMapUrl": "https:\/\/tse4.mm.bing.net\/th?id=OIP.UrHf_w-lok24Yc-9Jh6V9QHaE9&w=317&h=317&c=7",
+        "mapEmbedUrl": null,
+        "id": 42
+    },
+    {
+        "course_name": "Mohave Valley Community Park Disc Golf Course",
+        "ownership": "Public",
+        "contact_info": {
+            "address": "9200 Aquarius Drive, Mohave Valley, AZ 86440, United States",
+            "phone": null,
+            "email": "matt.hanrahan@example.com",
+            "website": null
+        },
+        "reservation_requirements": "No reservation required for casual play. For tournaments or organized events, contact the course representative via the provided email.",
+        "policies_rules_dates_open": "Open year-round from dawn to dusk. Restrooms available. No drinking water on site. Dogs allowed on leash. Be mindful of other park users.",
+        "holes": "9 holes",
+        "course_type": "Established in 2020, the course features dirt tees and Mach V baskets. Flat terrain with sparse foliage. Cart-friendly.",
+        "imageUrl": "https:\/\/parks.mohave.gov\/media\/nhog3npq\/disc_golf_1.jpg",
+        "parkMapUrl": "https:\/\/montva.com\/images\/default-source\/parks-recreation\/disc-golf-course-trail-map-2020.jpg?sfvrsn=d904abd5_2",
+        "mapEmbedUrl": null,
+        "id": 43
+    },
+    {
+        "course_name": "Martha McLean \u00e2\u20ac\u201c Anza Narrows Disc Golf Course",
+        "ownership": "Public",
+        "contact_info": {
+            "address": "5759 Jurupa Ave, Riverside, CA 92504, United States",
+            "phone": "(951) 826-2000",
+            "email": "not available",
+            "website": "https:\/\/www.facebook.com\/groups\/MarthaMcLeanDGC\/"
+        },
+        "reservation_requirements": "No reservation required for casual play. For tournaments or organized events, contact the City of Riverside Parks, Recreation, and Community Services Department at (951) 826-2000.",
+        "policies_rules_dates_open": "Open daily from 6:00 AM to 8:00 PM. Restrooms and drinking water available. Dogs allowed on leash. Be mindful of other park users.",
+        "holes": "18 holes",
+        "course_type": "Established in 2018, the course features a mix of grass, concrete, and dirt tees with Dynamic Discs Veteran baskets. Designed by Eric McCabe, it offers varied terrain with shaded areas and elevation changes. Cart-friendly.",
+        "imageUrl": "https:\/\/d22ksth68ujgu2.cloudfront.net\/4555a7be77bc5d4b3e2a0b614e4d37f1_m_eoG52aV2t1IfFBLZzgyFqV2NubAH.jpg",
+        "parkMapUrl": "https:\/\/d22ksth68ujgu2.cloudfront.net\/347a9aeabb6440047b6ccb4902888f69_m_2023_02_21.jpg",
+        "mapEmbedUrl": null,
+        "id": 44
+    },
+    {
+        "course_name": "Ultra DiscGolfPark \u00e2\u20ac\u201c Anheuser-Busch Biergarten",
+        "ownership": "Corporate",
+        "contact_info": {
+            "address": "2351 Busch Drive, Fort Collins, CO 80524, United States",
+            "phone": "(970) 490-4548",
+            "email": "greg.lindsey@anheuser-busch.com",
+            "website": "https:\/\/www.biergartenevents.com\/en\/fort-collins.html"
+        },
+        "reservation_requirements": "Free to play. Players must sign a waiver via QR code at the parking lot or Hole 1 before each round. For tournaments or organized events, contact Greg Lindsey at greg.lindsey@anheuser-busch.com.",
+        "policies_rules_dates_open": "Open year-round. Restrooms available (porta-potty between holes 6 and 7). No drinking water on site. Dogs allowed on leash. Be mindful of other park users.",
+        "holes": "18 holes",
+        "course_type": "Designed by 2009 World Champion Avery Jenkins and established in July 2020. Features turf tees and DiscGolfPark Pro Targets. Two layouts: White (6,520 ft, par 56) and Blue (7,440 ft, par 56). The front 9 is shorter and more technical; the back 9 is longer with open fairways. Cart-friendly.",
+        "imageUrl": "https:\/\/tse4.mm.bing.net\/th?id=OIP.ZdQ-cGmWmfdApVYT18q4BAHaFj&cb=iwp1&w=355&h=355&c=7",
+        "parkMapUrl": "https:\/\/d22ksth68ujgu2.cloudfront.net\/d085a6a13e138976858e2eaeb2fd07bd_m_IMG_4823.jpg",
+        "mapEmbedUrl": null,
+        "id": 45
+    },
+    {
+        "course_name": "Sundance Park Disc Golf Course",
+        "ownership": "Public",
+        "contact_info": {
+            "address": "21760 W. Ripple Rd., Buckeye, AZ 85326, United States",
+            "phone": "773-983-5236",
+            "email": "e77154@gmail.com",
+            "website": null
+        },
+        "reservation_requirements": "No reservation required for casual play. For tournaments or organized events, contact the league representative, Chris Mikols, at 773-983-5236.",
+        "policies_rules_dates_open": "Open daily from 6:00 AM to 7:00 PM. No restrooms or drinking water available. Dogs allowed on leash. Be mindful of other park users.",
+        "holes": "18 holes",
+        "course_type": "Desert-style course established in 2014. Features gravel, outdoor carpet, and brick\/paver tees with DISCatcher Pro (original) baskets. Flat terrain with sparse foliage. Notable features include a triple mando on hole 3, a 730 ft hole 11, and a 230 ft island hole 17. Cart-friendly.",
+        "imageUrl": "https:\/\/tse2.mm.bing.net\/th?id=OIP.vp1uJQWwaiOC_kJdJccGlwHaNK&w=474&h=474&c=7",
+        "parkMapUrl": "https:\/\/tse2.mm.bing.net\/th?id=OIP.I0lzJakOjFPTxQ6Jkt0_ZQHaEK&w=266&h=266&c=7",
+        "mapEmbedUrl": null,
+        "id": 46
+    },
+    {
+        "course_name": "Cody Park Disc Golf Course",
+        "ownership": "Public",
+        "contact_info": {
+            "address": "1601 N Jeffers St, North Platte, NE 69101, United States",
+            "phone": "(308) 535-6700",
+            "email": "not available",
+            "website": null
+        },
+        "reservation_requirements": "No reservation required for casual play. For tournaments or organized events, contact the North Platte Parks and Recreation Department at (308) 535-6700.",
+        "policies_rules_dates_open": "Open year-round from dawn to dusk. Restrooms and drinking water available. Dogs allowed on leash. Be mindful of other park users.",
+        "holes": "20 holes",
+        "course_type": "Established in 2006 and redesigned in 2022, the course features concrete tees and a mix of Prodigy T2 and Mach III baskets. The layout includes both open and wooded technical lines, with a par of 69 and a total length of 8,468 ft. Cart-friendly and wheelchair accessible.",
+        "imageUrl": "https:\/\/d22ksth68ujgu2.cloudfront.net\/1b42a449299c84952ccf1484bfdbcfd8_m_JhguWiN9XCQOBuQfb5zZJoBhaSvY.jpg",
+        "parkMapUrl": "https:\/\/d22ksth68ujgu2.cloudfront.net\/52536fb1445f94819c910c563f84ac69_m_IMG_2529.jpg",
+        "mapEmbedUrl": null,
+        "id": 47
+    },
+    {
+        "course_name": "L.E. Ray Park Disc Golf Course",
+        "ownership": "Public",
+        "contact_info": {
+            "address": "3315 S Blaine St, Grand Island, NE 68801, United States",
+            "phone": "(308) 389-0290",
+            "email": "giparksrec@grand-island.com",
+            "website": "https:\/\/www.grand-island.com\/o\/gipr\/page\/le-ray-park"
+        },
+        "reservation_requirements": "No reservation required for casual play. For tournaments or organized events, contact Grand Island Parks and Recreation at (308) 389-0290.",
+        "policies_rules_dates_open": "Open year-round from dawn to dusk. ADA-accessible restroom available at the east end of the park. Drinking water available. Dogs allowed on leash. Be mindful of other park users.",
+        "holes": "9 holes",
+        "course_type": "Established in 2013, the course features concrete and grass tees with Mach New II baskets. The layout wraps around the south side of the lake, offering relatively flat terrain with mature trees. Cart-friendly and stroller-friendly.",
+        "imageUrl": "https:\/\/www.teresco.org\/pics\/summertrip-20220727-0816\/0731\/IMG_8903-1512.jpg",
+        "parkMapUrl": "https:\/\/upload.wikimedia.org\/wikipedia\/commons\/thumb\/a\/ac\/No_image_available.svg\/300px-No_image_available.svg.png?20250126200333",
+        "mapEmbedUrl": null,
+        "id": 48
+    },
+    {
+        "course_name": "Pine Grove Park Disc Golf Course",
+        "ownership": "Public",
+        "contact_info": {
+            "address": "1015 Pine Grove Rd, Staples, MN 56479, United States",
+            "phone": "(218) 894-2553",
+            "email": "not available",
+            "website": "https:\/\/udisc.com\/courses\/pine-grove-park-dgc-sNTl"
+        },
+        "reservation_requirements": "No reservation required for casual play. For tournaments or organized events, contact the City of Staples Parks and Recreation Department at (218) 894-2553.",
+        "policies_rules_dates_open": "Open year-round from dawn to dusk. Restrooms available. No drinking water on site. Dogs allowed on leash. Be mindful of other park users.",
+        "holes": "9 holes",
+        "course_type": "Established in 2015, the course features grass tees and Liberty Targets baskets. The layout offers a good mix of open and wooded holes, with water hazards on holes 1 and 4. Average hole length is approximately 300 ft. Cart-friendly.",
+        "imageUrl": "https:\/\/d22ksth68ujgu2.cloudfront.net\/d3121b07c9c2f4ba9830bc87585ec0ed_m_IMG_5785.jpg",
+        "parkMapUrl": "https:\/\/upload.wikimedia.org\/wikipedia\/commons\/thumb\/a\/ac\/No_image_available.svg\/300px-No_image_available.svg.png?20250126200333",
+        "mapEmbedUrl": null,
+        "id": 49
+    },
+    {
+        "course_name": "Lum Park Disc Golf Course",
+        "ownership": "Public",
+        "contact_info": {
+            "address": "1279 Wonderland Park Rd NE, Brainerd, MN 56401, United States",
+            "phone": "(218) 828-2320",
+            "email": "not available",
+            "website": null
+        },
+        "reservation_requirements": "No reservation required for casual play. For tournaments or organized events, contact the Brainerd Parks and Recreation Department at (218) 828-2320.",
+        "policies_rules_dates_open": "Open year-round from dawn to dusk. Restrooms and drinking water available. Dogs allowed on leash. Be mindful of other park users.",
+        "holes": "18 holes",
+        "course_type": "Established in 1996, the course features a mix of concrete and grass\/dirt\/pavement tees with Mach III baskets. The front 9 is easier, while the back 9 offers more challenge. The course is flat with plenty of trees in a well-groomed park. Cart-friendly and stroller-friendly.",
+        "imageUrl": "https:\/\/udisc-parse.s3.amazonaws.com\/12b592a65a99e740ddd3d913e0c4df0b_m_bTzlphqrDhvNj0DZNLQrufMO8Yop.jpg",
+        "parkMapUrl": "https:\/\/upload.wikimedia.org\/wikipedia\/commons\/thumb\/a\/ac\/No_image_available.svg\/300px-No_image_available.svg.png?20250126200333",
+        "mapEmbedUrl": null,
+        "id": 50
+    },
+    {
+        "course_name": "Max E. Roper Interstate Park \u00e2\u20ac\u201c East Disc Golf Course",
+        "ownership": "Public",
+        "contact_info": {
+            "address": "8th and Groveland St, Lincoln, NE 68521, United States",
+            "phone": "(402) 441-7847",
+            "email": "parks@lincoln.ne.gov",
+            "website": "https:\/\/www.lincoln.ne.gov\/City\/Departments\/Parks-and-Recreation\/Parks-Facilities\/Parks-A-to-Z\/Roper-Park-East"
+        },
+        "reservation_requirements": "No reservation required for casual play. For tournaments or organized events, contact Lincoln Parks and Recreation at (402) 441-7847.",
+        "policies_rules_dates_open": "Open daily from 5:00 AM to 11:00 PM. Restrooms available (porta-potty during spring and summer). No drinking water on site. Dogs allowed on leash. Be mindful of other park users.",
+        "holes": "18 holes",
+        "course_type": "Established in 2016, the course features concrete tees and Dynamic Discs Veteran baskets. The layout includes a mix of open and moderately wooded terrain with two tee pads per hole and multiple pin positions that are rotated regularly. Notable features include two elevated baskets, multiple creek crossings, and a balance of tight lines and open shots. Cart-friendly.",
+        "imageUrl": "https:\/\/udisc-parse.s3.amazonaws.com\/243c41f890ad89fdd856c4472534960f_m_IMG_0285.jpg",
+        "parkMapUrl": "https:\/\/tse2.mm.bing.net\/th?id=OIP._b_wfcj-IaEiyNRnl7uMJAHaFj&cb=iwp1&w=355&h=355&c=7",
+        "mapEmbedUrl": null,
+        "id": 51
+    },
+    {
+        "course_name": "Hummel Park Disc Golf Course",
+        "ownership": "Public",
+        "contact_info": {
+            "address": "11808 John Pershing Drive, Omaha, NE 68112, United States",
+            "phone": "(402) 444-5900",
+            "email": "not available",
+            "website": "https:\/\/parks.cityofomaha.org\/park-details?pid=95"
+        },
+        "reservation_requirements": "No reservation required for casual play. For tournaments or organized events, contact the City of Omaha Parks and Recreation Department at (402) 444-5900.",
+        "policies_rules_dates_open": "Open daily from 5:00 AM to 11:00 PM. No restrooms or drinking water available. Dogs allowed on leash. Be mindful of other park users.",
+        "holes": "18 holes",
+        "course_type": "Established in 2011, the course features a mix of concrete and dirt tees with DISCatcher Pro (original) baskets. The layout includes dramatic elevation changes and wooded fairways, offering a technical challenge with tight lines on every hole. Not cart-friendly.",
+        "imageUrl": "https:\/\/s3-media4.fl.yelpcdn.com\/bphoto\/PYQ-2KXBJ5yZ2a5Bq5FP3w\/o.jpg",
+        "parkMapUrl": "https:\/\/tse1.mm.bing.net\/th?id=OIP.Y6fl_li35MDvlz9CSM97OwHaFu&cb=iwc1&w=366&h=366&c=7",
+        "mapEmbedUrl": null,
+        "id": 52
+    },
+    {
+        "course_name": "Hanscom Park Disc Golf Course",
+        "ownership": "Public",
+        "contact_info": {
+            "address": "3201 Woolworth Ave, Omaha, NE 68105, United States",
+            "phone": "(402) 444-5900",
+            "email": "not available",
+            "website": "https:\/\/parks.cityofomaha.org\/disc-golf\/"
+        },
+        "reservation_requirements": "No reservation required for casual play. For tournaments or organized events, contact the City of Omaha Parks and Recreation Department at (402) 444-5900.",
+        "policies_rules_dates_open": "Open daily from 5:00 AM to 11:00 PM. No restrooms or drinking water available. Dogs allowed on leash. Be mindful of other park users.",
+        "holes": "9 holes",
+        "course_type": "Established in 2020, the course features artificial turf tees and baskets. The layout is short and technical, situated on the east side of the park with mature trees and elevation changes. Cart-friendly.",
+        "imageUrl": "https:\/\/tse4.mm.bing.net\/th?id=OIP.CMASeC5SjkWP9hun4iOMJAHaJ4&cb=iwc1&w=474&h=474&c=7",
+        "parkMapUrl": "https:\/\/tse2.mm.bing.net\/th?id=OIP.kITlPyokh7ovnqAcAmRhIwHaPN&cb=iwc1&w=474&h=474&c=7",
+        "mapEmbedUrl": null,
+        "id": 53
+    },
+    {
+        "course_name": "Alimagnet Lake Park Disc Golf Course",
+        "ownership": "Public",
+        "contact_info": {
+            "address": "211 Ridgeview Dr, Apple Valley, MN 55124, United States",
+            "phone": "(952) 953-2300",
+            "email": "not available",
+            "website": "https:\/\/www.applevalleymn.gov\/Facilities\/Facility\/Details\/Alimagnet-Park-12"
+        },
+        "reservation_requirements": "No reservation required for casual play. For tournaments or organized events, contact the City of Apple Valley Parks and Recreation Department at (952) 953-2300.",
+        "policies_rules_dates_open": "Open daily from 5:00 AM to 10:00 PM. Restrooms and drinking water available. Dogs allowed on leash. Be mindful of other park users.",
+        "holes": "12 holes",
+        "course_type": "Established in 2005, the course features a mix of concrete and dirt tees with DISCatcher Pro (original) baskets. The first 7 holes have concrete tees and open fairways with mature trees, while the last 5 holes are more tightly wooded. Water hazards may come into play on hole 8, and the tee shots on holes 8 and 9 are blind. Cart-friendly.",
+        "imageUrl": "https:\/\/d22ksth68ujgu2.cloudfront.net\/d19dec9012bc3d6938d18fe11cfd1068_m_IMG_2040.jpg",
+        "parkMapUrl": null,
+        "mapEmbedUrl": null,
+        "id": 54
+    },
+    {
+        "course_name": "Kelly Park Disc Golf Course",
+        "ownership": "Public",
+        "contact_info": {
+            "address": "Park Ave, Red Oak, IA 51566, United States",
+            "phone": null,
+            "email": "not available",
+            "website": null
+        },
+        "reservation_requirements": "No reservation required for casual play. For tournaments or organized events, contact the City of Red Oak Parks and Recreation Department.",
+        "policies_rules_dates_open": "Open daily from dawn to dusk. Restrooms available. Dogs allowed on leash. Be mindful of other park users.",
+        "holes": "9 holes",
+        "course_type": "Established in 2011, the course features natural tees and basket targets. The layout includes mild elevation changes and scattered foliage, offering a mix of open and wooded holes. Cart-friendly.",
+        "imageUrl": "https:\/\/www.traveliowa.com\/userdocs\/Big_Creek_DGC_FB_page.jpg",
+        "parkMapUrl": "https:\/\/udisc-parse.s3.amazonaws.com\/46a04a56c2370785a0558c0c4594da08_m_Kelley_Park_Map_2023.jpg",
+        "mapEmbedUrl": null,
+        "id": 55
+    },
+    {
+        "course_name": "Fairmont Park Disc Golf Course",
+        "ownership": "Public",
+        "contact_info": {
+            "address": "Elliott St, Manhattan, KS 66502, United States",
+            "phone": null,
+            "email": "not available",
+            "website": null
+        },
+        "reservation_requirements": "No reservation required for casual play. For tournaments or organized events, contact the City of Manhattan Parks and Recreation Department.",
+        "policies_rules_dates_open": "Open daily from dawn to dusk. No restrooms or drinking water available. Dogs allowed on leash. Be mindful of other park users.",
+        "holes": "26 holes",
+        "course_type": "Established in 2009 and redesigned in 2013 by the Disc Fanatics of Kansas (DFOK), the course features concrete and grass tees with DISCatcher Pro (28 chains) baskets. The layout includes a mix of wooded and open fairways, with multiple tee-pad options and 34 pin placement options. Cart-friendly.",
+        "imageUrl": "https:\/\/d22ksth68ujgu2.cloudfront.net\/e29c60da876312fcbb19526f9ea1dbac_t_IMG_8011.jpg",
+        "parkMapUrl": "https:\/\/d22ksth68ujgu2.cloudfront.net\/4bef35c8e5f37960d3425a6c07b68f45_m_IMG_7946.jpg",
+        "mapEmbedUrl": null,
+        "id": 56
+    },
+    {
+        "course_name": "Bear Cave Park Disc Golf Course",
+        "ownership": "Public",
+        "contact_info": {
+            "address": "800 10th Street NW, Stewartville, MN 55976, United States",
+            "phone": "(507) 533-4745",
+            "email": "ljacobs@stewartvillemn.com",
+            "website": "https:\/\/stewartvillemn.com\/community\/city-parks\/bear-cave-park\/"
+        },
+        "reservation_requirements": "No reservation required for casual play. Tournaments must be scheduled through Stewartville City Hall at a cost of $3.00 per person.",
+        "policies_rules_dates_open": "Open daily from dawn to dusk. Restrooms available. No drinking water on site. Dogs allowed on leash. Be mindful of other park users.",
+        "holes": "18 holes",
+        "course_type": "Established in 1997, the course features concrete tees and Mach III baskets. The layout offers a scenic mix of open and wooded holes, with challenging distances and angles, including tricky tunnel shots. Cart-friendly.",
+        "imageUrl": "https:\/\/udisc-parse.s3.amazonaws.com\/0614b1186b5af243b15261c86962e76d_m_IMG_0413.jpg",
+        "parkMapUrl": "https:\/\/stewartvillemn.com\/media\/BearCave-Disc-golf-map.pdf",
+        "mapEmbedUrl": null,
+        "id": 57
+    },
+    {
+        "course_name": "Jackson Park \u00e2\u20ac\u201c 18 Disc Golf Course",
+        "ownership": "Public",
+        "contact_info": {
+            "address": "1500 S 6th St, Atchison, KS 66002, United States",
+            "phone": "(913) 367-5500",
+            "email": "not available",
+            "website": "https:\/\/www.facebook.com\/AtchDiscGolf\/"
+        },
+        "reservation_requirements": "No reservation required for casual play. For tournaments or organized events, contact the City of Atchison Parks and Recreation Department at (913) 367-5500.",
+        "policies_rules_dates_open": "Open daily from 7:00 AM to 11:00 PM. Restrooms available. No drinking water on site. Dogs allowed on leash. Be mindful of other park users.",
+        "holes": "18 holes",
+        "course_type": "Established in 2007, the course features concrete tees and Mach V baskets. The layout includes large trees and steep hills, starting with shorter holes and gradually increasing in difficulty. The course offers a variety of shots for players of all throwing styles and boasts a lengthy uphill battle through the back 9 holes. Cart-friendly.",
+        "imageUrl": "https:\/\/cityofatchison.com\/wp-content\/uploads\/2017\/09\/jackson-park.jpg",
+        "parkMapUrl": "https:\/\/www.pdga.com\/files\/course_photos\/course_map.jpg",
+        "mapEmbedUrl": null,
+        "id": 58
+    },
+    {
+        "course_name": "Bartlett Park Disc Golf Course",
+        "ownership": "Public",
+        "contact_info": {
+            "address": "3101 Duncan St, St. Joseph, MO 64507, United States",
+            "phone": "(816) 271-5500",
+            "email": "not available",
+            "website": null
+        },
+        "reservation_requirements": "No reservation required for casual play. For tournaments or organized events, contact the City of St. Joseph Parks and Recreation Department at (816) 271-5500.",
+        "policies_rules_dates_open": "Open daily from dawn to dusk. No restrooms or drinking water available. Dogs allowed on leash. Be mindful of other park users.",
+        "holes": "18 holes",
+        "course_type": "Established in 2019, the course features concrete tees and Mach X baskets. The layout winds through a park with a walking trail, offering a balance of short technical holes and longer shots. Multiple pin placements are available. Cart-friendly.",
+        "imageUrl": "https:\/\/m.discgolfscene.com\/courses\/7647\/11252255a3f2.jpg",
+        "parkMapUrl": "https:\/\/www.pdga.com\/files\/course_maps\/bartlettpark_mo_map.jpg",
+        "mapEmbedUrl": null,
+        "id": 59
+    },
+    {
+        "course_name": "Waterloo Exchange Park Disc Golf Course",
+        "ownership": "Public",
+        "contact_info": {
+            "address": "Burton Ave & Park Rd, Waterloo, IA 50701, United States",
+            "phone": "(319) 291-4370",
+            "email": "not available",
+            "website": "https:\/\/www.waterlooleisureservices.org\/disc-golf\/"
+        },
+        "reservation_requirements": "No reservation required for casual play. For tournaments or organized events, contact Waterloo Leisure Services at (319) 291-4370.",
+        "policies_rules_dates_open": "Open daily from dawn to dusk. Restrooms and drinking water available. Dogs allowed on leash. Be mindful of other park users.",
+        "holes": "27 holes",
+        "course_type": "Established in 1987, the course features concrete tees and Mach III baskets. The layout offers a variety of holes, including water hazards, and is situated along the Cedar River. Cart-friendly.",
+        "imageUrl": "https:\/\/m.discgolfscene.com\/courses\/2377\/33b68e797a36.jpg",
+        "parkMapUrl": "https:\/\/www.freearenas.com\/images\/cache\/27523\/pin.jpg",
+        "mapEmbedUrl": null,
+        "id": 60
+    },
+    {
+        "course_name": "Water Works Park Disc Golf Course",
+        "ownership": "Public",
+        "contact_info": {
+            "address": "3400 N Oak Trafficway, Kansas City, MO 64116, United States",
+            "phone": "(816) 513-7500",
+            "email": "not available",
+            "website": "https:\/\/kcparks.org\/places\/water-works-park-disc-golf-course\/"
+        },
+        "reservation_requirements": "No reservation required for casual play. For tournaments or organized events, contact Kansas City Parks and Recreation at (816) 513-7500.",
+        "policies_rules_dates_open": "Open daily from 5:00 AM to midnight. Restrooms available (porta-potty during spring and summer). Drinking water available. Dogs allowed on leash. Be mindful of other park users.",
+        "holes": "18 holes",
+        "course_type": "Established in 1997, the course features concrete tees and Mach X baskets. The layout includes a mix of open fields and challenging wooded areas with significant elevation changes, offering a variety of long and short holes. The park provides stunning skyline views of downtown Kansas City and the Missouri River. Cart-friendly.",
+        "imageUrl": "https:\/\/kcdiscgolf.org\/wp-content\/uploads\/2024\/04\/Waterworks-1-Jarvis.jpg",
+        "parkMapUrl": "https:\/\/d22ksth68ujgu2.cloudfront.net\/8894a1ff14e18ffedc9c1ecf6ff8dddd_m_2022_05_01.jpg",
+        "mapEmbedUrl": null,
+        "id": 61
+    },
+    {
+        "course_name": "Rosedale Park DGC - Down Under",
+        "ownership": "Public",
+        "contact_info": {
+            "address": "Rosedale Park Rd, Kansas City, KS 66103",
+            "phone": "(913) 677-4670",
+            "email": "not available",
+            "website": "http:\/\/www.kcdiscgolf.org\/"
+        },
+        "reservation_requirements": "No reservation required. This course is open to the public and operates on a first-come, first-served basis.",
+        "policies_rules_dates_open": "Dogs allowed. Not cart or stroller friendly. Drinking water and restrooms available. Established 1997.",
+        "holes": "18 holes",
+        "course_type": "Short, wooded, and technical with gravel tees and Disc King (Mach II) targets. Hilly terrain with 38 pin placements. Mostly under 300ft holes.",
+        "imageUrl": "https:\/\/d22ksth68ujgu2.cloudfront.net\/d688d602b8ec6ef368acbe775b82949d_m_C65EB99A_87FB_4623_B85E_70966A371F16.jpg",
+        "parkMapUrl": "https:\/\/d22ksth68ujgu2.cloudfront.net\/60f72adad4cdc27e4d5603036db7672f_m_IMG_2331.jpg",
+        "mapEmbedUrl": null,
+        "id": 62
+    },
+    {
+        "course_name": "Kessler Park (Cliff Drive)",
+        "ownership": "Public",
+        "contact_info": {
+            "address": "2460 E. Reservoir Dr, Kansas City, MO 64124, United States",
+            "phone": "(913) 485-5123",
+            "email": "https:\/\/www.pdga.com\/course-contact?course=25958",
+            "website": "http:\/\/kcfdc.org\/"
+        },
+        "reservation_requirements": "No reservation required.",
+        "policies_rules_dates_open": "No facilities or tee signs available. Established 2004.",
+        "holes": "21 holes",
+        "course_type": "Plays longer than it looks with many uphill and wooded holes. Concrete and asphalt tees. Mach III, Mach V, and DB-5 targets. Elevation changes and OB roads add challenge.",
+        "imageUrl": "https:\/\/d22ksth68ujgu2.cloudfront.net\/c82528097b67669aa20e956826477beb_m_FB2729FC_891C_4F37_8A11_FD8378E1116D.jpg",
+        "parkMapUrl": null,
+        "mapEmbedUrl": null,
+        "id": 63
+    },
+    {
+        "course_name": "Harmon Park Disc Golf Course",
+        "ownership": "Public",
+        "contact_info": {
+            "address": "W. 77th Pl. and Delmar St., Prairie Village, KS 66208, United States",
+            "phone": "not available",
+            "email": "not available",
+            "website": "not available"
+        },
+        "reservation_requirements": "No reservation required.",
+        "policies_rules_dates_open": "Handicap accessible. Tee signs available. No facilities. Established 2014.",
+        "holes": "9 holes",
+        "course_type": "Short course through a multi-use park with small hills and light to moderate woods. Concrete tees and DISCatcher targets.",
+        "imageUrl": "https:\/\/d22ksth68ujgu2.cloudfront.net\/a191cbe07830f400305ee63d3e0a2daa_m_IMG_0141.jpg",
+        "parkMapUrl": null,
+        "mapEmbedUrl": null,
+        "id": 64
+    },
+    {
+        "course_name": "Blue Valley Park",
+        "ownership": "Public",
+        "contact_info": {
+            "address": "Blue Valley Park Rd E, Kansas City, MO 64126, United States",
+            "phone": "+1-913-638-6399",
+            "email": "https:\/\/www.pdga.com\/course-contact?course=26238a"
+        },
+        "reservation_requirements": "No reservation required.",
+        "policies_rules_dates_open": "Permanent course. Established 2005. Facilities available. Tee signs provided.",
+        "holes": "18 holes",
+        "course_type": "World Class course with long open shots, extreme elevation, and panoramic views. Mostly hilly terrain with scattered foliage. Target type: Mach III. Tee type: Concrete.",
+        "imageUrl": "https:\/\/d22ksth68ujgu2.cloudfront.net\/6d02685c8fb355c01ba6c9afd5261cf3_m_VqLlDXJwDROk7KPfxRdlM48JBGOA.jpg",
+        "parkMapUrl": null,
+        "mapEmbedUrl": "https:\/\/www.google.com\/maps?q=39.081614000000,-94.509940000000",
+        "id": 65
+    },
+    {
+        "course_name": "Dolese Youth Park - West",
+        "ownership": "Public",
+        "contact_info": {
+            "address": "5105 NW 50th, Oklahoma City, OK 73101, United States",
+            "phone": "405-947-2915",
+            "email": "https:\/\/www.pdga.com\/course-contact?course=223926",
+            "website": "http:\/\/okcdga.org"
+        },
+        "reservation_requirements": "No reservation required.",
+        "policies_rules_dates_open": "Handicap accessible. Tee signs available. Facilities available. Established 2016.",
+        "holes": "18 holes",
+        "course_type": "Mostly wooded layout west of the baseball fields. Slight elevation. Mixed tees and targets. Reuses 5 original holes with 13 new ones.",
+        "imageUrl": "https:\/\/d22ksth68ujgu2.cloudfront.net\/552e739c76e8f56ce108eee463169672_m_Hole_17.jpg",
+        "parkMapUrl": null,
+        "mapEmbedUrl": null,
+        "id": 66
+    },
+    {
+        "course_name": "Dolese Youth Park - Original",
+        "ownership": "Public",
+        "contact_info": {
+            "address": "5105 NW 50th, Oklahoma City, OK 73101, United States",
+            "phone": "not available",
+            "email": "not available",
+            "website": "not available"
+        },
+        "reservation_requirements": "No reservation required.",
+        "policies_rules_dates_open": "Handicap accessible. Tee signs available. Facilities available. Established 1994, baskets added in 1997.",
+        "holes": "18 holes",
+        "course_type": "A mix of open and wooded holes, with engraved tee pads. Originally an experimental object course, now a permanent layout with Mach III targets.",
+        "imageUrl": "https:\/\/d22ksth68ujgu2.cloudfront.net\/552e739c76e8f56ce108eee463169672_m_Hole_17.jpg",
+        "parkMapUrl": null,
+        "mapEmbedUrl": null,
+        "id": 67
+    },
+    {
+        "course_name": "Williams Park - Timber Valley Disc Golf",
+        "ownership": "Public",
+        "contact_info": {
+            "address": "Oak Dr, Pawhuska, OK 74056, United States",
+            "phone": "918-287-7881",
+            "email": "https:\/\/www.pdga.com\/course-contact?course=264336",
+            "website": "not available"
+        },
+        "reservation_requirements": "No reservation required.",
+        "policies_rules_dates_open": "Handicap accessible. Tee signs available. Drinking water and restrooms available. Established 2018.",
+        "holes": "18 holes",
+        "course_type": "Woodsy, hilly course with good use of elevation and a small creek. Features Dynamic Discs Patriot targets and concrete tees. Multiple tees and dual basket placements.",
+        "imageUrl": "https:\/\/d22ksth68ujgu2.cloudfront.net\/50ba1d1e25d8b993d9e807e1c069ef7d_m_IMG_4096.jpg",
+        "parkMapUrl": null,
+        "mapEmbedUrl": null,
+        "id": 68
+    },
+    {
+        "course_name": "Luther Route 66 DiscGolfPark",
+        "ownership": "Public",
+        "contact_info": {
+            "address": "655 NE Fourth St., Luther, OK 73054, United States",
+            "phone": "541-337-8668",
+            "email": "https:\/\/www.pdga.com\/course-contact?course=302283",
+            "website": "https:\/\/www.lutherfriendsofthepark.com\/"
+        },
+        "reservation_requirements": "No reservation required.",
+        "policies_rules_dates_open": "Tee signs available. No drinking water or restroom available. Established 2023.",
+        "holes": "9 holes",
+        "course_type": "Moderate hilly terrain with dual tees and dual basket locations per hole. Short-to-Short layout and Long-to-Long layout offering a varied experience for different skill levels.",
+        "imageUrl": "https:\/\/d22ksth68ujgu2.cloudfront.net\/4524d57a866357adcc55fc74d840688d_m_IMG_3170.jpg",
+        "parkMapUrl": null,
+        "mapEmbedUrl": null,
+        "id": 69
+    },
+    {
+        "course_name": "Safari Smiles DiscGolfPark",
+        "ownership": "Public",
+        "contact_info": {
+            "address": "2400 SE Adams Blvd, Bartlesville, OK 74006, United States",
+            "phone": "not available",
+            "email": "https:\/\/www.pdga.com\/course-contact?course=302282",
+            "website": "not available"
+        },
+        "reservation_requirements": "No reservation required.",
+        "policies_rules_dates_open": "Tee signs available. Drinking water and restroom available. Established 2022.",
+        "holes": "18 holes with 4 different layouts",
+        "course_type": "Mostly flat terrain with mixed open and wooded fairways. Dual basket locations and teepads for 4 layouts.",
+        "imageUrl": "https:\/\/upload.wikimedia.org\/wikipedia\/commons\/thumb\/a\/ac\/No_image_available.svg\/300px-No_image_available.svg.png?20250126200333",
+        "parkMapUrl": null,
+        "mapEmbedUrl": null,
+        "id": 70
+    },
+    {
+        "course_name": "Lucy Park DiscGolfPark",
+        "ownership": "Public",
+        "contact_info": {
+            "address": "Sunset Dr. & Riverside Dr., Wichita Falls, TX 76301, United States",
+            "phone": "940-761-2747",
+            "email": "https:\/\/www.pdga.com\/course-contact?course=25388",
+            "website": "not available"
+        },
+        "reservation_requirements": "No reservation required.",
+        "policies_rules_dates_open": "Tee signs not available. No drinking water or restroom available. Established 1992.",
+        "holes": "18 holes with a mix of concrete and dirt tees.",
+        "course_type": "Older style course with mature Pecan trees and some elevation. Few long holes and walking paths to contend with.",
+        "imageUrl": "https:\/\/d22ksth68ujgu2.cloudfront.net\/92face669109e0fd426c0dd113dfad57_t_IMG_0382.jpg",
+        "parkMapUrl": null,
+        "mapEmbedUrl": null,
+        "id": 71
+    },
+    {
+        "course_name": "John Zink Park",
+        "ownership": "Public",
+        "contact_info": {
+            "address": "Skiatook, Oklahoma 74070, United States",
+            "phone": "not available",
+            "email": "https:\/\/www.pdga.com\/course-contact?course=303870",
+            "website": "not available"
+        },
+        "reservation_requirements": "No reservation required.",
+        "policies_rules_dates_open": "Tee signs available. Established 2023.",
+        "holes": "18 holes.",
+        "course_type": "Flat terrain with a mix of open and wooded fairways.",
+        "imageUrl": "https:\/\/d22ksth68ujgu2.cloudfront.net\/ec24646e0295653b81976a8bbbde45a5_m_IMG_1432.jpg",
+        "parkMapUrl": null,
+        "mapEmbedUrl": null,
+        "id": 72
+    },
+    {
+        "course_name": "Altmaier Family Park Disc Golf Course",
+        "ownership": "Public",
+        "contact_info": {
+            "address": "Coralville, Iowa 52241, United States",
+            "phone": "319-383-8767",
+            "email": "https:\/\/www.pdga.com\/course-contact?course=247146",
+            "website": "https:\/\/coralville.org\/Facilities\/Facility\/Details\/Altmaier-Family-Park-38"
+        },
+        "reservation_requirements": "No reservation required.",
+        "policies_rules_dates_open": "Tee signs available. Established 2018.",
+        "holes": "18 holes.",
+        "course_type": "Varied terrain with a mix of wooded and open fairways.",
+        "imageUrl": "https:\/\/d22ksth68ujgu2.cloudfront.net\/514ee4705adff3912b6e4bf1f1797369_m_FullSizeRender.jpg",
+        "parkMapUrl": null,
+        "mapEmbedUrl": null,
+        "id": 73
+    },
+    {
+        "course_name": "Johnson Park",
+        "ownership": "Public",
+        "contact_info": {
+            "address": "Cheyenne Cove, Abilene, TX 79601, United States",
+            "phone": "325-721-6376",
+            "email": "not available",
+            "website": "https:\/\/www.pdga.com\/course-contact?course=25388"
+        },
+        "reservation_requirements": "No reservation required.",
+        "policies_rules_dates_open": "Tee signs available. Drinking water not available. Established 2011.",
+        "holes": "18 holes",
+        "course_type": "Wooded course with mostly short tunnel holes. Slight slope with a woodsy foliage.",
+        "imageUrl": "https:\/\/www.pdga.com\/files\/course_photos\/Johnson_Park.png",
+        "parkMapUrl": null,
+        "mapEmbedUrl": null,
+        "id": 74
+    },
+    {
+        "course_name": "Fayette City Park",
+        "ownership": "Public",
+        "contact_info": {
+            "address": "Park Road, Fayette, MO 65248, United States",
+            "phone": "660-248-1248",
+            "email": "https:\/\/www.pdga.com\/course-contact?course=200464",
+            "website": "not available"
+        },
+        "reservation_requirements": "No reservation required.",
+        "policies_rules_dates_open": "Tee signs available. Drinking water not mentioned. Established 2013.",
+        "holes": "9 holes (dual tees make 18)",
+        "course_type": "Beginner-friendly with rolling elevation and a mix of trees and open fairways. Somewhat cart friendly.",
+        "imageUrl": "https:\/\/d22ksth68ujgu2.cloudfront.net\/e7da298759d9de477d0331ffc6431c08_m_IMG_5654.jpg",
+        "parkMapUrl": null,
+        "mapEmbedUrl": null,
+        "id": 75
+    },
+    {
+        "course_name": "Harmony Bends Disc Golf at Strawn Park",
+        "ownership": "Public",
+        "contact_info": {
+            "address": "801 N. Strawn Rd. (Route ZZ), Columbia, MO 65203, United States",
+            "phone": "573-874-7460",
+            "email": "https:\/\/www.pdga.com\/course-contact?course=221286",
+            "website": "not available"
+        },
+        "reservation_requirements": "Contact Columbia Parks and Rec to host a tournament.",
+        "policies_rules_dates_open": "Established in 2016. Facilities and tee signs available. Championship-level design with challenging terrain.",
+        "holes": "18",
+        "course_type": "Championship course with three tees per hole, four par 5s, rolling elevation, creeks, mature trees, and innovative hillside landings.",
+        "imageUrl": "https:\/\/www.pdga.com\/files\/course_photos\/harmony-bends.jpg",
+        "parkMapUrl": null,
+        "mapEmbedUrl": null,
+        "id": 76
+    },
+    {
+        "course_name": "Monett South Park Disc Golf Course",
+        "ownership": "Public",
+        "contact_info": {
+            "address": "115 S Lincoln Ave, Monett, MO 65708, United States",
+            "phone": "not available",
+            "email": "not available",
+            "website": "not available"
+        },
+        "reservation_requirements": "Not specified. Course is in a heavily used public park.",
+        "policies_rules_dates_open": "Established in 2014. Facilities available. Tee signs not present. All holes are under 300ft with grass tees and DISCatcher targets.",
+        "holes": "9",
+        "course_type": "Short course with some elevation in a mixed-use park. Watch for nearby park amenities.",
+        "imageUrl": "https:\/\/d22ksth68ujgu2.cloudfront.net\/b9db04115c67d25bfb78d2125fbe7b95_t_IMG_8415.jpg",
+        "parkMapUrl": null,
+        "mapEmbedUrl": null,
+        "id": 77
+    },
+    {
+        "course_name": "Camden Park 2",
+        "ownership": "Public",
+        "contact_info": {
+            "address": "Camden Park, Milan, IL 61264, United States",
+            "phone": "309-292-6026",
+            "email": "Innovadsm@msn.com",
+            "website": "https:\/\/www.camdenTwo.com"
+        },
+        "reservation_requirements": "Not specified. Contact Paul Roesner or Chris Sprague for tournament info.",
+        "policies_rules_dates_open": "Established before 2010 (exact year not specified). Features 3 pin positions per hole. Layouts range from par 55 to 64. Bridges and steps support access through ravines. Check website for current layout and rules.",
+        "holes": "18",
+        "course_type": "Challenging, wooded course with generous fairways, heavy elevation changes, and deep ravines split into 3 sections. Features concrete tees, Mach III baskets, and multiple layouts.",
+        "imageUrl": "https:\/\/www.pdga.com\/files\/course_photos\/3c_Tee_1.jpg",
+        "parkMapUrl": null,
+        "mapEmbedUrl": null,
+        "id": 78
+    },
+    {
+        "course_name": "Airpark Field",
+        "ownership": "Public",
+        "contact_info": {
+            "address": "500 N Franklin Ave, Eldon, MO 65026, United States",
+            "phone": "573-286-2785",
+            "email": "https:\/\/www.pdga.com\/course-contact?course=26742 Airpark Field",
+            "website": "not available"
+        },
+        "reservation_requirements": "Not specified. Contact Tim Ochs for event or usage inquiries.",
+        "policies_rules_dates_open": "Established in 2008. Course features technical layout with OB walking paths and creeks in play on most holes. Alternate tees available to create 18-hole layout.",
+        "holes": "9 (with alternate tees to make 18)",
+        "course_type": "Technical course with flat terrain, concrete tees, DISCatcher baskets, and a mix of open and wooded foliage. OB adds challenge to most holes.",
+        "imageUrl": "https:\/\/d22ksth68ujgu2.cloudfront.net\/db423a8c36d210b821e6462b6d4f2949_t_IMG_5464.jpg",
+        "parkMapUrl": null,
+        "mapEmbedUrl": null,
+        "id": 79
+    },
+    {
+        "course_name": "Zobel Park",
+        "ownership": "Public",
+        "contact_info": {
+            "address": "Hwy 49 and County Rd J, Green Lake, WI 54941, United States",
+            "phone": "414-708-0959",
+            "email": "Patrick Blake #2134587",
+            "website": "not available"
+        },
+        "reservation_requirements": "Not specified. Free play, no reservations.",
+        "policies_rules_dates_open": "Tee signs and baskets available.",
+        "holes": "9",
+        "course_type": "Flat and wooded course with some elevation changes.",
+        "imageUrl": "https:\/\/upload.wikimedia.org\/wikipedia\/commons\/thumb\/a\/ac\/No_image_available.svg\/300px-No_image_available.svg.png?20250126200333",
+        "parkMapUrl": null,
+        "mapEmbedUrl": null,
+        "id": 80
+    },
+    {
+        "course_name": "Munson Park Disc Golf Course",
+        "ownership": "Public",
+        "contact_info": {
+            "address": "1801 N. Eisenhower Parkway, Hwy 69, Denison, TX 75020, United States",
+            "phone": "270-792-0672",
+            "alt_phone": "270-843-3313",
+            "email": "https:\/\/www.pdga.com\/course-contact?course=27949",
+            "website": "not available"
+        },
+        "reservation_requirements": "Not specified. Contact course designer HB Clark for event or layout details.",
+        "policies_rules_dates_open": "Established in 2011. Open year-round. Terrain is hilly and technical. Features long downhill and uphill shots with tight lines through mature trees.",
+        "holes": "18",
+        "course_type": "Woodsy championship-style course with significant elevation, concrete tees, and DISCatcher baskets. Notable holes include a 553' downhill (#3) and a 470' elevated green (#8).",
+        "imageUrl": "https:\/\/www.pdga.com\/files\/course_photos\/Denison_hole_8_from_fairway.JPG",
+        "parkMapUrl": null,
+        "mapEmbedUrl": null,
+        "id": 81
+    },
+    {
+        "course_name": "Creekside Park Disc Golf Course",
+        "ownership": "Public",
+        "contact_info": {
+            "address": "N Broyles St, Farmington, AR 72730, United States",
+            "phone": "not available",
+            "alt_phone": null,
+            "email": "not available",
+            "website": "not available"
+        },
+        "reservation_requirements": "Not specified. Appears to be open to the public with no reservation details listed.",
+        "policies_rules_dates_open": "Established in 2019. Open year-round. Course includes a mix of wide open holes and technical wooded holes with shaped fairways.",
+        "holes": "18",
+        "course_type": "Public course featuring concrete tees, Dynamic Discs Veteran baskets, and a mix of flat open and wooded terrain. Course is somewhat cart-friendly.",
+        "imageUrl": "https:\/\/d22ksth68ujgu2.cloudfront.net\/55fa4c49ef1842408cf35f16c3b237a2_m_IMG_3699.jpg",
+        "parkMapUrl": null,
+        "mapEmbedUrl": null,
+        "id": 82
+    },
+    {
+        "course_name": "Bird's Ruins Disc Golf Course at Langer Park",
+        "ownership": "Public",
+        "contact_info": {
+            "address": "860 Canal Rd., Marshall, WI 53559, United States",
+            "phone": "not available",
+            "alt_phone": null,
+            "email": "https:\/\/www.pdga.com\/course-contact?course=28140",
+            "website": "not available"
+        },
+        "reservation_requirements": "Free public access. For camping or group use, contacting the Rec Director is requested as a notice of use.",
+        "policies_rules_dates_open": "Established in 2011. Open year-round. Dual tees and multiple pin placements. 3 standard campsites and 1 large group site available for public use.",
+        "holes": "19",
+        "course_type": "Public course in woods and prairie with Chainstar baskets, concrete tees, and a mix of elevation and foliage. Designed by Erik Lemke and Rebel Disc Golf.",
+        "imageUrl": "https:\/\/d22ksth68ujgu2.cloudfront.net\/2774c37aaa34f0f60f6cd2e87de2955f_m_IMG_2513.jpg",
+        "parkMapUrl": null,
+        "mapEmbedUrl": null,
+        "id": 83
+    },
+    {
+        "course_name": "Eagle Ranch Disc Golf Park",
+        "ownership": "Public",
+        "contact_info": {
+            "address": "3300 Eagle Ranch Blvd., 7200 Bunk House Dr, Fort Worth, TX 76179, United States",
+            "phone": "512-306-7253",
+            "alt_phone": null,
+            "email": "not available",
+            "website": "https:\/\/www.facebook.com\/EagleRanchDiscGolf"
+        },
+        "reservation_requirements": "No formal reservation system. Check Facebook for updates.",
+        "policies_rules_dates_open": "Established in 2005, redesigned in 2019 by John Houck. Open year-round. Features mixed elevation with a pond, creek, and 65 newly planted trees.",
+        "holes": "9",
+        "course_type": "Public course with DISCatcher baskets, concrete tees, and a mix of low hills and open\/wooded areas.",
+        "imageUrl": "https:\/\/www.pdga.com\/files\/course_photos\/20191002_180913_1.jpg",
+        "parkMapUrl": null,
+        "mapEmbedUrl": null,
+        "id": 84
+    },
+    {
+        "course_name": "Heritage Park Disc Golf Course",
+        "ownership": "Public",
+        "contact_info": {
+            "address": "600 Spinks Rd, Flower Mound, TX 75028, United States",
+            "phone": "not available",
+            "alt_phone": null,
+            "email": "not available",
+            "website": "https:\/\/www.flower-mound.com\/1787\/Disc-Golf-Course"
+        },
+        "reservation_requirements": "No formal reservation system.",
+        "policies_rules_dates_open": "Established in 2019, located within the Cross Timbers eco-region. Open year-round. Features a variety of trees, creek beds, water hazards, and elevation changes.",
+        "holes": "18",
+        "course_type": "Public course with Dynamic Discs Veteran baskets, concrete tees, and a mix of flat and hilly terrain.",
+        "imageUrl": "https:\/\/d22ksth68ujgu2.cloudfront.net\/1c2d8b8a433a090ca747853ec8cd9938_m_IMG_0925.jpg",
+        "parkMapUrl": null,
+        "mapEmbedUrl": null,
+        "id": 85
+    },
+    {
+        "course_name": "City Disc Park",
+        "ownership": "Church",
+        "contact_info": {
+            "address": "1140 Morrison Dr, Fort Worth, TX 76120-3426, United States",
+            "phone": "817-705-6481",
+            "alt_phone": null,
+            "email": "derrick.bledsoe@example.com",
+            "website": "https:\/\/www.pdga.com\/course-contact?course=241711"
+        },
+        "reservation_requirements": "Not available for play on Sundays.",
+        "policies_rules_dates_open": "Established in 2018, features a variety of shots, including alley shots, window shots, and a signature elevated island hole (hole #7).",
+        "holes": "9",
+        "course_type": "Public course with DISCatcher Pro baskets, concrete tees, and a mix of trees and open areas.",
+        "imageUrl": "https:\/\/www.pdga.com\/files\/course_photos\/city_disc_park_main_logo.jpg",
+        "parkMapUrl": null,
+        "mapEmbedUrl": null,
+        "id": 86
+    },
+    {
+        "course_name": "Windy Ridge Disc Golf at Mitchusson Park",
+        "ownership": "Public park",
+        "contact_info": {
+            "address": "860 Airport Rd, Huntsville, AR 72740, United States",
+            "phone": "not available",
+            "alt_phone": null,
+            "email": "https:\/\/www.pdga.com\/course-contact?course=225001",
+            "website": "not available"
+        },
+        "reservation_requirements": "No reservation required for casual play. However, certain facilities within Mitchusson Park, such as the pavilion or amphitheater, may require reservations. For more information or to make a reservation, please contact the City Clerk\u00e2\u20ac\u2122s office at (479) 738-6607.",
+        "policies_rules_dates_open": "Established in 2016, with a redesign in 2021 adding 9 holes. A mix of woods and open holes with Ozark elevation.",
+        "holes": "18",
+        "course_type": "Public course with DGA targets and concrete tees, featuring rolling elevation.",
+        "imageUrl": "https:\/\/d22ksth68ujgu2.cloudfront.net\/52b457d200be4f77a74347d96ddd3eb0_m_CACYgv1HizXMy1aBgQfc0ls3e8oA.jpg",
+        "parkMapUrl": null,
+        "mapEmbedUrl": null,
+        "id": 87
+    }
 ]
