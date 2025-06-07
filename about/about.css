@@ -6,7 +6,68 @@
     padding: 0;
     box-sizing:border-box ;
   }
-  
+  .bruce-banner{
+    background-image: url("../images/fewell-park-2019-14.jpg");
+    width: auto;
+    background-position: center -210px; 
+    height: 446.5px; /* forces size, may distort */
+  }
+  #banner{
+    display: block;
+    width: 100vw;       
+    height: auto;       
+    margin: 0;          
+    padding: 0; 
+  }
+  .hero h1 {
+  position: absolute;
+  top: 32%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 4rem;
+  font-weight: bold;
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
+  }
+  .hero h3 {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-weight: bold;
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
+  }
+  .about-info{
+    margin: 0 275px; 
+  }
+  .about-info p:first-of-type{
+    margin-top: 50px;
+  }
+  .about-info p{
+    padding-top: 15px;
+    padding-bottom: 35px;
+    font-size: 0.9rem;
+  }
+  .motto{
+    font-size: 20px;
+    font-weight: bold;
+    height: 250px;
+    width: 575px;
+    padding-top: 100px;
+    margin-bottom: 20px;
+  }
+  .motto-texts{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 auto; 
+  }
+  .motto-texts p{
+    background-color: #014134;
+    border-radius: 10px;
+    width: 400px;
+    padding: 20px;
+  }
   body {
     margin-top: 70px;
     /*font-family: arial , sans-serif ;*/
@@ -15,6 +76,38 @@
     color : #e0f7f1;;
     min-height :100vh ;
   }
+  .middle-section{
+    background-color: white;
+    height: 300px;
+  }
+  .middle-section2{
+    background-color: #012c26;
+    height: 700px;
+  }
+  .middle-section3{
+    background-image: url('../images/park.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    height: 400px;
+    text-align: center;
+    padding-top: 100px;
+    
+    color: white;
+   
+  }
+  .middle-section3 .container p{
+    margin: 0 200px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.3); /* black with 50% opacity */
+    border-radius: 10px;
+  }
+  
+  .middle-section3 button{
+    background-color: #0db58f;
+    margin-top: 25px;
+  }
+  
 
   body {
     background: linear-gradient(to right, #001f1a, #014134);
@@ -22,9 +115,9 @@
   
 
   .container {
-    max-width :1200px ;
-    margin: 0 auto;
-    padding: 20px ;
+    max-width :1300px ;
+    margin: 0 auto; 
+    /* padding: 20px ; */
   }
 
   #logo{
