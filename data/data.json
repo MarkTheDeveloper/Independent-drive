@@ -3,17 +3,17 @@
         "course_name": "Lake Fenwick Disc Golf Course",
         "ownership": "Public",
         "contact_info": {
-            "address": "26001 Lake Fenwick Rd, S Kent, WA 98198 ",
+            "address": "26001 Lake Fenwick Rd, S Kent, WA 98198",
             "phone": "(253) 333-9774",
             "email": "verified email",
-            "website": "https:\/\/www.kentwa.gov\/departments\/kent-parks\/parks-places\/parks-trails\/lake-fenwick-park"
+            "website": "https://www.kentwa.gov/departments/kent-parks/parks-places/parks-trails/lake-fenwick-park"
         },
-        "reservation_requirements": "No reservation required.",
+        "reservation_requirements": "Reservations can be made through the Kent Parks mobile app.",
         "policies_rules_dates_open": "Open year-round from dawn to dusk. No restrooms available.",
         "holes": "18",
         "course_type": "hilly and wooded terrain with dual tees",
-        "imageUrl": "https:\/\/d22ksth68ujgu2.cloudfront.net\/8249bc814230139430c22ed1cc91a43d_m_PCux8YfqcKABQjc7mJrQWgaKbw44.jpg",
-        "parkMapUrl": "https:\/\/d22ksth68ujgu2.cloudfront.net\/7c52b795f4434f839ec7b74f68942cd1_m_u7c8VQr1gjZiLooxVLU0B1lEpOaI.jpg",
+        "imageUrl": "https://d22ksth68ujgu2.cloudfront.net/8249bc814230139430c22ed1cc91a43d_m_PCux8YfqcKABQjc7mJrQWgaKbw44.jpg",
+        "parkMapUrl": "https://d22ksth68ujgu2.cloudfront.net/7c52b795f4434f839ec7b74f68942cd1_m_u7c8VQr1gjZiLooxVLU0B1lEpOaI.jpg",
         "mapEmbedUrl": null,
         "id": 1
     },
@@ -755,24 +755,25 @@
         "mapEmbedUrl": null,
         "id": 42
     },
-    {
-        "course_name": "Mohave Valley Community Park Disc Golf Course",
-        "ownership": "Public",
-        "contact_info": {
-            "address": "9200 Aquarius Drive, Mohave Valley, AZ 86440, United States",
-            "phone": null,
-            "email": "matt.hanrahan@example.com",
-            "website": null
-        },
-        "reservation_requirements": "No reservation required for casual play. For tournaments or organized events, contact the course representative via the provided email.",
-        "policies_rules_dates_open": "Open year-round from dawn to dusk. Restrooms available. No drinking water on site. Dogs allowed on leash. Be mindful of other park users.",
-        "holes": "9 holes",
-        "course_type": "Established in 2020, the course features dirt tees and Mach V baskets. Flat terrain with sparse foliage. Cart-friendly.",
-        "imageUrl": "https:\/\/parks.mohave.gov\/media\/nhog3npq\/disc_golf_1.jpg",
-        "parkMapUrl": "https:\/\/montva.com\/images\/default-source\/parks-recreation\/disc-golf-course-trail-map-2020.jpg?sfvrsn=d904abd5_2",
-        "mapEmbedUrl": null,
-        "id": 43
+        {
+    "course_name": "Mohave Valley Community Park Disc Golf Course",
+    "ownership": "Public",
+    "contact_info": {
+        "address": "9200 Aquarius Drive, Mohave Valley, AZ 86440, United States",
+        "phone": "",
+        "email": "matt.hanrahan@example.com",
+        "website": ""
     },
+    "reservation_requirements": "No reservation required for casual play. For tournaments or organized events, contact the course representative via the provided email.",
+    "policies_rules_dates_open": "Open year-round from dawn to dusk. Restrooms available. No drinking water on site. Dogs allowed on leash. Be mindful of other park users.",
+    "holes": "9 holes",
+    "course_type": "Established in 2020, the course features dirt tees and Mach V baskets. Flat terrain with sparse foliage. Cart-friendly.",
+    "imageUrl": "https://parks.mohave.gov/media/nhog3npq/disc_golf_1.jpg",
+    "parkMapUrl": "https://montva.com/images/default-source/parks-recreation/disc-golf-course-trail-map-2020.jpg?sfvrsn=d904abd5_2",
+    "mapEmbedUrl": null,
+    "id": 43
+    },
+
     {
         "course_name": "Martha McLean \u00e2\u20ac\u201c Anza Narrows Disc Golf Course",
         "ownership": "Public",
@@ -1570,5 +1571,115 @@
         "parkMapUrl": null,
         "mapEmbedUrl": null,
         "id": 87
+    }, 
+    {
+    	"course_name": "The Grove Disc Golf",
+    	"ownership": "Private",
+    	"contact_info": {
+            "address": "1036 Kingsley Ave, Orange Park, FL 32073, USA",
+            "phone": "",
+            "email": "via contact form",
+            "website": "https://www.grovediscgolf.com/contact"
+    	},
+    	"reservation_requirements": "Contact required via built-in email form for reservations or inquiries(follow the website below).",
+    	"policies_rules_dates_open": "Details not specified publicly. Contact through the form for hours and policies.",
+    	"holes": "18",
+    	"course_type": "Wooded and open areas with mixed elevation",
+    	"imageUrl": "https://udisc-parse.s3.amazonaws.com/9d8043db1312331522ebf7415fb5bc7a_t_IMG_3626.jpg",
+    	"parkMapUrl": "",
+    	"mapEmbedUrl": null,
+        "id": 88
+	},
+    {
+        "course_name": "Highland Park Disc Golf Course",
+        "ownership": "Public",
+        "contact_info": {
+            "address": "1102 E Warner Ave, Guthrie, OK 73044, USA",
+            "phone": "(405) 282-8400",
+            "email": "via reservation form",
+            "website": "https://www.cityofguthrie.com/facilities/facility/details/Highland-Park-Disc-Golf-Course-24"
+        },
+        "reservation_requirements": "Reservation required for tournament or group use via online form.",
+        "policies_rules_dates_open": "Park is open daily from dawn to dusk. Specific event rules and availability provided through the city's reservation system.",
+        "holes": "18",
+        "course_type": "Lightly wooded with elevation changes",
+        "imageUrl": "https://www.cityofguthrie.com/ImageRepository/Document?documentID=5855",
+        "parkMapUrl": "",
+        "mapEmbedUrl": null,
+        "id": 89
+    },
+    {
+    "course_name": "Northtown Municipal Utility District (MUD) Disc Golf Course",
+    "ownership": "Public",
+    "contact_info": {
+        "address": "14508 Harris Ridge Blvd, Pflugerville, TX 78660",
+        "phone": "(512) 716‑0759",
+        "email": "moliver@northtownmud.org",
+        "website": "https://northtownmud.org/wp-content/uploads/2024/09/DiskGolfReservationProceduresPoliciesandRules.pdf"
+    },
+    "reservation_requirements": "Reservations require downloading and completing the official PDF reservation form from the Northtown MUD website. The completed form and payment (cashier’s check or money order) can be either mailed or submitted as instructed in the document.\n\nMailing Address (Disc Golf Form specific):\nNorthtown MUD\n700 E. Wells Branch Parkway\nPflugerville, TX 78660\n\nAlternate Mailing Option:\nNorthtown MUD\nP.O. Box 2405\nPflugerville, TX 78662\n\nVisit the website for the official form and complete submission details.",
+    "policies_rules_dates_open": "Offers exclusive course reservations for events. Policies include details on required deposits, event signage, and cleanup expectations. See the official PDF for full rules.",
+    "holes": "18",
+    "course_type": "",
+    "imageUrl": "https://udisc-parse.s3.amazonaws.com/88dd65f4d503bf73eda576a914cf706e_t_n8AqybaqfjKHRUiF6paB1J2xUVyy.jpg",
+    "parkMapUrl": "https://northtownmud.org/maps/NTMUD_disk_golf.jpg",
+    "mapEmbedUrl": null,
+    "id": 90
+    },
+    {
+        "course_name": "North Valley Park Disc Golf Course",
+        "ownership": "Public",
+        "contact_info": {
+            "address": "6461 Cahill Ave, Inver Grove Heights, MN 55077, USA",
+            "phone": "",
+            "email": "jdorshak@ighmn.gov",
+            "website": "https://www.ighmn.gov/DocumentCenter/View/16095/Disc_Golf_Reservation_FillableForm-2024"
+        },
+        "reservation_requirements": "Users must download the PDF reservation form(follow the website link for the PDF), fill it out, and email it to jdorshak@ighmn.gov.",
+        "policies_rules_dates_open": "Reservations are required for tournaments or organized use; includes policies on fees, insurance, and event hours.",
+        "holes": "18",
+        "course_type": "Public municipal park with wooded and open terrain",
+        "imageUrl": "https://d22ksth68ujgu2.cloudfront.net/74929015ea9a06c5accfd51cf72c0b2a_t_6TRGZUDHBJMi4KKPVXyYEs2ZluFI.jpg",
+        "parkMapUrl": "https://d22ksth68ujgu2.cloudfront.net/56dcb06c837cf52a60464d4b8c32ad35_m_IMG_0209.jpg",
+        "mapEmbedUrl": null,
+        "id": 91
+    },
+    
+    {
+        "course_name": "Blue Ribbon Pines",
+        "ownership": "Private",
+        "contact_info": {
+            "address": "East Bethel, MN, USA",
+            "phone": "(763) 434-1644",
+            "email": "",
+            "website": "https://udisc.com/courses/blue-ribbon-pines-aCxV"
+        },
+        "reservation_requirements": "Contact Ray Jordan by phone or SMS to inquire about reservations or course information.",
+        "policies_rules_dates_open": "Private course with 27 holes; mix of open and wooded holes providing a challenging experience for all skill levels.",
+        "holes": "27",
+        "course_type": "Private, well-maintained, wooded and open terrain",
+        "imageUrl": "https://d22ksth68ujgu2.cloudfront.net/b6c446cc9bf6e123a4675a5b5bb329e2_m_IMG_2865.jpg",
+        "parkMapUrl": "",
+        "mapEmbedUrl": null,
+        "id": 92
+    },
+    {
+    "course_name": "Boardman Park Disc Golf Course",
+    "ownership": "Public",
+    "contact_info": {
+        "address": "Sailboard Beach, Boardman, OR, USA",
+        "phone": "",
+        "email": "",
+        "website": "https://www.easleyrec.com"
+    },
+    "reservation_requirements": "Reservations for special events or large groups must be made in person at the J.B. “Red” Owens Complex at the Larry Bagwell Gym, or online at www.easleyrec.com.(vist the link below) Full payment is required when submitting the reservation application.",
+    "policies_rules_dates_open": "Designed for casual play and group events. In-person or online reservations are encouraged for event use.",
+    "holes": "18",
+    "course_type": "Mix of open and wooded holes near the Columbia River shoreline",
+    "imageUrl": "https://streamline.imgix.net/57265244-da06-412a-bdf4-457fa2cd0e7d/0c8265db-ba1a-430b-bf38-066561efc6c3/Disc-golf-2.jpg?ixlib=rb-1.1.0&or=0&w=720&h=411&fit=fill&fill=blur&auto=format%2Ccompress&s=4c6ce849e2c84392bff32ffab9edabf5",
+    "parkMapUrl": "",
+    "mapEmbedUrl": null,
+    "id": 93
     }
+
 ]

@@ -61,6 +61,7 @@ Promise.all([
     displayParkInfo(selected);
     showSpecificRequirements(selected.course_name);
     showFormCalendarForPark(selected);
+    disableFormIfExternal(selected);
     localStorage.removeItem("selectedPark");
   } else {
     input.value = "";
@@ -151,31 +152,31 @@ Promise.all([
   const results = document.getElementById("searchResults");
 
   function showMatches(query) {
-    results.innerHTML = "";
-    results.style.display = "none";
+  results.innerHTML = "";
+  results.style.display = "none";
 
-    if (!query) return;
+  if (!query) return;
 
-    const matches = fuse.search(query).slice(0, 5);
-    if (matches.length > 0) {
-      results.style.display = "block";
-      matches.forEach(({ item }) => {
-        const li = document.createElement("li");
-        li.textContent = item.course_name;
-        li.className = "dropdown-item";
-        li.onclick = () => {
+  const matches = fuse.search(query).slice(0, 5);
+  if (matches.length > 0) {
+    results.style.display = "block";
+    matches.forEach(({ item }) => {
+      const li = document.createElement("li");
+      li.textContent = item.course_name;
+      li.className = "dropdown-item";
+      li.onclick = () => {
         input.value = item.course_name;
         displayParkInfo(item);
         showSpecificRequirements(item.course_name);
-        showFormCalendarForPark(item); // <--  THIS LINE ADDED
+        showFormCalendarForPark(item);
+        disableFormIfExternal(item); 
         results.innerHTML = "";
         results.style.display = "none";
       };
-
-        results.appendChild(li);
-      });
-    }
+      results.appendChild(li);
+    });
   }
+}
 
   input.addEventListener("input", function () {
     const query = this.value.trim();
@@ -263,6 +264,56 @@ function showSpecificRequirements(parkName) {
   });
 
   fieldset.style.display = "block";
+}
+
+
+
+function disableFormIfExternal(park) {
+  const keywords = ["contact", "email", "form", ".pdf", "mobile app", "cannot", "in person"];
+  const reservationText = (park.reservation_requirements || "").toLowerCase();
+  const isExternal = keywords.some(keyword => reservationText.includes(keyword));
+  if (!isExternal) return;
+
+  const form = document.querySelector("form");
+  const inputs = form.querySelectorAll("input, select, textarea, button");
+  const submitBtn = form.querySelector("input[type='submit']");
+  const parkInput = document.getElementById("parkSearchInput");
+
+  // Disable everything except the park search input
+  inputs.forEach(el => {
+    if (el !== parkInput) {
+      el.disabled = true;
+      el.style.opacity = "0.6";
+      el.style.cursor = "not-allowed";
+    }
+  });
+
+  // Re-enable the search input (in case it was disabled before)
+  parkInput.disabled = false;
+  parkInput.style.opacity = "1";
+  parkInput.style.cursor = "text";
+
+  // Add a top warning banner if not already there
+  if (!document.getElementById("external-notice")) {
+    const notice = document.createElement("div");
+    notice.id = "external-notice";
+    notice.style.cssText = `
+      background: #fff5f5;
+      border: 2px solid #cc0000;
+      color: #660000;
+      padding: 16px;
+      border-radius: 6px;
+      font-size: 15px;
+      margin-bottom: 20px;
+    `;
+    notice.innerHTML = `
+      <strong>⚠️ Reservation Not Supported on This Form</strong><br><br>
+      This park must be reserved through a separate method.<br>
+      Please follow the instructions in the <strong>Park Info</strong> section below.<br><br>
+      You may search and select a different park above.
+    `;
+    form.prepend(notice);
+  }
 }
 
 

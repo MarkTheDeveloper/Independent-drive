@@ -1,4 +1,19 @@
 // huys course list left index park menu or park infomation 
+
+function isExternalReservationPark(park) {
+  const r = (park.reservation_requirements || "").toLowerCase();
+  return (
+    r.includes("contact") ||
+    r.includes("email") ||
+    r.includes("form") ||
+    r.includes(".pdf") ||
+    r.includes("mobile app") ||
+    r.includes("cannot") ||
+    r.includes("in person")
+  );
+}
+
+
 window.onload = function () {
     const courseList = document.getElementById("course-list");
 
@@ -203,15 +218,30 @@ function displayParkInfo(park) {
   document.getElementById('parkMapLink').href = park.parkMapUrl || "#";
 
     // Show inline reserve button to the right of park name
-  const inlineReserveBtn = document.getElementById("inlineReserveBtn");
-  if (inlineReserveBtn) {
-    inlineReserveBtn.style.display = "inline-block";
-    inlineReserveBtn.onclick = (e) => {
-      e.preventDefault();
-      localStorage.setItem("selectedPark", JSON.stringify(park));
-      window.location.href = "form/td-form.html";
-    };
-  }
+    const inlineReserveBtn = document.getElementById("inlineReserveBtn");
+    const inlineNotice = document.getElementById("inlineNotice");
+
+    const isExternal = isExternalReservationPark(park);
+
+    if (inlineReserveBtn && inlineNotice) {
+      if (isExternal) {
+        inlineReserveBtn.style.display = "none";
+        inlineNotice.innerHTML = `
+          <div class="external-warning">
+            ⚠️ This park has a special reservation process:<br>
+            <em>${park.reservation_requirements}</em>
+          </div>`;
+      } else {
+        inlineReserveBtn.style.display = "inline-block";
+        inlineNotice.innerHTML = "";
+        inlineReserveBtn.onclick = (e) => {
+          e.preventDefault();
+          localStorage.setItem("selectedPark", JSON.stringify(park));
+          window.location.href = "form/td-form.html";
+        };
+      }
+    }
+
 
 
   parkInfo.style.display = "block";
@@ -230,10 +260,22 @@ function displayParkInfo(park) {
       window.open("form/edit.html", "_blank");
     };
 
+      if (isExternal) {
+    reserveBottom.disabled = true;
+    reserveBottom.innerText = "Unavailable - External Process";
+    reserveBottom.title = park.reservation_requirements;
+    reserveBottom.classList.add("disabled");
+  } else {
+    reserveBottom.disabled = false;
+    reserveBottom.innerText = "Reserve This Park";
+    reserveBottom.classList.remove("disabled");
+    reserveBottom.title = "";
     reserveBottom.onclick = () => {
       localStorage.setItem("selectedPark", JSON.stringify(park));
       window.location.href = "form/td-form.html";
     };
+  }
+
   }
 
   // ========== Calendar Renderer for Selected Park ========== //

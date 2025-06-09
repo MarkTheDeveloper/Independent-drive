@@ -45,6 +45,10 @@ All custom design, features, styling, and written content were created by the In
 
 - **Voice Search Web Speech API** – Built-in browser feature for accessibility support
 
+- **OpenAI ChatGPT API** – Used to power the Parky chatbot, an AI assistant for helping users with reservation questions  
+  [https://platform.openai.com](https://platform.openai.com)
+
+
 ---
 
 ## 🏆 Logo & Client Attribution
@@ -74,7 +78,9 @@ All custom design, features, styling, and written content were created by the In
 
 ## ⚠️ Disclaimer
 
-This website is for **educational and demonstration purposes only**. All third-party resources, APIs, and icons are either publicly licensed or used with permission. No commercial usage is intended.
+This website is for **educational and demonstration purposes only**. All third-party resources, APIs, and icons are either publicly licensed or used with permission. 
+Some logic and AI responses are powered by OpenAI’s API. No personal data is stored or logged.
+
 
 If you are the owner of any content or asset used and wish to request removal or correction, please contact us at  
 [parkreservationfourm@gmail.com](mailto:parkreservationfourm@gmail.com).
@@ -86,6 +92,19 @@ If you are the owner of any content or asset used and wish to request removal or
 - This website is currently being hosted locally and through student cPanel hosting provided by Green River College.
 
 - Version control and team collaboration is managed through [GitHub](https://github.com).
+
+---
+
+## 🧠 Chatbot Integration
+
+This project includes a custom-built AI chatbot widget called **Parky**.
+
+- Built using the **OpenAI ChatGPT API**
+- Dynamically loaded and embedded using HTML/CSS/JavaScript
+- Responds to user input about park policies, reservation steps, and availability
+- Designed to improve accessibility and support across all pages
+
+Parky does **not** store or log any personal data. It's integrated only to assist visitors with common questions.
 
 ---
 

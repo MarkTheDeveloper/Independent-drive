@@ -854,7 +854,21 @@ div#course-list {
 
 
 
+/* ===== diffrent way to reserve the park  ===== */
+.external-warning {
+  background-color: #fff3cd;
+  color: #856404;
+  border: 1px solid #ffeeba;
+  padding: 10px;
+  border-radius: 5px;
+  margin-top: 15px;
+  font-size: 14px;
+}
 
+button.disabled {
+  opacity: 0.5;
+  pointer-events: none;
+}
 
 
 

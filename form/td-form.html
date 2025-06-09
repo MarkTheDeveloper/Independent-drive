@@ -31,7 +31,7 @@
 
   <h2>Tournament Director Reservation Form</h2>
 
-  <form method="POST" action="../data/send-email.php">
+  <form method="POST" action="../data/email-system/send-email.php">
     <fieldset>
       <legend>Director Information</legend>
       <div class="row">
@@ -151,26 +151,39 @@
 
     <script>
     document.querySelector("form").addEventListener("submit", function (e) {
-      e.preventDefault();
+    e.preventDefault();
 
-      const form = this;
-      fetch(form.action, {
-        method: "POST",
-        body: new FormData(form)
+    const selectedPark = document.getElementById("parkSearchInput").value.toLowerCase();
+    const externallyReservedParks = [
+      "northtown municipal utility district (mud) disc golf course",
+      "boardman park disc golf course",
+      "mohave valley community park disc golf course"
+    ];
+
+    if (externallyReservedParks.includes(selectedPark)) {
+      alert("This park must be reserved through an external site or contact method. Please see the reservation info provided.");
+      return;
+    }
+
+    const form = this;
+    fetch(form.action, {
+      method: "POST",
+      body: new FormData(form)
+    })
+      .then(res => res.text())
+      .then(data => {
+        if (data.trim() === "ok") {
+          alert("✅ Reservation submitted successfully!");
+          form.reset();
+        } else {
+          alert("❌ Something went wrong. Please try again later.");
+        }
       })
-        .then(res => res.text())
-        .then(data => {
-          if (data.trim() === "ok") {
-            alert("✅ Reservation submitted successfully!");
-            form.reset();
-          } else {
-            alert("❌ Something went wrong. Please try again later.");
-          }
-        })
-        .catch(() => {
-          alert("⚠️ Network error. Please check your connection.");
-        });
-    });
+      .catch(() => {
+        alert("⚠️ Network error. Please check your connection.");
+      });
+  });
+
 
     // show calendar when park is selected
    function showFormCalendarForPark(park) {
@@ -245,6 +258,14 @@
 
 
   
-    
+ <!--  Parky Chatbot Loader -->
+<link rel="stylesheet" href="../chatbot/parky.css" />
+<div id="parky-container"></div>
+<script src="../chatbot/parky.js"></script>
+
+
+
+
+
 </body>
 </html>
