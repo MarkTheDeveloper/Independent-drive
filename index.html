@@ -64,10 +64,10 @@
   <div class="selected-park-info" id="selectedParkInfo" style="display: none;">
       <h3 id="selectedParkName"></h3>
     <div id="searching-bar">
-    <div>
+    <div class="left">
     <img id="parkImage" src="Logo-NO-BG.png" alt="Park Image" style="max-width: 100%; border-radius: 8px;">
   </div>
-  <div>
+  <div class="right">
   <p><strong>Holes:</strong> <span id="selectedHoles"></span></p>
   <p><strong>Course Type:</strong> <span id="selectedCourseType"></span></p>
   <p><strong>Requirements:</strong> <span id="selectedRequirements"></span></p>
@@ -77,7 +77,6 @@
   
 
   <div id="parkReservations" style="margin-top: 20px;">
-  <h4>Reserved dates for this park:</h4>
   <ul id="reservationList"></ul>
   </div>
   </div>
@@ -112,12 +111,21 @@
 
 <!--  script -->
 <script src="display.js" defer></script>
+<div id="cta-with-parkowners">
+  <div class="left-img">
+    <img src="images/cta-picture.png" alt="Disc Golf Players" >
+  </div>
+  <div id="right-content">
+    <h3>Your Park, More Efficient With Us.</h3>
+    <p>Sign up to partner today!</p>
+    <div>
+      <a href="login-and-signup/login.html" ><button class="suggest-edit-btn">Log In</button></a>
+      <a href="login-and-signup/register.html" ><button class="suggest-edit-btn">Sign Up</button></a>
+    </div>
 
- 
-
-
+  </div>
 </div>
-  <div id="illustration">
+<div id="illustration">
     <div>
       <div><img src="images/illustration1.png"></div>
     </div>
@@ -133,17 +141,12 @@
       <div><img src="images/illustration5.png"></div>
 
     </div>
-  </div>
-
-  
-  
-  
-  
-
+</div>
+<div id="footer-placeholder"></div>
 </main>
 
 <!-- Footer Placeholder + Loader -->
-<div id="footer-placeholder"></div>
+
 <script>
   fetch("footer/footer.html")
     .then(res => res.text())

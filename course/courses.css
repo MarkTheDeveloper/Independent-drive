@@ -129,11 +129,11 @@ div#course-list {
   gap: 10px;
   box-shadow: 0 2px 6px rgba(0,0,0,0.08) ;
   transition: all 0.8s ease;
-  max-height: 180px; 
+  max-height: 200px; 
   overflow: hidden;
 }
 .course-item.expanded {
-  max-height: 400px; 
+  max-height: 440px; 
   background-color: #026d56;
   box-shadow: 0 4px 12px rgba(0,255,0,0.3);
 }
@@ -169,7 +169,7 @@ div#course-list {
   text-decoration: underline;
 }
 /*suggest edit button*/
-.suggest-edit-btn {
+.suggest-edit-btn, .reserve-btn {
   display: inline-flex;
   align-items: center;
   background-color: #026d56;
@@ -184,7 +184,7 @@ div#course-list {
   box-shadow: 0 2px 6px rgba(0,0,0,0.15);
 }
 
-.suggest-edit-btn:hover {
+.suggest-edit-btn:hover, .reserve-btn:hover {
   background-color: #014134;
 }
 

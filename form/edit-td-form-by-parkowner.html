@@ -92,7 +92,14 @@ button:hover {
 }
 
   </style>
-<body>
+<body data-course-name="">
+<script>
+  const params = new URLSearchParams(window.location.search);
+  const courseName = params.get("course_name");
+  if (courseName) {
+    document.body.setAttribute("data-course-name", decodeURIComponent(courseName));
+  }
+</script>
       <!-- Park's specific requirements-->
 <form>
 

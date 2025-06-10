@@ -223,12 +223,14 @@ function showSpecificRequirements(parkName) {
     const wrapper = document.createElement("div");
 
     if (field.type === "confirm_with_notice") {
-      const notice = document.createElement("p");
+      const notice = document.createElement("label");
       notice.textContent = field.notice || "⚠️ Please confirm this requirement.";
-      notice.style.fontStyle = "italic";
+      notice.style.display = "block";
+      notice.style.fontWeight = "bold";
       notice.style.marginBottom = "6px";
 
       const label = document.createElement("label");
+      label.style.fontWeight = "normal"; 
       const checkbox = document.createElement("input");
       checkbox.type = "checkbox";
       checkbox.name = "custom_" + field.label.toLowerCase().replace(/\s+/g, "_");

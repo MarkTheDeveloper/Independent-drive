@@ -69,7 +69,7 @@
 
         const matches = allParks
           .filter(p => p.course_name.toLowerCase().includes(value))
-          .slice(0, 5); // 👈 chỉ lấy 5 công viên đầu tiên
+          .slice(0, 5);
 
         matches.forEach(park => {
           const li = document.createElement("li");
