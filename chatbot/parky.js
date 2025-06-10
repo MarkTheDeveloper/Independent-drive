@@ -1,5 +1,5 @@
 window.addEventListener("DOMContentLoaded", () => {
-  fetch("chatbot/parky.html")
+  fetch("../chatbot/parky.html")
     .then(res => res.text())
     .then(html => {
       const container = document.createElement("div");
@@ -31,7 +31,7 @@ window.addEventListener("DOMContentLoaded", () => {
         <div class="bubble">
           👋 Hello! I'm <strong>Parky</strong>, your assistant. Ask me anything about disc golf park reservations and tools for tournament directors!
         </div>
-        <img src="images/Parky.png" class="parky-icon" />
+        <img src="../images/Parky.png" class="parky-icon" />
       `;
       messages.appendChild(welcome);
 
@@ -55,7 +55,7 @@ window.addEventListener("DOMContentLoaded", () => {
         const userWrap = document.createElement("div");
         userWrap.className = "parky-msg user";
         userWrap.innerHTML = `
-          <img src="images/TD-Profile.png" class="parky-icon" />
+          <img src="../images/TD-Profile.png" class="parky-icon" />
           <div class="bubble">${userMsg}</div>
         `;
         messages.appendChild(userWrap);
@@ -101,7 +101,7 @@ window.addEventListener("DOMContentLoaded", () => {
           botWrap.className = "parky-msg bot";
           botWrap.innerHTML = `
             <div class="bubble">${botReply}</div>
-            <img src="images/Parky.png" class="parky-icon" />
+            <img src="../images/Parky.png" class="parky-icon" />
           `;
           messages.appendChild(botWrap);
           messages.scrollTop = messages.scrollHeight;
