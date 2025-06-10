@@ -75,6 +75,9 @@ $message = "
 ❌ <a href='$declineURL'>Decline Reservation</a><br>
 ✏️ <a href='$editURL'>Edit Reservation</a>
 </p>
+<p>Don’t have an account yet? <a href='https://independentdrive.greenriverdev.com/Independent-drive/login-and-signup/register.html'>Sign up here now</a> — it’s fast and lets you track, edit, and submit future requests in seconds.
+
+</p>
 ";
 
 // Send email
