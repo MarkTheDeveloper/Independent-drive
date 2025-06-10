@@ -3,66 +3,61 @@
 // Handle Approve/Decline Clicks from Email
 // ============================
 
-$pendingPath = __DIR__ . "/pending_requests.json";
-$reservationPath = __DIR__ . "/../reservations.json";
+$reqId = $_GET['id'] ?? null;
+$action = $_GET['action'] ?? null;
 
-if (!isset($_GET['id']) || !isset($_GET['action'])) {
-    http_response_code(400);
-    exit("Missing reservation ID or action.");
+$pendingPath = __DIR__ . '/../data/pending_requests.json';
+$reservationPath = __DIR__ . '/../data/reservations.json';
+
+if (!$reqId || !$action) {
+    die("<h2>❌ Missing request ID or action.</h2>");
 }
 
-$id = $_GET['id'];
-$action = $_GET['action'];
+$pending = json_decode(file_get_contents($pendingPath), true);
+$reservations = json_decode(file_get_contents($reservationPath), true);
 
-$pending = file_exists($pendingPath) ? json_decode(file_get_contents($pendingPath), true) : [];
-
-if (!isset($pending[$id])) {
-    http_response_code(404);
-    exit("Reservation not found or already processed.");
+if (!isset($pending[$reqId])) {
+    die("<h2>❌ Request not found or already processed.</h2>");
 }
 
-$request = $pending[$id];
+$request = $pending[$reqId];
+$park = $request['park'];
 
-// Process action
-if ($action === "approve") {
-    // Add to reservations.json
-    $reservations = file_exists($reservationPath) ? json_decode(file_get_contents($reservationPath), true) : [];
-
-    $park = $request["park"];
+// ✅ APPROVE
+if ($action === 'approve') {
     $entry = [
-        "start_date" => date("Y-m-d"), // You can change this if original date is stored
-        "end_date" => date("Y-m-d"),
-        "client_name" => $request["client_name"]
+        'start_date' => $request['start_date'],
+        'end_date' => $request['end_date'] ?? $request['start_date'],
+        'client_name' => $request['client_name'],
+        'event_name' => $request['event_name'],
+        'status' => 'approved'
     ];
 
     if (!isset($reservations[$park])) {
         $reservations[$park] = [];
     }
-    $reservations[$park][] = $entry;
-    file_put_contents($reservationPath, json_encode($reservations, JSON_PRETTY_PRINT));
 
-    $statusMessage = "✅ Reservation has been approved and added to the calendar.";
-    $result = "approved";
-} else if ($action === "decline") {
-    $statusMessage = "❌ Reservation has been declined.";
-    $result = "declined";
-} else {
-    http_response_code(400);
-    exit("Invalid action.");
+    $reservations[$park][] = $entry;
+
+    file_put_contents($reservationPath, json_encode($reservations, JSON_PRETTY_PRINT));
+    unset($pending[$reqId]);
+    file_put_contents($pendingPath, json_encode($pending, JSON_PRETTY_PRINT));
+
+    echo "<h2>✅ Reservation approved and added to the calendar for <u>$park</u>.</h2>";
+    echo "<p>The reservation has been saved and will now show on the form calendar as <b style='color:green;'>green</b>.</p>";
 }
 
-// Remove from pending
-unset($pending[$id]);
-file_put_contents($pendingPath, json_encode($pending, JSON_PRETTY_PRINT));
+// ❌ DECLINE
+elseif ($action === 'decline') {
+    unset($pending[$reqId]);
+    file_put_contents($pendingPath, json_encode($pending, JSON_PRETTY_PRINT));
 
-// Send email back to the original requester
-$to = $request["email"];
-$subject = "Reservation $result for {$request['park']}";
-$body = "Hello {$request['client_name']},\n\nYour reservation request for {$request['park']} has been $result.\n\n- Reservation System";
-$headers = "From: noreply@yourdomain.com\r\n";
+    echo "<h2>❌ Reservation was declined and removed from pending.</h2>";
+    echo "<p>You may notify the requestor if needed.</p>";
+}
 
-mail($to, $subject, $body, $headers);
-
-// Confirmation on screen
-echo $statusMessage;
+// 🛑 INVALID ACTION
+else {
+    echo "<h2>⚠️ Unknown action type. Use 'approve' or 'decline'.</h2>";
+}
 ?>

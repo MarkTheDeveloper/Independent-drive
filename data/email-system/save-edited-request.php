@@ -2,51 +2,84 @@
 // ============================
 // Save Edits to Reservation + Notify TD
 // ============================
-// Receives updated reservation fields from edit-request.php
-// Updates pending_requests.json with new data
-// Sends confirmation email back to Tournament Director (TD)
 
-$pendingPath = __DIR__ . "/pending_requests.json";
+$pendingPath = __DIR__ . "/../pending_requests.json";
 
+// Validate input
 if (!isset($_POST['id'])) {
-    exit("Missing ID.");
+    exit("❌ Missing ID.");
 }
 
 $id = $_POST['id'];
 $pending = file_exists($pendingPath) ? json_decode(file_get_contents($pendingPath), true) : [];
 
 if (!isset($pending[$id])) {
-    exit("Reservation not found.");
+    exit("❌ Reservation not found.");
 }
 
-// Update request
+// Safely pull and sanitize values
+function clean($value) {
+    return htmlspecialchars(trim($value));
+}
+
+$clientName = clean($_POST['client_name']);
+$email      = clean($_POST['email']);
+$org        = clean($_POST['organization']);
+$phone      = clean($_POST['phone']);
+$park       = clean($_POST['park']);
+$eventName  = clean($_POST['event_name']);
+$days       = clean($_POST['days']);
+$holes      = clean($_POST['holes']);
+$vendor     = clean($_POST['vendor']);
+$utilities  = clean($_POST['utilities']);
+$notes      = clean($_POST['notes']);
+
+// Update JSON
 $pending[$id] = [
-    "client_name" => $_POST['client_name'],
-    "email" => $_POST['email'],
-    "organization" => $_POST['organization'],
-    "phone" => $_POST['phone'],
-    "park" => $_POST['park'],
-    "event_name" => $_POST['event_name'],
-    "days" => $_POST['days'],
-    "holes" => $_POST['holes'],
-    "vendor" => $_POST['vendor'],
-    "utilities" => $_POST['utilities'],
-    "notes" => $_POST['notes'],
+    "client_name" => $clientName,
+    "email" => $email,
+    "organization" => $org,
+    "phone" => $phone,
+    "park" => $park,
+    "event_name" => $eventName,
+    "days" => $days,
+    "holes" => $holes,
+    "vendor" => $vendor,
+    "utilities" => $utilities,
+    "notes" => $notes,
     "status" => "pending"
 ];
 
 file_put_contents($pendingPath, json_encode($pending, JSON_PRETTY_PRINT));
 
-// Send email to tournament director
-$to = $_POST['email'];
-$subject = "Edited Reservation Request for {$_POST['park']}";
-$headers = "From: noreply@yourdomain.com\r\n";
+// Email TD confirmation
+$subject = "Your Reservation Request for $park Was Updated";
+$headers = "From: reservations@independentdrive.greenriverdev.com\r\n";
+$headers .= "Reply-To: no-reply@independentdrive.greenriverdev.com\r\n";
 $headers .= "Content-Type: text/plain; charset=UTF-8\r\n";
 
-$body = "Hello {$_POST['client_name']},\n\nYour reservation request for {$_POST['park']} has been edited by the park.\n\nPlease review it if needed or contact the park directly.\n\n- Reservation System";
+$body = <<<EOT
+Hello $clientName,
 
-mail($to, $subject, $body, $headers);
+Your reservation request for $park has been updated by the park staff.
 
-// Show confirmation
-echo "<h2 style='text-align:center;font-family:sans-serif;color:green;'>✅ Changes saved and TD notified.</h2>";
+Event: $eventName
+Date(s): $days
+Number of Holes: $holes
+Vendor Booths: $vendor
+Utility Needs: $utilities
+
+Notes from park:
+$notes
+
+If anything looks incorrect, you may follow up directly with the park.
+
+Thank you,
+Independent Drive Reservation System
+EOT;
+
+mail($email, $subject, $body, $headers);
+
+// Show success confirmation
+echo "<h2 style='text-align:center;font-family:sans-serif;color:green;'>✅ Changes saved and confirmation email sent to TD.</h2>";
 ?>

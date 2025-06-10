@@ -19,12 +19,14 @@ window.addEventListener("DOMContentLoaded", () => {
       chatbox.style.right = "20px";
       chatbox.style.bottom = "100px";
 
+      // Add resize handles
       ["right", "bottom"].forEach(side => {
         const handle = document.createElement("div");
         handle.classList.add("parky-resize-handle", side);
         chatbox.appendChild(handle);
       });
 
+      // Welcome message
       const welcome = document.createElement("div");
       welcome.className = "parky-msg bot";
       welcome.innerHTML = `
@@ -39,6 +41,7 @@ window.addEventListener("DOMContentLoaded", () => {
         if (chatbox.style.display === "none" || !chatbox.style.display) {
           chatbox.style.display = "flex";
           chatbox.style.flexDirection = "column";
+          inputField.focus();
         } else {
           chatbox.style.display = "none";
         }
@@ -48,69 +51,81 @@ window.addEventListener("DOMContentLoaded", () => {
         chatbox.style.display = "none";
       };
 
-      async function handleSend() {
-        const userMsg = inputField.value.trim();
-        if (!userMsg) return;
-
+      function addUserMessage(text) {
         const userWrap = document.createElement("div");
         userWrap.className = "parky-msg user";
         userWrap.innerHTML = `
           <img src="../images/TD-Profile.png" class="parky-icon" />
-          <div class="bubble">${userMsg}</div>
+          <div class="bubble">${text}</div>
         `;
         messages.appendChild(userWrap);
         messages.scrollTop = messages.scrollHeight;
+      }
+
+      function addBotMessage(text) {
+        const botWrap = document.createElement("div");
+        botWrap.className = "parky-msg bot";
+        botWrap.innerHTML = `
+          <div class="bubble">${text}</div>
+          <img src="../images/Parky.png" class="parky-icon" />
+        `;
+        messages.appendChild(botWrap);
+        messages.scrollTop = messages.scrollHeight;
+      }
+
+      function showTypingIndicator(show) {
+        if (show) {
+          const typing = document.createElement("div");
+          typing.className = "parky-msg bot typing-indicator";
+          typing.id = "typing-indicator";
+          typing.innerHTML = `<div class="parky-typing">Parky is typing...</div>`;
+          messages.appendChild(typing);
+          messages.scrollTop = messages.scrollHeight;
+        } else {
+          const typing = document.getElementById("typing-indicator");
+          if (typing) typing.remove();
+        }
+      }
+
+      async function handleSend() {
+        const userMsg = inputField.value.trim();
+        if (!userMsg) return;
+
+        addUserMessage(userMsg);
         inputField.value = "";
 
-        const typing = document.createElement("div");
-        typing.className = "parky-msg bot";
-        typing.innerHTML = `<div class="parky-typing">Parky is typing...</div>`;
-        messages.appendChild(typing);
-        messages.scrollTop = messages.scrollHeight;
+        showTypingIndicator(true);
 
         try {
-          let botReply = "Sorry, I didn’t get that.";
+          const response = await fetch("https://api.openai.com/v1/chat/completions", {
+            method: "POST",
+            headers: {
+              "Content-Type": "application/json",
+              Authorization: "Bearer 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"
+            },
+            body: JSON.stringify({
+              model: "gpt-4",
+              messages: [
+                {
+                  role: "system",
+                  content: "You are Parky, a helpful assistant for tournament directors managing disc golf park reservations. Answer clearly and helpfully."
+                },
+                { role: "user", content: userMsg }
+              ],
+              max_tokens: 300
+            })
+          });
 
-          const greetings = ["hello", "hi", "hey", "yo", "sup"];
-          if (greetings.some(word => userMsg.toLowerCase().includes(word))) {
-            botReply = "👋 Hi there! I'm Parky, your helpful assistant. Let me know if you need help with parks, reservations, or anything tournament-related!";
-          } else {
-            const response = await fetch("https://api.openai.com/v1/chat/completions", {
-              method: "POST",
-              headers: {
-                "Content-Type": "application/json",
-                Authorization: "Bearer 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"
-              },
-              body: JSON.stringify({
-                model: "gpt-4",
-                messages: [
-                  {
-                    role: "system",
-                    content: "You are Parky, a helpful assistant for tournament directors. You help users reserve disc golf parks and answer questions about park rules, locations, and reservation steps."
-                  },
-                  { role: "user", content: userMsg }
-                ]
-              })
-            });
-            const data = await response.json();
-            botReply = data.choices?.[0]?.message?.content || botReply;
-          }
+          const data = await response.json();
+          const botReply = data.choices?.[0]?.message?.content || "Sorry, I didn't get that.";
 
-          messages.removeChild(typing);
-          const botWrap = document.createElement("div");
-          botWrap.className = "parky-msg bot";
-          botWrap.innerHTML = `
-            <div class="bubble">${botReply}</div>
-            <img src="../images/Parky.png" class="parky-icon" />
-          `;
-          messages.appendChild(botWrap);
-          messages.scrollTop = messages.scrollHeight;
-        } catch (e) {
-          messages.removeChild(typing);
-          const err = document.createElement("div");
-          err.className = "parky-msg bot";
-          err.innerHTML = `<div class="bubble">⚠️ Error getting reply.</div>`;
-          messages.appendChild(err);
+          showTypingIndicator(false);
+          addBotMessage(botReply);
+
+        } catch (error) {
+          showTypingIndicator(false);
+          addBotMessage("⚠️ Error getting reply. Please try again.");
+          console.error(error);
         }
       }
 
@@ -123,6 +138,7 @@ window.addEventListener("DOMContentLoaded", () => {
         }
       });
 
+      // Draggable
       function makeDraggable(elem, handle) {
         let offsetX = 0, offsetY = 0, isDragging = false;
 
@@ -152,6 +168,7 @@ window.addEventListener("DOMContentLoaded", () => {
 
       makeDraggable(chatbox, document.getElementById("parky-header"));
 
+      // Resize handlers
       const handles = chatbox.querySelectorAll(".parky-resize-handle.right, .parky-resize-handle.bottom");
       let isResizing = false, startX, startY, startWidth, startHeight, currentHandle;
 
@@ -187,5 +204,7 @@ window.addEventListener("DOMContentLoaded", () => {
         document.documentElement.removeEventListener("mouseup", stopResize, false);
       }
     })
-    .catch(err => console.error("Parky failed to load:", err));
+    .catch(err => {
+      console.error("Parky failed to load:", err);
+    });
 });

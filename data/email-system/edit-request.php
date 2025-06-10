@@ -1,22 +1,19 @@
 <?php
 // ============================
-// Park Manager Edit Form Loader
+// Park Manager Edit Page (PHP Rendered)
 // ============================
-// Loads a pending reservation by ID from pending_requests.json
-// Displays a pre-filled form allowing park to edit details
-// Submits updates to save-edited-request.php
 
-$pendingPath = __DIR__ . "/pending_requests.json";
+$pendingPath = __DIR__ . "/../pending_requests.json";
 
 if (!isset($_GET['id'])) {
-    exit("Missing reservation ID.");
+    exit("❌ Missing reservation ID.");
 }
 
 $id = $_GET['id'];
 $pending = file_exists($pendingPath) ? json_decode(file_get_contents($pendingPath), true) : [];
 
 if (!isset($pending[$id])) {
-    exit("Reservation not found.");
+    exit("❌ Reservation not found.");
 }
 
 $request = $pending[$id];

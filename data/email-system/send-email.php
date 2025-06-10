@@ -41,33 +41,46 @@ $pending[$requestId] = [
 
 file_put_contents($pendingPath, json_encode($pending, JSON_PRETTY_PRINT));
 
+// Build action links (REAL DOMAIN)
+$base = "https://independentdrive.greenriverdev.com/Independent-drive";
+$approveURL = "$base/email-system/approve-email.php?id=$requestId&action=approve";
+$declineURL = "$base/email-system/approve-email.php?id=$requestId&action=decline";
+$editURL    = "$base/edit.html?id=$requestId";
+
 // Email content
 $subject = "New Reservation Request – $park from $name";
-$headers = "From: $email\r\n";
+$headers = "MIME-Version: 1.0\r\n";
+$headers .= "Content-type:text/html;charset=UTF-8\r\n";
+$headers .= "From: $email\r\n";
 $headers .= "Reply-To: $email\r\n";
-$headers .= "Content-Type: text/plain; charset=UTF-8\r\n";
 
-$message = "Reservation Request\n\n";
-$message .= "From: $name ($organization)\n";
-$message .= "Contact Email: $email\n";
-$message .= "Contact Phone: $phone\n\n";
-$message .= "Requested Park: $park\n";
-$message .= "Event Name: $eventName\n";
-$message .= "Number of Days: $days\n";
-$message .= "Number of Holes/Tees: $holes\n";
-$message .= "Vendor Booths: $vendor\n";
-$message .= "Utility Needs: $utilities\n";
-$message .= "Additional Notes: $notes\n\n";
+$message = "
+<h2>🎯 New Reservation Request Submitted</h2>
+<p><strong>From:</strong> $name ($organization)<br>
+<strong>Email:</strong> $email<br>
+<strong>Phone:</strong> $phone</p>
 
-$message .= "Actions:\n";
-$message .= "✅ Approve: https://yourdomain.com/email-system/approve-email.php?id=$requestId&action=approve\n";
-$message .= "❌ Decline: https://yourdomain.com/email-system/approve-email.php?id=$requestId&action=decline\n";
-$message .= "✏️ Edit: https://yourdomain.com/email-system/edit-request.php?id=$requestId\n";
+<p><strong>Requested Park:</strong> $park<br>
+<strong>Event Name:</strong> $eventName<br>
+<strong>Number of Days:</strong> $days<br>
+<strong>Number of Holes/Tees:</strong> $holes<br>
+<strong>Vendor Booths:</strong> $vendor<br>
+<strong>Utility Needs:</strong> $utilities<br>
+<strong>Additional Notes:</strong> $notes</p>
 
-// Actually send it now
+<hr>
+<h3>📩 Quick Actions:</h3>
+<p>
+✅ <a href='$approveURL'>Approve Reservation</a><br>
+❌ <a href='$declineURL'>Decline Reservation</a><br>
+✏️ <a href='$editURL'>Edit Reservation</a>
+</p>
+";
+
+// Send email
 $sent = mail($defaultEmail, $subject, $message, $headers);
 
-// Show confirmation or error
+// Return status
 if ($sent) {
     echo "ok";
 } else {
