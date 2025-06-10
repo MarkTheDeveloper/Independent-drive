@@ -6,11 +6,13 @@
     padding: 0;
     box-sizing:border-box ;
   }
-  .bruce-banner{
+  .fewell-park-banner{
     background-image: url("../images/fewell-park-2019-14.jpg");
-    width: auto;
-    background-position: center -210px; 
-    height: 446.5px; /* forces size, may distort */
+    background-repeat: no-repeat;       
+    background-size: cover;              
+    background-position: center -200px;   
+    height: 446.5px;
+    width: auto;       
   }
   #banner{
     display: block;
@@ -65,8 +67,14 @@
   .motto-texts p{
     background-color: #014134;
     border-radius: 10px;
+    height: 300px;
     width: 400px;
     padding: 20px;
+  }
+  .middle-section3 button a{
+    font-family: 'Montserrat';
+    text-decoration: none;
+    color: white;
   }
   body {
     margin-top: 70px;

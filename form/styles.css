@@ -55,6 +55,7 @@ height: 70px;
   margin: 0 auto;
 }
 .nav-links {
+  font-size: 15px;
   list-style-type: none;
 }
 .nav-links li{
